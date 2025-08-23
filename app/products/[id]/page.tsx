@@ -3,8 +3,13 @@ import { products } from "@/data/products";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function ProductDetail({ params }: { params: { id: string } }) {
-    const product = products.find((p) => p.id === params.id);
+type Props = {
+    params: { id: string };
+};
+
+export default async function ProductDetail({ params }: Props) {
+    const { id } = await params;
+    const product = products.find((p) => p.id === id);
 
     if (!product) {
         return <p className="text-center mt-20">Product not found.</p>;
