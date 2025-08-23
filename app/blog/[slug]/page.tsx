@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import BlogCard from "@/components/blogCard";
 
 type Props = {
-    params: Promise<{ slug: string }>;
+    params: { slug: string };
 };
 
 type Product = {
