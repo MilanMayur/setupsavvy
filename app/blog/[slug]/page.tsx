@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import BlogCard from "@/components/blogCard";
 
 type Props = {
-    params: { slug: string };
+    params: Promise<{ slug: string }>;
 };
 
 type Product = {
@@ -23,7 +23,7 @@ type Product = {
 };
 
 export async function generateMetadata({ params }: Props) {
-    const { slug } = params;
+    const { slug } = await params;
     const post = blogs.find((b) => b.slug === slug);
     if (!post) return { title: "Blog Not Found" };
 
@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default async function BlogPost({ params }: Props) {
-    const { slug } = params; 
+    const { slug } = await params; 
     const post = blogs.find((b) => b.slug === slug);
 
     if (!post) return notFound();
