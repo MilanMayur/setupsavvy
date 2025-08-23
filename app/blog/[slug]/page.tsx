@@ -6,7 +6,7 @@ import { notFound } from "next/navigation";
 import BlogCard from "@/components/blogCard";
 
 type Props = {
-    params: { slug: string };
+    params: Promise<{ slug: string }>;
 };
 
 type Product = {
@@ -102,3 +102,4 @@ export default async function BlogPost({ params }: Props) {
         </article>
     );
 }
+
