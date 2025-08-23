@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type Props = {
-    params: { id: string };
+    params: Promise<{ id: string }>;
 };
 
 export default async function ProductDetail({ params }: Props) {
@@ -44,3 +44,4 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
+
