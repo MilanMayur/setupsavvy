@@ -1,6 +1,5 @@
 //app/page.tsx
 import Link from "next/link";
-import Image from "next/image";
 import { products } from "@/data/products";
 import ProductCard from "@/components/productCard";
 
@@ -57,3 +56,4 @@ export default function HomePage() {
         </div>
     );
 }
+
