@@ -1,0 +1,163 @@
+[
+    {
+      "id": "headset-1",
+      "name": "HyperX Cloud Stinger 2",
+      "price": 3599,
+      "url": "https://amzn.to/3HDj1Hu",
+      "image": "/headsets/hyperx-cloud-stinger-2.jpg",
+      "pros": [
+        "Lightweight & comfortable",
+        "Great sound for gaming"
+      ],
+      "cons": [
+        "Plastic build"
+      ],
+      "category": "Headsets",
+      "rating": 4.1
+    },
+    {
+      "id": "headset-2",
+      "name": "Logitech G335",
+      "price": 4729,
+      "url": "https://amzn.to/4mtOr22",
+      "image": "/headsets/logitech-g335.jpg",
+      "pros": [
+        "Stylish design",
+        "Good mic clarity"
+      ],
+      "cons": [
+        "Bass could be stronger"
+      ],
+      "category": "Headsets",
+      "rating": 4.2
+    },
+    {
+      "id": "headset-3",
+      "name": "Sony MDR-XB450AP",
+      "price": 2499,
+      "url": "https://amzn.to/3JM2iSQ",
+      "image": "/headsets/sony-mdr-xb450ap.jpg",
+      "pros": [
+        "Punchy bass",
+        "Durable build"
+      ],
+      "cons": [
+        "Not ideal for long sessions"
+      ],
+      "category": "Headsets",
+      "rating": 4.3
+    },
+    {
+      "id": "headset-4",
+      "name": "JBL Quantum 100",
+      "price": 1899,
+      "url": "https://amzn.to/4mUQpID",
+      "image": "/headsets/jbl-quantum-100.jpg",
+      "pros": [
+        "Clear voice chat",
+        "Lightweight and comfy"
+      ],
+      "cons": [
+        "Average bass"
+      ],
+      "category": "Headsets",
+      "rating": 3.9
+    },
+    {
+      "id": "headset-5",
+      "name": "Redgear Comet 7.1",
+      "price": 1998,
+      "url": "https://amzn.to/4mvjgn9",
+      "image": "/headsets/redgear-comet-7.1.jpg",
+      "pros": [
+        "Virtual 7.1 surround sound",
+        "RGB lighting"
+      ],
+      "cons": [
+        "Mic is average"
+      ],
+      "category": "Headsets",
+      "rating": 3.8
+    },
+    {
+      "id": "headset-6",
+      "name": "Razer Kraken V3 X",
+      "price": 4207,
+      "url": "https://amzn.to/41n4R3X",
+      "image": "/headsets/razer-kraken-v3-x.jpg",
+      "pros": [
+        "Very lightweight",
+        "Strong sound for games"
+      ],
+      "cons": [
+        "No RGB (for fans who want it)"
+      ],
+      "category": "Headsets",
+      "rating": 4.1
+    },
+    {
+      "id": "headset-7",
+      "name": "boAt Rockerz 550",
+      "price": 1799,
+      "url": "https://amzn.to/4n0QvyD",
+      "image": "/headsets/boat-rockerz-550.jpg",
+      "pros": [
+        "Wireless Bluetooth headset",
+        "20+ hours battery life"
+      ],
+      "cons": [
+        "Bulky design"
+      ],
+      "category": "Headsets",
+      "rating": 4.0
+    },
+    {
+      "id": "headset-8",
+      "name": "Corsair HS35 V2",
+      "price": 2909,
+      "url": "https://amzn.to/4oP4itL",
+      "image": "/headsets/corsair-hs35-v2.jpg",
+      "pros": [
+        "Comfortable memory foam",
+        "Detachable mic"
+      ],
+      "cons": [
+        "Limited bass"
+      ],
+      "category": "Headsets",
+      "rating": 4.0
+    },
+    {
+      "id": "headset-9",
+      "name": "Cosmic Byte Equinox",
+      "price": 2799,
+      "url": "https://amzn.to/4m1eOeZ",
+      "image": "/headsets/cosmic-byte-equinox.jpg",
+      "pros": [
+        "7.1 surround sound",
+        "Great mic quality"
+      ],
+      "cons": [
+        "Build feels plasticky"
+      ],
+      "category": "Headsets",
+      "rating": 3.5
+    },
+    {
+      "id": "headset-10",
+      "name": "Cosmic Byte Inferno",
+      "price": 3299,
+      "url": "https://amzn.to/45yYk8R",
+      "image": "/headsets/cosmic-byte-inferno.jpg",
+      "pros": [
+        "Affordable gaming headset",
+        "Comfortable padded earcups"
+      ],
+      "cons": [
+        "Bass not very deep"
+      ],
+      "category": "Headsets",
+      "rating": 3.7
+    }
+]
+  

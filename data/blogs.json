@@ -1,0 +1,39 @@
+[
+    {
+      "slug": "best-10-headsets-under-5000",
+      "title": "10 Best Headsets Under ₹5000 (2025)",
+      "description": "Our hand-picked list of the best gaming and music headsets under ₹5000 in India.",
+      "image": "/headsets/logitech-g335.jpg",
+      "date": "2025-08-19",
+      "intro": "Working from home, gaming late at night, or just enjoying music — a good headset under ₹5000 can make all the difference. Here’s our curated list of the best headphones for gaming, music, and work.",
+      "buyingGuide": {
+        "title": "Buying Guide: How to Choose the Right Headset 🎧",
+        "points": [
+          { "label": "Comfort & Build", "detail": "Lightweight design + padded earcups." },
+          { "label": "Sound Quality", "detail": "Balanced audio for both music and gaming." },
+          { "label": "Mic Performance", "detail": "Essential for calls and multiplayer." },
+          { "label": "Wired vs Wireless", "detail": "Wired = low latency, Wireless = convenience." }
+        ]
+      },
+      "finalThoughts": "That’s our roundup of the 10 best headsets under ₹5000 in India (2025). Choose one that fits your needs — gaming, music, or remote work — and you’ll get the most value for your money."
+    },
+    {
+      "slug": "best-5-laptops-under-60000",
+      "title": "Top 5 Laptops Under ₹60000 (2025)",
+      "description": "Our expert picks for the best laptops under ₹60000 in India — perfect for work, study, and casual gaming.",
+      "image": "/laptops/dell-inspiron-15.jpg",
+      "date": "2025-08-20",
+      "intro": "Whether you’re a student, professional, or casual gamer, finding a laptop under ₹60000 that balances performance, build quality, and battery life can be tricky. We’ve shortlisted the top 5 laptops in 2025 that deliver the best value in this budget.",
+      "buyingGuide": {
+        "title": "Buying Guide: How to Choose the Right Laptop 💻",
+        "points": [
+          { "label": "Processor", "detail": "At least Intel i5 / Ryzen 5 for smooth multitasking." },
+          { "label": "RAM", "detail": "8GB minimum; 16GB preferred for heavy users." },
+          { "label": "Storage", "detail": "SSD (512GB) ensures faster boot and load times." },
+          { "label": "Battery", "detail": "Look for 6+ hours backup for daily portability." },
+          { "label": "Display & Build", "detail": "Full HD screen and sturdy build for long-term use." }
+        ]
+      },
+      "finalThoughts": "These 5 laptops under ₹60000 cover a variety of needs — productivity, study, entertainment, and light gaming. Pick the one that matches your workload and you’ll get the best bang for your buck in 2025."
+    }
+]

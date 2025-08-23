@@ -1,0 +1,87 @@
+[
+  {
+    "id": "laptop-1",
+    "name": "ASUS Vivobook 16X",
+    "price": 56900,
+    "url": "https://amzn.to/3JtHcJ2",
+    "image": "/laptops/asus-vivobook-16x.jpg",
+    "pros": [
+      "NVIDIA RTX 2050-4GB",
+      "Fast charging- 50% in 30 mins",
+      "Good performance for daily use"
+    ],
+    "cons": [
+      "Sound quality could have been better"
+    ],
+    "category": "Laptops",
+    "rating": 3.9
+  },
+  {
+    "id": "laptop-2",
+    "name": "HP Pavilion 15",
+    "price": 59990,
+    "url": "https://amzn.to/3VfiJJX",
+    "image": "/laptops/hp-pavilion-15.jpg",
+    "pros": [
+      "Intel Core i5 12th Gen",
+      "Bright FHD IPS display",
+      "Good build quality"
+    ],
+    "cons": [
+      "Speakers could be louder"
+    ],
+    "category": "Laptops",
+    "rating": 4.0
+  },
+  {
+    "id": "laptop-3",
+    "name": "Lenovo IdeaPad Slim 5",
+    "price": 57990,
+    "url": "https://amzn.to/45SK9uh",
+    "image": "/laptops/lenovo-ideapad-slim-5.jpg",
+    "pros": [
+      "Intel Core i5 12th Gen",
+      "Premium lightweight design",
+      "Excellent battery life"
+    ],
+    "cons": [
+      "Missing fingerprint sensor/facial recognition"
+    ],
+    "category": "Laptops",
+    "rating": 4.0
+  },
+  {
+    "id": "laptop-4",
+    "name": "ASUS Vivobook 16",
+    "price": 53990,
+    "url": "https://amzn.to/41WEUIu",
+    "image": "/laptops/asus-vivobook-16.jpg",
+    "pros": [
+      "16-inch large display",
+      "Intel Core i5 13th Gen",
+      "Military-grade laptop durability"
+    ],
+    "cons": [
+      "Mixed reviews regarding battery life"
+    ],
+    "category": "Laptops",
+    "rating": 4.0
+  },
+  {
+    "id": "laptop-5",
+    "name": "Acer Aspire Lite",
+    "price": 36990,
+    "url": "https://amzn.to/3JsetEt",
+    "image": "/laptops/acer-aspire-lite.jpg",
+    "pros": [
+      "Ryzen 5 5625U processor",
+      "Long battery life",
+      "Good thermals & keyboard"
+    ],
+    "cons": [
+      "Average sound quality"
+    ],
+    "category": "Laptops",
+    "rating": 3.9
+  }
+]
