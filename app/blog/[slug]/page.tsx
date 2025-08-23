@@ -9,6 +9,19 @@ type Props = {
     params: Promise<{ slug: string }>;
 };
 
+type Product = {
+    id: string;
+    name: string;
+    price: number;
+    image: string;
+    url?: string;
+    category?: string;
+    rating?: number;
+    pros?: string[];
+    cons?: string[];
+    [key: string]: string | number | string[] | undefined;
+};
+
 export async function generateMetadata({ params }: Props) {
     const { slug } = await params;
     const post = blogs.find((b) => b.slug === slug);
@@ -26,7 +39,7 @@ export default async function BlogPost({ params }: Props) {
 
     if (!post) return notFound();
 
-    let products: any[] = [];
+    let products: Product[] = [];
     if (slug === "best-10-headsets-under-5000") {
         products = headsets;
     } else if (slug === "best-5-laptops-under-60000") {
@@ -64,7 +77,15 @@ export default async function BlogPost({ params }: Props) {
             {/* Product List */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
                 {products.map((product) => (
-                    <BlogCard key={product.id} {...product} price={product.price.toString()} />
+                    <BlogCard
+                        key={product.id}
+                        {...product}
+                        price={product.price.toString()}
+                        url={product.url ?? ""}
+                        pros={product.pros ?? []}
+                        cons={product.cons ?? []}
+                        rating={product.rating ?? 0}
+                    />
                 ))}
             </div>
             <p className="text-gray-300 text-sm">
