@@ -13,6 +13,13 @@ export const metadata = {
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang="en">
+            <head>
+                {/* Google AdSense meta tag */}
+                <meta
+                    name="google-adsense-account"
+                    content="ca-pub-1041356533581191"
+                />
+            </head>
             <body className="min-h-screen flex flex-col bg-gray-50 text-gray-900">
                 <Navbar />
                 <main className="flex-1 container mx-auto px-4 py-6">
