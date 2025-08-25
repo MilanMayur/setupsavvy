@@ -19,7 +19,8 @@ type Product = {
     rating?: number;
     pros?: string[];
     cons?: string[];
-    [key: string]: string | number | string[] | undefined;
+    details?: Record<string, string | undefined>;
+    [key: string]: string | number | string[] | Record<string, string | undefined> | undefined;
 };
 
 export async function generateMetadata({ params }: Props) {
@@ -41,9 +42,21 @@ export default async function BlogPost({ params }: Props) {
 
     let products: Product[] = [];
     if (slug === "best-10-headsets-under-5000") {
-        products = headsets;
+        products = headsets.map((product) => ({
+            ...product,
+            details:
+                typeof product.details === "string"
+                    ? { info: product.details }
+                    : product.details,
+        }));
     } else if (slug === "best-5-laptops-under-60000") {
-        products = laptops;
+        products = laptops.map((product) => ({
+            ...product,
+            details:
+                typeof product.details === "string"
+                    ? { info: product.details }
+                    : product.details,
+        }));
     }
 
     return (
@@ -102,4 +115,3 @@ export default async function BlogPost({ params }: Props) {
         </article>
     );
 }
-
