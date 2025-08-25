@@ -106,3 +106,5 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
+
+
