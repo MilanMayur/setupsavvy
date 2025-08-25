@@ -6,6 +6,9 @@
         "image": "/products/desk1.jpg",
         "url": "https://amzn.to/your-affiliate-link",
         "category": "Tables",
-        "rating": 4.2
+        "rating": 4.2,
+        "details": "",
+        "pros": "",
+        "cons": ""
     }
 ]
