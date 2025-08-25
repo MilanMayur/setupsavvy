@@ -43,18 +43,23 @@ export default async function ProductDetail({ params }: Props) {
                     <p className="text-xl text-blue-600 mb-4">₹ {product.price}</p>
 
                     {/* Product Details */}
-                    {product.details && (
-                        <div className="mb-6">
-                            <h2 className="text-lg font-semibold text-gray-800 mb-2">Specifications</h2>
-                            <ul className="list-disc list-inside space-y-1 text-gray-700">
-                                {Object.entries(product.details).map(([key, value]) => (
-                                    <li key={key}>
-                                        <span className="font-semibold">{key}:</span>{" "}
-                                        <span className="font-normal">{value}</span>
-                                    </li>
-                                ))}
-                            </ul>
+                    {product.details && Object.keys(product.details).length > 0 && (
+                    <div className="mb-6">
+                        <h2 className="text-lg font-semibold text-gray-800 mb-2">Specifications</h2>
+                        <div className="border rounded-lg overflow-hidden">
+                            {Object.entries(product.details).map(([key, value], index) => (
+                            <div
+                                key={key}
+                                className={`grid grid-cols-2 gap-4 px-4 py-2 border-b last:border-b-0 ${
+                                    index % 2 === 0 ? "bg-gray-50" : "bg-white"
+                                }`}
+                            >
+                                <span className="font-medium text-gray-800">{key}</span>
+                                <span className="text-gray-600">{value}</span>
+                            </div>
+                            ))}
                         </div>
+                    </div>
                     )}
 
                     {/* Pros & Cons */}
