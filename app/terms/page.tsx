@@ -4,7 +4,7 @@ import { Scale, Shield, Info } from "lucide-react";
 export default function TermsPage() {
     return (
         <div className="bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-6">
-            <div className="max-w-4xl mx-auto bg-white shadow-md rounded-2xl p-8">
+            <div className="max-w-7xl mx-auto bg-white shadow-md rounded-2xl p-8">
                 <h1 className="text-4xl font-extrabold text-gray-800 mb-2 flex items-center gap-2">
                     <Scale className="w-7 h-7 text-blue-600" />
                     Terms & Conditions
