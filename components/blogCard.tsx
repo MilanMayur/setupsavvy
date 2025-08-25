@@ -16,19 +16,21 @@ interface ProductProps {
 export default function BlogCard({ name, price, url, image, pros, cons, rating }: ProductProps) {
     return (
         <div className="bg-white shadow-md rounded-2xl p-4 max-w-sm">
-            <div className="min-h-[170px]">
-                <Image
-                    src={image}
-                    alt={name}
-                    width={400}
-                    height={400}
-                    className="text-gray-400 rounded-lg object-cover mx-auto"
-                />
-            </div>
+            <Link href={`/products/${id}`}>
+                <div className="min-h-[170px]">
+                    <Image
+                        src={image}
+                        alt={name}
+                        width={400}
+                        height={400}
+                        className="text-gray-400 rounded-lg object-cover mx-auto"
+                    />
+                </div>
 
-            <h2 className="text-lg text-black font-bold mt-3">{name}</h2>
-            <p className="text-green-600 font-semibold">₹ {price}</p>
-            <p className="text-orange-600 font-semibold">☆ {rating}</p>
+                <h2 className="text-lg text-black font-bold mt-3">{name}</h2>
+                <p className="text-green-600 font-semibold">₹ {price}</p>
+                <p className="text-orange-600 font-semibold">☆ {rating}</p>
+            </Link>
 
             <Link
                 href={url}
@@ -58,3 +60,4 @@ export default function BlogCard({ name, price, url, image, pros, cons, rating }
         </div>
     );
 }
+
