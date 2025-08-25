@@ -13,7 +13,7 @@ interface ProductProps {
     rating: number;
 }
 
-export default function BlogCard({ name, price, url, image, pros, cons, rating }: ProductProps) {
+export default function BlogCard({ id, name, price, url, image, pros, cons, rating }: ProductProps) {
     return (
         <div className="bg-white shadow-md rounded-2xl p-4 max-w-sm">
             <Link href={`/products/${id}`}>
@@ -60,4 +60,5 @@ export default function BlogCard({ name, price, url, image, pros, cons, rating }
         </div>
     );
 }
+
 
