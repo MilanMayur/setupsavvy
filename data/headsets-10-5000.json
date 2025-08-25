@@ -13,7 +13,8 @@
         "Plastic build"
       ],
       "category": "Headsets",
-      "rating": 4.1
+      "rating": 4.1,
+      "details": ""
     },
     {
       "id": "headset-2",
@@ -29,7 +30,8 @@
         "Bass could be stronger"
       ],
       "category": "Headsets",
-      "rating": 4.2
+      "rating": 4.2,
+      "details": ""
     },
     {
       "id": "headset-3",
@@ -45,7 +47,8 @@
         "Not ideal for long sessions"
       ],
       "category": "Headsets",
-      "rating": 4.3
+      "rating": 4.3,
+      "details": ""
     },
     {
       "id": "headset-4",
@@ -61,7 +64,8 @@
         "Average bass"
       ],
       "category": "Headsets",
-      "rating": 3.9
+      "rating": 3.9,
+      "details": ""
     },
     {
       "id": "headset-5",
@@ -77,7 +81,8 @@
         "Mic is average"
       ],
       "category": "Headsets",
-      "rating": 3.8
+      "rating": 3.8,
+      "details": ""
     },
     {
       "id": "headset-6",
@@ -93,7 +98,8 @@
         "No RGB (for fans who want it)"
       ],
       "category": "Headsets",
-      "rating": 4.1
+      "rating": 4.1,
+      "details": ""
     },
     {
       "id": "headset-7",
@@ -109,7 +115,8 @@
         "Bulky design"
       ],
       "category": "Headsets",
-      "rating": 4.0
+      "rating": 4.0,
+      "details": ""
     },
     {
       "id": "headset-8",
@@ -125,7 +132,8 @@
         "Limited bass"
       ],
       "category": "Headsets",
-      "rating": 4.0
+      "rating": 4.0,
+      "details": ""
     },
     {
       "id": "headset-9",
@@ -141,7 +149,8 @@
         "Build feels plasticky"
       ],
       "category": "Headsets",
-      "rating": 3.5
+      "rating": 3.5,
+      "details": ""
     },
     {
       "id": "headset-10",
@@ -157,7 +166,8 @@
         "Bass not very deep"
       ],
       "category": "Headsets",
-      "rating": 3.7
+      "rating": 3.7,
+      "details": ""
     }
 ]
   
