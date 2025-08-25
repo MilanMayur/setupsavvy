@@ -1,11 +1,14 @@
 //app/privacy-policy/page.tsx
-import { Shield, Info, Globe, UserCheck } from "lucide-react";
+import { ShieldCheck, Shield, Info, Globe, UserCheck } from "lucide-react";
 
 export default function PrivacyPolicyPage() {
     return (
         <div className="bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-6">
             <div className="max-w-4xl mx-auto bg-white shadow-md rounded-2xl p-8">
-                <h1 className="text-4xl font-extrabold mb-4 text-gray-800">Privacy Policy</h1>
+                <h1 className="text-4xl font-extrabold text-gray-800 mb-2 flex items-center gap-2">
+                    <ShieldCheck className="w-7 h-7 text-blue-600" />
+                    Privacy Policy
+                </h1>
 
                 <p className="text-sm text-gray-500 mb-6">
                     Last updated: {new Date().toLocaleDateString()}
