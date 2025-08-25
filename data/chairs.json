@@ -6,6 +6,9 @@
         "image": "/products/chair1.jpg",
         "url": "https://amzn.to/your-affiliate-link",
         "category": "Chairs",
-        "rating": 4.2
+        "rating": 4.2,
+        "details": "",
+        "pros": "",
+        "cons": ""
     }
 ]
