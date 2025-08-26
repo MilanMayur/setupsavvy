@@ -1,5 +1,7 @@
 //app/contact/page.tsx
-import { Mail, Globe, Instagram, Twitter, Linkedin } from "lucide-react";
+import AdUnit from "@/components/adUnit";
+import { Mail, Globe } from "lucide-react";
+import { FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export default function ContactPage() {
     return (
@@ -39,11 +41,14 @@ export default function ContactPage() {
                 <div className="mt-20 text-center">
                     <p className="text-gray-600 mb-4">Or connect with us on social media:</p>
                     <div className="flex justify-center gap-6 text-gray-700">
-                        <a href="#" target="_blank"><Instagram className="w-6 h-6 hover:text-pink-500" /></a>
-                        <a href="#" target="_blank"><Twitter className="w-6 h-6 hover:text-blue-400" /></a>
-                        <a href="#" target="_blank"><Linkedin className="w-6 h-6 hover:text-blue-700" /></a>
+                        <a href="#" target="_blank"><FaInstagram  className="w-6 h-6 hover:text-pink-500" /></a>
+                        <a href="#" target="_blank"><FaTwitter  className="w-6 h-6 hover:text-blue-400" /></a>
+                        <a href="#" target="_blank"><FaLinkedin className="w-6 h-6 hover:text-blue-700" /></a>
                     </div>
                 </div>
+
+                {/* AdSense Ad Unit */}
+                <AdUnit slot="1234567890" />
             </div>
         </div>
     );
