@@ -4,6 +4,7 @@
 import { useState } from "react";
 import ProductCard from "@/components/productCard";
 import { products } from "@/data/products";
+import AdUnit from "@/components/adUnit";
 
 export default function ProductsPage() {
     const [category, setCategory] = useState("All");
@@ -133,6 +134,9 @@ export default function ProductsPage() {
                     </button>
                 </div>
             )}
+
+            {/* AdSense Ad Unit */}
+            <AdUnit slot="1234567890" />
 
             {/* Amazon Banner */}
             <div className="mt-12 flex justify-center">
