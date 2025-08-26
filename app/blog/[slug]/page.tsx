@@ -20,9 +20,8 @@ type Product = {
     rating?: number;
     pros?: string[];
     cons?: string[];
-    details?: Record<string, string | undefined>;
-    [key: string]: string | number | string[] | Record<string, string | undefined> | undefined;
-};
+    details?: Record<string, string>;
+} & Record<string, string | number | string[] | Record<string, string> | undefined>;
 
 export async function generateMetadata({ params }: Props) {
     const { slug } = await params;
@@ -41,23 +40,22 @@ export default async function BlogPost({ params }: Props) {
 
     if (!post) return notFound();
 
+    const normalizeDetails = (details: unknown): Record<string, string> | undefined => {
+        if (typeof details === "string") return { info: details };
+        if (Array.isArray(details)) return { info: details.join(" ") };
+        if (details && typeof details === "object") {
+            return Object.fromEntries(
+                Object.entries(details).map(([k, v]) => [k, v === undefined ? "" : String(v)])
+            );
+        }
+        return undefined;
+    };
+
     let products: Product[] = [];
     if (slug === "best-10-headsets-under-5000") {
-        products = headsets.map((product) => ({
-            ...product,
-            details:
-                typeof product.details === "string"
-                    ? { info: product.details }
-                    : product.details,
-        }));
+        products = headsets.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
     } else if (slug === "best-5-laptops-under-60000") {
-        products = laptops.map((product) => ({
-            ...product,
-            details:
-                typeof product.details === "string"
-                    ? { info: product.details }
-                    : product.details,
-        }));
+        products = laptops.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
     }
 
     return (
@@ -85,7 +83,8 @@ export default async function BlogPost({ params }: Props) {
                 <ul className="list-disc pl-6">
                     {post.buyingGuide.points.map((point, idx) => (
                     <li key={idx} className="mb-2">
-                        <strong>{point.label}</strong> → {point.detail}
+                        <strong>{point.label}</strong> → 
+                        <p>{point.detail}</p>
                     </li>
                     ))}
                 </ul>
@@ -116,6 +115,25 @@ export default async function BlogPost({ params }: Props) {
 
             {/* AdSense Ad Unit */}
             <AdUnit slot="1234567890" />
+
+            {/* Suggestions Section */}
+            {post.suggestion && post.suggestion.length > 0 && (
+                <section className="mt-10">
+                    <h2 className="text-2xl font-semibold mb-4">Suggestions 💡</h2>
+                    {post.suggestion.map((s, idx) => (
+                        <div key={idx} className="p-4 rounded-2xl border border-gray-700 bg-gray-900 shadow-md mb-6">
+                            <span> 
+                                <h3 className="text-xl font-bold mb-2">{s.category} : {s.title}</h3>
+                            </span>
+                            <ul className="list-disc pl-6">
+                                {(s.reasons ?? []).map((point, i) => (
+                                    <li key={i} className="mb-1">{point}</li>
+                                ))}
+                            </ul>
+                        </div>
+                    ))}
+                </section>
+            )}
 
             {/* Final Thoughts */}
             {post.finalThoughts && (
