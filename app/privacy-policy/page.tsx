@@ -1,4 +1,5 @@
 //app/privacy-policy/page.tsx
+import AdUnit from "@/components/adUnit";
 import { ShieldCheck, Shield, Info, Globe, UserCheck } from "lucide-react";
 
 export default function PrivacyPolicyPage() {
@@ -85,6 +86,9 @@ export default function PrivacyPolicyPage() {
                         .
                     </p>
                 </div>   
+
+                {/* AdSense Ad Unit */}
+                <AdUnit slot="1234567890" />
             </div>
         </div>
     );
