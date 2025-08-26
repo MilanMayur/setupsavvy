@@ -14,7 +14,15 @@
       ],
       "category": "Headsets",
       "rating": 4.1,
-      "details": ""
+      "details": [
+        "🎧 DTS Headphone:X Spatial Audio – 2-year activation included for accurate 3D audio and immersive gaming.",
+        "🛋️ Signature HyperX Comfort – Memory foam ear cushions + soft leatherette for long gaming sessions.",
+        "🔊 Superior Sound Quality – 50mm drivers with wide frequency response for clear audio and better cue detection.",
+        "🔄 Adjustable Rotating Earcups – 90° swivel design allows resting on your chest when not in use.",
+        "🎚️ Easy-Access Controls – On-headset volume adjustment for quick changes.",
+        "🎙️ Swivel-to-Mute Microphone – Flip up the mic to instantly mute and improve chat experience.",
+        "✅ Durability & Support – Backed by a 2-year warranty with free technical support."
+      ]
     },
     {
       "id": "headset-2",
@@ -31,7 +39,15 @@
       ],
       "category": "Headsets",
       "rating": 4.2,
-      "details": ""
+      "details": [
+        "🪶 Lightweight Design – Just 240g with adjustable suspension headband for a customized fit.",
+        "🛋️ All-Day Comfort – Soft memory foam pads + breathable sports mesh for extended gaming sessions.",
+        "🎮 Multi-Platform Plug & Play – 3.5mm jack works with PC, laptop, consoles, and mobile devices.",
+        "🎚️ Quick & Easy Controls – Smooth volume roller for fast adjustments during gameplay.",
+        "🎙️ Flip-to-Mute Microphone – Flip up to mute, down to unmute for seamless chat control.",
+        "🔊 Rich Audio Quality – 40mm drivers deliver full, immersive sound for games and music.",
+        "💬 Discord Certified – Guaranteed crystal-clear voice and audio performance."
+      ]
     },
     {
       "id": "headset-3",
@@ -48,7 +64,16 @@
       ],
       "category": "Headsets",
       "rating": 4.3,
-      "details": ""
+      "details": [
+        "🎵 Beat Response Control – Designed for tight, punchy bass performance.",
+        "🔄 Swivel Design – Compact and foldable, making travel easy and convenient.",
+        "📈 Wide Frequency Response – 5Hz–22,000Hz for clear highs and deep lows.",
+        "🎧 30mm Dome-Type Drivers – Neodymium dynamic drivers deliver precise, powerful sound.",
+        "📞 In-Line Remote & Mic – Hands-free calling and easy music control on the go.",
+        "🥁 Aluminium Fascia – Enhances bass impact and punchiness.",
+        "🔊 High Sensitivity – Loud and clear audio without distortion.",
+        "🔒 Closed-Back Design – Enfolding earcups provide noise isolation and immersive sound."
+      ]
     },
     {
       "id": "headset-4",
@@ -65,7 +90,15 @@
       ],
       "category": "Headsets",
       "rating": 3.9,
-      "details": ""
+      "details": [
+        "🎶 40mm Large Dynamic Drivers – JBL Quantum Sound Signature delivers precise audio, from subtle footsteps to powerful explosions.",
+        "🎙️ Detachable Boom Mic – Directional mic with mute feature ensures crystal-clear voice communication.",
+        "🪶 Lightweight & Durable – Sturdy headband with memory foam cushioning for extended comfort.",
+        "🎮 Multi-Platform Compatibility – Works with PC, Xbox, PlayStation, Nintendo Switch, Mobile, Mac, and VR. Supports Windows Sonic Spatial Sound on Windows 10 PCs and Xbox One.",
+        "📏 Specifications – 120 cm cable length, built-in microphone, 96 dB sensitivity, 20Hz–20kHz frequency response, 32Ω impedance.",
+        "📦 Complete Package – Includes headset, removable mic, windshield foam, quick start guide, warranty card, and safety sheet.",
+        "✅ 1-Year Warranty – Covered by manufacturer’s warranty for reliable support."
+      ]
     },
     {
       "id": "headset-5",
@@ -82,7 +115,14 @@
       ],
       "category": "Headsets",
       "rating": 3.8,
-      "details": ""
+      "details": [
+        "🎶 Immersive Sound Quality – 50mm drivers with 7.1 surround sound for a dramatically enhanced in-game audio experience.",
+        "🎙️ Noise-Cancelling Microphone – Ensures clear communication during gameplay.",
+        "🎛️ Inline Remote & Volume Control – Conveniently adjust settings with built-in controls.",
+        "🎧 Comfortable Over-Ear Design – Cushioned earcups for long gaming sessions.",
+        "🌈 RGB LED Effects – Dynamic lighting on earcups and mic tip for a stylish look.",
+        "✅ 1-Year Warranty – Covered by manufacturer warranty from the date of purchase."
+      ]
     },
     {
       "id": "headset-6",
@@ -95,11 +135,17 @@
         "Strong sound for games"
       ],
       "cons": [
-        "No RGB (for fans who want it)"
+        "Mixed reviews regarding mic"
       ],
       "category": "Headsets",
       "rating": 4.1,
-      "details": ""
+      "details": [
+        "🎧 Ultra-Light Comfort – Weighs only 285g with a slim, lightweight design for all-day gaming sessions.",
+        "🔊 Razer TriForce 40mm Drivers – Patented 3-part driver design delivers richer trebles, brighter sound, and powerful bass by separating high, mid, and low frequencies.",
+        "🎮 7.1 Surround Sound – Accurate positional audio for heightened immersion and precise sound direction awareness.",
+        "🎙️ Razer HyperClear Cardioid Mic – Bendable mic with improved speech pickup and noise cancellation for crystal-clear voice communication.",
+        "🌈 Powered by Razer Chroma RGB – Customize with 16.8M colors, patterns, and dynamic in-game lighting effects; supports Chroma Studio, Visualizer, Connect, and Workshop."
+      ]
     },
     {
       "id": "headset-7",
@@ -116,7 +162,15 @@
       ],
       "category": "Headsets",
       "rating": 4.0,
-      "details": ""
+      "details": [
+        "🔋 Playback – Massive 500mAh battery delivers up to 20 hours of nonstop audio bliss.",
+        "🎧 50mm Dynamic Drivers – Moving coil drivers pump out immersive, powerful sound for all-day listening.",
+        "🛋️ Ergonomic Over-Ear Cushions – Plush padded earcups ensure maximum comfort and long listening sessions.",
+        "🔇 Physical Noise Isolation – Designed to block outside noise for pure, focused sound.",
+        "📡 Bluetooth v5.0 – Instant wireless connectivity with stable performance.",
+        "🔀 Dual Modes – Enjoy both wireless (Bluetooth) and wired (AUX) connections.",
+        "🛡️ Warranty – Backed by 1-year manufacturer warranty for peace of mind."
+      ]
     },
     {
       "id": "headset-8",
@@ -133,7 +187,13 @@
       ],
       "category": "Headsets",
       "rating": 4.0,
-      "details": ""
+      "details": [
+        "🎮 Multiplatform Gaming Headset – Designed for seamless compatibility across PC, consoles, and more.",
+        "🔊 Custom-Tuned 50mm Audio Drivers – Wide frequency range delivers powerful and precise in-game sound.",
+        "☁️ Stress-Free Comfort – Floating headband with soft fabric ear pads ensures long-hour play without strain.",
+        "🎤 High-Quality Omni-Directional Mic – Flexible design captures crystal-clear voice and commands.",
+        "🎚️ On-Ear Controls – Convenient push-in mute button and volume wheel for instant audio adjustments."
+      ]
     },
     {
       "id": "headset-9",
@@ -150,7 +210,13 @@
       ],
       "category": "Headsets",
       "rating": 3.5,
-      "details": ""
+      "details": [
+        "🎮 Long-Hour Gaming Comfort – Soft cushioned ear cups, braided cables, and a flexible auto-adjustable headband for fatigue-free sessions.",
+        "🌈 RGB Gaming Style – Flaunt true RGB colors with a customizable external display for next-level aesthetics.",
+        "🎤 Flexible Microphone – Durable mic design that bends and twists as per your preference for perfect positioning.",
+        "🖥️ Multi-Platform Compatibility – Works with PS5 and PC (dedicated software downloadable from Cosmic Byte website).",
+        "🔊 7.1 Surround Sound – Immersive audio that lets you pinpoint enemy footsteps and gain a tactical edge in every match."
+      ]
     },
     {
       "id": "headset-10",
@@ -167,7 +233,14 @@
       ],
       "category": "Headsets",
       "rating": 3.7,
-      "details": ""
+      "details": [
+        "🔀 Dual Mode Connectivity – Switch seamlessly between 2.4GHz wireless and Bluetooth for versatile device compatibility.",
+        "⚡ Ultra-Low Latency – Experience lag-free audio with just 20ms latency, ideal for gaming and real-time chats.",
+        "🔋 Extended Battery Life – Up to 40 hours of uninterrupted playback for gaming, work, or travel.",
+        "🎧 Enhanced Audio Quality – Powerful 50mm drivers deliver deep bass and crisp highs for immersive sound.",
+        "🛋️ Comfort-Focused Design – Breathable fabric cushions, adjustable headband, and ergonomic fit for long sessions.",
+        "🎤 Detachable ENC Microphone – Clear voice pickup with detachable noise-canceling mic for flexible use.",
+        "🎚️ Onboard Controls – Volume roller for quick and easy sound adjustment."
+      ]
     }
 ]
-  
