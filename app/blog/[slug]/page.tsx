@@ -1,10 +1,11 @@
 //app/blog/[slug]/page.tsx
-import blogs from "@/data/blogs.json";
-import headsets from "@/data/headsets-10-5000.json";
-import laptops from "@/data/laptops-5-60000.json";
 import { notFound } from "next/navigation";
 import BlogCard from "@/components/blogCard";
 import AdUnit from "@/components/adUnit";
+import blogs from "@/data/blogs.json";
+import headsets from "@/data/headsets-10-5000.json";
+import keyboards from "@/data/keyboards-10-4000.json";
+import laptops from "@/data/laptops-5-60000.json";
 
 type Props = {
     params: Promise<{ slug: string }>;
@@ -56,6 +57,8 @@ export default async function BlogPost({ params }: Props) {
         products = headsets.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
     } else if (slug === "best-5-laptops-under-60000") {
         products = laptops.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
+    } else if (slug === "best-10-keyboards-under-4000") {
+        products = keyboards.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
     }
 
     return (
