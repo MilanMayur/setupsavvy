@@ -44,9 +44,12 @@ export default async function ProductDetail({ params }: Props) {
                     <p className="text-xl text-blue-600 mb-4">₹ {product.price}</p>
 
                     {/* Product Details */}
-                    {product.details && Object.keys(product.details).length > 0 && (
+                    {product.details && (
                     <div className="mb-6">
                         <h2 className="text-lg font-semibold text-gray-800 mb-2">Specifications</h2>
+
+                        {/* Case 1: Object (key-value) */}
+                        {typeof product.details === "object" && !Array.isArray(product.details) ? (
                         <div className="border rounded-lg overflow-hidden">
                             {Object.entries(product.details).map(([key, value], index) => (
                             <div
@@ -60,9 +63,28 @@ export default async function ProductDetail({ params }: Props) {
                             </div>
                             ))}
                         </div>
+                        ) : Array.isArray(product.details) ? (
+
+                        /* Case 2: Array of strings */
+                        <ul className="list-disc list-inside text-gray-600 space-y-2">
+                        {product.details.map((item, idx) => {
+                            const [title, desc] = item.split("–", 2);
+                            return (
+                                <p key={idx} className="text-gray-700">
+                                    <span className="block font-medium text-gray-900">{title?.trim()}:</span>
+                                    <span className="block text-gray-600 pl-7">{desc?.trim()}</span>
+                                </p>
+                            );
+                        })}
+                        </ul>
+                        ) : (
+
+                        /* Case 3: Plain string */
+                        <p className="text-gray-600">{product.details}</p>
+                        )}
                     </div>
                     )}
-
+ 
                     {/* AdSense Ad Unit */}
                     <AdUnit slot="1234567890" />
 
@@ -94,7 +116,6 @@ export default async function ProductDetail({ params }: Props) {
                     )}
 
                     <p className="text-gray-600 mb-6">
-                        This is one of our recommended products for productivity & comfort.
                         Click below to check details on Amazon.
                     </p>
                     <Link
