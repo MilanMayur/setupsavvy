@@ -1,4 +1,5 @@
 //app/about/page.tsx
+import AdUnit from "@/components/adUnit";
 import { Lightbulb, Rocket, Users } from "lucide-react";
 
 export default function AboutPage() {
@@ -51,6 +52,9 @@ export default function AboutPage() {
                     Contact Page
                 </a>.
             </p>
+
+            {/* AdSense Ad Unit */}
+            <AdUnit slot="1234567890" />
         </div>
         </div>
     );
