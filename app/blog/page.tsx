@@ -2,6 +2,7 @@
 import blogs from "@/data/blogs.json";
 import Link from "next/link";
 import Image from "next/image";
+import AdUnit from "@/components/adUnit";
 
 export const metadata = {
     title: "SetupSavvy Blog - Reviews, Guides & Top Picks",
@@ -22,6 +23,10 @@ export default function BlogIndex() {
                     key={post.slug}
                     className="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden"
                 >
+
+                    {/* AdSense Ad Unit */}
+                    <AdUnit slot="1234567890" />
+
                     <Link href={`/blog/${post.slug}`}>
                         <Image
                             src={post.image}
@@ -45,6 +50,9 @@ export default function BlogIndex() {
                             </span>
                         </div>
                     </Link>
+
+                    {/* AdSense Ad Unit */}
+                    <AdUnit slot="1234567890" />
                 </div>
                 ))}
             </div>
