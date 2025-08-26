@@ -4,6 +4,7 @@ import headsets from "@/data/headsets-10-5000.json";
 import laptops from "@/data/laptops-5-60000.json";
 import { notFound } from "next/navigation";
 import BlogCard from "@/components/blogCard";
+import AdUnit from "@/components/adUnit";
 
 type Props = {
     params: Promise<{ slug: string }>;
@@ -61,6 +62,7 @@ export default async function BlogPost({ params }: Props) {
 
     return (
         <article className="max-w-3xl mx-auto py-10 px-4">
+
             {/* Title + Date */}
             <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
             <p className="text-gray-500 text-sm mb-6">
@@ -70,8 +72,10 @@ export default async function BlogPost({ params }: Props) {
                     day: "numeric",
                 })}
             </p>
+
             {/* Blog description */}
             <p className="text-lg text-gray-300 mb-8">{post.description}</p>
+
             {/* Buying Guide */}
             {post.buyingGuide && (
             <>
@@ -87,6 +91,10 @@ export default async function BlogPost({ params }: Props) {
                 </ul>
             </>
             )}
+
+            {/* AdSense Ad Unit */}
+            <AdUnit slot="1234567890" />
+
             {/* Product List */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
                 {products.map((product) => (
@@ -105,6 +113,10 @@ export default async function BlogPost({ params }: Props) {
                 Note: Prices are approximate and may vary across online and offline
                 stores. We recommend checking multiple retailers for the best deal.
             </p>
+
+            {/* AdSense Ad Unit */}
+            <AdUnit slot="1234567890" />
+
             {/* Final Thoughts */}
             {post.finalThoughts && (
             <>
