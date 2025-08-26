@@ -1,7 +1,7 @@
 [
     {
       "slug": "best-10-headsets-under-5000",
-      "title": "10 Best Headsets Under ₹5000 (2025)",
+      "title": "10 Best Headsets Under ₹5,000 (2025)",
       "description": "Our hand-picked list of the best gaming and music headsets under ₹5000 in India.",
       "image": "/headsets/logitech-g335.jpg",
       "date": "2025-08-19",
@@ -80,7 +80,7 @@
     },
     {
       "slug": "best-5-laptops-under-60000",
-      "title": "Top 5 Laptops Under ₹60000 (2025)",
+      "title": "Top 5 Laptops Under ₹60,000 (2025)",
       "description": "Our expert picks for the best laptops under ₹60000 in India — perfect for work, study, and casual gaming.",
       "image": "/laptops/asus-vivobook-16x.jpg",
       "date": "2025-08-20",
@@ -168,5 +168,88 @@
         }
       ],
       "finalThoughts": "These 5 laptops under ₹60000 cover a variety of needs — productivity, study, entertainment, and light gaming. Pick the one that matches your workload and you’ll get the best bang for your buck in 2025."
+    },
+    {
+      "slug": "best-10-keyboards-under-4000",
+      "title": "Top 10 Keyboards Under ₹4,000 (2025)",
+      "description": "Explore the best mechanical and membrane keyboards under ₹4000 in India — perfect for gamers, typists, and everyday use.",
+      "image": "/keyboards/acer-predator-aethon-303.jpg",
+      "date": "2025-08-25",
+      "intro": "Finding the perfect keyboard under ₹4000 can be tricky, especially with so many options ranging from budget mechanicals to feature-rich membrane models. Whether you need it for gaming, typing, or office work, we’ve shortlisted the **top 10 keyboards in 2025** that deliver the best value in this price range.",
+      "buyingGuide": {
+        "title": "Buying Guide: How to Choose the Right Keyboard ⌨️",
+        "points": [
+          { 
+            "label": "Keyboard Type", 
+            "detail": "Mechanical keyboards provide better tactile feedback, durability, and customization. Membrane keyboards are quieter and more budget-friendly. Decide based on your preference and workload." 
+          },
+          { 
+            "label": "Switches", 
+            "detail": "Mechanical switches (Blue, Red, Brown) offer different experiences — Blue for clicky typing, Red for smooth gaming, Brown for balanced use. Look for pre-lubed switches for smoother performance." 
+          },
+          { 
+            "label": "Layout & Size", 
+            "detail": "Full-size keyboards include a number pad, while Tenkeyless (TKL) and 65% layouts save desk space and are more portable. Choose based on your workspace and usage needs." 
+          },
+          { 
+            "label": "Build Quality", 
+            "detail": "Keyboards with double-shot PBT keycaps, metal top plates, and durable plastic bases last longer. Non-slip ergonomic designs with adjustable feet improve comfort during long sessions." 
+          },
+          { 
+            "label": "Backlighting & RGB", 
+            "detail": "RGB lighting with software support allows per-key customization. For a minimalist look, white backlight or single-color options are also available under this budget." 
+          },
+          { 
+            "label": "Anti-Ghosting & N-Key Rollover", 
+            "detail": "Essential for gamers — ensures multiple key presses are registered without errors, giving you an edge in fast-paced games." 
+          },
+          { 
+            "label": "Connectivity", 
+            "detail": "Most keyboards use USB Type-A, but detachable USB Type-C cables are becoming common. Wireless options with Bluetooth 5.0 also exist under ₹4000, though battery life varies." 
+          },
+          { 
+            "label": "Ergonomics & Comfort", 
+            "detail": "Look for keyboards with wrist rest support, adjustable angles, and splash-proof designs for comfort and durability." 
+          },
+          { 
+            "label": "Extra Features", 
+            "detail": "Some models offer multimedia keys, macro recording, and software customization. Gasket-mounted designs with foam dampening provide quieter and smoother typing." 
+          },
+          { 
+            "label": "Cross-Platform Support", 
+            "detail": "Ensure the keyboard is compatible with Windows, macOS, and sometimes even consoles. Detachable USB-C makes it more versatile across devices." 
+          }
+        ]
+      },
+      "suggestion": [
+        {
+          "category": "Gaming",
+          "title": "Acer Predator Aethon 303",
+          "reasons": [
+            "Equipped with Kailh Blue mechanical switches for precise, tactile gaming feedback",
+            "100% Anti-Ghosting with N-Key Rollover ensures flawless key registration during intense gameplay",
+            "RGB Illumination with 12 effects and side light bar enhances the immersive gaming experience"
+          ]
+        },
+        {
+          "category": "Work",
+          "title": "Logitech K580 Slim Multi-Device",
+          "reasons": [
+            "Slim and lightweight design with whisper-quiet scissor-switch keys for distraction-free typing",
+            "Multi-device connectivity (PC, smartphone, tablet) with Easy-Switch button for seamless productivity",
+            "Up to 24 months battery life makes it perfect for professionals and students"
+          ]
+        },
+        {
+          "category": "Both",
+          "title": "EvoFox Ronin TKL Wireless Mechanical Keyboard",
+          "reasons": [
+            "Hot-swappable Outemu Red switches provide smooth typing for work and responsive performance for gaming",
+            "Triple-mode connectivity (wired, 2.4GHz wireless, Bluetooth) supports up to 5 devices",
+            "Per-key RGB with 21 lighting effects plus customizable macros make it versatile for both productivity and gaming"
+          ]
+        }
+      ],
+      "finalThoughts": "These top 10 keyboards under ₹4000 strike the right balance between performance, comfort, and style. Whether you’re a gamer, writer, or professional, you’ll find one that fits your needs and budget in 2025."
     }
 ]
