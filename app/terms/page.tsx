@@ -1,4 +1,5 @@
 //app/terms/page.tsx
+import AdUnit from "@/components/adUnit";
 import { Scale, Shield, Info } from "lucide-react";
 
 export default function TermsPage() {
@@ -74,6 +75,9 @@ export default function TermsPage() {
                         setupsavvy.in@gmail.com
                     </a>.
                 </p>
+
+                {/* AdSense Ad Unit */}
+                <AdUnit slot="1234567890" />
             </div>
         </div>
     );
