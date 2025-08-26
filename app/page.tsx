@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { products } from "@/data/products";
 import ProductCard from "@/components/productCard";
+import AdUnit from "../components/adUnit";
 
 export default function HomePage() {
     return (
@@ -22,6 +23,9 @@ export default function HomePage() {
                 </Link>
             </section>
 
+            {/* AdSense Ad Unit */}
+            <AdUnit slot="1234567890" />
+
             {/* Featured Products */}
             <section className="mb-16">
                 <h2 className="text-2xl font-bold mb-6 text-center">Featured Picks</h2>
@@ -40,6 +44,9 @@ export default function HomePage() {
                 </div>
             </ section>
 
+            {/* AdSense Ad Unit */}
+            <AdUnit slot="1234567890" />
+
             {/* Call to Action */}
             <section className="bg-gray-100 rounded-2xl py-12 text-center shadow-md">
                 <h2 className="text-2xl text-black font-bold mb-4">Need Help Choosing?</h2>
@@ -56,4 +63,3 @@ export default function HomePage() {
         </div>
     );
 }
-
