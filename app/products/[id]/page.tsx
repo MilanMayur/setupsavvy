@@ -1,4 +1,5 @@
 //app/products/[id]/page.tsx
+import AdUnit from "@/components/adUnit";
 import { products } from "@/data/products";
 import Image from "next/image";
 import Link from "next/link";
@@ -62,6 +63,9 @@ export default async function ProductDetail({ params }: Props) {
                     </div>
                     )}
 
+                    {/* AdSense Ad Unit */}
+                    <AdUnit slot="1234567890" />
+
                     {/* Pros & Cons */}
                     { "pros" in product && product.pros?.length > 0 && (
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
@@ -102,9 +106,10 @@ export default async function ProductDetail({ params }: Props) {
                         Buy on Amazon
                     </Link>
                 </div>
+
+                {/* AdSense Ad Unit */}
+                <AdUnit slot="1234567890" />
             </div>
         </section>
     );
 }
-
-
