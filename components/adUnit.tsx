@@ -5,7 +5,7 @@ import { useEffect } from "react";
 
 declare global {
     interface Window {
-        adsbygoogle: any[];
+        adsbygoogle: unknown[];
     }
 }
 
@@ -18,7 +18,8 @@ interface AdUnitProps {
 export default function AdUnit({ slot, format = "auto", responsive = true }: AdUnitProps) {
     useEffect(() => {
         try {
-        (window.adsbygoogle = window.adsbygoogle || []).push({});
+            window.adsbygoogle = window.adsbygoogle || [];
+            window.adsbygoogle.push({});
         } catch (e) {
             console.error("AdSense error:", e);
         }
