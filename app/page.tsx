@@ -97,7 +97,7 @@ export default function HomePage() {
             </section>
 
             {/* Call to Action */}
-            <section className="bg-gray-900 dark:bg-gray-200 text-white rounded-2xl py-16 px-6 text-center shadow-lg">
+            <section className="bg-gradient-to-r from-indigo-50 to-blue-50 text-white rounded-2xl py-16 px-6 text-center shadow-lg">
                 <h2 className="text-3xl font-bold mb-4 dark:text-gray-900">Need Help Choosing?</h2>
                 <p className="mb-8 text-gray-300 dark:text-gray-800 max-w-xl mx-auto">
                     Read our expert guides and find the right gear for your home office.
@@ -112,3 +112,4 @@ export default function HomePage() {
         </div>
     );
 }
+
