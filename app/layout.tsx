@@ -15,7 +15,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
-        <html lang="en">
+        <html lang="en" className="h-full">
             <head>
                 {/* Google AdSense meta tag */}
                 <meta
@@ -23,9 +23,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     content="ca-pub-1041356533581191"
                 />
             </head>
-            <body className="min-h-screen flex flex-col bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100">
+            <body className="min-h-screen flex flex-col text-gray-900 dark:text-gray-100 
+                            transition-colors duration-500">
                 <Navbar />
-                <main className="flex-1 container mx-auto px-4 py-6">
+                <main className="flex-1 px-4 py-6 transition-colors duration-500 
+                                bg-gradient-to-tr from-indigo-50 via-white to-purple-100 
+                                dark:from-indigo-950 dark:via-gray-900 dark:to-purple-950 ">
                     {children}
                 </main>
                 <Footer />
@@ -51,7 +54,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1041356533581191"
                     crossOrigin="anonymous"
                 />
-
             </body>
         </html>
     );
