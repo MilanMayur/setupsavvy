@@ -8,6 +8,7 @@ import headsets from "@/data/headsets-10-5000.json";
 import keyboards from "@/data/keyboards-10-4000.json";
 import mouse from "@/data/mouse-10-4000.json";
 import laptops from "@/data/laptops-5-60000.json";
+import Link from "next/link";
 
 type Props = {
     params: Promise<{ slug: string }>;
@@ -82,13 +83,13 @@ export default async function BlogPost({ params }: Props) {
             <p className="text-lg mb-8">{post.description}</p>
 
             {/* Buying Guide */}
-            {post.buyingGuide && (
+            {post.guide && (
             <>
                 <h2 className="text-2xl font-semibold mt-10 mb-4">
-                    {post.buyingGuide.title}
+                    {post.guide.title}
                 </h2>
                 <ul className="list-disc pl-6">
-                    {post.buyingGuide.points.map((point, idx) => (
+                    {post.guide.points.map((point, idx) => (
                     <li key={idx} className="mb-2">
                         <strong>{point.label}</strong> → 
                         <p>{point.detail}</p>
@@ -115,10 +116,13 @@ export default async function BlogPost({ params }: Props) {
                     />
                 ))}
             </div>
-            <p className="text-sm">
-                Note: Prices are approximate and may vary across online and offline
-                stores. We recommend checking multiple retailers for the best deal.
-            </p>
+
+            {/* Note */}
+            {post.note && (
+                <p className="text-sm">
+                    {post.note}
+                </p>
+            )}
 
             {/* AdSense Ad Unit */}
             <AdUnit slot="1234567890" />
@@ -128,7 +132,9 @@ export default async function BlogPost({ params }: Props) {
                 <section className="mt-10">
                     <h2 className="text-2xl font-semibold mb-4">Suggestions 💡</h2>
                     {post.suggestion.map((s, idx) => (
-                        <div key={idx} className="p-4 rounded-2xl border dark:border-gray-700 dark:bg-gray-900 shadow-md mb-6">
+                        <div key={idx} 
+                            className="p-4 rounded-2xl border dark:border-gray-700 dark:bg-gray-900 
+                                        shadow-md mb-6">
                             <span> 
                                 <h3 className="text-xl font-bold mb-2">{s.category} : {s.title}</h3>
                             </span>
@@ -151,6 +157,19 @@ export default async function BlogPost({ params }: Props) {
                 <h2 className="text-2xl font-semibold mt-10 mb-4">Final Thoughts 💭</h2>
                 <p>{post.finalThoughts}</p>
             </>
+            )}
+
+            {/* Next Blog */}
+            {post.next && (
+            <div className="mt-12 border-t pt-6">
+                <h3 className="text-lg font-semibold dark:text-gray-200 mb-2">📖 Read Next:</h3>
+                <Link
+                    href={`/blog/${post.next.link}`}
+                    className="text-blue-600 hover:text-blue-800 font-medium transition"
+                >
+                    {post.next.title} →
+                </Link>
+            </div>
             )}
         </article>
     );
