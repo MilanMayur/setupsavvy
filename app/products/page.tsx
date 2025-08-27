@@ -22,19 +22,31 @@ export default function ProductsPage() {
     const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Chairs", "Tables"];
     const productsPerPage = 12;
 
+    const cleanPrice = (price: string | number | undefined): number => {
+        if (!price) return 0;
+        if (typeof price === "number") return price;
+        return Number(price.replace(/[^\d.-]/g, "")) || 0;
+    };
+
+    const cleanRating = (rating: number | string | undefined): number => {
+        if (!rating) return 0;
+        return typeof rating === "number" ? rating : Number(rating) || 0;
+    };
+
     const filteredProducts = products.filter((p) => {
         const matchCategory = category === "All" || p.category === category;
         const matchSearch = p.name.toLowerCase().includes(search.toLowerCase());
         return matchCategory && matchSearch;
     }).sort((a, b) => {
         if (sort === "priceLowHigh") {
-            return Number(a.price) - Number(b.price);
+            return cleanPrice(a.price) - cleanPrice(b.price);
         } else if (sort === "priceHighLow") {
-            return Number(b.price) - Number(a.price);
+            return cleanPrice(b.price) - cleanPrice(a.price);
         } else if (sort === "ratingHighLow") {
-            return Number(b.rating) - Number(a.rating);
+            return cleanRating(b.rating) - cleanRating(a.rating);
         }
-        return 0;
+        //return 0;
+        return a.name.localeCompare(b.name);
     });
 
     const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
@@ -67,7 +79,7 @@ export default function ProductsPage() {
     }, []);
 
     return (
-        <section>
+        <section className="container mx-auto">
             <h1 className="text-3xl font-bold mb-6 text-center">Our Top Picks</h1>
 
             {/* Search Input */}
@@ -80,7 +92,8 @@ export default function ProductsPage() {
                         setSearch(e.target.value)
                         setCurrentPage(1);
                     }}
-                    className="w-full max-w-md px-4 py-2 bg-white text-gray-900 border rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500"
+                    className="w-full max-w-md px-4 py-2 bg-white text-gray-900 border rounded-lg 
+                                shadow-sm focus:ring-2 focus:ring-blue-500"
                 />
             </div>
 
@@ -91,7 +104,8 @@ export default function ProductsPage() {
                 <div ref={categoryRef} className="relative inline-block text-left">
                     <button
                         onClick={() => setCategoryOpen((prev) => !prev)}
-                        className="px-4 py-2 w-44 rounded-lg text-sm text-left font-medium bg-white text-gray-800 border shadow-sm hover:bg-gray-300 transition"
+                        className="px-4 py-2 w-44 rounded-lg text-sm text-left font-medium 
+                                    bg-white text-gray-800 border shadow-sm hover:bg-gray-300 transition"
                     >
                         Category ▾
                     </button>
@@ -122,7 +136,8 @@ export default function ProductsPage() {
                 <div ref={sortRef} className="relative inline-block">
                     <button
                         onClick={() => setSortOpen((prev) => !prev)}
-                        className="px-4 py-2 w-44 rounded-lg text-sm text-right font-medium bg-white text-gray-800 border shadow-sm hover:bg-gray-100 transition"
+                        className="px-4 py-2 w-44 rounded-lg text-sm text-right font-medium bg-white 
+                                    text-gray-800 border shadow-sm hover:bg-gray-100 transition"
                     >
                         {sort ? (
                             sort === "priceLowHigh" ? "Price: Low to High"
