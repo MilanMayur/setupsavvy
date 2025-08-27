@@ -13,7 +13,7 @@ export default function BlogIndex() {
     return (
         <section className="max-w-4xl mx-auto py-10 px-4">
             <h1 className="text-3xl font-bold mb-6">Latest Blog Posts</h1>
-            <p className="text-gray-300 mb-8">
+            <p className="mb-8">
                 Expert articles on productivity, ergonomic setups, and best gear for remote workers.
             </p>
 
@@ -21,7 +21,7 @@ export default function BlogIndex() {
                 {blogs.map((post) => (
                 <div
                     key={post.slug}
-                    className="bg-white rounded-2xl shadow hover:shadow-lg transition overflow-hidden"
+                    className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden"
                 >
 
                     {/* AdSense Ad Unit */}
@@ -31,9 +31,9 @@ export default function BlogIndex() {
                         <Image
                             src={post.image}
                             alt={post.title}
-                            width={600}
+                            width={400}
                             height={400}
-                            className="text-gray-400 w-full h-48 object-cover"
+                            className="text-gray-400 h-48 object-cover mx-auto"
                         />
                         <div className="p-4">
                             <h2 className="text-xl text-black font-semibold">{post.title}</h2>
