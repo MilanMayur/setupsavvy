@@ -79,7 +79,7 @@ export default async function BlogPost({ params }: Props) {
             </p>
 
             {/* Blog description */}
-            <p className="text-lg text-gray-300 mb-8">{post.description}</p>
+            <p className="text-lg mb-8">{post.description}</p>
 
             {/* Buying Guide */}
             {post.buyingGuide && (
@@ -115,7 +115,7 @@ export default async function BlogPost({ params }: Props) {
                     />
                 ))}
             </div>
-            <p className="text-gray-300 text-sm">
+            <p className="text-sm">
                 Note: Prices are approximate and may vary across online and offline
                 stores. We recommend checking multiple retailers for the best deal.
             </p>
@@ -128,7 +128,7 @@ export default async function BlogPost({ params }: Props) {
                 <section className="mt-10">
                     <h2 className="text-2xl font-semibold mb-4">Suggestions 💡</h2>
                     {post.suggestion.map((s, idx) => (
-                        <div key={idx} className="p-4 rounded-2xl border border-gray-700 bg-gray-900 shadow-md mb-6">
+                        <div key={idx} className="p-4 rounded-2xl border dark:border-gray-700 dark:bg-gray-900 shadow-md mb-6">
                             <span> 
                                 <h3 className="text-xl font-bold mb-2">{s.category} : {s.title}</h3>
                             </span>
