@@ -76,6 +76,48 @@
           ]
         }
       ],
+      "faqs": [
+        {
+          "question": "Are headsets under ₹5000 good for gaming?",
+          "answer": "Yes, many headsets under ₹5000 provide excellent sound quality and clear microphones, which are essential for gaming. Models like HyperX Cloud Stinger 2 or Razer Kraken V3 X offer surround sound and comfortable designs, making them great for long sessions."
+        },
+        {
+          "question": "Which is better: wired or wireless headsets under ₹5000?",
+          "answer": "Wired headsets generally offer lower latency, making them better for competitive gaming. Wireless options provide convenience and freedom of movement, especially for casual use or long work calls, though battery life becomes an important factor."
+        },
+        {
+          "question": "Do budget headsets have surround sound?",
+          "answer": "Yes, several headsets under ₹5000 come with virtual 7.1 surround sound. While not as precise as high-end models, they significantly improve positional awareness in games and create a more immersive experience for movies and music."
+        },
+        {
+          "question": "How important is mic quality in a headset?",
+          "answer": "Mic quality is crucial if you use the headset for online meetings, streaming, or multiplayer games. A clear mic with noise cancellation ensures your voice is heard without background noise, improving communication and professionalism."
+        },
+        {
+          "question": "Can these headsets be used for both PC and mobile?",
+          "answer": "Most headsets in this price range support multiple platforms via 3.5mm jack, USB, or Bluetooth. Always check compatibility, as some gaming-focused models may work best with PC or consoles, while others are more versatile for mobile use."
+        },
+        {
+          "question": "Do budget headsets support noise cancellation?",
+          "answer": "Most headsets under ₹5000 provide passive noise isolation through cushioned earcups. A few wireless models also feature Active Noise Cancellation (ANC), but ANC in this range is usually basic compared to premium headsets."
+        },
+        {
+          "question": "How long do wireless headsets last on battery?",
+          "answer": "Wireless headsets in this range usually last between 15–40 hours on a full charge, depending on features like ANC or RGB lighting. Many also support fast charging, giving several hours of playback with just 10–15 minutes of charging."
+        },
+        {
+          "question": "Are these headsets good for music as well as gaming?",
+          "answer": "Yes, most headsets under ₹5000 are tuned for balanced sound, making them suitable for both music and gaming. Gaming models emphasize bass and positional audio, while lifestyle models like boAt Rockerz 550 focus on immersive music playback."
+        },
+        {
+          "question": "What should I prioritize: comfort or sound quality?",
+          "answer": "Ideally, both matter, but comfort should not be overlooked if you use the headset for hours. A slightly better sound is wasted if the headset feels heavy or hurts after extended use, so look for well-padded earcups and adjustable headbands."
+        },
+        {
+          "question": "Do headsets under ₹5000 last long?",
+          "answer": "Yes, if you choose a model with durable build quality and maintain it properly. Metal frames, braided cables, and sturdy hinges make a big difference in longevity compared to cheaper plastic builds."
+        }
+      ],
       "finalThoughts": "That’s our roundup of the 10 best headsets under ₹5000 in India (2025). Choose one that fits your needs — gaming, music, or remote work — and you’ll get the most value for your money."
     },
     {
@@ -167,11 +209,53 @@
           ]
         }
       ],
+      "faqs": [
+        {
+          "question": "Which is the best laptop under ₹60,000 for gaming?",
+          "answer": "The ASUS Vivobook 16X is the best gaming option under ₹60,000. It comes with an NVIDIA RTX 2050 GPU and a 144Hz display, making it suitable for both casual and competitive gaming."
+        },
+        {
+          "question": "Which laptop is best for office work and students?",
+          "answer": "The Lenovo IdeaPad Slim 5 is a great choice for office work and students. It is lightweight, has excellent battery life, and includes features like Dolby Audio and a good webcam for video calls."
+        },
+        {
+          "question": "Can I get a laptop that works for both work and casual gaming?",
+          "answer": "Yes, the HP Pavilion 15 is a balanced option. It features an Intel i5 12th Gen processor with Iris Xe graphics, making it suitable for productivity tasks while handling light gaming smoothly."
+        },
+        {
+          "question": "Is 8GB RAM enough or should I go for 16GB?",
+          "answer": "8GB RAM is sufficient for everyday tasks like browsing, office work, and light gaming. However, if you do heavy multitasking, video editing, or programming, upgrading to 16GB is recommended."
+        },
+        {
+          "question": "Do these laptops support RAM and storage upgrades?",
+          "answer": "Most laptops under ₹60,000 come with upgradeable RAM and storage. Check if the model has an extra slot or M.2 slot so you can easily upgrade in the future when your needs increase."
+        },
+        {
+          "question": "How is the battery life of laptops under ₹60,000?",
+          "answer": "On average, these laptops provide 6–8 hours of battery backup. Models like Lenovo IdeaPad Slim 5 are optimized for longer usage, while gaming laptops may offer slightly less due to higher power draw."
+        },
+        {
+          "question": "Do I need a dedicated GPU for my laptop?",
+          "answer": "If your main use is work, study, or entertainment, integrated graphics like Intel Iris Xe or AMD Radeon are enough. For gaming, design, or video editing, a dedicated GPU such as NVIDIA RTX or MX is better."
+        },
+        {
+          "question": "Which laptop has the best display and build quality under ₹60,000?",
+          "answer": "The ASUS Vivobook 16X offers a high refresh rate display and solid build for gaming. The Lenovo IdeaPad Slim 5, on the other hand, provides a sleek, lightweight design with durable build quality."
+        },
+        {
+          "question": "Are these laptops good for online classes and video calls?",
+          "answer": "Yes, most models come with HD webcams and decent microphones. The Lenovo IdeaPad Slim 5 is especially recommended for online classes due to its FHD webcam, Dolby Audio, and noise reduction features."
+        },
+        {
+          "question": "Which brand offers the best after-sales service in India?",
+          "answer": "HP and Lenovo generally have wider service networks in India, making them more reliable for after-sales support. ASUS also provides decent coverage but may have fewer service centers in smaller cities."
+        }
+      ],
       "finalThoughts": "These 5 laptops under ₹60000 cover a variety of needs — productivity, study, entertainment, and light gaming. Pick the one that matches your workload and you’ll get the best bang for your buck in 2025."
     },
     {
       "slug": "best-10-keyboards-under-4000",
-      "title": "Top 10 Keyboards Under ₹4,000 (2025)",
+      "title": "Best Keyboards Under ₹4000 in India (2025) – Top 10 Picks",
       "description": "Explore the best mechanical and membrane keyboards under ₹4000 in India — perfect for gamers, typists, and everyday use.",
       "image": "/keyboards/acer-predator-aethon-303.jpg",
       "date": "2025-08-25",
@@ -250,6 +334,166 @@
           ]
         }
       ],
+      "faqs": [
+        {
+          "question": "Which is the best gaming keyboard under ₹4000 in India (2025)?",
+          "answer": "The Acer Predator Aethon 303 is considered one of the best gaming keyboards under ₹4000 in India (2025). It features Kailh Blue switches for tactile feedback, anti-ghosting support for accurate inputs, and vibrant RGB lighting effects. Other excellent choices in this range include the EvoFox Ronin TKL and Redgear Shadow Blade, both offering durable builds and gamer-friendly designs."
+        },
+        {
+          "question": "Are wireless keyboards under ₹4000 good for gaming?",
+          "answer": "Wireless keyboards under ₹4000 can be a good option for casual and mid-level gamers. Models with 2.4GHz low-latency connections, like the EvoFox Ronin TKL, provide reliable performance without noticeable input lag. However, wired keyboards are still preferred by competitive gamers for consistent response times and uninterrupted connectivity."
+        },
+        {
+          "question": "Mechanical vs membrane keyboards under ₹4000 – which is better?",
+          "answer": "Mechanical keyboards are generally better under ₹4000 because they provide tactile feedback, faster actuation, and longer durability. Membrane keyboards are cheaper, quieter, and lightweight, making them suitable for office use but less ideal for intense gaming. If you want responsiveness and gaming edge, mechanical is the superior choice in this price bracket."
+        },
+        {
+          "question": "Can I get a full RGB mechanical keyboard under ₹4000?",
+          "answer": "Yes, several models under ₹4000 come with RGB lighting effects and even per-key customization. Keyboards like the Redragon Kumara K552 RGB and EvoFox Fireblade Pro feature multiple lighting modes that enhance aesthetics and visibility while gaming. These options give you the premium RGB feel without exceeding the budget."
+        },
+        {
+          "question": "Which keyboard layout is best under ₹4000 – full-size or TKL?",
+          "answer": "The choice depends on your usage. Full-size keyboards are better if you frequently use the number pad for work, spreadsheets, or productivity tasks. Tenkeyless (TKL) keyboards are more compact, giving extra desk space and portability, which is especially useful for gamers who want more room for mouse movements."
+        },
+        {
+          "question": "Are there good wireless mechanical keyboards under ₹4000?",
+          "answer": "Yes, wireless mechanical keyboards are available under ₹4000 with dual connectivity options. The EvoFox Ronin TKL and Ant Esports MK450 Pro offer Bluetooth and 2.4GHz support, allowing you to switch easily between work and gaming. While battery life varies by model, these keyboards provide solid value without breaking the budget."
+        },
+        {
+          "question": "Do budget keyboards under ₹4000 support macro keys?",
+          "answer": "Some budget gaming keyboards under ₹4000 do include macro functionality through software or onboard recording. Brands like Redragon, Cosmic Byte, and Ant Esports offer models that let you program custom shortcuts for gaming or work. This feature is usually found in mid-range models, but a few budget-friendly options include it as well."
+        },
+        {
+          "question": "Which switches are best for gaming under ₹4000?",
+          "answer": "Linear switches like Outemu Red or Kailh Red are best for gaming since they offer smooth keystrokes and faster response times. Blue switches are more tactile and clicky, making them better for typing but slightly slower for fast-paced games. For a balanced experience, Red or Brown switches are recommended under this budget."
+        }
+      ],
       "finalThoughts": "These top 10 keyboards under ₹4000 strike the right balance between performance, comfort, and style. Whether you’re a gamer, writer, or professional, you’ll find one that fits your needs and budget in 2025."
+    },
+    {
+      "slug": "best-10-mouse-under-4000",
+      "title": "Best Mouse Under ₹4000 in India (2025) – Top 10 Picks",
+      "description": "Discover the best gaming and productivity mice under ₹4000 in India — offering precision, comfort, and advanced features for every user.",
+      "image": "/mouse/logitech-g304.jpg",
+      "date": "2025-08-25",
+      "intro": "A good mouse can completely change your gaming or work experience. Under ₹4000, you’ll find a wide range of options — from lightweight esports-ready gaming mice to ergonomic productivity-focused models. We’ve picked the **top 10 mice in 2025** that deliver excellent performance, comfort, and value for money.",
+      "buyingGuide": {
+        "title": "Buying Guide: How to Choose the Right Mouse 🖱️",
+        "points": [
+          { 
+            "label": "Mouse Type", 
+            "detail": "Gaming mice come with high DPI sensors, fast response times, and customizable buttons. Productivity mice focus on ergonomics, silent clicks, and long battery life. Pick based on your primary use." 
+          },
+          { 
+            "label": "Sensor Quality", 
+            "detail": "Optical sensors like HERO (Logitech) or PixArt ensure precise tracking. A higher DPI (up to 12,000+) benefits gamers, while office users can stay around 1600–2400 DPI." 
+          },
+          { 
+            "label": "Wired vs Wireless", 
+            "detail": "Wired mice ensure zero latency, preferred by esports players. Wireless options with 2.4GHz or Bluetooth provide convenience and clutter-free setups — many under ₹4000 now rival wired latency." 
+          },
+          { 
+            "label": "Ergonomics & Grip Style", 
+            "detail": "Choose a mouse that suits your grip — palm, claw, or fingertip. Ergonomic designs reduce wrist strain, while ambidextrous models work for both left and right-handed users." 
+          },
+          { 
+            "label": "Build Quality & Weight", 
+            "detail": "Lightweight mice (~60–70g) are ideal for FPS gamers, while slightly heavier ones (~90–100g) offer stability for productivity. Look for durable switches (50M+ clicks) and textured grips." 
+          },
+          { 
+            "label": "Customizable Buttons", 
+            "detail": "Extra buttons allow quick in-game actions or workflow shortcuts. Look for mice with 6–8 programmable buttons and onboard memory for profiles." 
+          },
+          { 
+            "label": "RGB & Aesthetics", 
+            "detail": "RGB lighting with software customization is popular among gamers. Productivity mice may opt for a sleek, minimal look without RGB." 
+          },
+          { 
+            "label": "Battery Life", 
+            "detail": "Wireless mice under ₹4000 now offer 200–600 hours of usage (with AA battery or rechargeable options). Fast-charging models give hours of use from just minutes of charging." 
+          },
+          { 
+            "label": "Polling Rate", 
+            "detail": "Gamers should look for at least a 1000Hz polling rate for smooth responsiveness. Productivity users can manage with 125–500Hz." 
+          },
+          { 
+            "label": "Cross-Platform Compatibility", 
+            "detail": "Ensure compatibility with Windows, macOS, and even gaming consoles. Dual connectivity (USB dongle + Bluetooth) provides more flexibility." 
+          }
+        ]
+      },
+      "suggestion": [
+        {
+          "category": "Gaming",
+          "title": "HyperX Pulsefire Haste 2 Wireless",
+          "reasons": [
+            "Ultra-lightweight (~61 g) for extremely fast and precise movements",
+            "Dual wireless (2.4GHz + Bluetooth) for low latency performance",
+            "Durable HyperX switches and PTFE skates for smooth glide and long sessions"
+          ]
+        },
+        {
+          "category": "Work",
+          "title": "Logitech G502 HERO",
+          "reasons": [
+            "11 programmable buttons boost productivity and workflow customization",
+            "Ergonomic design suited for long hours of use",
+            "Adjustable weights for personalized comfort and balance"
+          ]
+        },
+        {
+          "category": "Both",
+          "title": "Logitech G305 Lightspeed Wireless",
+          "reasons": [
+            "Reliable HERO sensor with 12,000 DPI for gaming & general use",
+            "Wireless convenience with extended battery life (up to 250 hours)",
+            "Lightweight, compact design suitable for both typing and play"
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Which is the best gaming mouse under ₹4000 in India (2025)?",
+          "answer": "The HyperX Pulsefire Haste 2 Wireless and Logitech G305 Lightspeed are among the best gaming mice under ₹4000. They offer lightweight design, low-latency performance, and long battery life, making them ideal for esports and casual gaming."
+        },
+        {
+          "question": "Are wireless mice under ₹4000 good for gaming?",
+          "answer": "Yes, many wireless mice under ₹4000 now offer near-zero latency with 2.4GHz wireless technology. Models like Logitech G305 and HyperX Pulsefire Haste 2 provide the same responsiveness as wired mice while offering clutter-free setups."
+        },
+        {
+          "question": "Which is better under ₹4000 – wired or wireless mouse?",
+          "answer": "Wired mice ensure guaranteed zero input lag and don’t need charging, which is ideal for competitive gaming. Wireless mice, however, have become highly reliable with long battery life and offer convenience for both gaming and productivity."
+        },
+        {
+          "question": "What DPI is good for gaming under ₹4000?",
+          "answer": "Gaming mice in this price range usually support 6,000–12,000+ DPI. Most esports players stick to 800–1600 DPI for accuracy, but having a higher DPI sensor allows flexibility across different games and multi-monitor setups."
+        },
+        {
+          "question": "Which mouse is best for work and productivity under ₹4000?",
+          "answer": "The Logitech G502 HERO is an excellent choice for productivity. With 11 programmable buttons, ergonomic design, and adjustable weights, it’s perfect for multitasking, editing, and long work sessions."
+        },
+        {
+          "question": "Is lightweight or heavy mouse better for gaming?",
+          "answer": "Lightweight mice (~60g) like the Pulsefire Haste 2 Wireless are great for fast-paced FPS gaming since they allow quicker movements. Heavier mice (~90–100g) provide better control and stability, which some users prefer for productivity or MOBA games."
+        },
+        {
+          "question": "Do mice under ₹4000 have RGB lighting?",
+          "answer": "Yes, many gaming mice under ₹4000 feature customizable RGB lighting. This is mainly a personal preference — while gamers enjoy RGB aesthetics, productivity users may prefer minimal, non-RGB designs."
+        },
+        {
+          "question": "How long do wireless mice under ₹4000 last on a single charge?",
+          "answer": "Most wireless mice in this range offer 200–600 hours of usage. Some, like Logitech G305, can last months on a single AA battery, while others come with fast-charging options that provide hours of use with just a few minutes of charge."
+        },
+        {
+          "question": "Can these mice work with both Windows and macOS?",
+          "answer": "Yes, most mice under ₹4000 support cross-platform compatibility with Windows, macOS, and sometimes even gaming consoles. Dual connectivity options (USB dongle + Bluetooth) add extra flexibility."
+        },
+        {
+          "question": "What is the polling rate I should look for in a gaming mouse?",
+          "answer": "For smooth responsiveness, gamers should aim for a 1000Hz polling rate, which is standard in good gaming mice under ₹4000. Productivity users can manage comfortably with 125–500Hz."
+        }
+      ],
+      "finalThoughts": "These top 10 mice under ₹4000 bring together performance, comfort, and durability. Whether you’re a competitive gamer, casual user, or office professional, there’s a perfect pick for you in 2025."
     }
+    
 ]
