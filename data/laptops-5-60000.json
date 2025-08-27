@@ -2,7 +2,7 @@
   {
     "id": "laptop-1",
     "name": "ASUS Vivobook 16X",
-    "price": 56900,
+    "price": "56,900",
     "url": "https://amzn.to/3JtHcJ2",
     "image": "/laptops/asus-vivobook-16x.jpg",
     "pros": [
@@ -29,7 +29,7 @@
   {
     "id": "laptop-2",
     "name": "HP Pavilion 15",
-    "price": 59990,
+    "price": "59,990",
     "url": "https://amzn.to/3VfiJJX",
     "image": "/laptops/hp-pavilion-15.jpg",
     "pros": [
@@ -56,7 +56,7 @@
   {
     "id": "laptop-3",
     "name": "Lenovo IdeaPad Slim 5",
-    "price": 57990,
+    "price": "57,990",
     "url": "https://amzn.to/45SK9uh",
     "image": "/laptops/lenovo-ideapad-slim-5.jpg",
     "pros": [
@@ -86,7 +86,7 @@
   {
     "id": "laptop-4",
     "name": "ASUS Vivobook 16",
-    "price": 53990,
+    "price": "53,990",
     "url": "https://amzn.to/41WEUIu",
     "image": "/laptops/asus-vivobook-16.jpg",
     "pros": [
@@ -115,7 +115,7 @@
   {
     "id": "laptop-5",
     "name": "Acer Aspire Lite",
-    "price": 48990,
+    "price": "48,990",
     "url": "https://amzn.to/3JsetEt",
     "image": "/laptops/acer-aspire-lite.jpg",
     "pros": [
