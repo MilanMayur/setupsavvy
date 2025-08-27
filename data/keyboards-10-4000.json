@@ -2,7 +2,7 @@
     {
         "id": "keyboard-1",
         "name": "EvoFox Ronin TKL Wireless Mechanical Keyboard",
-        "price": 3899,
+        "price": "3,899",
         "url": "https://amzn.to/47Mj5PB",
         "image": "/keyboards/evofox-ronin.jpg",
         "pros": [
@@ -26,7 +26,7 @@
     {
         "id": "keyboard-2",
         "name": "Kreo Hive 65",
-        "price": 3199,
+        "price": "3,199",
         "url": "https://amzn.to/3UKn7R9",
         "image": "/keyboards/kreo-hive-65.jpg",
         "pros": [
@@ -52,7 +52,7 @@
     {
         "id": "keyboard-3",
         "name": "Cosmic Byte CB-GK-33 Astra",
-        "price": 3799,
+        "price": "3,799",
         "url": "https://amzn.to/4oTH0Tz",
         "image": "/keyboards/cosmicbyte-cb-gk-33-astra.jpg",
         "pros": [
@@ -80,7 +80,7 @@
     {
         "id": "keyboard-4",
         "name": "Cosmic Byte CB-GK-24 Equinox Alturas",
-        "price": 3499,
+        "price": "3,499",
         "url": "https://amzn.to/4mz67cz",
         "image": "/keyboards/cosmicbyte-cb-gk-24-equinox-alturas.jpg",
         "pros": [
@@ -108,7 +108,7 @@
     {
         "id": "keyboard-5",
         "name": "Acer Predator Aethon 303",
-        "price": 3999,
+        "price": "3,999",
         "url": "https://amzn.to/47b9dij",
         "image": "/keyboards/acer-predator-aethon-303.jpg",
         "pros": [
@@ -135,7 +135,7 @@
     {
         "id": "keyboard-6",
         "name": "Redragon SU-RARA K582",
-        "price": 3590,
+        "price": "3,590",
         "url": "https://amzn.to/4oVC4xg",
         "image": "/keyboards/redragon-su-rara-k582.jpg",
         "pros": [
@@ -162,7 +162,7 @@
     {
         "id": "keyboard-7",
         "name": "Logitech K580 Slim Multi-Device",
-        "price": 3595,
+        "price": "3,595",
         "url": "https://amzn.to/4n53wXP",
         "image": "/keyboards/logitech-k580.jpg",
         "pros": [
@@ -189,7 +189,7 @@
     {
         "id": "keyboard-8",
         "name": "Redragon K617",
-        "price": 2790,
+        "price": "2,790",
         "url": "https://amzn.to/4mz7Tuf",
         "image": "/keyboards/redragon-k617.jpg",
         "pros": [
@@ -215,7 +215,7 @@
     {
         "id": "keyboard-9",
         "name": "Portronics Hydra 10",
-        "price": 2599,
+        "price": "2,599",
         "url": "https://amzn.to/4mtyJ76",
         "image": "/keyboards/portronics-hydra-10.jpg",
         "pros": [
@@ -241,7 +241,7 @@
     {
         "id": "keyboard-10",
         "name": "Redragon Kumara K552",
-        "price": 2999,
+        "price": "2,999",
         "url": "https://amzn.to/4msxaX4",
         "image": "/keyboards/redragon-kumara-k552.jpg",
         "pros": [
