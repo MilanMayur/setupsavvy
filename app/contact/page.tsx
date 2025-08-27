@@ -5,7 +5,7 @@ import { FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export default function ContactPage() {
     return (
-        <div className="max-w-4xl mx-auto px-6 py-12 bg-gradient-to-br from-gray-50 to-gray-100">
+        <div className="max-w-4xl mx-auto px-6 py-12 bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl">
             <div className="max-w-3xl mx-auto bg-white shadow-md rounded-2xl p-8">
                 <h1 className="text-3xl font-extrabold text-gray-800 mb-6 text-center">📬 Get in Touch</h1>
                 <p className="text-center text-gray-600 mb-10">
@@ -53,3 +53,4 @@ export default function ContactPage() {
         </div>
     );
 }
+
