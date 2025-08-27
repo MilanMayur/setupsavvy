@@ -1,7 +1,6 @@
 //components/blogCard.tsx
 import Image from "next/image";
 import Link from "next/link";
-import { Star } from "lucide-react";
 
 interface ProductProps {
     id: string;
@@ -18,7 +17,7 @@ export default function BlogCard({ id, name, price, url, image, pros, cons, rati
     return (
         <div className="bg-white border shadow-md hover:shadow-2xl rounded-2xl p-4 max-w-sm">
             <Link href={`/products/${id}`}>
-                <div className="min-h-[170px] items-center justify-center">
+                <div className="h-[200px] items-center justify-center">
                     <Image
                         src={image}
                         alt={name}
@@ -28,7 +27,9 @@ export default function BlogCard({ id, name, price, url, image, pros, cons, rati
                     />
                 </div>
 
-                <h2 className="text-lg text-black font-bold mt-3 line-clamp-2">{name}</h2>
+                <div className="h-[60px]">
+                    <h2 className="text-lg text-black font-bold mt-3 line-clamp-2">{name}</h2>
+                </div>
                 <div className="flex items-center justify-between mt-1">
                     <p className="text-green-600 font-semibold">₹ {price}</p>
                     <p className="text-orange-600 font-semibold">☆ {rating}</p>
