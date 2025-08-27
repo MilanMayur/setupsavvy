@@ -35,9 +35,9 @@ export default async function ProductDetail({ params }: Props) {
                 <Image
                     src={product.image}
                     alt={product.name}
-                    width={600}
+                    width={400}
                     height={400}
-                    className="text-gray-400 w-full h-80 object-cover"
+                    className="text-gray-400 h-80 object-cover mx-auto"
                 />
                 <div className="p-6">
                     <h1 className="text-3xl text-black font-bold mb-4">{product.name}</h1>
