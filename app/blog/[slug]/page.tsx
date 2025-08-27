@@ -2,9 +2,11 @@
 import { notFound } from "next/navigation";
 import BlogCard from "@/components/blogCard";
 import AdUnit from "@/components/adUnit";
+import FaqSection from "@/components/faqSection";
 import blogs from "@/data/blogs.json";
 import headsets from "@/data/headsets-10-5000.json";
 import keyboards from "@/data/keyboards-10-4000.json";
+import mouse from "@/data/mouse-10-4000.json";
 import laptops from "@/data/laptops-5-60000.json";
 
 type Props = {
@@ -14,7 +16,7 @@ type Props = {
 type Product = {
     id: string;
     name: string;
-    price: number;
+    price: string;
     image: string;
     url?: string;
     category?: string;
@@ -59,6 +61,8 @@ export default async function BlogPost({ params }: Props) {
         products = laptops.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
     } else if (slug === "best-10-keyboards-under-4000") {
         products = keyboards.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
+    } else if (slug === "best-10-mouse-under-4000") {
+        products = mouse.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
     }
 
     return (
@@ -137,6 +141,9 @@ export default async function BlogPost({ params }: Props) {
                     ))}
                 </section>
             )}
+
+            {/* FAQ Section */}
+            {post.faqs && <FaqSection faqs={post.faqs} />}
 
             {/* Final Thoughts */}
             {post.finalThoughts && (
