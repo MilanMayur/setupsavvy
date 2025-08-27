@@ -115,17 +115,19 @@ export default async function ProductDetail({ params }: Props) {
                     </div>
                     )}
 
-                    <p className="text-gray-600 mb-6">
-                        Click below to check details on Amazon.
-                    </p>
-                    <Link
-                        href={product.url}
-                        target="_blank"
-                        className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg 
-                            font-medium hover:bg-blue-700 transition"
-                    >
-                        Buy on Amazon
-                    </Link>
+                    <div className="text-center">
+                        <p className="text-gray-600 mb-6">
+                            Click below to check details on Amazon.
+                        </p>
+                        <Link
+                            href={product.url}
+                            target="_blank"
+                            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg 
+                                font-medium hover:bg-blue-700 transition"
+                        >
+                            Buy on Amazon
+                        </Link>
+                    </div>
                 </div>
 
                 {/* AdSense Ad Unit */}
@@ -134,3 +136,4 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
+
