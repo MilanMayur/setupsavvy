@@ -19,7 +19,7 @@ export default function ProductsPage() {
     const categoryRef = useRef<HTMLDivElement>(null);
     const sortRef = useRef<HTMLDivElement>(null);
 
-    const categories = ["All", "Laptops", "Keyboards", "Headsets", "Chairs", "Tables"];
+    const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Chairs", "Tables"];
     const productsPerPage = 12;
 
     const filteredProducts = products.filter((p) => {
@@ -91,7 +91,7 @@ export default function ProductsPage() {
                 <div ref={categoryRef} className="relative inline-block text-left">
                     <button
                         onClick={() => setCategoryOpen((prev) => !prev)}
-                        className="px-4 py-2 w-44 rounded-lg text-sm text-left font-medium bg-white text-gray-800 shadow-sm hover:bg-gray-300 transition"
+                        className="px-4 py-2 w-44 rounded-lg text-sm text-left font-medium bg-white text-gray-800 border shadow-sm hover:bg-gray-300 transition"
                     >
                         Category ▾
                     </button>
@@ -169,7 +169,7 @@ export default function ProductsPage() {
                         <ProductCard
                             key={p.id}
                             {...p}
-                            price={typeof p.price === "number" ? p.price.toString() : p.price}
+                            price={p.price}
                         />
                     ))
                 ) : (
