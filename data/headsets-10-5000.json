@@ -2,7 +2,7 @@
     {
       "id": "headset-1",
       "name": "HyperX Cloud Stinger 2",
-      "price": 3599,
+      "price": "3,599",
       "url": "https://amzn.to/3HDj1Hu",
       "image": "/headsets/hyperx-cloud-stinger-2.jpg",
       "pros": [
@@ -27,7 +27,7 @@
     {
       "id": "headset-2",
       "name": "Logitech G335",
-      "price": 4729,
+      "price": "4,729",
       "url": "https://amzn.to/4mtOr22",
       "image": "/headsets/logitech-g335.jpg",
       "pros": [
@@ -52,7 +52,7 @@
     {
       "id": "headset-3",
       "name": "Sony MDR-XB450AP",
-      "price": 2499,
+      "price": "2,499",
       "url": "https://amzn.to/3JM2iSQ",
       "image": "/headsets/sony-mdr-xb450ap.jpg",
       "pros": [
@@ -78,7 +78,7 @@
     {
       "id": "headset-4",
       "name": "JBL Quantum 100",
-      "price": 1899,
+      "price": "1,899",
       "url": "https://amzn.to/4mUQpID",
       "image": "/headsets/jbl-quantum-100.jpg",
       "pros": [
@@ -103,7 +103,7 @@
     {
       "id": "headset-5",
       "name": "Redgear Comet 7.1",
-      "price": 1998,
+      "price": "1,998",
       "url": "https://amzn.to/4mvjgn9",
       "image": "/headsets/redgear-comet-7.1.jpg",
       "pros": [
@@ -127,7 +127,7 @@
     {
       "id": "headset-6",
       "name": "Razer Kraken V3 X",
-      "price": 4207,
+      "price": "4,207",
       "url": "https://amzn.to/41n4R3X",
       "image": "/headsets/razer-kraken-v3-x.jpg",
       "pros": [
@@ -150,7 +150,7 @@
     {
       "id": "headset-7",
       "name": "boAt Rockerz 550",
-      "price": 1799,
+      "price": "1,799",
       "url": "https://amzn.to/4n0QvyD",
       "image": "/headsets/boat-rockerz-550.jpg",
       "pros": [
@@ -175,7 +175,7 @@
     {
       "id": "headset-8",
       "name": "Corsair HS35 V2",
-      "price": 2909,
+      "price": "2,909",
       "url": "https://amzn.to/4oP4itL",
       "image": "/headsets/corsair-hs35-v2.jpg",
       "pros": [
@@ -198,7 +198,7 @@
     {
       "id": "headset-9",
       "name": "Cosmic Byte Equinox",
-      "price": 2799,
+      "price": "2,799",
       "url": "https://amzn.to/4m1eOeZ",
       "image": "/headsets/cosmic-byte-equinox.jpg",
       "pros": [
@@ -221,7 +221,7 @@
     {
       "id": "headset-10",
       "name": "Cosmic Byte Inferno",
-      "price": 3299,
+      "price": "3,299",
       "url": "https://amzn.to/45yYk8R",
       "image": "/headsets/cosmic-byte-inferno.jpg",
       "pros": [
