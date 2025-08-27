@@ -15,7 +15,7 @@ export default function FaqSection({ faqs }: { faqs: Faq[] }) {
             <h2 className="text-xl font-bold mb-4">FAQs</h2>
             <div className="space-y-3">
             {faqs.map((faq, index) => (
-                <div key={index} className="border bg-gray-900 rounded-lg p-4 shadow-sm">
+                <div key={index} className="border dark:bg-gray-900 rounded-lg p-4 shadow-sm">
                     <button
                         onClick={() => setOpenFaq(openFaq === index ? null : index)}
                         className="w-full text-left font-semibold flex justify-between"
@@ -24,7 +24,7 @@ export default function FaqSection({ faqs }: { faqs: Faq[] }) {
                         <span>{openFaq === index ? "−" : "+"}</span>
                     </button>
                     {openFaq === index && (
-                    <p className="mt-2 text-gray-200">{faq.answer}</p>
+                    <p className="mt-2 dark:text-gray-200">{faq.answer}</p>
                     )}
                 </div>
             ))}
