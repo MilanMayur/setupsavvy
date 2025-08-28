@@ -10,12 +10,12 @@ export const metadata = {
     description: "Read our expert reviews, buying guides, and curated lists of the best laptops, headsets, chairs, and accessories in India.",
 };
 
-const BLOGS_PER_PAGE = 10;
+const BLOGS_PER_PAGE = 9;
 
 export default async function BlogIndex({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
     const params = await searchParams;
     const currentPage = Number(params.page) || 1;
-    
+
     const startIndex = (currentPage - 1) * BLOGS_PER_PAGE;
     const endIndex = startIndex + BLOGS_PER_PAGE;
 
@@ -29,7 +29,7 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
                 Expert articles on productivity, ergonomic setups, and best gear for remote workers.
             </p>
 
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
                 {paginatedBlogs.map((post) => (
                 <div
                     key={post.slug}
@@ -41,13 +41,15 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
 
                     {/* Blog Posts */}
                     <Link href={`/blog/${post.slug}`}>
+                        <div className="w-[300x] h-[240px] flex items-center justify-center">
                         <Image
                             src={post.image}
                             alt={post.title}
-                            width={400}
-                            height={400}
-                            className="text-gray-400 h-48 object-cover mx-auto"
+                            width={300}
+                            height={300}
+                            className="text-gray-400 h-60 rounded-lg object-cover mx-auto"
                         />
+                        </div>
                         <div className="p-4">
                             <h2 className="text-xl text-black font-semibold">{post.title}</h2>
                             <p className="text-gray-600 text-sm mt-2">{post.description}</p>
@@ -79,4 +81,3 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
         </section>
     );
 }
-
