@@ -10,7 +10,7 @@ export const metadata = {
     description: "Read our expert reviews, buying guides, and curated lists of the best laptops, headsets, chairs, and accessories in India.",
 };
 
-const BLOGS_PER_PAGE = 9;
+const BLOGS_PER_PAGE = 15;
 
 export default async function BlogIndex({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
     const params = await searchParams;
@@ -23,13 +23,13 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
     const totalPages = Math.ceil(blogs.length / BLOGS_PER_PAGE);
 
     return (
-        <section className="max-w-4xl mx-auto py-10 px-4">
+        <section className="container mx-auto">
             <h1 className="text-3xl font-bold mb-6">Latest Blog Posts</h1>
             <p className="mb-8">
                 Expert articles on productivity, ergonomic setups, and best gear for remote workers.
             </p>
 
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
                 {paginatedBlogs.map((post) => (
                 <div
                     key={post.slug}
@@ -41,18 +41,19 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
 
                     {/* Blog Posts */}
                     <Link href={`/blog/${post.slug}`}>
-                        <div className="w-[300x] h-[240px] flex items-center justify-center">
+                        <div className="relative w-full max-w-xs mx-auto flex items-center justify-center"
+                            style={{ aspectRatio: '1 / 1' }}>
                         <Image
                             src={post.image}
                             alt={post.title}
-                            width={300}
-                            height={300}
-                            className="text-gray-400 h-60 rounded-lg object-cover mx-auto"
+                            fill
+                            className="text-gray-400 rounded-lg object-cover"
+                            style={{ borderRadius: '0.5rem' }}
                         />
                         </div>
                         <div className="p-4">
                             <h2 className="text-xl text-black font-semibold">{post.title}</h2>
-                            <p className="text-gray-600 text-sm mt-2">{post.description}</p>
+                            <p className="text-gray-600 text-sm mt-2 line-clamp-4">{post.description}</p>
                             <p className="text-xs text-gray-400 mt-2">
                                 {new Date(post.date).toLocaleDateString("en-IN", {
                                     year: "numeric",
