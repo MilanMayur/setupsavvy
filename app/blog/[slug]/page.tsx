@@ -9,6 +9,7 @@ import keyboards from "@/data/keyboards-10-4000.json";
 import mouse from "@/data/mouse-10-4000.json";
 import laptops from "@/data/laptops-5-60000.json";
 import Link from "next/link";
+import Image from "next/image";
 
 type Props = {
     params: Promise<{ slug: string }>;
@@ -34,7 +35,21 @@ export async function generateMetadata({ params }: Props) {
 
     return {
         title: `${post.title} | SetupSavvy`,
-        description: post.description,
+        description: post.description || "Read this blog on SetupSavvy",
+        image: post.image,
+        openGraph: {
+            title: post.title,
+            description: post.description || "Read this blog on SetupSavvy",
+            url: `https://www.setupsavvy.in/blog/${post.slug}`,
+            images: [
+                {
+                    url: post.image,
+                    width: 1200,
+                    height: 630,
+                    alt: post.title,
+                },
+            ],
+        },
     };
 }
 
@@ -67,7 +82,7 @@ export default async function BlogPost({ params }: Props) {
     }
 
     return (
-        <article className="max-w-3xl mx-auto py-10 px-4">
+        <article className="container mx-auto py-10 px-4">
 
             {/* Title + Date */}
             <h1 className="text-3xl font-bold mb-4">{post.title}</h1>
@@ -81,6 +96,20 @@ export default async function BlogPost({ params }: Props) {
 
             {/* Blog description */}
             <p className="text-lg mb-8">{post.description}</p>
+
+            {/* Image only on Text Blog*/}
+            {!post.note && (
+                <div className="relative w-full max-w-md mx-auto flex items-center justify-center"
+                    style={{ aspectRatio: '3 / 2' }}>
+                    <Image
+                        src={post.image}
+                        alt={post.title}
+                        fill
+                        className="text-gray-400 rounded-lg object-contain"
+                        style={{ borderRadius: '0.5rem' }}
+                    />
+                </div>
+            )}
 
             {/* Buying Guide */}
             {post.guide && (
