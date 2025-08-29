@@ -20,7 +20,8 @@ export default function ProductsPage() {
     const categoryRef = useRef<HTMLDivElement>(null);
     const sortRef = useRef<HTMLDivElement>(null);
 
-    const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Chairs", "Tables"];
+    const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", 
+                        "Webcams", "Chairs", "Tables"];
     const productsPerPage = 20;
 
     const cleanPrice = (price: string | number | undefined): number => {
