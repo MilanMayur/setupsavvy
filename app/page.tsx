@@ -13,21 +13,17 @@ export default function HomePage() {
     useEffect(() => {
         const updateVisibleCount = () => {
             if (window.innerWidth >= 1024) {
-            // lg: grid-cols-6
                 setVisibleCount(6);
             } else if (window.innerWidth >= 768) {
-                // md: grid-cols-4
                 setVisibleCount(4);
             } else if (window.innerWidth >= 640) {
-                // sm: grid-cols-3
                 setVisibleCount(3);
             } else {
-                // base: grid-cols-2
                 setVisibleCount(2);
             }
         };
 
-        updateVisibleCount(); // run once on mount
+        updateVisibleCount(); 
         window.addEventListener("resize", updateVisibleCount);
 
         return () => window.removeEventListener("resize", updateVisibleCount);
@@ -84,7 +80,7 @@ export default function HomePage() {
                 <h2 className="text-3xl font-bold mb-10 text-center text-gray-900 dark:text-gray-100">
                     ⭐ Featured Picks
                 </h2>
-                <div className="grid gap-8">
+                <div className="grid gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                 {products.slice(0, visibleCount).map((p, i) => (
                     <motion.div
                         key={p.id}
@@ -149,3 +145,4 @@ export default function HomePage() {
         </div>
     );
 }
+
