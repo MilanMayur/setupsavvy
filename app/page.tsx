@@ -2,11 +2,37 @@
 "use client";
 import Link from "next/link";
 import { products } from "@/data/products";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ProductCard from "@/components/productCard";
 import AdUnit from "../components/adUnit";
 
 export default function HomePage() {
+    const [visibleCount, setVisibleCount] = useState(2);
+
+    useEffect(() => {
+        const updateVisibleCount = () => {
+            if (window.innerWidth >= 1024) {
+            // lg: grid-cols-6
+                setVisibleCount(6);
+            } else if (window.innerWidth >= 768) {
+                // md: grid-cols-4
+                setVisibleCount(4);
+            } else if (window.innerWidth >= 640) {
+                // sm: grid-cols-3
+                setVisibleCount(3);
+            } else {
+                // base: grid-cols-2
+                setVisibleCount(2);
+            }
+        };
+
+        updateVisibleCount(); // run once on mount
+        window.addEventListener("resize", updateVisibleCount);
+
+        return () => window.removeEventListener("resize", updateVisibleCount);
+    }, []);
+
     return (
         <div className="container mx-auto">
             {/* Hero Section */}
@@ -58,8 +84,8 @@ export default function HomePage() {
                 <h2 className="text-3xl font-bold mb-10 text-center text-gray-900 dark:text-gray-100">
                     ⭐ Featured Picks
                 </h2>
-                <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                {products.slice(0, 3).map((p, i) => (
+                <div className="grid gap-8">
+                {products.slice(0, visibleCount).map((p, i) => (
                     <motion.div
                         key={p.id}
                         initial={{ opacity: 0, y: 40 }}
