@@ -7,6 +7,7 @@ import blogs from "@/data/blogs.json";
 import headsets from "@/data/headsets-10-5000.json";
 import keyboards from "@/data/keyboards-10-4000.json";
 import mouse from "@/data/mouse-10-4000.json";
+import webcams from "@/data/webcams-10-10000.json";
 import laptops from "@/data/laptops-5-60000.json";
 import Link from "next/link";
 import Image from "next/image";
@@ -79,6 +80,8 @@ export default async function BlogPost({ params }: Props) {
         products = keyboards.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
     } else if (slug === "best-10-mouse-under-4000") {
         products = mouse.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
+    } else if (slug === "best-10-webcams-under-10000-india-2025") {
+        products = webcams.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
     }
 
     return (
