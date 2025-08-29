@@ -17,13 +17,14 @@ export default function BlogCard({ id, name, price, url, image, pros, cons, rati
     return (
         <div className="bg-white border shadow-md hover:shadow-2xl rounded-2xl p-4 max-w-sm">
             <Link href={`/products/${id}`}>
-                <div className="h-[200px] items-center justify-center">
+                <div className="relative w-full max-w-xs mx-auto items-center justify-center"
+                    style={{ aspectRatio: '1 / 1' }}>
                     <Image
                         src={image}
                         alt={name}
-                        width={400}
-                        height={400}
-                        className="text-gray-400 rounded-lg object-contain max-h-full"
+                        fill
+                        className="text-gray-400 rounded-lg object-contain"
+                        style={{ borderRadius: '0.5rem' }}
                     />
                 </div>
 
