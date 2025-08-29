@@ -21,7 +21,7 @@ export default function ProductsPage() {
     const sortRef = useRef<HTMLDivElement>(null);
 
     const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Chairs", "Tables"];
-    const productsPerPage = 12;
+    const productsPerPage = 20;
 
     const cleanPrice = (price: string | number | undefined): number => {
         if (!price) return 0;
@@ -183,7 +183,7 @@ export default function ProductsPage() {
             </div>
 
             {/* Products Grid */}
-            <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+            <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                 {paginatedProducts.length > 0 ? (
                     paginatedProducts.map((p) => (
                         <ProductCard
