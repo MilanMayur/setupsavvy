@@ -18,13 +18,16 @@ export default function ProductCard({id, name, price, image, url, category, rati
             href={`/products/${id}`}
             className="block bg-white rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden"
         >
-            <Image
-                src={image}
-                alt={name}
-                width={300}
-                height={300}
-                className="w-full h-56 object-cover text-gray-400"
-            />
+            <div className="relative w-full max-w-xs mx-auto flex items-center justify-center" 
+                style={{ aspectRatio: '1 / 1' }}>
+                <Image
+                    src={image}
+                    alt={name}
+                    fill
+                    className="text-gray-400 object-contain"
+                    style={{ borderRadius: '0.5rem' }}
+                />
+            </div>
             <div className="p-4">
                 <h3 className="text-lg text-black font-semibold line-clamp-1">{name}</h3>
                 <p className="text-blue-600 font-medium">₹ {price}</p>
