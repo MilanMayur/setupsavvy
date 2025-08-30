@@ -1,6 +1,6 @@
 [
     {
-      "id": "headset-1",
+      "id": "hyperx-cloud-stinger-2",
       "name": "HyperX Cloud Stinger 2",
       "price": "3,599",
       "url": "https://amzn.to/3HDj1Hu",
@@ -25,7 +25,7 @@
       ]
     },
     {
-      "id": "headset-2",
+      "id": "logitech-g335",
       "name": "Logitech G335",
       "price": "4,729",
       "url": "https://amzn.to/4mtOr22",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "headset-3",
+      "id": "sony-mdr-xb450ap",
       "name": "Sony MDR-XB450AP",
       "price": "2,499",
       "url": "https://amzn.to/3JM2iSQ",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "id": "headset-4",
+      "id": "jbl-quantum-100",
       "name": "JBL Quantum 100",
       "price": "1,899",
       "url": "https://amzn.to/4mUQpID",
@@ -101,7 +101,7 @@
       ]
     },
     {
-      "id": "headset-5",
+      "id": "redgear-comet-7-1",
       "name": "Redgear Comet 7.1",
       "price": "1,998",
       "url": "https://amzn.to/4mvjgn9",
@@ -125,7 +125,7 @@
       ]
     },
     {
-      "id": "headset-6",
+      "id": "razer-kraken-v3-x",
       "name": "Razer Kraken V3 X",
       "price": "4,207",
       "url": "https://amzn.to/41n4R3X",
@@ -148,8 +148,8 @@
       ]
     },
     {
-      "id": "headset-7",
-      "name": "boAt Rockerz 550",
+      "id": "boat-rockerz-550",
+      "name": "BoAt Rockerz 550",
       "price": "1,799",
       "url": "https://amzn.to/4n0QvyD",
       "image": "/headsets/boat-rockerz-550.jpg",
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "id": "headset-8",
+      "id": "corsair-hs35-v2",
       "name": "Corsair HS35 V2",
       "price": "2,909",
       "url": "https://amzn.to/4oP4itL",
@@ -196,7 +196,7 @@
       ]
     },
     {
-      "id": "headset-9",
+      "id": "cosmic-byte-equinox",
       "name": "Cosmic Byte Equinox",
       "price": "2,799",
       "url": "https://amzn.to/4m1eOeZ",
@@ -219,7 +219,7 @@
       ]
     },
     {
-      "id": "headset-10",
+      "id": "cosmic-byte-inferno",
       "name": "Cosmic Byte Inferno",
       "price": "3,299",
       "url": "https://amzn.to/45yYk8R",
