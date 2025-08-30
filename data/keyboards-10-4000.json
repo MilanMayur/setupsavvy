@@ -1,6 +1,6 @@
 [
     {
-        "id": "keyboard-1",
+        "id": "evofox-ronin-tkl-wireless",
         "name": "EvoFox Ronin TKL Wireless Mechanical Keyboard",
         "price": "3,899",
         "url": "https://amzn.to/47Mj5PB",
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "id": "keyboard-2",
+        "id": "kreo-hive-65",
         "name": "Kreo Hive 65",
         "price": "3,199",
         "url": "https://amzn.to/3UKn7R9",
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "id": "keyboard-3",
+        "id": "cosmic-byte-cb-gk-33-astra",
         "name": "Cosmic Byte CB-GK-33 Astra",
         "price": "3,799",
         "url": "https://amzn.to/4oTH0Tz",
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "id": "keyboard-4",
+        "id": "cosmic-byte-cb-gk-24-equinox-alturas",
         "name": "Cosmic Byte CB-GK-24 Equinox Alturas",
         "price": "3,499",
         "url": "https://amzn.to/4mz67cz",
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "id": "keyboard-5",
+        "id": "acer-predator-aethon-303",
         "name": "Acer Predator Aethon 303",
         "price": "3,999",
         "url": "https://amzn.to/47b9dij",
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "id": "keyboard-6",
+        "id": "redragon-su-rara-k582",
         "name": "Redragon SU-RARA K582",
         "price": "3,590",
         "url": "https://amzn.to/4oVC4xg",
@@ -160,7 +160,7 @@
         ]
     },
     {
-        "id": "keyboard-7",
+        "id": "logitech-k580",
         "name": "Logitech K580 Slim Multi-Device",
         "price": "3,595",
         "url": "https://amzn.to/4n53wXP",
@@ -187,7 +187,7 @@
         ]
     },
     {
-        "id": "keyboard-8",
+        "id": "redragon-k617",
         "name": "Redragon K617",
         "price": "2,790",
         "url": "https://amzn.to/4mz7Tuf",
@@ -213,7 +213,7 @@
         ]
     },
     {
-        "id": "keyboard-9",
+        "id": "portronics-hydra-10",
         "name": "Portronics Hydra 10",
         "price": "2,599",
         "url": "https://amzn.to/4mtyJ76",
@@ -239,7 +239,7 @@
         ]
     },
     {
-        "id": "keyboard-10",
+        "id": "redragon-kumara-k552",
         "name": "Redragon Kumara K552",
         "price": "2,999",
         "url": "https://amzn.to/4msxaX4",
