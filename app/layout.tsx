@@ -6,8 +6,8 @@ import Footer from "@/components/footer";
 import Script from "next/script";
 
 export const metadata = {
-    title: "SetupSavvy - Best Product Deals",
-    description: "Find the best laptops, chairs, tables, and accessories with reviews and affiliate links.",
+    title: "SetupSavvy - Guide for your dream setup",
+    description: "Find the best WFH accessories with reviews and affiliate links.",
     other: {
         "google-adsense-account": "ca-pub-1041356533581191",
     },
