@@ -1,6 +1,6 @@
 [
   {
-    "id": "laptop-1",
+    "id": "asus-vivobook-16x",
     "name": "ASUS Vivobook 16X",
     "price": "56,900",
     "url": "https://amzn.to/3JtHcJ2",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "id": "laptop-2",
+    "id": "hp-pavilion-15",
     "name": "HP Pavilion 15",
     "price": "59,990",
     "url": "https://amzn.to/3VfiJJX",
@@ -54,7 +54,7 @@
     }
   },
   {
-    "id": "laptop-3",
+    "id": "lenovo-ideapad-slim-5",
     "name": "Lenovo IdeaPad Slim 5",
     "price": "57,990",
     "url": "https://amzn.to/45SK9uh",
@@ -84,7 +84,7 @@
     }
   },
   {
-    "id": "laptop-4",
+    "id": "asus-vivobook-16",
     "name": "ASUS Vivobook 16",
     "price": "53,990",
     "url": "https://amzn.to/41WEUIu",
@@ -113,7 +113,7 @@
     }
   },
   {
-    "id": "laptop-5",
+    "id": "acer-aspire-lite",
     "name": "Acer Aspire Lite",
     "price": "48,990",
     "url": "https://amzn.to/3JsetEt",
