@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 1.0,
         },
         ...blogs.map((post: BlogPost) => ({
-            url: `https://www.setupsavvy.com/blog/${post.slug}`,
+            url: `https://www.setupsavvy.in/blog/${post.slug}`,
             lastModified: post.date ? new Date(post.date) : new Date(),
             changeFrequency: "weekly" as const,
             priority: 0.8,
