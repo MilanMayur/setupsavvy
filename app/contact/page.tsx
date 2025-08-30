@@ -38,14 +38,14 @@ export default function ContactPage() {
                 </div>
 
                 {/* Social Links */}
-                <div className="mt-20 text-center">
+                {/*<div className="mt-20 text-center">
                     <p className="text-gray-600 mb-4">Or connect with us on social media:</p>
                     <div className="flex justify-center gap-6 text-gray-700">
                         <a href="#" target="_blank"><FaInstagram  className="w-6 h-6 hover:text-pink-500" /></a>
                         <a href="#" target="_blank"><FaTwitter  className="w-6 h-6 hover:text-blue-400" /></a>
                         <a href="#" target="_blank"><FaLinkedin className="w-6 h-6 hover:text-blue-700" /></a>
                     </div>
-                </div>
+                </div>*/}
 
                 {/* AdSense Ad Unit */}
                 <AdUnit slot="1234567890" />
@@ -53,4 +53,5 @@ export default function ContactPage() {
         </div>
     );
 }
+
 
