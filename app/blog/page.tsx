@@ -28,6 +28,8 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
             <p className="mb-8">
                 Expert articles on productivity, ergonomic setups, and best gear for remote workers.
             </p>
+            {/* AdSense Ad Unit */}
+            <AdUnit slot="1234567890" />
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
                 {paginatedBlogs.map((post) => (
@@ -35,9 +37,6 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
                     key={post.slug}
                     className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden"
                 >
-
-                    {/* AdSense Ad Unit */}
-                    <AdUnit slot="1234567890" />
 
                     {/* Blog Posts */}
                     <Link href={`/blog/${post.slug}`}>
@@ -66,12 +65,12 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
                             </span>
                         </div>
                     </Link>
-
-                    {/* AdSense Ad Unit */}
-                    <AdUnit slot="1234567890" />
                 </div>
                 ))}
             </div>
+
+            {/* AdSense Ad Unit */}
+                <AdUnit slot="1234567890" />
 
             {/* Pagination */}
             <Pagination 
@@ -82,4 +81,3 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
         </section>
     );
 }
-
