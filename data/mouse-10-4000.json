@@ -1,6 +1,6 @@
 [
     {
-      "id": "mouse-1",
+      "id": "logitech-g304",
       "name": "Logitech G304 Lightspeed Wireless",
       "price": "2,595",
       "url": "https://amzn.to/45J8K4k",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "id": "mouse-2",
+      "id": "hyperx-pulsefire-haste-2",
       "name": "HyperX Pulsefire Haste 2 Wireless",
       "price": "3,700",
       "url": "https://amzn.to/3HQEMDL",
@@ -53,7 +53,7 @@
       ]
     },
     {
-      "id": "mouse-3",
+      "id": "logitech-g502-hero",
       "name": "Logitech G502 HERO",
       "price": "3,995",
       "url": "https://amzn.to/45TX3ba",
@@ -80,7 +80,7 @@
       ]
     },
     {
-      "id": "mouse-4",
+      "id": "steelseries-rival-3",
       "name": "SteelSeries Rival 3",
       "price": "3,931",
       "url": "https://amzn.to/41m1dY3",
@@ -105,7 +105,7 @@
       ]
     },
     {
-      "id": "mouse-5",
+      "id": "razer-cobra",
       "name": "Razer Cobra",
       "price": "2,999",
       "url": "https://amzn.to/4mtdCSq",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "id": "mouse-6",
+      "id": "razer-deathadder-v2-x",
       "name": "Razer DeathAdder V2 X",
       "price": "2,999",
       "url": "https://amzn.to/45U7Mm3",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "id": "mouse-7",
+      "id": "asus-tuf-gaming-m3",
       "name": "Asus TUF Gaming M3",
       "price": "2,499",
       "url": "https://amzn.to/3V8fwfr",
@@ -182,7 +182,7 @@
       ]
     },
     {
-      "id": "mouse-8",
+      "id": "logitech-g203",
       "name": "Logitech G203 Wired",
       "price": "2,199",
       "url": "https://amzn.to/4n36yvN",
@@ -206,7 +206,7 @@
       ]
     },
     {
-      "id": "mouse-9",
+      "id": "razer-orochi-v2",
       "name": "Razer Orochi V2",
       "price": "3,643",
       "url": "https://amzn.to/47z2DT5",
@@ -232,7 +232,7 @@
       ]
     },
     {
-      "id": "mouse-10",
+      "id": "razer-basilisk-v3",
       "name": "Razer Basilisk V3",
       "price": "4,199",
       "url": "https://amzn.to/4fWzBPi",
