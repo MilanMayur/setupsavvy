@@ -1,6 +1,6 @@
 [
     {
-      "id": "webcam-1",
+      "id": "emeet-nova-4k-webcam",
       "name": "EMEET NOVA 4K Webcam",
       "price": "5,499",
       "url": "https://amzn.to/3Vo6hHN",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "id": "webcam-2",
+      "id": "hp-620-fhd-webcam",
       "name": "HP 620 FHD Webcam",
       "price": "5,699",
       "url": "https://amzn.to/45E5p86",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "id": "webcam-3",
+      "id": "dell-wb3023-2k-qhd-webcam",
       "name": "Dell WB3023 2K QHD Webcam",
       "price": "6,204",
       "url": "https://amzn.to/4g4oNyC",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "id": "webcam-4",
+      "id": "logitech-c920-hd-pro-webcam",
       "name": "Logitech C920 HD Pro Webcam",
       "price": "8,495",
       "url": "https://amzn.to/3UUCKFD",
@@ -98,7 +98,7 @@
       ]
     },
     {
-      "id": "webcam-5",
+      "id": "emeet-s600-4k-webcam",
       "name": "eMeet S600 4K Webcam",
       "price": "6,499",
       "url": "https://amzn.to/3I06k9N",
@@ -123,7 +123,7 @@
       ]
     },
     {
-      "id": "webcam-6",
+      "id": "logitech-brio-300-full-hd-webcam",
       "name": "Logitech Brio 300 Full HD Webcam",
       "price": "5,539",
       "url": "https://amzn.to/45Ew1FY",
@@ -148,7 +148,7 @@
       ]
     },
     {
-      "id": "webcam-7",
+      "id": "hp-960-4k-streaming-webcam",
       "name": "HP 960 4K Streaming Webcam",
       "price": "9,034",
       "url": "https://amzn.to/4mzpYIN",
@@ -173,7 +173,7 @@
       ]
     },
     {
-      "id": "webcam-8",
+      "id": "aiwaft-4k-webcam",
       "name": "AIWaft 4K Webcam",
       "price": "4,489",
       "url": "https://amzn.to/4p4XI2y",
@@ -198,7 +198,7 @@
       ]
     },
     {
-      "id": "webcam-9",
+      "id": "kreo-owl-full-hd-webcam",
       "name": "Kreo Owl Full HD Webcam",
       "price": "3,799",
       "url": "https://amzn.to/3UT5lv4",
@@ -223,7 +223,7 @@
       ]
     },
     {
-      "id": "webcam-10",
+      "id": "lenovo-510-fhd-webcam",
       "name": "Lenovo 510 FHD Webcam",
       "price": "5,999",
       "url": "https://amzn.to/45Wl15L",
