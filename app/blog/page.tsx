@@ -42,7 +42,7 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
                     {/* Blog Posts */}
                     <Link href={`/blog/${post.slug}`}>
                         <div className="relative w-full max-w-xs mx-auto flex items-center justify-center"
-                            style={{ aspectRatio: '1 / 1' }}>
+                            style={{ aspectRatio: '3 / 2' }}>
                         <Image
                             src={post.image}
                             alt={post.title}
@@ -82,3 +82,4 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
         </section>
     );
 }
+
