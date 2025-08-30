@@ -1,5 +1,7 @@
 //app/sitemap.ts
 import { MetadataRoute } from "next";
+import fs from "fs";
+import path from "path";
 import blogs from "@/data/blogs.json"; 
 
 interface BlogPost {
@@ -7,7 +9,21 @@ interface BlogPost {
     date?: string;
 }
 
+interface Product {
+    id: string;
+    updatedAt: string;
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
+    const categories = ["headsets", "keyboards", "laptops", "mouse", "webcams"];
+    const products: Product[] = [];
+
+    for (const category of categories) {
+        const filePath = path.join(process.cwd(), "data", `${category}.json`);
+        const fileContent = fs.readFileSync(filePath, "utf-8");
+        const items: Product[] = JSON.parse(fileContent);
+        products.push(...items);
+    }
 
     return [
         {
@@ -21,6 +37,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: post.date ? new Date(post.date) : new Date(),
             changeFrequency: "weekly" as const,
             priority: 0.8,
+        })),
+        ...products.map((product) => ({
+            url: `https://www.setupsavvy.in/products/${product.id}`,
+            lastModified: new Date(),
+            changeFrequency: "weekly" as const,
+            priority: 0.7,
         })),
     ];
 }
