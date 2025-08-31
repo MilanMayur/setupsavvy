@@ -3,10 +3,41 @@ import AdUnit from "@/components/adUnit";
 import { products, type Product } from "@/data/products";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 
 type Props = {
     params: Promise<{ id: string }>;
 };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+    const { id } = await params;
+    const product: Product | undefined = products.find(p => p.id === id);
+  
+    if (!product) {
+        return {
+            title: "Product Not Found | SetupSavvy.in",
+            description: "The product you are looking for does not exist.",
+        };
+    }
+  
+    return {
+        title: `${product.name} | SetupSavvy.in`,
+        description: product.details
+            ?  "Check full specifications, pros & cons, and price."
+            : `Buy ${product.name} at the best price.`,
+        openGraph: {
+            title: product.name,
+            description: "Check full specifications, pros & cons, and price.",
+            url: `https://setupsavvy.in/products/${product.id}`,
+            images: [
+                {
+                    url: product.image,
+                    alt: product.name,
+                },
+            ],
+        },
+    };
+}
 
 export default async function ProductDetail({ params }: Props) {
     const { id } = await params;
