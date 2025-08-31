@@ -5,10 +5,14 @@ import { featuredProducts } from "@/data/products";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ProductCard from "@/components/productCard";
+import blogData from "@/data/blogs.json";
+import BlogPostCard from "@/components/blogPostCard";
 import AdUnit from "@/components/adUnit";
 
 export default function HomePage() {
     const [visibleCount, setVisibleCount] = useState(2);
+
+    const latestBlogs = blogData.slice(0, 3);
 
     useEffect(() => {
         const updateVisibleCount = () => {
@@ -109,12 +113,15 @@ export default function HomePage() {
             {/* Why Choose Us Section */}
             <section className="bg-gradient-to-r from-blue-200 to-indigo-400 
                                 dark:bg-gradient-to-r dark:from-indigo-50 dark:to-blue-50 
-                                rounded-2xl py-16 px-6 mb-20 text-center shadow-inner">
+                                rounded-2xl py-10 px-4 mb-15 text-center shadow-inner">
                 <h2 className="text-3xl text-gray-900 font-bold mb-8">Why Shop With Us?</h2>
-                <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div className="grid md:grid-cols-3 gap-4 max-w-5xl mx-auto">
                     <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
                         <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
-                          🎯 Expert Picks
+                          🎯
+                        </h3>
+                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
+                          Expert Picks
                         </h3>
                         <p className="text-gray-600">
                           Curated from in-depth research, reviews, and specs — 
@@ -123,7 +130,10 @@ export default function HomePage() {
                     </div>
                     <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
                         <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
-                          ⚡ Fast Comparisons
+                          ⚡
+                        </h3>
+                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
+                          Fast Comparisons
                         </h3>
                         <p className="text-gray-600">
                           No need to dig through endless reviews — 
@@ -132,7 +142,10 @@ export default function HomePage() {
                     </div>
                     <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
                         <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
-                          💰 Best Value
+                          💰
+                        </h3>
+                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
+                          Best Value
                         </h3>
                         <p className="text-gray-600">
                           We focus on products that balance performance, reliability, and price — 
@@ -142,21 +155,30 @@ export default function HomePage() {
                 </div>
             </section>
 
-            {/* Call to Action */}
+            {/* Latest Blog Posts */}
             <section className="bg-gradient-to-r from-blue-200 to-indigo-400
                                 dark:bg-gradient-to-r dark:from-indigo-50 dark:to-blue-50 
-                                text-white rounded-2xl py-16 px-6 text-center shadow-lg">
-                <h2 className="text-3xl text-gray-900 font-bold mb-4">Need Help Choosing?</h2>
-                <p className="mb-8 dark:text-gray-600 max-w-xl mx-auto">
+                                text-white rounded-2xl py-10 px-4 text-center shadow-lg">
+                <h2 className="text-3xl text-gray-900 font-bold mb-2">Latest from Our Blog</h2>
+                <p className="mb-8 text-gray-900 dark:text-gray-600 max-w-xl mx-auto">
                     Read our expert guides and find the right gear for your home office.
                 </p>
+                <div className="grid md:grid-cols-3 gap-4 mb-6">
+                {latestBlogs.map((blog) => (
+                    <BlogPostCard post={blog} showDescription={false} />
+                ))}
+                </div>
                 <Link
                     href="/blog"
-                    className="bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition"
+                    className="bg-blue-600 text-white px-8 py-4 mt-10 rounded-xl font-bold 
+                                hover:bg-blue-700 transition"
                 >
                     Read Guides
                 </Link>
             </section>
+
+            {/* AdSense Ad Unit */}
+            <AdUnit slot="1234567890" />
         </div>
     );
 }
