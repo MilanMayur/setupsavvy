@@ -21,12 +21,17 @@ type Props = {
 export async function generateMetadata({ params }: Props) {
     const { slug } = await params;
     const post = blogs.find((b) => b.slug === slug);
-    if (!post) return { title: "Blog Not Found" };
+
+    if (!post) {
+        return { 
+            title: "Blog Not Found | SetupSavvy.in",
+            description: "The blog you are looking for does not exist.", 
+        };
+    }
 
     return {
-        title: `${post.title} | SetupSavvy`,
+        title: `${post.title} | SetupSavvy.in`,
         description: post.description || "Read this blog on SetupSavvy",
-        image: post.image,
         openGraph: {
             title: post.title,
             description: post.description || "Read this blog on SetupSavvy",
@@ -39,6 +44,8 @@ export async function generateMetadata({ params }: Props) {
                     alt: post.title,
                 },
             ],
+            siteName: "SetupSavvy",
+            type: "article",
         },
     };
 }
