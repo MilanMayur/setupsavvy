@@ -2,7 +2,7 @@
 export default function Head() {
     return (
         <>
-            <title>SetupSavvy - Guide For Your Dream Setup</title>
+            <title>SetupSavvy.in - Guide For Your Dream Setup</title>
             <meta
                 name="description"
                 content="Find the best work-from-home accessories with reviews and curated picks. 
