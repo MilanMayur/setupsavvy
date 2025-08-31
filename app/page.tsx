@@ -1,11 +1,11 @@
 //app/page.tsx
 "use client";
 import Link from "next/link";
-import { products } from "@/data/products";
+import { featuredProducts } from "@/data/products";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import ProductCard from "@/components/productCard";
-import AdUnit from "../components/adUnit";
+import AdUnit from "@/components/adUnit";
 
 export default function HomePage() {
     const [visibleCount, setVisibleCount] = useState(2);
@@ -23,7 +23,7 @@ export default function HomePage() {
             }
         };
 
-        updateVisibleCount(); 
+        updateVisibleCount();
         window.addEventListener("resize", updateVisibleCount);
 
         return () => window.removeEventListener("resize", updateVisibleCount);
@@ -81,7 +81,7 @@ export default function HomePage() {
                     ⭐ Featured Picks
                 </h2>
                 <div className="grid gap-8 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
-                {products.slice(0, visibleCount).map((p, i) => (
+                {featuredProducts.slice(0, visibleCount).map((p, i) => (
                     <motion.div
                         key={p.id}
                         initial={{ opacity: 0, y: 40 }}
@@ -113,16 +113,31 @@ export default function HomePage() {
                 <h2 className="text-3xl text-gray-900 font-bold mb-8">Why Shop With Us?</h2>
                 <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
                     <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
-                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">🎯 Expert Curations</h3>
-                        <p className="text-gray-600">Hand-picked gear tested for real work-from-home performance.</p>
+                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
+                          🎯 Expert Picks
+                        </h3>
+                        <p className="text-gray-600">
+                          Curated from in-depth research, reviews, and specs — 
+                          so you get the right gear without the hassle.
+                        </p>
                     </div>
                     <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
-                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">⚡ Fast Comparisons</h3>
-                        <p className="text-gray-600">Save hours of research with our easy-to-read guides.</p>
+                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
+                          ⚡ Fast Comparisons
+                        </h3>
+                        <p className="text-gray-600">
+                          No need to dig through endless reviews — 
+                          our guides highlight the key differences that matter.
+                        </p>
                     </div>
                     <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
-                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">💰 Best Value</h3>
-                        <p className="text-gray-600">We highlight products that give you the most for your money.</p>
+                        <h3 className="text-xl dark:text-gray-900 font-bold mb-2">
+                          💰 Best Value
+                        </h3>
+                        <p className="text-gray-600">
+                          We focus on products that balance performance, reliability, and price — 
+                          so your money goes further.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -145,4 +160,3 @@ export default function HomePage() {
         </div>
     );
 }
-
