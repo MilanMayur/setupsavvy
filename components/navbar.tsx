@@ -13,7 +13,7 @@ export default function Navbar() {
         <nav className="bg-white shadow-md sticky top-0 z-50">
             <div className="container mx-auto flex items-center justify-between px-4 py-3">
                 <Link href="/" className="flex">
-                    <Image  src="/setupsavvy.in.png" alt="Logo" width={45} height={45} />
+                    <Image  src="/setupsavvy-logo.png" alt="Logo" width={45} height={45} />
                     <span className="text-3xl pt-1 font-bold text-blue-600">SetupSavvy.in</span>
                 </Link>
 
@@ -44,3 +44,4 @@ export default function Navbar() {
         </nav>
     );
 }
+
