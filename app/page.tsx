@@ -165,7 +165,7 @@ export default function HomePage() {
                 </p>
                 <div className="grid md:grid-cols-3 gap-4 mb-6">
                 {latestBlogs.map((blog) => (
-                    <BlogPostCard post={blog} showDescription={false} />
+                    <BlogPostCard key={blog.slug} post={blog} showDescription={false} />
                 ))}
                 </div>
                 <Link
@@ -182,4 +182,5 @@ export default function HomePage() {
         </div>
     );
 }
+
 
