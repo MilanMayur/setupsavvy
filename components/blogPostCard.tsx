@@ -20,7 +20,7 @@ export default function BlogPostCard({ post, showDescription = true }: BlogPostP
         <Link href={`/blog/${post.slug}`} 
             className="block group">
             <div
-                className="relative w-full max-w-xs mx-auto flex items-center justify-center"
+                className="relative max-w-5xl mx-auto flex items-center justify-center"
                 style={{ aspectRatio: "3 / 2" }}
             >
                 <Image
