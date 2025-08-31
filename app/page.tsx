@@ -161,7 +161,7 @@ export default function HomePage() {
                                 text-white rounded-2xl py-10 px-4 text-center shadow-lg">
                 <h2 className="text-3xl text-gray-900 font-bold mb-2">Latest from Our Blog</h2>
                 <p className="mb-8 text-gray-900 dark:text-gray-600 max-w-xl mx-auto">
-                    Read our expert guides and find the right gear for your home office.
+                    Read our expert guides and find the right gear for your dream setup.
                 </p>
                 <div className="grid md:grid-cols-3 gap-4 mb-6">
                 {latestBlogs.map((blog) => (
@@ -182,3 +182,4 @@ export default function HomePage() {
         </div>
     );
 }
+
