@@ -1,12 +1,11 @@
 //app/blog/page.tsx
 import blogs from "@/data/blogs.json";
-import Link from "next/link";
-import Image from "next/image";
 import AdUnit from "@/components/adUnit";
 import Pagination from "@/components/pagination";
+import BlogPostCard from "@/components/blogPostCard";
 
 export const metadata = {
-    title: "SetupSavvy Blog - Reviews, Guides & Top Picks",
+    title: "SetupSavvy.in Blog - Reviews, Guides & Top Picks",
     description: "Read our expert reviews, buying guides, and curated lists of the best laptops, headsets, chairs, and accessories in India.",
 };
 
@@ -28,44 +27,14 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
             <p className="mb-8">
                 Expert articles on productivity, ergonomic setups, and best gear for remote workers.
             </p>
+            
             {/* AdSense Ad Unit */}
             <AdUnit slot="1234567890" />
 
+            {/* Blog Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
                 {paginatedBlogs.map((post) => (
-                <div
-                    key={post.slug}
-                    className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden"
-                >
-
-                    {/* Blog Posts */}
-                    <Link href={`/blog/${post.slug}`}>
-                        <div className="relative w-full max-w-xs mx-auto flex items-center justify-center"
-                            style={{ aspectRatio: '3 / 2' }}>
-                        <Image
-                            src={post.image}
-                            alt={post.title}
-                            fill
-                            className="text-gray-400 rounded-lg object-cover"
-                            style={{ borderRadius: '0.5rem' }}
-                        />
-                        </div>
-                        <div className="p-4">
-                            <h2 className="text-xl text-black font-semibold">{post.title}</h2>
-                            <p className="text-gray-600 text-sm mt-2 line-clamp-4">{post.description}</p>
-                            <p className="text-xs text-gray-400 mt-2">
-                                {new Date(post.date).toLocaleDateString("en-IN", {
-                                    year: "numeric",
-                                    month: "long",
-                                    day: "numeric",
-                                })}
-                            </p>
-                            <span className="text-blue-600 font-medium mt-2 block">
-                                Read More →
-                            </span>
-                        </div>
-                    </Link>
-                </div>
+                    <BlogPostCard post={post} />
                 ))}
             </div>
 
