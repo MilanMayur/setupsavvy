@@ -163,7 +163,7 @@ export default function HomePage() {
                 <p className="mb-8 text-gray-900 dark:text-gray-600 max-w-xl mx-auto">
                     Read our expert guides and find the right gear for your dream setup.
                 </p>
-                <div className="grid md:grid-cols-3 gap-4 mb-6">
+                <div className="grid md:grid-cols-3 gap-4 mb-6 max-w-5xl mx-auto">
                 {latestBlogs.map((blog) => (
                     <BlogPostCard key={blog.slug} post={blog} showDescription={false} />
                 ))}
@@ -182,5 +182,3 @@ export default function HomePage() {
         </div>
     );
 }
-
-
