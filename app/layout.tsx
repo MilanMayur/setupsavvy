@@ -5,24 +5,9 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Script from "next/script";
 
-export const metadata = {
-    title: "SetupSavvy - Guide For Your Dream Setup",
-    description: "Find the best WFH accessories with reviews and affiliate links.",
-    other: {
-        "google-adsense-account": "ca-pub-1041356533581191",
-    },
-}
-
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
         <html lang="en" className="h-full">
-            <head>
-                {/* Google AdSense meta tag */}
-                <meta
-                    name="google-adsense-account"
-                    content="ca-pub-1041356533581191"
-                />
-            </head>
             <body className="min-h-screen flex flex-col text-gray-900 dark:text-gray-100 
                             transition-colors duration-500">
                 <Navbar />
