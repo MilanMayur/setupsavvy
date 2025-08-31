@@ -34,7 +34,7 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
             {/* Blog Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
                 {paginatedBlogs.map((post) => (
-                    <BlogPostCard post={post} />
+                    <BlogPostCard key={post.slug} post={post} />
                 ))}
             </div>
 
@@ -50,3 +50,4 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
         </section>
     );
 }
+
