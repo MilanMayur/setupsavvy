@@ -10,7 +10,8 @@ export default function ProductCard({id, name, price, image, rating}: ProductCar
     return (
         <Link
             href={`/products/${id}`}
-            className="block bg-white rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden"
+            className="block bg-white rounded-2xl shadow-md hover:shadow-xl hover:scale-[1.02] 
+                        transition overflow-hidden"
         >
             <div className="relative w-full max-w-xs mx-auto flex items-center justify-center" 
                 style={{ aspectRatio: '1 / 1' }}>
