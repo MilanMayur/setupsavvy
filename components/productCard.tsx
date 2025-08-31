@@ -1,18 +1,12 @@
 //components/productCard.tsx
 import Image from "next/image";
 import Link from "next/link";
+import type { Product } from "@/data/products";
 
-interface ProductProps {
-    id: string;
-    name: string;
-    price: string;
-    image: string;
-    url: string;
-    category: string;
-    rating: number;
-}
+type ProductCardProps = Pick<Product, 
+    "id" | "name" | "price" | "image" | "rating">;
 
-export default function ProductCard({id, name, price, image, url, category, rating}: ProductProps) {
+export default function ProductCard({id, name, price, image, rating}: ProductCardProps) {
     return (
         <Link
             href={`/products/${id}`}
