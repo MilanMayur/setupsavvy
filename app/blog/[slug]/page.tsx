@@ -1,33 +1,22 @@
 //app/blog/[slug]/page.tsx
 import { notFound } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
 import BlogCard from "@/components/blogCard";
 import AdUnit from "@/components/adUnit";
 import FaqSection from "@/components/faqSection";
 import blogs from "@/data/blogs.json";
-import headsets from "@/data/headsets-10-5000.json";
-import keyboards from "@/data/keyboards-10-4000.json";
-import mouse from "@/data/mouse-10-4000.json";
-import webcams from "@/data/webcams-10-10000.json";
-import laptops from "@/data/laptops-5-60000.json";
-import Link from "next/link";
-import Image from "next/image";
+import { getProductsByIds, type Product } from "@/data/products";
+
+import laptopUnder60000 from "@/data/laptops/under-60000.json";
+import webcamUnder10000 from "@/data/webcams/under-10000.json";
+import headsetUnder5000 from "@/data/headsets/under-5000.json";
+import keyboardUnder4000 from "@/data/keyboards/under-4000.json";
+import mouseUnder4000 from "@/data/mouse/under-4000.json";
 
 type Props = {
     params: Promise<{ slug: string }>;
 };
-
-type Product = {
-    id: string;
-    name: string;
-    price: string;
-    image: string;
-    url?: string;
-    category?: string;
-    rating?: number;
-    pros?: string[];
-    cons?: string[];
-    details?: Record<string, string>;
-} & Record<string, string | number | string[] | Record<string, string> | undefined>;
 
 export async function generateMetadata({ params }: Props) {
     const { slug } = await params;
@@ -60,28 +49,20 @@ export default async function BlogPost({ params }: Props) {
 
     if (!post) return notFound();
 
-    const normalizeDetails = (details: unknown): Record<string, string> | undefined => {
-        if (typeof details === "string") return { info: details };
-        if (Array.isArray(details)) return { info: details.join(" ") };
-        if (details && typeof details === "object") {
-            return Object.fromEntries(
-                Object.entries(details).map(([k, v]) => [k, v === undefined ? "" : String(v)])
-            );
-        }
-        return undefined;
+    const slugToCategory: Record<string,
+        { category: "headsets" | "laptops" | "keyboards" | "mouse" | "webcams"; ids: string[] }
+    > = {
+        "best-10-headsets-under-5000": { category: "headsets", ids: headsetUnder5000.ids },
+        "best-5-laptops-under-60000": { category: "laptops", ids: laptopUnder60000.ids },
+        "best-10-keyboards-under-4000": { category: "keyboards", ids: keyboardUnder4000.ids },
+        "best-10-mouse-under-4000": { category: "mouse", ids: mouseUnder4000.ids },
+        "best-10-webcams-under-10000-india-2025": { category: "webcams", ids: webcamUnder10000.ids },
     };
 
-    let products: Product[] = [];
-    if (slug === "best-10-headsets-under-5000") {
-        products = headsets.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
-    } else if (slug === "best-5-laptops-under-60000") {
-        products = laptops.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
-    } else if (slug === "best-10-keyboards-under-4000") {
-        products = keyboards.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
-    } else if (slug === "best-10-mouse-under-4000") {
-        products = mouse.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
-    } else if (slug === "best-10-webcams-under-10000-india-2025") {
-        products = webcams.map((p) => ({ ...p, details: normalizeDetails(p.details) }));
+    let selectedProducts: Product[] = [];
+    const mapping = slugToCategory[slug];
+    if (mapping) {
+        selectedProducts = getProductsByIds(mapping.ids, mapping.category);
     }
 
     return (
@@ -136,14 +117,14 @@ export default async function BlogPost({ params }: Props) {
 
             {/* Product List */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
-                {products.map((product) => (
+                {selectedProducts.map((product) => (
                     <BlogCard
                         key={product.id}
                         {...product}
                         price={product.price.toString()}
                         url={product.url ?? ""}
-                        pros={product.pros ?? []}
-                        cons={product.cons ?? []}
+                        pros={Array.isArray(product.pros) ? product.pros : []}
+                        cons={Array.isArray(product.cons) ? product.cons : []}
                         rating={product.rating ?? 0}
                     />
                 ))}
