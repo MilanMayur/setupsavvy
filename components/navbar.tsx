@@ -26,7 +26,7 @@ export default function Navbar() {
 
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden"
+                    className="md:hidden cursor-pointer text-black focus:outline-none"
                     onClick={() => setOpen(!open)}
                 >
                     {open ? <X size={24} /> : <Menu size={24} />}
@@ -44,4 +44,3 @@ export default function Navbar() {
         </nav>
     );
 }
-
