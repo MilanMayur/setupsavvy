@@ -123,7 +123,7 @@ export default async function BlogPost({ params }: Props) {
             <AdUnit slot="1234567890" />
 
             {/* Product List */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6">
+            <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                 {selectedProducts.map((product) => (
                     <BlogCard
                         key={product.id}
@@ -139,7 +139,8 @@ export default async function BlogPost({ params }: Props) {
 
             {/* Note */}
             {post.note && (
-                <p className="text-sm">
+                <p className="text-sm mt-5 italic bg-yellow-100 text-gray-700 border-l-4 
+                                border-yellow-500 pl-2">
                     {post.note}
                 </p>
             )}
