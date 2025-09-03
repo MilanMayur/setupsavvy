@@ -15,7 +15,8 @@ interface ProductProps {
 
 export default function BlogCard({ id, name, price, url, image, pros, cons, rating }: ProductProps) {
     return (
-        <div className="bg-white border shadow-md hover:shadow-2xl rounded-2xl p-4 max-w-sm">
+        <div className="bg-white border shadow-md hover:shadow-xl hover:scale-[1.02] 
+                        rounded-2xl p-4 max-w-sm transition overflow-hidden">
             <Link href={`/products/${id}`}>
                 <div className="relative w-full max-w-xs mx-auto items-center justify-center"
                     style={{ aspectRatio: '1 / 1' }}>
@@ -40,12 +41,12 @@ export default function BlogCard({ id, name, price, url, image, pros, cons, rati
             <Link
                 href={url}
                 target="_blank"
-                className="block bg-blue-600 text-white text-center px-8 py-3 rounded-lg font-medium hover:bg-blue-700 transition"
+                className="block bg-blue-600 text-white text-center px-2 py-2 rounded-lg font-medium hover:bg-blue-700 transition"
             >
                 Buy on Amazon
             </Link>
 
-            <div className="mt-3">
+            {/*<div className="mt-3">
                 <p className="font-semibold text-gray-700">✅ Pros:</p>
                 <ul className="list-disc ml-5 text-sm text-gray-600">
                 {pros.map((pro, index) => (
@@ -61,7 +62,7 @@ export default function BlogCard({ id, name, price, url, image, pros, cons, rati
                     <li key={index}>{con}</li>
                 ))}
                 </ul>
-            </div>
+            </div>*/}
         </div>
     );
 }
