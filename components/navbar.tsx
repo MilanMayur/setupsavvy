@@ -13,7 +13,10 @@ export default function Navbar() {
         <nav className="bg-white shadow-md sticky top-0 z-50">
             <div className="container mx-auto flex items-center justify-between px-4 py-3">
                 <Link href="/" className="flex">
-                    <Image  src="/setupsavvy-logo.png" alt="Logo" width={45} height={45} />
+                    <Image  src="/setupsavvy-logo.png" alt="SetupSavvy.in-Logo" 
+                            width={50} height={50} 
+                            priority unoptimized 
+                    />
                     <span className="text-3xl pt-1 font-bold text-blue-600">SetupSavvy.in</span>
                 </Link>
 
@@ -26,7 +29,7 @@ export default function Navbar() {
 
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden cursor-pointer text-black focus:outline-none"
+                    className="md:hidden cursor-pointer text-black focus:outline"
                     onClick={() => setOpen(!open)}
                 >
                     {open ? <X size={24} /> : <Menu size={24} />}
