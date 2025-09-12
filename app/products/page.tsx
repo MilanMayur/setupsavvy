@@ -2,7 +2,7 @@
 "use client";
 
 export const dynamic = "force-dynamic";
-
+import { Suspense } from "react";
 import { useState, useRef, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import ProductCard from "@/components/productCard";
@@ -95,6 +95,7 @@ export default function ProductsPage() {
     }, []);
 
     return (
+        <Suspense fallback={<div>Loading products...</div>}>
         <section className="container mx-auto">
             <h1 className="text-3xl font-bold mb-6 text-center">Our Top Picks</h1>
 
@@ -269,7 +270,9 @@ export default function ProductsPage() {
             </div>
         </section>
     );
+    </Suspense>
 }
+
 
 
 
