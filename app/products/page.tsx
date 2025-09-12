@@ -94,7 +94,6 @@ function ProductsInner() {
     }, []);
 
     return (
-        <Suspense fallback={<div>Loading products...</div>}>
         <section className="container mx-auto">
             <h1 className="text-3xl font-bold mb-6 text-center">Our Top Picks</h1>
 
@@ -278,6 +277,7 @@ export default function ProductsPage() {
     </Suspense>
   );
 }
+
 
 
 
