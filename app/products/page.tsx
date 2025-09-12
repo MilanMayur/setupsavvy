@@ -8,11 +8,12 @@ import AdUnit from "@/components/adUnit";
 import Pagination from "@/components/pagination";
 
 export default function ProductsPage() {
-    const [search, setSearch] = useState("");
-    const [currentPage, setCurrentPage] = useState(1);
-    
-    const [category, setCategory] = useState("All");
-    const [sort, setSort] = useState("");
+    const router = useRouter();
+    const searchParams = useSearchParams();
+
+    const [currentPage, setCurrentPage] = useState(Number(searchParams.get("page")) || 1);
+    const [category, setCategory] = useState(searchParams.get("category") || "All");
+    const [sort, setSort] = useState(searchParams.get("sort") || "");
     
     const [categoryOpen, setCategoryOpen] = useState(false);
     const [sortOpen, setSortOpen] = useState(false);
@@ -35,21 +36,18 @@ export default function ProductsPage() {
         return typeof rating === "number" ? rating : Number(rating) || 0;
     };
 
-    const filteredProducts = products.filter((p) => {
-        const matchCategory = category === "All" || p.category === category;
-        const matchSearch = p.name.toLowerCase().includes(search.toLowerCase());
-        return matchCategory && matchSearch;
-    }).sort((a, b) => {
-        if (sort === "priceLowHigh") {
-            return cleanPrice(a.price) - cleanPrice(b.price);
-        } else if (sort === "priceHighLow") {
-            return cleanPrice(b.price) - cleanPrice(a.price);
-        } else if (sort === "ratingHighLow") {
-            return cleanRating(b.rating) - cleanRating(a.rating);
-        }
-        //return 0;
-        return a.name.localeCompare(b.name);
-    });
+    const filteredProducts = products
+        .filter((p) => category === "All" || p.category === category)
+        .sort((a, b) => {
+            if (sort === "priceLowHigh") {
+                return cleanPrice(a.price) - cleanPrice(b.price);
+            } else if (sort === "priceHighLow") {
+                return cleanPrice(b.price) - cleanPrice(a.price);
+            } else if (sort === "ratingHighLow") {
+                return cleanRating(b.rating) - cleanRating(a.rating);
+            }
+            return a.name.localeCompare(b.name);
+        });
 
     const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
     const startIndex = (currentPage - 1) * productsPerPage;
@@ -58,9 +56,22 @@ export default function ProductsPage() {
         startIndex + productsPerPage
     );
 
-    const handlePrev = () => setCurrentPage((prev) => Math.max(prev - 1, 1));
-    const handleNext = () => setCurrentPage((prev) => Math.min(prev + 1, totalPages));
+    // sync URL with state
+    useEffect(() => {
+        const params = new URLSearchParams();
+        if (category !== "All") params.set("category", category);
+        if (sort) params.set("sort", sort);
+        if (currentPage > 1) params.set("page", String(currentPage));
+        router.push(`/products?${params.toString()}`);
+    }, [category, sort, currentPage, router]);
 
+    // sync currentPage with URL query parameter
+    useEffect(() => {
+        const page = Number(searchParams.get("page")) || 1;
+        setCurrentPage(page);
+    }, [searchParams]);
+
+    // mouse click outside to close dropdowns
     useEffect(() => {
         function handleClickOutside(event: MouseEvent) {
             if (
@@ -84,21 +95,6 @@ export default function ProductsPage() {
         <section className="container mx-auto">
             <h1 className="text-3xl font-bold mb-6 text-center">Our Top Picks</h1>
 
-            {/* Search Input */}
-            <div className="flex justify-center mb-6">
-                <input
-                    type="text"
-                    placeholder="Search products..."
-                    value={search}
-                    onChange={(e) => {
-                        setSearch(e.target.value)
-                        setCurrentPage(1);
-                    }}
-                    className="w-full max-w-md px-4 py-2 bg-white text-gray-900 border rounded-lg 
-                                shadow-sm focus:ring-2 focus:ring-blue-500"
-                />
-            </div>
-
             {/* Filter + Sort Control Buttons */}
             <div className="flex flex-col sm:flex-row justify-between items-center mb-8 gap-4">
 
@@ -109,7 +105,7 @@ export default function ProductsPage() {
                         className="px-4 py-2 w-44 rounded-lg text-sm text-left font-medium bg-white 
                                     text-gray-800 border shadow-sm hover:bg-gray-300 transition cursor-pointer"
                     >
-                        Category ▾
+                        {category} ▾
                     </button>
                     {categoryOpen && (
                     <div className="absolute mt-2 w-44 bg-white border rounded-lg shadow-sm z-10">
@@ -183,6 +179,49 @@ export default function ProductsPage() {
                 </div>
             </div>
 
+            {/* Active Filters Section */}
+            <div className="flex flex-wrap gap-2 mb-4">
+                {(category !== "All" || sort) && (
+                    <button
+                        onClick={() => {
+                            setCategory("All");
+                            setSort("");
+                            setCurrentPage(1);
+                        }}
+                        className="ml-2 text-sm text-blue-600 dark:text-gray-100 cursor-pointer hover:underline"
+                    >
+                        Clear All
+                    </button>
+                )}
+
+                {category !== "All" && (
+                <span className="flex items-center text-gray-700 bg-gray-200 px-3 py-2 
+                                rounded-full text-sm">
+                    Category: {category}
+                    <button
+                        onClick={() => setCategory("All")}
+                        className="ml-2 text-gray-600 hover:text-red-600 cursor-pointer"
+                    >
+                        ✕
+                    </button>
+                </span>
+                )}
+
+                {sort && (
+                <span className="flex items-center text-gray-700 bg-gray-200 px-3 py-2 
+                                rounded-full text-sm">
+                    Sort: {sort === "priceLowHigh" ? "Price ↑" : 
+                            sort === "priceHighLow" ? "Price ↓" : "Rating ↓"}
+                    <button
+                        onClick={() => setSort("")}
+                        className="ml-2 text-gray-600 hover:text-red-600 cursor-pointer"
+                    >
+                        ✕
+                    </button>
+                </span>
+                )}
+            </div>
+            
             {/* Products Grid */}
             <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                 {paginatedProducts.length > 0 ? (
@@ -228,3 +267,4 @@ export default function ProductsPage() {
         </section>
     );
 }
+
