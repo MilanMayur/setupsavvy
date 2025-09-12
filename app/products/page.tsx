@@ -10,7 +10,6 @@ import Pagination from "@/components/pagination";
 
 export default function ProductsPage({ searchParams }: { searchParams: { page?: string } }) {
     const router = useRouter();
-    const searchParams = useSearchParams();
 
     const [currentPage, setCurrentPage] = useState(Number(searchParams.get("page")) || 1);
     const [category, setCategory] = useState(searchParams.get("category") || "All");
@@ -268,4 +267,5 @@ export default function ProductsPage({ searchParams }: { searchParams: { page?: 
         </section>
     );
 }
+
 
