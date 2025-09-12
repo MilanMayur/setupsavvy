@@ -1,14 +1,248 @@
 [
     {
-        "id": "table-1",
-        "name": "Standing Desk (Adjustable)",
-        "price": "₹21,499",
-        "image": "/products/desk1.jpg",
-        "url": "https://amzn.to/your-affiliate-link",
+        "id": "tekavo-computer-table",
+        "name": "TEKAVO Computer Table with Keyboard Tray",
+        "price": "9,549",
+        "url": "https://amzn.to/3VbvpSj",
+        "image": "/tables/tekavo-computer-table.jpg",
+        "pros": [
+          "Durable prelam engineering wood",
+          "Ample storage with shelves and tray",
+          "Termite and water resistant"
+        ],
+        "cons": [
+          "Heavy at 30 Kgs"
+        ],
         "category": "Tables",
-        "rating": 4.2,
-        "details": ["",""],
-        "pros": "",
-        "cons": ""
-    }
+        "rating": 4.4,
+        "details": [
+          "📏 Product Dimensions – Length: 120 cm, Width: 60 cm, Height: 87 cm (47.2 x 23.6 x 34.2 inches).",
+          "🖥️ Monitor Riser – Size: 120 cm x 20 cm x 10 cm for placing monitor at ergonomic height.",
+          "⌨️ Keyboard Tray – Size: 55 cm x 32 cm for comfortable typing.",
+          "📚 Shelves – Size: 30 cm x 60 cm, plus CPU shelf, offering ample storage for accessories and files.",
+          "🪵 Material & Finish – High-grade prelam engineering wood with natural wood grain finish in Jungle Wood color.",
+          "⚖️ Weight – 30 Kgs, sturdy yet manageable with care.",
+          "🛡️ Warranty – 1-year manufacturer warranty against defects and transit damage.",
+          "💧 Additional Benefits – Termite resistant, water resistant, and easy to clean."
+      ]
+    },
+    {
+      "id": "green-soul-venue-study-desk",
+      "name": "Green Soul Venue Study & Office Table",
+      "price": "6,990",
+      "url": "https://amzn.to/4ggJoja",
+      "image": "/tables/green-soul-venue-study-desk.jpg",
+      "pros": [
+        "Sturdy engineered wood construction",
+        "Ample storage with drawer, open shelf, and cabinet",
+        "Elegant Rolex Brown finish suitable for home or office"
+      ],
+      "cons": [
+        "May require space planning due to multiple storage components"
+      ],
+      "category": "Tables",
+      "rating": 4.1,
+      "details": [
+        "🪵 Stylish Study Table – Crafted from premium engineered wood and sturdy 15mm particle board with a rich Rolex Brown finish, ideal for home offices or student study setups.",
+        "💻 Multi-Storage Computer Table – Features a large work surface, 1 drawer, 1 open shelf, and a cabinet for keeping essentials organized and accessible.",
+        "📚 Study Table with Built-In Bookshelf – Open shelving and storage compartments perfect for books, files, stationery, and tech accessories. Total load capacity: 65 kg (35 kg table, 15 kg drawer & shelf, 15 kg cabinet).",
+        "🏠 Space-Saving Yet Spacious – Dimensions: 120 cm (L) × 60 cm (D) × 79 cm (H), fitting seamlessly in bedrooms, apartments, or home offices while providing maximum utility.",
+        "🛠️ Easy Assembly & Warranty – Comes with detailed DIY instructions and all hardware for hassle-free setup. Includes a 3-year limited warranty against manufacturing defects."
+      ]
+    },
+    {
+      "id": "tribesigns-computer-desk-with-hutch",
+      "name": "Tribesigns Computer Desk With Hutch",
+      "price": "9,878",
+      "url": "https://amzn.to/4mcQypY",
+      "image": "/tables/tribesigns-computer-desk-with-hutch.jpg",
+      "pros": [
+        "Two-in-one desk and bookshelf",
+        "Extra large surface for monitors",
+        "Sturdy metal legs and desktop"
+      ],
+      "cons": [
+        "Moderate weight"
+      ],
+      "category": "Tables",
+      "rating": 3.7,
+      "details": [
+        "📚 Desk & Bookshelf – Vertical design with open bookshelf and attached hutch saves floor space while enhancing storage.",
+        "🖥️ Compact Yet Spacious – Extra large desk surface (47.2in x 23.6in) fits laptop, desktop PC, and office accessories.",
+        "🛠️ Super Sturdy and Durable – Heavy-duty metal legs (1.18\" x 1.18\") with 0.6\" thick desktop; E1 standard particle wood, wear-resistant, heat-resistant, and easy to clean.",
+        "⚡ Easy Assembly – Takes ~20 minutes with provided instructions.",
+        "💖 Customer Support – Full satisfaction guaranteed; contact seller for assistance."
+    ]
+    },
+    {
+      "id": "tribesigns-computer-desk-with-4-tier-storage-shelves",
+      "name": "Tribesigns Computer Desk with 4-Tier Storage Shelves",
+      "price": "8,499",
+      "url": "https://amzn.to/4pmLToq",
+      "image": "/tables/tribesigns-computer-desk-with-4-tier-storage-shelves.jpg",
+      "pros": [
+        "Modern industrial wood-metal design",
+        "Compact yet functional layout",
+        "Durable heavy-duty legs and top"
+      ],
+      "cons": [
+        "Extra charges for installation"
+      ],
+      "category": "Tables",
+      "rating": 4.5,
+      "details": [
+        "🪵 Modern & Simple Style – Combination of wood and metal creates a simple, elegant look; usable as desk, gaming, computer, or study table in office, bedroom, or kids' room.",
+        "📏 Dimensions & Layout – Table top height 70 cm, shelf height 140 cm, net weight 15.5 kg.",
+        "🛠️ Easy Assembly – Includes detailed instructions and necessary accessories; compact, reversible shelves for different needs.",
+        "⚖️ Durable Construction – E1 laminated particle board with heavy-duty legs, durable desktop, and adjustable foot pads."
+    ]
+    },
+    {
+      "id": "green-soul-nexus-table",
+      "name": "Green Soul Nexus Engineered Wood Study Table",
+      "price": "9,490",
+      "url": "https://amzn.to/46ck3nr",
+      "image": "/tables/green-soul-nexus-table.jpg",
+      "pros": [
+        "Premium engineered wood construction",
+        "Ample storage with drawers and shelves",
+        "Elegant Natural Teak finish"
+      ],
+      "cons": [
+        "Installation depends on technician availability"
+      ],
+      "category": "Tables",
+      "rating": 3.9,
+      "details": [
+        "🪵 Top-Notch Craftsmanship – Crafted from premium engineered wood and robust 15mm particle board with a natural teak color and suede finish.",
+        "📏 Refined Space Addition – Dimensions: 120cm (W) x 60cm (D) x 75cm (H), perfect for any room while adding sophistication.",
+        "📚 Robust Storage Space – Features 1 surface top, 1 drawer, 2 shelves, and 1 cabinet with a total load capacity of 70 kg for versatile storage.",
+        "🛡️ Quality Assurance – 3-year limited warranty; honeycomb-protected packaging ensures delivery in pristine condition.",
+        "⚡ Assembly & Support – Complimentary installation service available; technician schedules based on location and availability."
+    ]
+    },
+    {
+      "id": "white-mulberry-gaming-desk",
+      "name": "White Mulberry Gaming Desk",
+      "price": "8,299",
+      "url": "https://amzn.to/48drewI",
+      "image": "/tables/white-mulberry-gaming-desk.jpg",
+      "pros": [
+        "Spacious gaming workspace",
+        "Scratch-resistant carbon fiber finish",
+        "Sturdy Z-shaped metal frame"
+      ],
+      "cons": [
+        "Limited warranty duration"
+      ],
+      "category": "Tables",
+      "rating": 4.6,
+      "details": [
+        "🎮 Spacious Gaming Workspace – Accommodates monitors of any size; ample space for keyboard, mouse, and gaming devices.",
+        "🪵 Carbon Fiber Finish – Textured desktop with smooth touch, scratch-resistant, anti-collision, waterproof, and sweat-resistant surface.",
+        "🎧 Tailored for Gamers – Side-mounted headphone hook, cup holder, and cord collector for neat, organized setup.",
+        "⚙️ Robust Z-Shaped Base – High-quality metal frame with triangular junction design; adjustable leg pads for stability on uneven surfaces.",
+        "🛠️ Effortless Assembly – Pre-assembled parts and detailed manual make setup quick and easy.",
+        "📞 Dedicated Customer Support – White Mulberry team provides assistance for smooth gaming experience.",
+        "🛡️ Warranty – 1-year coverage against manufacturing defects."
+    ]
+    },
+    {
+      "id": "riyan-luxiwood-daffodil-computer-table",
+      "name": "Riyan Luxiwood® Daffodil Computer Table",
+      "price": "7,950",
+      "url": "https://amzn.to/4nO2qQP",
+      "image": "/tables/riyan-luxiwood-daffodil-computer-table.jpg",
+      "pros": [
+        "Modern and simple design",
+        "1 Year Warranty",
+        "Durable MDF and metal frame"
+      ],
+      "cons": [
+        "Extra charges for installation"
+      ],
+      "category": "Tables",
+      "rating": 4.2,
+      "details": [
+        "🖥️ Modern & Simple – Stylish industrial design for bedroom, home office, study; usable as office, work, writing, gaming, or kids desk.",
+        "📚 Multifunctional & Utility – Extra storage for books and files, spacious desktop for accessories.",
+        "🛠️ Stable & Durable – Environmental MDF with metal frame, upgraded structure with metal bar and reinforced connection points.",
+        "💧 Waterproof & Scratch-Resistant – Thick desktop supports heavy objects; easy to clean, thick powder-coated steel frame ensures stability.",
+        "⚙️ Special Features – Rust-resistant hardware, European standard wood, chemical-free, versatile usage; includes installation manual for easy assembly."
+    ]
+    },
+    {
+      "id": "riyan-luxiwood-valor-study-table",
+      "name": "Riyan Luxiwood® Valor Study Table",
+      "price": "9,850",
+      "url": "https://amzn.to/3Iknmj2",
+      "image": "/tables/riyan-luxiwood-valor-study-table.jpg",
+      "pros": [
+        "Designed for student comfort",
+        "Versatile for all ages",
+        "Smart storage with bookshelves"
+      ],
+      "cons": [
+        "Extra charges for installation"
+      ],
+      "category": "Tables",
+      "rating": 4.8,
+      "details": [
+        "🎓 Student-Focused Design – Ergonomically designed tables to create a comfortable and efficient learning environment for students.",
+        "🧑‍🎓 Versatile for All Ages – Suitable for kids and adults, providing functional and stylish workspaces for diverse needs.",
+        "✍️ Writing Comfort – Optimized for gaming, writing, and study sessions, combining style with productivity.",
+        "🖼️ Innovative Accessories – Personalize study space with accessories that enhance functionality and aesthetics.",
+        "📚 Smart Storage Solutions – Built-in bookshelves, holders, and storage compartments for a tidy and organized workspace."
+    ]
+    },
+    {
+      "id": "white-mulberry-l-shape-corner-desk",
+      "name": "White Mulberry L-Shape Corner Desk",
+      "price": "8,759",
+      "url": "https://amzn.to/46fYyRg",
+      "image": "/tables/white-mulberry-l-shape-corner-desk.jpg",
+      "pros": [
+        "Spacious L-shaped desk design",
+        "Strong particle board and steel frame",
+        "Versatile for work and gaming"
+      ],
+      "cons": [
+        "Extra charges for installation"
+      ],
+      "category": "Tables",
+      "rating": 4.4,
+      "details": [
+        "🖥️ Spacious and Functional Design – L-shaped desk top offers ample space for two monitors and a laptop, ideal for multitasking and productivity.",
+        "🛠️ Build Quality – Strong P2 Grade melamine particle board with thick steel frame supports up to 80 kg uniformly.",
+        "🎮 Multi Usage Scenarios – Suitable for work, gaming, streaming, and other activities; fits home or office spaces.",
+        "🧩 Assembly Kit – Includes all components and a headphone holder for maximum utility.",
+        "📏 Dimensions – 1300+1300 mm L x 450 mm W x 770 mm H; weight 22 kg. Monitor can be placed on a separate monitor table (480 mm x 200 mm x H).",
+        "🛡️ Warranty – 1-year coverage against manufacturing defects.",
+        "📞 Dedicated Customer Support – White Mulberry support team available for inquiries and assistance."
+    ]
+    },
+    {
+        "id": "riyan-luxiwood-meja-computer-table",
+        "name": "Riyan Luxiwood® Meja Computer Table",
+        "price": "8,950",
+        "url": "https://amzn.to/4mXzUMj",
+        "image": "/tables/riyan-luxiwood-meja-computer-table.jpg",
+        "pros": [
+            "Durable heavy-duty metal frame",
+            "Sturdy engineered wood construction",
+            "Modern minimalist design"
+        ],
+        "cons": [
+          "Extra charges for installation"
+        ],
+        "category": "Tables",
+        "rating": 4.8,
+        "details": [
+            "🪵 Durability – Spacious engineered wood study table with black and wenge finish; heavy-duty powder-coated metal frame ensures stability.",
+            "🛠️ Robust Construction – Made from high-quality engineered European standard wood; chemical and toxic-free, termite-resistant frame legs.",
+            "🧼 Care Instructions – Clean with dry cloth only; avoid placing hot/cold items or burning candles directly on surface.",
+            "🎨 Modern Minimalist Style – Clean lines and understated style complement wide range of interior designs.",
+            "📏 Item Dimensions – 150 cm Length x 60 cm Width x 90 cm Height."
+        ]
+    }   
 ]
