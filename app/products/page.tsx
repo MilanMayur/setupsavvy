@@ -2,15 +2,14 @@
 "use client";
 
 export const dynamic = "force-dynamic";
-import { Suspense } from "react";
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import ProductCard from "@/components/productCard";
 import { products } from "@/data/products";
 import AdUnit from "@/components/adUnit";
 import Pagination from "@/components/pagination";
 
-export default function ProductsPage() {
+function ProductsInner() {
     const router = useRouter();
     const searchParams = useSearchParams();
 
@@ -270,9 +269,15 @@ export default function ProductsPage() {
             </div>
         </section>
     );
-    </Suspense>
 }
 
+export default function ProductsPage() {
+  return (
+    <Suspense fallback={<div>Loading products...</div>}>
+      <ProductsInner />
+    </Suspense>
+  );
+}
 
 
 
