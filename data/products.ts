@@ -6,7 +6,7 @@ import headsets from "./headsets/headsets.json";
 import keyboards from "./keyboards/keyboards.json";
 import mouse from "./mouse/mouse.json";
 //import chairs from "./chairs/chairs.json";
-//import tables from "./tables/tables.json";
+import tables from "./tables/tables.json";
 
 import laptopUnder60000 from "./laptops/under-60000.json";
 import webcamUnder10000 from "./webcams/under-10000.json";
@@ -34,7 +34,7 @@ export const categoryMap: Record<string, Product[]> = {
     keyboards,
     mouse,
     //chairs,
-    //tables,
+    tables,
 };
 
 export const products: Product[] = [
@@ -44,7 +44,7 @@ export const products: Product[] = [
     ...keyboards,
     ...mouse,
     //...chairs,
-    //...tables,
+    ...tables,
 ];
 
 export function getProductsByIds(ids: string[], category: keyof typeof categoryMap): Product[] {
@@ -78,3 +78,6 @@ export const mouse10Under4000 = getProductsByIds(mouseUnder4000.ids, "mouse");
 export const featuredProducts: Product[] = products.filter(
     (p) => featured.featured.includes(p.id)).map((p) => ({...p})
 );
+
+
+
