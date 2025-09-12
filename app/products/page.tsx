@@ -1,6 +1,8 @@
 //app/products/page.tsx
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useState, useRef, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import ProductCard from "@/components/productCard";
@@ -8,8 +10,9 @@ import { products } from "@/data/products";
 import AdUnit from "@/components/adUnit";
 import Pagination from "@/components/pagination";
 
-export default function ProductsPage({ searchParams }: { searchParams: { page?: string } }) {
+export default function ProductsPage() {
     const router = useRouter();
+    const searchParams = useSearchParams();
 
     const [currentPage, setCurrentPage] = useState(Number(searchParams.get("page")) || 1);
     const [category, setCategory] = useState(searchParams.get("category") || "All");
@@ -267,5 +270,6 @@ export default function ProductsPage({ searchParams }: { searchParams: { page?: 
         </section>
     );
 }
+
 
 
