@@ -102,7 +102,7 @@ export default function ProductsPage() {
                 {/* Category Buttons */}
                 <div ref={categoryRef} className="relative inline-block text-left">
                     <button
-                        onClick={() => setCategoryOpen((prev) => !prev)}
+                        onClick={() => setCategoryOpen(!categoryOpen)}
                         className="px-4 py-2 w-44 rounded-lg text-sm text-left font-medium bg-white 
                                     text-gray-800 border shadow-sm hover:bg-gray-300 transition cursor-pointer"
                     >
@@ -222,7 +222,7 @@ export default function ProductsPage() {
                 </span>
                 )}
             </div>
-            
+
             {/* Products Grid */}
             <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
                 {paginatedProducts.length > 0 ? (
@@ -268,5 +268,3 @@ export default function ProductsPage() {
         </section>
     );
 }
-
-
