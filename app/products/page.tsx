@@ -2,6 +2,7 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import ProductCard from "@/components/productCard";
 import { products } from "@/data/products";
 import AdUnit from "@/components/adUnit";
@@ -267,4 +268,5 @@ export default function ProductsPage() {
         </section>
     );
 }
+
 
