@@ -8,7 +8,7 @@ import { products } from "@/data/products";
 import AdUnit from "@/components/adUnit";
 import Pagination from "@/components/pagination";
 
-export default function ProductsPage() {
+export default function ProductsPage({ searchParams }: { searchParams: { page?: string } }) {
     const router = useRouter();
     const searchParams = useSearchParams();
 
@@ -268,3 +268,4 @@ export default function ProductsPage() {
         </section>
     );
 }
+
