@@ -18,9 +18,7 @@ interface AdUnitProps {
 export default function AdUnit({ slot, format = "auto", responsive = true }: AdUnitProps) {
     useEffect(() => {
         try {
-           (window.adsbygoogle = window.adsbygoogle || []) as { 
-                push: (params?: unknown) => void 
-            }[];
+            window.adsbygoogle = window.adsbygoogle || [];
             window.adsbygoogle.push({});
         } catch (e) {
             console.error("AdSense error:", e);
