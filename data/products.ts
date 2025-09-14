@@ -75,3 +75,7 @@ export const featuredProducts: Product[] = products.filter(
     (p) => featured.featured.includes(p.id)).map((p) => ({...p})
 );
 
+export const productsById: Record<string, Product> = Object.fromEntries(
+    products.map(p => [p.id, p])
+);
+
