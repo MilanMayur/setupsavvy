@@ -12,6 +12,12 @@ import AdUnit from "@/components/adUnit";
 export default function HomePage() {
     const [visibleCount, setVisibleCount] = useState(2);
 
+    const todayStr = new Date().toISOString().split("T")[0];
+    const validBlogs = blogData.filter((post) => post.date <= todayStr);
+    const sortedBlogs = validBlogs.sort(
+        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+    );
+
     const latestBlogs = blogData.slice(0, 3);
 
     useEffect(() => {
@@ -182,3 +188,4 @@ export default function HomePage() {
         </div>
     );
 }
+
