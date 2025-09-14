@@ -18,7 +18,7 @@ export default function HomePage() {
         (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
     );
 
-    const latestBlogs = blogData.slice(0, 3);
+    const latestBlogs = sortedBlogs.slice(0, 3);
 
     useEffect(() => {
         const updateVisibleCount = () => {
@@ -188,4 +188,5 @@ export default function HomePage() {
         </div>
     );
 }
+
 
