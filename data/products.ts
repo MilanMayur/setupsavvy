@@ -8,11 +8,7 @@ import mouse from "./mouse/mouse.json";
 //import chairs from "./chairs/chairs.json";
 import tables from "./tables/tables.json";
 
-import laptopUnder60000 from "./laptops/under-60000.json";
-import webcamUnder10000 from "./webcams/under-10000.json";
-import headsetUnder5000 from "./headsets/under-5000.json";
-import keyboardUnder4000 from "./keyboards/under-4000.json";
-import mouseUnder4000 from "./mouse/under-4000.json";
+import curatedPicks from "./curated-picks.json"
 
 export type Product = {
     id: string;
@@ -69,15 +65,13 @@ function normalizeDetails(details: any): Record<string, string> | string[] {
     return [String(details)];
 }
 
-export const laptop5Under60000 = getProductsByIds(laptopUnder60000.ids, "laptops");
-export const webcam10Under10000 = getProductsByIds(webcamUnder10000.ids, "webcams");
-export const headset10Under5000 = getProductsByIds(headsetUnder5000.ids, "headsets");
-export const keyboard10Under4000 = getProductsByIds(keyboardUnder4000.ids, "keyboards");
-export const mouse10Under4000 = getProductsByIds(mouseUnder4000.ids, "mouse");
+export function getCuratedProductsBySlug(slug: string): Product[] {
+    const pick = curatedPicks.find((c) => c.title === slug);
+    if (!pick) return [];
+    return getProductsByIds(pick.ids, pick.category as keyof typeof categoryMap);
+}
 
 export const featuredProducts: Product[] = products.filter(
     (p) => featured.featured.includes(p.id)).map((p) => ({...p})
 );
-
-
 
