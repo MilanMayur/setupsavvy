@@ -1,6 +1,6 @@
 //app/products/[id]/page.tsx
 import AdUnit from "@/components/adUnit";
-import { products, type Product } from "@/data/products";
+import { products, productsById, type Product } from "@/data/products";
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
@@ -41,7 +41,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function ProductDetail({ params }: Props) {
     const { id } = await params;
-    const product: Product | undefined = products.find(p => p.id === id);
+    const product: Product | undefined = productsById[id];
 
     if (!product) {
         return <p className="text-center mt-20">Product not found.</p>;
@@ -163,3 +163,4 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
+
