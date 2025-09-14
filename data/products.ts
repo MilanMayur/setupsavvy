@@ -43,16 +43,6 @@ export const products: Product[] = [
     ...tables,
 ];
 
-export function getProductsByIds(ids: string[], category: keyof typeof categoryMap): Product[] {
-    const items = categoryMap[category] || [];
-    return items.filter((p) => ids.includes(p.id)).map((p) => ({
-        ...p,
-        details: normalizeDetails(p.details),
-        pros: Array.isArray(p.pros) ? p.pros : p.pros ? [p.pros] : [],
-        cons: Array.isArray(p.cons) ? p.cons : p.cons ? [p.cons] : [],
-      }));
-}
-
 function normalizeDetails(details: any): Record<string, string> | string[] {
     if (!details) return {};
   
@@ -63,6 +53,16 @@ function normalizeDetails(details: any): Record<string, string> | string[] {
       ) as Record<string, string>;
     }
     return [String(details)];
+}
+
+export function getProductsByIds(ids: string[], category: keyof typeof categoryMap): Product[] {
+    const items = categoryMap[category] || [];
+    return items.filter((p) => ids.includes(p.id)).map((p) => ({
+        ...p,
+        details: normalizeDetails(p.details),
+        pros: Array.isArray(p.pros) ? p.pros : p.pros ? [p.pros] : [],
+        cons: Array.isArray(p.cons) ? p.cons : p.cons ? [p.cons] : [],
+      }));
 }
 
 export function getCuratedProductsBySlug(slug: string): Product[] {
@@ -79,3 +79,33 @@ export const productsById: Record<string, Product> = Object.fromEntries(
     products.map(p => [p.id, p])
 );
 
+export function getFilteredProducts({ category = "All", sort = "", page = 1, productsPerPage = 20 }) {
+    function cleanPrice(price: string) {
+      if (!price) return 0;
+      if (typeof price === "number") return price;
+      return Number(String(price).replace(/[^\d.-]/g, "")) || 0;
+    }
+    function cleanRating(rating: number | undefined) {
+      if (!rating) return 0;
+      return typeof rating === "number" ? rating : Number(rating) || 0;
+    }
+
+    let filtered = products;
+    if (category !== "All") filtered = filtered.filter(p => p.category === category);
+  
+    filtered = filtered.sort((a, b) => {
+      if (sort === "priceLowHigh") {
+        return cleanPrice(a.price) - cleanPrice(b.price);
+      } else if (sort === "priceHighLow") {
+        return cleanPrice(b.price) - cleanPrice(a.price);
+      } else if (sort === "ratingHighLow") {
+        return cleanRating(b.rating) - cleanRating(a.rating);
+      }
+      return a.name.localeCompare(b.name);
+    });
+  
+    const totalPages = Math.ceil(filtered.length / productsPerPage);
+    const startIndex = (page - 1) * productsPerPage;
+    const paginated = filtered.slice(startIndex, startIndex + productsPerPage);
+    return { products: paginated, totalPages };
+}
