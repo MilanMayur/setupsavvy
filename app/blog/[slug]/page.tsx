@@ -6,13 +6,7 @@ import BlogCard from "@/components/blogCard";
 import AdUnit from "@/components/adUnit";
 import FaqSection from "@/components/faqSection";
 import blogs from "@/data/blogs.json";
-import { getProductsByIds, type Product } from "@/data/products";
-
-import laptopUnder60000 from "@/data/laptops/under-60000.json";
-import webcamUnder10000 from "@/data/webcams/under-10000.json";
-import headsetUnder5000 from "@/data/headsets/under-5000.json";
-import keyboardUnder4000 from "@/data/keyboards/under-4000.json";
-import mouseUnder4000 from "@/data/mouse/under-4000.json";
+import { getCuratedProductsBySlug } from "@/data/products";
 
 type Props = {
     params: Promise<{ slug: string }>;
@@ -56,21 +50,7 @@ export default async function BlogPost({ params }: Props) {
 
     if (!post) return notFound();
 
-    const slugToCategory: Record<string,
-        { category: "headsets" | "laptops" | "keyboards" | "mouse" | "webcams"; ids: string[] }
-    > = {
-        "best-10-headsets-under-5000": { category: "headsets", ids: headsetUnder5000.ids },
-        "best-5-laptops-under-60000": { category: "laptops", ids: laptopUnder60000.ids },
-        "best-10-keyboards-under-4000": { category: "keyboards", ids: keyboardUnder4000.ids },
-        "best-10-mouse-under-4000": { category: "mouse", ids: mouseUnder4000.ids },
-        "best-10-webcams-under-10000-india-2025": { category: "webcams", ids: webcamUnder10000.ids },
-    };
-
-    let selectedProducts: Product[] = [];
-    const mapping = slugToCategory[slug];
-    if (mapping) {
-        selectedProducts = getProductsByIds(mapping.ids, mapping.category);
-    }
+    const selectedProducts = getCuratedProductsBySlug(slug);
 
     return (
         <article className="container mx-auto py-10 px-4">
@@ -195,3 +175,4 @@ export default async function BlogPost({ params }: Props) {
         </article>
     );
 }
+
