@@ -9,9 +9,14 @@ export const metadata = {
     description: "Read our expert reviews, buying guides, and curated lists of the best laptops, headsets, chairs, and accessories in India.",
 };
 
+type SearchParamsType = {
+    page?: string;
+};
+
+
 const BLOGS_PER_PAGE = 15;
 
-export default async function BlogIndex({ searchParams }: { searchParams: Promise<{ page?: string }> }) {
+export default async function BlogIndex({ searchParams }: { searchParams: SearchParamsType }) {
     const params = await searchParams;
     const currentPage = Number(params.page) || 1;
 
@@ -69,5 +74,6 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
         </section>
     );
 }
+
 
 
