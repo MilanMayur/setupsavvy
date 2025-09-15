@@ -7,6 +7,7 @@ const AdUnit = dynamic(() => import("./adUnit"), { ssr: false });
 
 type AdUnitProps = React.ComponentProps<typeof AdUnit>;
 
-export default function AdUnitClient(props: any) {
+export default function AdUnitClient(props: AdUnitProps) {
     return <AdUnit {...props} />;
 }
+
