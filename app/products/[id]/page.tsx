@@ -10,7 +10,7 @@ type Props = {
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const { id } = await params;
+    const { id } = params;
     const product: Product | undefined = products.find(p => p.id === id);
   
     if (!product) {
@@ -164,5 +164,6 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
+
 
 
