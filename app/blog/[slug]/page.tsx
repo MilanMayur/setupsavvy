@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props) {
     };
 }
 
-export default async function BlogPost({ params }: { params: any }) {
+export default async function BlogPost({ params }: { params: unknown }) {
     const { slug } = params; 
     const post = blogs.find((b) => b.slug === slug);
 
@@ -175,6 +175,7 @@ export default async function BlogPost({ params }: { params: any }) {
         </article>
     );
 }
+
 
 
 
