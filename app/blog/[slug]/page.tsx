@@ -9,11 +9,11 @@ import blogs from "@/data/blogs.json";
 import { getCuratedProductsBySlug } from "@/data/products";
 
 type Props = {
-    params: Promise<{ slug: string }>;
+    params: { slug: string };
 };
 
 export async function generateMetadata({ params }: Props) {
-    const { slug } = await params;
+    const { slug } = params;
     const post = blogs.find((b) => b.slug === slug);
 
     if (!post) {
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props) {
 }
 
 export default async function BlogPost({ params }: Props) {
-    const { slug } = await params; 
+    const { slug } = params; 
     const post = blogs.find((b) => b.slug === slug);
 
     if (!post) return notFound();
@@ -175,4 +175,5 @@ export default async function BlogPost({ params }: Props) {
         </article>
     );
 }
+
 
