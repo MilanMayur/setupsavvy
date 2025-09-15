@@ -14,7 +14,7 @@ type SearchParamsType = {
 const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Webcams", "Chairs", "Tables"];
 const productsPerPage = 20;
 
-export default async function ProductsPage({ searchParams }: { searchParams: SearchParamsType }) {
+export default function ProductsPage({ searchParams }: { searchParams: SearchParamsType }) {
     // Accept searchParams directly from Next.js App Router
     const page = Number(searchParams?.page) || 1;
     const category = searchParams?.category || "All";
@@ -80,5 +80,6 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
         </section>
     );
 }
+
 
 
