@@ -1,5 +1,6 @@
 //app/blog/[slug]/page.tsx
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import BlogCard from "@/components/blogCard";
@@ -175,6 +176,7 @@ export default async function BlogPost({ params }: BlogPageProps) {
         </article>
     );
 }
+
 
 
 
