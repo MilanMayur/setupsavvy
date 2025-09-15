@@ -14,9 +14,8 @@ type BlogPageProps = {
   };
 };
 
-export async function generateMetadata({ params }: BlogPageProps) {
-    const { slug } = params;
-    const post = blogs.find((b) => b.slug === slug);
+export async function generateMetadata({ params }: BlogPageProps): Promise<Metadata> {
+    const post = blogs.find((b) => b.slug === params.slug);
 
     if (!post) {
         return { 
@@ -176,6 +175,7 @@ export default async function BlogPost({ params }: BlogPageProps) {
         </article>
     );
 }
+
 
 
 
