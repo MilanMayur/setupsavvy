@@ -9,7 +9,7 @@ declare global {
     }
 }
 
-interface AdUnitProps {
+export interface AdUnitProps {
     slot: string; 
     format?: string;
     responsive?: boolean;
