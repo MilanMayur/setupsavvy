@@ -5,12 +5,16 @@ import Pagination from "@/components/pagination";
 import AdUnitClient from "@/components/adUnitClient";
 import ProductFilters from "@/components/productFilters";
 
+type SearchParamsType = {
+    page?: string;
+    category?: string;
+    sort?: string;
+};
+
 const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Webcams", "Chairs", "Tables"];
 const productsPerPage = 20;
 
-export default async function ProductsPage({ searchParams }: { 
-        searchParams: { page?: string; category?: string; sort?: string } 
-    }) {
+export default async function ProductsPage({ searchParams }: { searchParams: SearchParamsType }) {
     // Accept searchParams directly from Next.js App Router
     const page = Number(searchParams?.page) || 1;
     const category = searchParams?.category || "All";
@@ -76,4 +80,5 @@ export default async function ProductsPage({ searchParams }: {
         </section>
     );
 }
+
 
