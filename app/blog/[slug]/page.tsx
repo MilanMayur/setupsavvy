@@ -8,11 +8,7 @@ import FaqSection from "@/components/faqSection";
 import blogs from "@/data/blogs.json";
 import { getCuratedProductsBySlug } from "@/data/products";
 
-type Props = {
-    params: { slug: string };
-};
-
-export async function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params }: { params: { slug: string } }) {
     const { slug } = params;
     const post = blogs.find((b) => b.slug === slug);
 
@@ -44,7 +40,7 @@ export async function generateMetadata({ params }: Props) {
     };
 }
 
-export default async function BlogPost({ params }: { params: unknown }) {
+export default async function BlogPost({ params }: { params: { slug: string } }) {
     const { slug } = params; 
     const post = blogs.find((b) => b.slug === slug);
 
@@ -175,6 +171,7 @@ export default async function BlogPost({ params }: { params: unknown }) {
         </article>
     );
 }
+
 
 
 
