@@ -16,8 +16,8 @@ type SearchParamsType = {
 
 const BLOGS_PER_PAGE = 15;
 
-export default async function BlogIndex({ searchParams }: { searchParams: SearchParamsType }) {
-    const params = await searchParams;
+export default function BlogIndex({ searchParams }: { searchParams: SearchParamsType }) {
+    const params = searchParams;
     const currentPage = Number(params.page) || 1;
 
     const today = new Date();
@@ -74,6 +74,7 @@ export default async function BlogIndex({ searchParams }: { searchParams: Search
         </section>
     );
 }
+
 
 
 
