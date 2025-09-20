@@ -6,11 +6,11 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 type Props = {
-    params: { id: string };
+    params: Promise<{ id: string }>;
 };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-    const { id } = params;
+    const { id } = await params;
     const product: Product | undefined = products.find(p => p.id === id);
   
     if (!product) {
@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function ProductDetail({ params }: Props) {
-    const { id } = params;
+    const { id } = await params;
     const product: Product | undefined = productsById[id];
 
     if (!product) {
@@ -164,6 +164,7 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
+
 
 
 
