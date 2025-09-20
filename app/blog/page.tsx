@@ -16,7 +16,7 @@ type SearchParamsType = {
 
 const BLOGS_PER_PAGE = 15;
 
-export default function BlogIndex({ searchParams }: { searchParams: Promise<SearchParamsType> }) {
+export default async function BlogIndex({ searchParams }: { searchParams: Promise<SearchParamsType> }) {
     const params = await searchParams;
     const currentPage = Number(params.page) || 1;
 
@@ -74,6 +74,7 @@ export default function BlogIndex({ searchParams }: { searchParams: Promise<Sear
         </section>
     );
 }
+
 
 
 
