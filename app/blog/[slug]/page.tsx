@@ -10,9 +10,7 @@ import blogs from "@/data/blogs.json";
 import { getCuratedProductsBySlug } from "@/data/products";
 
 type BlogPageProps = {
-  params: {
-    slug: string;
-  };
+  params: Promise<{ slug: string }>;
 };
 
 export async function generateMetadata({ params }: BlogPageProps): Promise<Metadata> {
@@ -178,6 +176,7 @@ export default async function BlogPost({ params }: BlogPageProps) {
         </article>
     );
 }
+
 
 
 
