@@ -14,11 +14,11 @@ type SearchParamsType = {
 const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Webcams", "Chairs", "Tables"];
 const productsPerPage = 20;
 
-export default function ProductsPage({ searchParams }: { searchParams: SearchParamsType }) {
-    // Accept searchParams directly from Next.js App Router
-    const page = Number(searchParams?.page) || 1;
-    const category = searchParams?.category || "All";
-    const sort = searchParams?.sort || "";
+export default async function ProductsPage({ searchParams }: { searchParams: Promise<SearchParamsType> }) {
+    const params = await searchParams;
+    const page = Number(params.page) || 1;
+    const category = params.category || "All";
+    const sort = params.sort || "";
 
     // Fetch only the filtered, sorted, and paginated products from server utility
     const { products, totalPages } = getFilteredProducts({ category, sort, page, productsPerPage });
@@ -80,6 +80,7 @@ export default function ProductsPage({ searchParams }: { searchParams: SearchPar
         </section>
     );
 }
+
 
 
 
