@@ -1,5 +1,544 @@
 [
     {
+    "id": "boat-rockerz-421",
+    "name": "boAt Rockerz 421",
+    "price": "1,187",
+    "url": "https://amzn.to/4nGBVfM",
+    "image": "/headsets/boat-rockerz-421.jpg",
+    "pros": [
+      "40-Hour Playback",
+      "40ms Low-Latency BEAST Mode",
+      "ENx Technology"
+    ],
+    "cons": [
+      "Mixed reviews on durability"
+    ],
+    "category": "Headsets",
+    "rating":4.1,
+    "details": [
+      "🔋 40-Hour Playback – Enjoy uninterrupted music, calls, and gaming with long-lasting battery life that keeps you grooving for days.",
+      "🔊 40mm Dynamic Drivers with boAt Signature Sound – Experience deep bass and immersive audio quality for music, movies, and more.",
+      "🎮 40ms Low-Latency BEAST Mode – Switch to gaming mode for ultra-responsive sound with synced visuals for a competitive edge.",
+      "🎤 ENx Noise Cancellation Technology – Make crystal-clear calls anywhere with background noise suppression using ENx-enabled mics.",
+      "📶 Bluetooth v5.4 Connectivity – Enjoy seamless wireless performance with stable, energy-efficient pairing across devices."
+    ]
+  },
+  {
+    "id": "boat-rockerz-480",
+    "name": "boAt Rockerz 480",
+    "price": "1,499",
+    "url": "https://amzn.to/3KeI44I",
+    "image": "/headsets/boat-rockerz-480.jpg",
+    "pros": [
+      "Long Battery Life 60 hrs",
+      "Dual Pairing BT v5.3",
+      "ENx Technology"
+    ],
+    "cons": [
+      "Mixed reviews on build quality"
+    ],
+    "category": "Headsets",
+    "rating":4.1,
+    "details": [
+      "🌈 Blazing RGB LEDs with 6 Modes – Elevate your audio setup with stylish RGB lighting that can be customized across 6 vibrant modes for a dynamic look.",
+      "🎮 BEAST Mode with 40ms Low Latency – Enjoy lag-free gaming and immersive multiplayer experiences with ultra-low latency performance.",
+      "🔋 Massive 60-Hour Playback – Long-lasting battery life ensures uninterrupted music, calls, and gaming without frequent charging.",
+      "🔊 Powerful 40mm Drivers – Experience boAt Signature Sound with deep bass and clear audio for music, movies, and games.",
+      "🎤 ENx Noise Cancellation Technology – Take crystal-clear calls anywhere with environmental noise suppression for hassle-free conversations.",
+      "🔗 Dual Pairing Support – Seamlessly switch between phone calls and laptop entertainment without the need to reconnect.",
+      "📶 Bluetooth v5.3 Connectivity – Stable, efficient wireless performance for streaming, gaming, and calling on the go.",
+      "🛋️ Adaptive Comfort Fit – Ergonomic design with a snug and cushioned fit for all-day wearing without discomfort.",
+      "🎛️ Quick Access Controls – Convenient button controls for calls, volume, and playback without reaching for your device.",
+      "🎙️ Voice Assistant Integration – Easily activate Google Assistant or Siri for hands-free commands, reminders, and updates."
+    ]
+  },
+  {
+    "id": "nu-republic-starboy-3",
+    "name": "Nu Republic Starboy 3",
+    "price": "999",
+    "url": "https://amzn.to/4pweeZk",
+    "image": "/headsets/nu-republic-starboy-3.jpg",
+    "pros": [
+      "40mm Neodymium Drivers",
+      "Dual Pairing BT v5.4",
+      "Comfortable Padding"
+    ],
+    "cons": [
+      "Mixed reviews on noise cancellation and battery life"
+    ],
+    "category": "Headsets",
+    "rating":4.0,
+    "details": [
+      "🔋 56-Hour Battery Life – Extended playtime on a single charge, with fast charging support delivering 300 minutes of playback from just 10 minutes of charging.",
+      "🔊 Premium 40mm Dynamic Drivers – Powerful audio with Environmental Noise Cancellation (ENC) for immersive sound quality in music, calls, and gaming.",
+      "🔗 Bluetooth v5.4 with 50ms Low Latency – Advanced wireless technology ensures seamless connectivity and smooth dual-mode performance for both music and gaming.",
+      "🎮 Dual Mode Functionality – Switch easily between gaming mode (50ms low latency) and music mode for optimized sound experiences.",
+      "🛋️ Comfort-Focused Design – Adjustable steel headband with invisible steel bar, soft skin-friendly padding, and foldable structure for long-wear comfort.",
+      "⚖️ Premium Build Quality – Stylish and durable construction with rose gold accents for a modern, travel-ready look.",
+      "🔌 Type-C Fast Charging & AUX Support – Versatile connectivity options for quick charging and wired use when needed.",
+      "🎧 Foldable & Portable – Compact, travel-friendly design with a secure fit, perfect for everyday use on the go."
+    ]
+  },
+  {
+    "id": "nu-republic-starboy",
+    "name": "Nu Republic Starboy",
+    "price": "899",
+    "url": "https://amzn.to/46xeizt",
+    "image": "/headsets/nu-republic-starboy.jpg",
+    "pros": [
+      "40mm Neodymium Drivers",
+      "Dual Pairing BT v5.4"
+    ],
+    "cons": [
+      "Mixed reviews on noise cancellation and battery life"
+    ],
+    "category": "Headsets",
+    "rating":3.7,
+    "details": [
+      "🔋 Massive 54-Hour Battery Life – Enjoy uninterrupted listening with up to 54 hours of playtime on a single charge; 10 minutes of fast charging provides 300 minutes of playback.",
+      "🔊 Premium 40mm Dynamic Drivers – X-Bass technology delivers deep bass, clear mids, and crisp highs for an immersive music and gaming experience.",
+      "🔗 Bluetooth v5.4 & Dual Mode – Seamlessly switch between music and gaming modes with stable, low-latency wireless performance.",
+      "🎮 Gaming Mode with 40ms Low Latency – Stay ahead in gameplay with precise audio-video synchronization.",
+      "🛋️ Comfort-Focused Design – Expandable headband, extra-soft ear cushions, and foldable build ensure comfort and portability.",
+      "🛡️ Environmental Noise Cancellation (ENC) – Filters background noise for crystal-clear calls and uninterrupted music.",
+      "💬 Smart Voice Assistant Support – Instantly access Siri or Google Assistant for hands-free control.",
+      "⚡ Type-C Fast Charging – Modern USB-C port ensures faster charging and reliable connectivity.",
+      "🎶 Music Mode & Gaming Mode – Optimized audio profiles tailored for entertainment and competitive gaming."
+    ]
+  },
+  {
+    "id": "ant-esports-h525-pro",
+    "name": "Ant Esports H525 Pro",
+    "price": "849",
+    "url": "https://amzn.to/3VvyAnU",
+    "image": "/headsets/ant-esports-h525-pro.jpg",
+    "pros": [
+      "50mm Drivers",
+      "Multiple Device Compatibility"
+    ],
+    "cons": [
+      "Mixed reviews on volume"
+    ],
+    "category": "Headsets",
+    "rating":3.7,
+    "details": [
+      "🎧 Crystal Surround Sound – High-precision 50mm magnetic drivers deliver immersive gaming audio with ultra-low distortion, perfect for games, movies, and music.",
+      "🎮 Multi-Platform Compatibility – Works with PS5, PS4, Switch, PC, Xbox One, Xbox Series X/S, laptops, iOS, Android phones, and more via dual 3.5mm jacks and USB for RGB lighting. (*Older Xbox One requires an additional adapter, not included*).",
+      "🛋️ Comfortable & Humanized Design – Breathable ear cushions and an adjustable headband provide enhanced sound insulation and long-lasting comfort.",
+      "🔌 Dual 3.5mm Jacks & USB Plug – Connect both audio and mic jacks plus USB for RGB lighting in gaming mode, or just the audio jack for movies and music.",
+      "💡 RGB Lighting – Stylish LED lighting adds flair to your gaming setup when USB is connected.",
+      "⚖️ Durable & Versatile Build – Sturdy frame with soft-touch finish designed for both intense gaming sessions and everyday use.",
+      "🔊 Balanced Soundscape – Engineered for detailed audio with deep bass, clear mids, and crisp highs across all media."
+    ]
+  },
+  {
+    "id": "cosmic-byte-gs430",
+    "name": "Cosmic Byte GS430",
+    "price": "799",
+    "url": "https://amzn.to/4pPzUQD",
+    "image": "/headsets/cosmic-byte-gs430.jpg",
+    "pros": [
+      "Immersive 3D Gaming Sound",
+      "Noise-Cancellation Mic"
+    ],
+    "cons": [
+      "Mixed reviews on comfort"
+    ],
+    "category": "Headsets",
+    "rating":4.0,
+    "details": [
+      "🎮 Immersive 3D Gaming Sound – High-precision neodymium drivers deliver a 360-degree soundscape for footsteps, distant gunshots, and realistic gameplay in games like Fortnite, PUBG, and CS:GO.",
+      "🎤 Flexible Noise-Cancellation Boom Mic – 120° adjustable mic filters background noise and captures your voice clearly for in-game chat and other applications.",
+      "⚖️ Ergonomic Comfort – Soft cushion headband and ear pads with auto-adjustable fit for long gaming sessions without discomfort.",
+      "🔗 Multi-Platform Compatibility & Plug-and-Play – Works with PS4, Xbox One/S/X, PC, Mac, Laptop, iPad, tablets, and mobile phones. USB powers RGB LED lighting; 3.5mm jack provides audio connectivity.",
+      "💡 RGB LED Lighting – USB-powered 7-color LED lights enhance the gaming setup for a premium look.",
+      "🔌 Braided Cable & Inline Remote – Durable cable with incline remote control for easy media and volume adjustments.",
+      "🛡️ Passive Noise-Cancelling Mic – Reduces surrounding noise for clear communication during gameplay.",
+      "🔊 Wide Frequency Response – 15Hz–20kHz range delivers deep bass, rich mids, and clear highs for an immersive audio experience.",
+      "🎧 3D Gaming Surround Sound – Optimized for a realistic and exhilarating gaming experience.",
+      "🛠️ Reliable After-Sale Support – Dedicated customer support with 24-hour response for queries and assistance."
+    ]
+  },
+  {
+    "id": "zebronics-thunder-pro",
+    "name": "ZEBRONICS Thunder Pro",
+    "price": "899",
+    "url": "https://amzn.to/4moTq36",
+    "image": "/headsets/zebronics-thunder-pro.jpg",
+    "pros": [
+      "40mm Dynamic Drivers",
+      "Up to 60-Hour Playback"
+    ],
+    "cons": [
+      "Mixed reviews on comfort and durability"
+    ],
+    "category": "Headsets",
+    "rating":3.6,
+    "details": [
+      "🔊 Dynamic Bass with 40mm Drivers – Dual powerful speakers deliver deep, punchy bass for an immersive audio experience.",
+      "🛋️ Ergonomic Comfort – Soft ear cushions and adjustable headband ensure long-lasting comfort during extended listening or gaming sessions.",
+      "🔗 Dual Pairing Connectivity – Seamlessly connect two devices at once for easy switching and uninterrupted audio.",
+      "💬 Voice Assistant Support – Easily access Google Assistant or Siri via the built-in wireless microphone.",
+      "🔋 Up to 60-Hour Playback – Long-lasting battery with Type-C charging keeps the music going all day (*at 50% volume*).",
+      "🛡️ Environmental Noise Cancellation & Call Function – Enjoy clear calls without background noise interference.",
+      "🎚️ Easy Media & Volume Controls – Answer calls, adjust volume, and control playback with a single button press.",
+      "🎮 Gaming Mode – Low-latency mode with ENC ensures smooth audio-video sync for a focused gaming experience.",
+      "⚖️ Lightweight & Durable Design – Comfortable fit for long sessions without fatigue.",
+      "🎧 40mm Drivers – Powerful speakers provide crisp highs, detailed mids, and thundering lows."
+    ]
+  },
+  {
+    "id": "sony-mdr-zx110a",
+    "name": "Sony MDR-ZX110A",
+    "price": "799",
+    "url": "https://amzn.to/4pxyWYX",
+    "image": "/headsets/sony-mdr-zx110a.jpg",
+    "pros": [
+      "30mm Neodymium Dynamic Drivers",
+      "Portable- swivel-folding earcups"
+    ],
+    "cons": [
+      "Mixed reviews on bass quality",
+      "No mic"
+    ],
+    "category": "Headsets",
+    "rating":4.0,
+    "details": [
+      "🔊 30mm Neodymium Dynamic Drivers – Deliver punchy, precise sound with clear highs, rich mids, and deep bass across the full frequency range (12–22,000Hz).",
+      "🎶 High-Energy Neodymium Magnets – Enhance audio power and responsiveness for an immersive listening experience.",
+      "⚖️ Lightweight & Folding Design – Slim, swivel-folding earcups make headphones highly portable and easy to store.",
+      "🛋️ Cushioned Earpads & Self-Adjusting Headband – Pressure-relieving padding ensures long-lasting comfort for extended listening sessions.",
+      "🛡️ Enfolding Closed-Back Design – Seals in sound, minimizes external distractions, and enhances bass performance.",
+      "🔌 Tangle-Free Flat Serration Cord – Durable cord with 3.5mm jack for stable wired connectivity.",
+      "🎵 Wide Frequency Response – 12 Hz to 22 kHz range provides clear highs, rich mids, and deep lows for all types of music.",
+      "💼 Travel-Friendly Swivel Ear Cups – Fold flat for easy storage in bags or suitcases.",
+      "📜 1-Year Warranty – Ensures reliable use and peace of mind."
+    ]
+  },
+  {
+    "id": "zebronics-duke",
+    "name": "ZEBRONICS Duke",
+    "price": "999",
+    "url": "https://amzn.to/42GWGzT",
+    "image": "/headsets/zebronics-duke.jpg",
+    "pros": [
+      "60 Hr Playback",
+      "Environmental Noise Cancellation (ENC)"
+    ],
+    "cons": [
+      "Mixed reviews on connectivity and durability"
+    ],
+    "category": "Headsets",
+    "rating":3.8,
+    "details": [
+      "🎧 Over-ear Design – Comfortable soft ear cushions and adjustable headband for long listening or gaming sessions.",
+      "🔊 40mm Drivers & Deep Bass – Powerful drivers deliver immersive sound with crisp highs and thundering lows.",
+      "🔋 Up to 60-Hour Backup – Long-lasting playback and talk time on a single charge (*at 50% volume*), with just 2 hours of charging.",
+      "🔗 Bluetooth v5.3 & Dual Pairing – Seamlessly connect two devices at once for multitasking and stable wireless performance.",
+      "🎮 Gaming Mode – Low-latency mode ensures smooth audio-video sync during intense gaming sessions.",
+      "🛡️ Environmental Noise Cancellation (ENC) & Call Function – Blocks surrounding noise for clear voice calls and immersive listening.",
+      "🎚️ Inline Controls & Media Buttons – Easily manage volume, play/pause, and calls directly from the headphone.",
+      "💬 Voice Assistant Support – Access Google Assistant or Siri instantly for smarter control.",
+      "🔌 3.5mm AUX Function – Wired connectivity option for versatile use across devices.",
+      "🎨 LED RGB Lights – Stylish design with RGB lighting for a modern look."
+    ]
+  },
+  {
+    "id": "sony-zx-series-mdr-zx310ap",
+    "name": "Sony ZX Series MDR-ZX310AP",
+    "price": "999",
+    "url": "https://amzn.to/47TcJ1c",
+    "image": "/headsets/sony-zx-series-mdr-zx310ap.jpg",
+    "pros": [
+      "Lightweight & Portable"
+    ],
+    "cons": [
+      "Mixed reviews on comfort and durability"
+    ],
+    "category": "Headsets",
+    "rating":3.9,
+    "details": [
+      "⚖️ Lightweight & Folding Design – Compact, foldable headphones for ultimate music mobility and easy portability.",
+      "🔊 30mm Ferrite Drivers – Deliver powerful, balanced sound with clear highs and deep lows.",
+      "🎶 Wide Frequency Range – 10–24,000Hz ensures detailed audio for music, podcasts, and movies.",
+      "🛋️ Padded Earcups – Soft cushions provide comfortable listening during long sessions.",
+      "🎨 Stylish Metallic Finish – Modern design with choice of colors to match your style.",
+      "🎧 Swivel Ear Cups – Compact and adjustable for a secure fit and easy storage.",
+      "🔌 3.5mm Jack – Universal wired connectivity for laptops, phones, and audio devices."
+    ]
+  },
+  {
+    "id": "amazon-basics-rgb-wired-gaming-headphone",
+    "name": "Amazon Basics RGB Wired Gaming Headphone",
+    "price": "929",
+    "url": "https://amzn.to/47MzVy2",
+    "image": "/headsets/amazon-basics-rgb-wired-gaming-headphone.jpg",
+    "pros": [
+      "Powerful Bass and Sound Insulation",
+      "Multiple Device Compatibility"
+    ],
+    "cons": [
+      "Mixed reviews on connectivity"
+    ],
+    "category": "Headsets",
+    "rating":4.1,
+    "details": [
+      "🎮 Professional Gaming Headset – Immerse yourself in gaming with powerful bass, clear vocals, and audible subtle details like footsteps and gunshots.",
+      "🔌 Dual Connectivity & Braided Cable – 2-meter gaming-grade braided cable with 3.5mm audio jack and USB for power supply ensures durability and extended use.",
+      "🛋️ Comfortable Fabric Memory Foam Pads – High-quality imitation fabric cushions provide sound insulation, reduce hearing fatigue, and stay cool during long sessions.",
+      "⚖️ Adjustable Headband & Flexible Microphone – Customize fit and mic position for the best gaming experience.",
+      "🎚️ Easy Access Controls – Convenient mute/unmute button and volume scroller for quick adjustments during gameplay.",
+      "💻 Wide Compatibility – Works with Windows PC, PS4/PS5, Xbox, laptops, and more.",
+      "🛡️ Noise-Cancelling Microphone – Ensures clear communication while minimizing background noise.",
+      "🔊 Powerful Bass & Clear Sound – Professional-grade audio for gaming, movies, and multimedia.",
+      "🎧 Ergonomic & Adjustable Design – Lightweight construction and flexible headband for long-lasting comfort.",
+      "⚡ USB & 3.5mm Dual Cable – USB powers the headset while 3.5mm delivers high-quality audio, supporting extended gaming sessions."
+    ]
+  },
+  {
+    "id": "ant-esports-h590",
+    "name": "Ant Esports H590",
+    "price": "999",
+    "url": "https://amzn.to/4nlACU4",
+    "image": "/headsets/ant-esports-h590.jpg",
+    "pros": [
+      "Virtual 7.1 Surround Sound",
+      "Multiple Device Compatibility"
+    ],
+    "cons": [
+      "Mixed reviews on comfort"
+    ],
+    "category": "Headsets",
+    "rating":3.8,
+    "details": [
+      "⚖️ Durable & Lightweight Build – Sturdy frame with adjustable head beam and soft protein earmuffs for long-lasting comfort and durability.",
+      "🔊 Immersive 7.1 Surround Sound – Delivers deep bass, clear mids, and crisp highs for an engaging gaming and multimedia experience.",
+      "🎧 50mm Speaker Drivers & Noise-Cancelling Mic – Powerful drivers provide rich sound, while the flexible omni-directional mic ensures clear voice communication.",
+      "🔌 USB Connectivity with Red LED Light – Plug-and-play USB interface with stylish red LED lighting for a premium look.",
+      "🎮 Ergonomic & Lightweight Design – Optimized fit and lightweight construction for long gaming sessions without discomfort.",
+      "🛋️ Soft Protein Earmuffs – Skin-friendly, breathable cushions provide comfort and noise isolation for immersive listening.",
+      "💻 Multi-Platform Compatibility – Supports PS4/PS4 Pro/Slim, Xbox One (adapter not included), PSP, Nintendo 3DS, PC, Laptop, Tablet, iPad, and smartphones."
+    ]
+  },
+  {
+    "id": "ant-esports-h520w",
+    "name": "Ant Esports H520W",
+    "price": "685",
+    "url": "https://amzn.to/4mu0k7f",
+    "image": "/headsets/ant-esports-h520w.jpg",
+    "pros": [
+      "50mm Drivers",
+      "Multiple Device Compatibility"
+    ],
+    "cons": [
+      "Mixed reviews on durability"
+    ],
+    "category": "Headsets",
+    "rating":3.8,
+    "details": [
+      "🔊 Crisp Highs & Thundering Lows – 50mm drivers deliver immersive sound for gaming, music, and movies.",
+      "🛡️ Enhanced Noise Insulation – Blocks up to 95% of surrounding environmental noise for focused listening.",
+      "🎧 Over-Ear Comfort – Premium synthetic leather cushions provide soft, comfortable fit for long sessions.",
+      "🔌 Wired Connectivity – 3.5mm jack ensures stable and lag-free audio for gaming or media.",
+      "⚖️ Lightweight Design – Ergonomically built to stay comfortable during extended use.",
+      "🎮 Gaming-Ready – Optimized for immersive gameplay with deep bass and clear highs."
+    ]
+  },
+  {
+    "id": "zebronics-zeb-thunder-pro",
+    "name": "ZEBRONICS Zeb-Thunder PRO",
+    "price": "989",
+    "url": "https://amzn.to/4nA01Ja",
+    "image": "/headsets/zebronics-zeb-thunder-pro.jpg",
+    "pros": [
+      "60 Hr Playback",
+      "Dual Mode- Wireless and Wired"
+    ],
+    "cons": [
+      "Mixed reviews on durability"
+    ],
+    "category": "Headsets",
+    "rating":3.7,
+    "details": [
+      "🛋️ Soft Earcushions – Lightweight and comfortable earcups designed for long listening, study, or gaming sessions.",
+      "🔗 Dual Pairing with BT v5.3 – Seamlessly connect two devices at once for hassle-free multitasking and stable wireless performance.",
+      "⚡ Type-C Fast Charging – Modern Type-C port ensures quicker charging and reliable connectivity.",
+      "🎚️ Multi-Function Controls – Easy access buttons for volume +/next, volume -/previous, play/pause, mic, power on/off, and AUX-in, plus support for Micro SD card playback.",
+      "📞 Clear Call Function with ENC – Built-in microphone and Environmental Noise Cancellation for crystal-clear hands-free calls.",
+      "🎤 Voice Assistant Support – Activate Google Assistant or Siri instantly with one tap for smarter control.",
+      "🎮 Gaming Mode – Low-latency performance ensures smoother audio-video sync during intense gaming sessions.",
+      "🔊 40mm Dynamic Drivers – Deliver deep bass and powerful sound for music, movies, and gaming.",
+      "🔋 Massive 60-Hour Backup – Enjoy up to 60 hours of playtime on a single charge (*at 50% volume*).",
+      "⚖️ Lightweight Ergonomic Build – Designed to stay comfortable on your head during extended usage."
+    ]
+  },
+  {
+    "id": "portronics-muffs-m2",
+    "name": "Portronics Muffs M2",
+    "price": "749",
+    "url": "https://amzn.to/3KvUSDz",
+    "image": "/headsets/portronics-muffs-m2.jpg",
+    "pros": [
+      "40 Hr Playback",
+      "Dual Mode- Wireless and Wired"
+    ],
+    "cons": [
+      "Mixed reviews on comfort"
+    ],
+    "category": "Headsets",
+    "rating":3.9,
+    "details": [
+      "🔗 Go Wireless or Wired – Enjoy versatile connectivity with Bluetooth 5.3 for wireless use or a 3.5mm AUX port for wired playback, perfect for smartphones, laptops, and PCs.",
+      "⏳ Long 40 Hours Playtime – Binge full seasons without worry; plus, with Type-C fast charging, just 10 minutes of charge gives up to 10 hours playback.",
+      "🛋️ Plush Memory Foam Comfort – Soft cushioned earcups and padded adjustable headband ensure all-day comfort, even during long sessions.",
+      "🔊 Mighty Sound with 40mm Drivers – Dynamic drivers deliver powerful bass, clear mids, and crisp highs for immersive music, movies, and gaming.",
+      "🎤 Built-in Mic with ENC – Make hands-free calls and online meetings clearer with Environmental Noise Cancellation support.",
+      "🎚️ Easy Controls – On-ear control buttons let you adjust volume, manage tracks, and answer calls effortlessly.",
+      "🎒 Foldable & Portable – Flexible foldable design makes it easy to carry, store, and travel with your headphones."
+    ]
+  },
+  {
+    "id": "zebronics-thunder-neo",
+    "name": "ZEBRONICS Thunder NEO",
+    "price": "999",
+    "url": "https://amzn.to/4mpzNrW",
+    "image": "/headsets/zebronics-thunder-neo.jpg",
+    "pros": [
+      "60 Hr Playback",
+      "Dual Pairing BT v5.4",
+      "3 EQ Modes"
+    ],
+    "cons": [
+      "Mixed reviews on fit"
+    ],
+    "category": "Headsets",
+    "rating":4.3,
+    "details": [
+      "🔊 Dynamic Bass with 40mm Drivers – Enjoy rich, immersive audio with powerful bass that enhances music, movies, and games.",
+      "🎚️ 3 EQ Modes – Switch between Sound Monster (bass boost), Vocal Enhancer (clearer voices), and Equalizer (balanced sound).",
+      "🎮 Gaming Mode – Experience low-latency performance for smooth, lag-free gaming sessions.",
+      "📡 Seamless Connectivity – Equipped with Bluetooth v5.4 for stable wireless use plus AUX support for wired playback.",
+      "🛋️ Ergonomic Comfort – Lightweight build with soft cushioned ear pads designed for long hours of listening.",
+      "🔗 Dual Device Pairing – Connect and switch easily between two devices without hassle.",
+      "🎙️ Voice Assistant Support – Control music, calls, and reminders hands-free with built-in assistant compatibility.",
+      "⏳ Massive 60 Hours Playtime – Long-lasting battery at 50% volume, plus Type-C fast charging that gives 7 hours playback in just 10 minutes.",
+      "📞 ENC Call Clarity – Environmental Noise Cancellation ensures crystal-clear conversations during calls.",
+      "🎛️ Easy Controls – Integrated media and volume buttons for quick music and call management."
+    ]
+  },
+  {
+    "id": "zebronics-thunder",
+    "name": "ZEBRONICS THUNDER",
+    "price": "799",
+    "url": "https://amzn.to/4pxwSQx",
+    "image": "/headsets/zebronics-thunder.jpg",
+    "pros": [
+      "60 Hr Playback",
+      "Dual Pairing BT v5.3"
+    ],
+    "cons": [
+      "Mixed reviews on noise cancellation and battery life",
+      "Not ideal for long sessions"
+    ],
+    "category": "Headsets",
+    "rating": 3.7,
+    "details": [
+      "🎧 Ergonomic & Comfortable Design – Built for long hours of wear with a lightweight frame and snug fit.",
+      "🛋️ Soft Cushioned Earcups – Provides superior comfort for music, calls, and podcasts throughout the day.",
+      "⏳ 60 Hours Playback – Enjoy up to 60 hours of continuous music at 50% volume, plus 200 hours standby time.",
+      "🔊 Superior Sound with 40mm Drivers – Clear vocals, deep bass, and immersive audio for music, movies, and gaming.",
+      "🎮 Low Latency Gaming Mode – Reduced lag for smooth audio-visual sync while gaming or streaming.",
+      "🎚️ Adjustable Headband – Customize your fit for maximum comfort during work or entertainment.",
+      "📞 Hands-Free Calling – Built-in microphone ensures crystal-clear voice quality for online classes, meetings, and calls.",
+      "🔗 Multi-Connectivity Options – Connect via Bluetooth v5.3, 3.5mm AUX, or MicroSD card for flexible usage.",
+      "📱 Dual Pairing & Voice Assistant – Easily switch between two devices and access your phone’s voice assistant.",
+      "🎙️ ENC (Environmental Noise Cancellation) – Improved clarity during calls in noisy environments."
+    ]
+  },
+  {
+    "id": "boat-bassheads-900-pro",
+    "name": "boAt Bassheads 900 Pro",
+    "price": "999",
+    "url": "https://amzn.to/4gIhnBp",
+    "image": "/headsets/boat-bassheads-900-pro.jpg",
+    "pros": [
+      "Lightweight Foldable Design",
+      "Unidirectional Retractable Mic"
+    ],
+    "cons": [
+      "Mixed reviews on durability",
+      "Not ideal for long sessions"
+    ],
+    "category": "Headsets",
+    "rating": 4.1,
+    "details": [
+      "🔊 40mm Dynamic Drivers – Crisp and powerful sound for gaming, OTT content, and music playback.",
+      "🎧 Lightweight Design (150g) – Comfortable to wear for long hours without strain.",
+      "🎚️ Inline Remote Control – Adjust volume easily and use the mute/unmute switch for quick sound management.",
+      "🎙️ Unidirectional Microphone – Perfect for clear in-game chat, online meetings, and calls.",
+      "📦 Foldable & Portable – Compact design makes it easy to fold and store when not in use.",
+      "🎤 Retractable Mic – Flexible, adjustable microphone ensures convenience and better voice capture.",
+      "🔌 USB Type-A Interface – Simple plug-and-play connectivity for PCs, laptops, and compatible devices."
+    ]
+  },
+  {
+    "id": "truke-btg-500",
+    "name": "truke BTG 500",
+    "price": "799",
+    "url": "https://amzn.to/4noBmHG",
+    "image": "/headsets/truke-btg-500.jpg",
+    "pros": [
+      "50ms Low Latency",
+      "Dual Connectivity"
+    ],
+    "cons": [
+      "Mic is average"
+    ],
+    "category": "Headsets",
+    "rating": 4.1,
+    "details": [
+      "🎧 Long-Lasting Playtime – Up to 10 hours of nonstop music, gaming, or calls on a single charge.",
+      "⚡ Rapid Fast Charging – Just 10 minutes of charging gives 100 minutes of playtime, always ready when you are.",
+      "🔊 Powerful 40mm Audio Drivers – Deep bass and crystal-clear highs for immersive sound quality.",
+      "🎮 50ms Ultra-Low Latency Mode – Lag-free Battle Mode for smooth, responsive gaming performance.",
+      "🌈 Dynamic RGB Lighting – Stylish design with vibrant lighting effects, perfect for gamers & music lovers.",
+      "🔗 Dual Device Pairing – Connect and switch between two devices seamlessly for ultimate convenience.",
+      "🎵 TF Card Support – Play music directly from your TF card with onboard volume & playback controls.",
+      "☁️ All-Day Comfort – Soft cushioned ear pads designed for long listening or gaming sessions.",
+      "💦 IPX5 Sweat & Water Resistance – Durable build, ideal for workouts, outdoor use, and daily commutes.",
+      "🛡️ 12-Month Warranty + 350+ Service Centers – Reliable after-sales support for peace of mind."
+    ]
+  },
+  {
+    "id": "ptron-studio-evo",
+    "name": "pTron Studio Evo",
+    "price": "799",
+    "url": "https://amzn.to/42y0Nye",
+    "image": "/headsets/ptron-studio-evo.jpg",
+    "pros": [
+      "70 hrs playtime",
+      "Adjustable & Foldable Earcups"
+    ],
+    "cons": [
+      "Mixed reviews on connectivity"
+    ],
+    "category": "Headsets",
+    "rating": 4.3,
+    "details": [
+      "🎧 Ergonomic Comfort – Over-ear Bluetooth headphones with adjustable headband & soft cushioned earcups for all-day listening.",
+      "🔋 Massive 70-Hour Battery Life – Enjoy uninterrupted music or calls on a single charge, with fast Type-C charging in just 2 hours.",
+      "🎶 Powerful 40mm Dynamic Drivers – Experience rich, deep bass and crystal-clear stereo sound for music, movies, and gaming.",
+      "🎮 4 Low-Latency EQ Modes – Seamlessly switch between Gaming, Music, Movies, and Balanced sound profiles for every need.",
+      "📶 Bluetooth 5.3 Connectivity – Stable, quick-pairing wireless connection with support for dual-device pairing & instant switching.",
+      "🎤 Built-in HD Microphone – Crisp voice clarity for calls, video meetings, and hands-free assistant access.",
+      "🔗 Wired + Wireless Modes – Listen your way via Bluetooth or the included 3.5mm Aux-in port for unlimited flexibility.",
+      "💧 IPX5 Water-Resistant – Sweatproof and splashproof design, perfect for workouts, travel, or daily commute.",
+      "👜 Foldable & Portable – Compact foldable design makes it easy to store and carry anywhere.",
+      "⚙️ Easy Multi-Function Controls – Manage music, calls, and voice assistant with intuitive button controls.",
+      "✅ 1-Year Manufacturer Warranty – Peace of mind with official coverage against manufacturing defects."
+    ]
+  },
+    {
       "id": "hyperx-cloud-stinger-2",
       "name": "HyperX Cloud Stinger 2",
       "price": "3,599",
@@ -244,3 +783,4 @@
       ]
     }
 ]
+
