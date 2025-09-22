@@ -58,6 +58,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Pro
                 currentPage={page}
                 totalPages={totalPages}
                 basePath="/products"
+                queryParams={{ category: category !== "All" ? category : undefined, sort }}
             />
 
             {/* AdSense Ad Unit */}
@@ -80,6 +81,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Pro
         </section>
     );
 }
+
 
 
 
