@@ -1,5 +1,529 @@
 [
     {
+    "id": "acer-bubble-wireless",
+    "name": "Acer Bubble Wireless",
+    "price": "449",
+    "url": "https://amzn.to/3VvQOps",
+    "image": "/mouse/acer-bubble-wireless.jpg",
+    "pros": [
+      "1600 DPI Sensor",
+      "2.4GHz Wireless Connectivity",
+      "Ergonomic Design with Silent Switches"
+    ],
+    "cons": [
+      "No bluetooth connectivity"
+    ],
+    "category": "Mouse",
+    "rating": 5.0,
+    "details": [
+      "🔇 Silent Click Technology – Work or browse quietly with silent switches for left and right buttons, perfect for home, office, meetings, or study zones.",
+      "📡 Lag-Free 2.4GHz Wireless Connectivity – Reliable and stable connection up to 10 meters with the USB nano receiver for instant plug-and-play performance.",
+      "🎯 High-Precision 1600 DPI Sensor – Accurate cursor control and smooth tracking on multiple surfaces, ideal for documents, web browsing, and creative tasks. Features PixArt PAW 3205 sensor.",
+      "🎨 Vibrant Color Variants – Choose from Blue-Green, Peach, or White-Grey to match your personal style or workspace setup.",
+      "🔋 Efficient AA Battery Use – Powered by a single AA battery (included) for long-lasting performance and energy efficiency over months of usage.",
+      "🖐️ Ergonomic & Compact Design – Lightweight and comfortable design for extended usage without strain, ideal for daily productivity.",
+      "💻 Wide Compatibility – Works seamlessly with Windows 8, 10, and 11 for versatile plug-and-play use."
+    ]
+  },
+  {
+    "id": "amkette-hush-pro-epic",
+    "name": "Amkette Hush Pro Epic",
+    "price": "639",
+    "url": "https://amzn.to/4niJI3O",
+    "image": "/mouse/amkette-hush-pro-epic.jpg",
+    "pros": [
+      "2400 DPI Sensor",
+      "6 Button Layout",
+      "Ergonomic Design with Silent Switches"
+    ],
+    "cons": [
+      "Mixed reviews on battery life"
+    ],
+    "category": "Mouse",
+    "rating": 4.1,
+    "details": [
+      "🔗 Multi-Device Connectivity – Connect up to 3 devices simultaneously (2x Bluetooth 5.2 + 1x USB 2.4 GHz) and switch effortlessly with a dedicated button.",
+      "🖐️ Ergonomic Design with Silent Switches – Comfortable for long use and quiet operation for a distraction-free environment.",
+      "🎯 Professional-Grade Sensor with Adjustable DPI – S201 sensor ensures high precision, with 4 DPI levels (800, 1200, 1600, 2400) for customizable cursor speed.",
+      "🔋 Rechargeable Battery with Type-C Charging – Built-in 500 mAh battery provides hassle-free power management and fast charging.",
+      "⚡ Battery Indicators – Easily monitor battery levels directly on the mouse or connected devices.",
+      "💻 Wide Compatibility – Works seamlessly with laptops, PCs, tablets, and smartphones for versatile use.",
+      "🌟 Lightweight & Portable – Compact design ideal for travel and on-the-go productivity."
+    ]
+  },
+  {
+    "id": "portronics-vader",
+    "name": "Portronics Vader",
+    "price": "369",
+    "url": "https://amzn.to/3Kf0p1o",
+    "image": "/mouse/portronics-vader.jpg",
+    "pros": [
+      "6400 DPI Sensor",
+      "6 Button Layout",
+      "Ergonomic Comfort with Thumbrest"
+    ],
+    "cons": [
+      "Mixed reviews on click functionality"
+    ],
+    "category": "Mouse",
+    "rating": 4.3,
+    "details": [
+      "🎮 Pro-Level Gaming Mouse – Smooth and precise operation designed for an unparalleled gaming experience.",
+      "🔘 6 Button Layout – Includes left/right click, DPI adjustment, scroll wheel, and next/previous buttons for full control during gameplay.",
+      "🖐️ Ergonomic Comfort with Thumbrest – Special thumb support and ergonomic design ensure comfort during extended gaming sessions.",
+      "🌈 RGB Lighting Effects – Sleek, transformer-inspired design with customizable RGB lights to enhance your gaming setup.",
+      "🎯 Adjustable DPI up to 6400 – Switch between 1000, 1600, 3200, and 6400 DPI for precise optical tracking and unmatched accuracy.",
+      "🔌 1.5m USB Cable – Long, durable cable for uninterrupted gaming on PC and laptop.",
+      "💻 Wide Compatibility – Works seamlessly with most PCs and laptops."
+    ]
+  },
+  {
+    "id": "ant-esports-gm320",
+    "name": "Ant Esports GM320",
+    "price": "499",
+    "url": "https://amzn.to/46wmY9d",
+    "image": "/mouse/ant-esports-gm320.jpg",
+    "pros": [
+      "12800 DPI Sensor",
+      "8 Programmable Buttons & Fire Button",
+      "Customizable RGB Backlit Lighting"
+    ],
+    "cons": [
+      "Mixed reviews on functionality and weight"
+    ],
+    "category": "Mouse",
+    "rating": 4.3,
+    "details": [
+      "🎮 8 Programmable Buttons & Fire Button – Customize all buttons with macro editing using Ant Esports software; rapid Fire button gives an edge in FPS, MOBA, and RTS games.",
+      "🌈 RGB Backlit Lighting – Multicolor RGB effects for immersive gaming; easily toggle on/off or change modes via the bottom switch.",
+      "🎯 Adjustable 12800 DPI – 4 DPI levels (1000–12800) for precise control, with adjustable 500–1000Hz polling rate for smooth, high-speed movement.",
+      "🖐️ Ergonomic Claw-Grip Design – Symmetrical and streamlined shape ensures comfort during long gaming sessions without fatigue.",
+      "⚡ High-Speed Optical Sensor – Responsive tracking and quick switching for different game styles.",
+      "✅ Durable Build – 20 million click lifespan, tactile feedback, and reliable performance with 1-year warranty.",
+      "🔌 Wired Connectivity with Braided Cable – Sturdy and flexible cable for uninterrupted gaming sessions.",
+      "💻 Wide Compatibility – Works seamlessly with PC, Mac, Xbox, and PlayStation systems."
+    ]
+  },
+  {
+    "id": "ptron-flick-m1-slim",
+    "name": "pTron Flick M1 Slim",
+    "price": "299",
+    "url": "https://amzn.to/4msjESw",
+    "image": "/mouse/ptron-flick-m1-slim.jpg",
+    "pros": [
+      "1600 DPI Optical Sensor",
+      "Dual Connectivity Modes",
+      "Rechargeable Battery with Type-C Port"
+    ],
+    "cons": [
+      "No programmable RGB Lighting"
+    ],
+    "category": "Mouse",
+    "rating": 4.5,
+    "details": [
+      "🎯 Precise 1600 DPI Optical Sensor – High-resolution sensor ensures smooth and accurate tracking for work and gaming.",
+      "🔗 Dual Connectivity Modes – Connect via 2.4GHz wireless or Bluetooth for versatile usage across devices.",
+      "🖐️ Slim & Ergonomic Design – Lightweight and portable, perfect for travel and extended use.",
+      "🌈 Vivid RGB LED Lighting – Stylish lighting effect enhances the look of your workspace.",
+      "🔘 4 Silent Click Buttons – Includes left, right, scroll wheel, and DPI adjustment buttons for quiet operation.",
+      "⚡ Adjustable DPI Levels – Switch between 1000/1200/1600 DPI to suit different tasks and sensitivity preferences.",
+      "🔌 Plug & Play with Detachable USB Receiver – Easy setup without additional drivers; compatible with Windows, Mac, Linux, and more.",
+      "🔋 Rechargeable Battery with Type-C Port – Convenient long-lasting power with quick charging; includes 6-month manufacturer warranty."
+    ]
+  },
+  {
+    "id": "logitech-m196",
+    "name": "Logitech M196",
+    "price": "790",
+    "url": "https://amzn.to/48efURl",
+    "image": "/mouse/logitech-m196.jpg",
+    "pros": [
+      "12-Month Battery Life",
+      "Compact & Portable Design",
+      "Bluetooth Wireless Connectivity"
+    ],
+    "cons": [
+      "Average design"
+    ],
+    "category": "Mouse",
+    "rating": 4.3,
+    "details": [
+      "🖱️ Compact & Portable Design – Lightweight and travel-ready, fits easily in bags for on-the-go productivity.",
+      "🔗 Bluetooth Wireless Connectivity – Pair-and-play setup without requiring a USB dongle or port.",
+      "🎯 Smooth Optical Tracking – Precise line-by-line scrolling and accurate cursor control on almost any surface.",
+      "🧑‍🤝‍🧑 Ambidextrous Comfort – Contoured shape suitable for both left- and right-handed users.",
+      "🌱 Sustainable Build – Made with certified post-consumer recycled plastic (up to 67%) for eco-friendly durability.",
+      "🔋 12-Month Battery Life – Long-lasting performance without frequent battery changes.",
+      "✅ Multi-Device Compatibility – Works seamlessly with laptops, tablets, PCs, and Mac systems.",
+      "⚡ Plug & Play Convenience – Ready to use immediately with Bluetooth-enabled devices."
+    ]
+  },
+  {
+    "id": "zebronics-jaguar-v",
+    "name": "ZEBRONICS Jaguar V",
+    "price": "549",
+    "url": "https://amzn.to/4nhjejf",
+    "image": "/mouse/zebronics-jaguar-v.jpg",
+    "pros": [
+      "1600 DPI",
+      "Rechargeable Battery- Type-c",
+      "Dual Wireless Connectivity"
+    ],
+    "cons": [
+      "Mixed reviews on battery life"
+    ],
+    "category": "Mouse",
+    "rating": 4.1,
+    "details": [
+      "🔗 Dual Wireless Connectivity – Supports 2.4GHz Nano USB receiver and Bluetooth 5.3, allowing seamless connection to up to 3 devices.",
+      "🎯 Adjustable DPI Resolution – Easily switch DPI levels (upto 1600 DPI) for precise tracking and customizable sensitivity for gaming or work.",
+      "🧳 Portable & Travel-Friendly – Compact and lightweight design makes it perfect for on-the-go usage, presentations, and office work.",
+      "🌈 RGB Lighting – Features 7-color customizable lighting to add style and personalization to your setup.",
+      "🔋 Long-Lasting Rechargeable Battery – Type-C charging provides up to 9 days of uninterrupted usage per charge.",
+      "🖐️ Ergonomic Design – Comfortable shape designed for extended use without fatigue.",
+      "✅ Plug & Play Convenience – No drivers or software required; ready to use instantly with USB dongle or Bluetooth.",
+      "⚡ Multi-Platform Compatibility – Works with laptops, smartphones, tablets, and other Bluetooth-enabled devices."
+    ]
+  },
+  {
+    "id": "portronics-toad-one",
+    "name": "Portronics Toad One",
+    "price": "499",
+    "url": "https://amzn.to/3IwvxJ6",
+    "image": "/mouse/portronics-toad-one.jpg",
+    "pros": [
+      "1600 DPI",
+      "Rechargeable Battery- Type-c",
+      "Dual Wireless Connectivity"
+    ],
+    "cons": [
+      "Mixed reviews on functionality and buttons"
+    ],
+    "category": "Mouse",
+    "rating": 4.3,
+    "details": [
+      "🔗 Dual Wireless Connectivity – Supports 2.4GHz Nano USB receiver and Bluetooth 5.3, allowing seamless connection to up to 3 devices.",
+      "🎯 Adjustable DPI Resolution – Easily switch DPI levels (upto 1600 DPI) for precise tracking and customizable sensitivity for gaming or work.",
+      "🧳 Portable & Travel-Friendly – Compact and lightweight design makes it perfect for on-the-go usage, presentations, and office work.",
+      "🌈 RGB Lighting – Features 7-color customizable lighting to add style and personalization to your setup.",
+      "🔋 Long-Lasting Rechargeable Battery – Type-C charging provides up to 9 days of uninterrupted usage per charge.",
+      "🖐️ Ergonomic Design – Comfortable shape designed for extended use without fatigue.",
+      "✅ Plug & Play Convenience – No drivers or software required; ready to use instantly with USB dongle or Bluetooth.",
+      "⚡ Multi-Platform Compatibility – Works with laptops, smartphones, tablets, and other Bluetooth-enabled devices."
+    ]
+  },
+  {
+    "id": "evofox-blaze-ultra-value",
+    "name": "EvoFox Blaze Ultra Value",
+    "price": "583",
+    "url": "https://amzn.to/48vVdjJ",
+    "image": "/mouse/evofox-blaze-ultra-value.jpg",
+    "pros": [
+      "12800 DPI Sensor",
+      "8 Programmable Buttons",
+      "Ergonomic Lightweight Design"
+    ],
+    "cons": [
+      "Mixed reviews on weight"
+    ],
+    "category": "Mouse",
+    "rating": 4.4,
+    "details": [
+      "🎮 High-Precision Gaming Sensor – Adjustable DPI from 200 to 12800, 7000 FPS, and 1000Hz polling rate for ultra-responsive tracking.",
+      "🖱️ 8 Programmable Buttons – Includes a dedicated fire button and 7 customizable buttons for enhanced gaming control.",
+      "🌈 Prism RGB Lighting – 16 million RGB colors with music sync mode to personalize your gaming setup.",
+      "🧵 Durable Braided Cable & Gold-Plated USB – Long-lasting 1.5m cable ensures stable connection and enhanced durability.",
+      "🖐️ Ergonomic Lightweight Design – Comfortable shape with easy-glide UPE foot pads for fatigue-free extended gaming sessions.",
+      "💻 Windows Software Support – Full customization of buttons, DPI, and RGB lighting directly from PC software.",
+      "✅ 1-Year Warranty – Backed by hassle-free manufacturer support for reliable usage.",
+      "⚡ Ultra-Responsive Performance – Gaming-grade design optimized for precision, speed, and smooth gameplay."
+    ]
+  },
+  {
+    "id": "cosmic-byte-raptor",
+    "name": "Cosmic Byte Raptor",
+    "price": "749",
+    "url": "https://amzn.to/48s67qC",
+    "image": "/mouse/cosmic-byte-raptor.jpg",
+    "pros": [
+      "4800 DPI Sensor",
+      "Dual-Mode Connectivity",
+      "Customizable RGB Lighting"
+    ],
+    "cons": [
+      "Mixed reviews on weight"
+    ],
+    "category": "Mouse",
+    "rating": 4.3,
+    "details": [
+      "🎮 Dual Mode Connectivity – Offers both wired and wireless modes for versatile gaming and productivity experiences.",
+      "🎯 Pixart 3212 Sensor – High-precision optical sensor with up to 4800 DPI for fast and accurate tracking.",
+      "⚡ 10 Million Click Switches – Durable, high-quality switches rated for up to 10 million clicks for long-lasting performance.",
+      "⏱️ 500Hz Polling Rate – Ensures minimal input latency and smooth, responsive gaming control.",
+      "🌈 Customizable RGB Lighting – 11 RGB effects let you personalize your setup and create an immersive gaming environment.",
+      "🧵 Braided Cable – Durable and flexible cable enhances wired connectivity reliability and prevents tangling.",
+      "🖱️ Smooth PTFE Feet – Premium mouse feet provide effortless gliding and precise control on all surfaces.",
+      "🖐️ Ergonomic Lightweight Design – Comfortable shape for long gaming sessions without strain."
+    ]
+  },
+  {
+    "id": "arctic-fox-pureview-transparent",
+    "name": "Arctic Fox Pureview Transparent",
+    "price": "549",
+    "url": "https://amzn.to/4muCOqW",
+    "image": "/mouse/arctic-fox-pureview-transparent.jpg",
+    "pros": [
+      "2400 DPI Sensor",
+      "Triple-Mode Connectivity",
+      "Built-In Rechargeable Battery"
+    ],
+    "cons": [
+      "Negative reviews on scroll wheel noise"
+    ],
+    "category": "Mouse",
+    "rating": 4.4,
+    "details": [
+      "🔗 Triple-Mode Connectivity – Supports Bluetooth 5.1 (x2) and 2.4GHz wireless, allowing seamless switching between up to three devices with plug-and-play convenience.",
+      "🔋 Built-In Rechargeable Battery – High-performance 400mAh battery provides up to 30 days of usage on a full charge with automatic hibernation mode for power saving.",
+      "📊 LED Battery Level Display – Real-time 4-grid power indicator keeps you informed of battery status during use.",
+      "🎯 Adjustable 4-Level DPI – Optical sensor with 800/1200/1600/2400 DPI for precise, smooth tracking suitable for office work and casual gaming.",
+      "🖐️ Ergonomic Lightweight Design – Ultra-light mouse comfortably fits the palm for effortless long-duration usage.",
+      "🖥️ Boss Key Function – Quickly hide all windows and switch to the desktop with a single click, improving productivity and privacy (not compatible with Mac OS).",
+      "✅ Plug & Play Convenience – Works seamlessly across PC, Mac, laptop, iPad, and Apple devices without additional drivers."
+    ]
+  },
+  {
+    "id": "logitech-m186-wireless-mouse",
+    "name": "Logitech M186 Wireless Mouse",
+    "price": "399",
+    "url": "https://amzn.to/3KgbxuP",
+    "image": "/mouse/logitech-m186-wireless-mouse.jpg",
+    "pros": [
+      "Compact & Ambidextrous Design",
+      "2.4GHz Wireless",
+      "1000 DPI"
+    ],
+    "cons": [
+      "Negative reviews on scrolling"
+    ],
+    "category": "Mouse",
+    "rating": 4.1,
+    "details": [
+      "🖱️ Compact & Ambidextrous Design – Comfortable contoured shape suitable for both left- and right-handed users, superior to a touchpad.",
+      "🔋 12-Month Battery Life – Smart sleep mode and included AA battery provide long-lasting power for uninterrupted use.",
+      "🎯 1000 DPI Optical Tracking – Smooth, precise cursor movement ideal for everyday tasks on PC, Mac, or laptop.",
+      "🔗 2.4GHz Wireless Connectivity – Reliable connection via USB mini receiver with a range of up to 10 meters.",
+      "⚡ Durable & Reliable – Sturdy build and line-by-line scroll wheel designed for consistent daily performance.",
+      "✅ Universal Compatibility – Works seamlessly with Windows PCs, Macs, and laptops without any software installation.",
+      "🖐️ Productivity Boost – Enhances workflow compared to touchpads, helping users work faster and more efficiently.",
+      "🔌 Plug & Play Convenience – Tiny nano receiver allows instant setup and effortless usage."
+    ]
+  },
+  {
+    "id": "portronics-toad-23",
+    "name": "Portronics Toad 23",
+    "price": "264",
+    "url": "https://amzn.to/4nLb2HL",
+    "image": "/mouse/portronics-toad-23.jpg",
+    "pros": [
+      "Compact and Lightweight",
+      "2.4GHz Wireless",
+      "Ergonomic & Ambidextrous Design"
+    ],
+    "cons": [
+      "Negative reviews on functionality and battery life"
+    ],
+    "category": "Mouse",
+    "rating": 4.0,
+    "details": [
+      "🔗 2.4GHz Wireless Freedom – Enjoy seamless wireless connectivity up to 10 meters with a plug-and-forget Nano USB dongle.",
+      "🧳 Ultra-Portable Design – Compact and lightweight, ideal for travelers, professionals, and on-the-go usage.",
+      "🖐️ Ergonomic & Ambidextrous – Comfortable design suitable for both left- and right-handed users, perfect for long hours of work.",
+      "🎯 Adjustable DPI Sensitivity – Switch DPI levels easily to customize mouse speed and precision for different tasks.",
+      "⚡ High-Speed Optical Sensor – Delivers quick, accurate signals for smooth navigation and efficient performance.",
+      "🔘 Extra Click Wheel Button – Equipped with a third click button via the scroll wheel for added functionality.",
+      "🕹️ Durable Build Quality – Engineered for over 30 lakh clicks, ensuring long-lasting reliability.",
+      "✅ Plug & Play Convenience – No drivers or software needed, just connect the Nano receiver and start working instantly."
+    ]
+  },
+  {
+    "id": "lenovo-150-wireless",
+    "name": "Lenovo 150 Wireless",
+    "price": "399",
+    "url": "https://amzn.to/3VPdEIR",
+    "image": "/mouse/lenovo-150-wireless.jpg",
+    "pros": [
+      "Ambidextrous Ergonomic Design",
+      "2.4GHz Wireless",
+      "1000 DPI Sensor"
+    ],
+    "cons": [
+      "No charging option"
+    ],
+    "category": "Mouse",
+    "rating": 4.2,
+    "details": [
+      "🖱️ Compact & Portable – Slim, lightweight design makes it easy to carry in your pocket, backpack, or laptop bag.",
+      "🔗 Reliable 2.4GHz Wireless – Comes with a Nano USB receiver offering stable connectivity up to 10 meters.",
+      "🔋 Long Battery Life – Enjoy up to 10 months of usage with a single AA battery, reducing frequent replacements.",
+      "🎯 Precision 1000 DPI Sensor – Optical sensor ensures accurate tracking for smooth navigation and productivity.",
+      "⚡ 3 Million Click Durability – Left and right buttons rated for up to 3M clicks, ensuring long-lasting performance.",
+      "🖐️ Ambidextrous Ergonomic Design – Comfortable grip for both left- and right-handed users, ideal for office or on-the-go use.",
+      "🔄 Smooth Scroll Wheel – Intuitive up/down scroll wheel enhances efficiency during work and browsing.",
+      "✅ Plug & Play Convenience – Simply connect the Nano USB receiver and start working without drivers or setup."
+    ]
+  },
+  {
+    "id": "zebronics-slanc-slim",
+    "name": "ZEBRONICS Blanc Slim",
+    "price": "299",
+    "url": "https://amzn.to/4mscAFu",
+    "image": "/mouse/zebronics-slanc-slim.jpg",
+    "pros": [
+      "Wired & Wireless Connectivity",
+      "Slim & Lightweight Design",
+      "1600 DPI"
+    ],
+    "cons": [
+      "Mixed reviews on performance"
+    ],
+    "category": "Mouse",
+    "rating": 4.0,
+    "details": [
+      "🖱️ Slim & Lightweight Design – Ultra-portable wireless mouse weighing just 63g, perfect for everyday work and travel.",
+      "🔗 Dual Wireless Connectivity – Seamless switch between 2.4GHz USB receiver and Bluetooth modes for flexible use.",
+      "🎯 Adjustable DPI Levels – Advanced optical sensor with 800/1200/1600 DPI settings for smooth and precise cursor control.",
+      "🔋 Rechargeable Battery – Built-in battery with convenient USB charging, eliminating the need for disposable batteries.",
+      "✨ Multicolor LED Rim – Stylish RGB-inspired LED lights on the rim add a vibrant edge to your setup.",
+      "🔇 Silent Operation – Click quietly without disturbing others, ideal for office, study, and late-night work sessions.",
+      "⚡ Plug & Play Setup – Detachable nano USB receiver stored at the bottom panel for quick, hassle-free connectivity.",
+      "🖐️ Ergonomic 4-Button Layout – Includes right, left, scroll, and dedicated DPI button for enhanced productivity and comfort."
+    ]
+  },
+  {
+    "id": "evofox-starter-series-spectre",
+    "name": "EvoFox Starter Series Spectre",
+    "price": "298",
+    "url": "https://amzn.to/4nFw5LF",
+    "image": "/mouse/evofox-starter-series-spectre.jpg",
+    "pros": [
+      "3600 DPI Sensor",
+      "6 Pre-Programmed Buttons",
+      "7 Colours Rainbow Lighting"
+    ],
+    "cons": [
+      "Mixed reviews on functionality"
+    ],
+    "category": "Mouse",
+    "rating": 4.4,
+    "details": [
+      "🎮 Precision Gaming Sensor – Upto 3600 DPI with 4 adjustable levels (1200, 1800, 2400, 3600) for fast and accurate tracking during intense gameplay.",
+      "🌈 7-Color Rainbow Lighting – Stylish RGB backlighting with breathing effect adds flair to your gaming setup.",
+      "🖱️ 6-Button Ergonomic Design – Functional layout crafted for gamers, tested for over 7 million clicks for long-lasting durability.",
+      "🔗 1.5m Braided Cable – Strong, flexible cable with EMI suppressor ensures stable data transmission and reduced signal noise.",
+      "⚡ Gaming-Grade Build – Crafted from premium materials for reliability, comfort, and smooth gaming control.",
+      "✅ 1-Year Warranty – Backed by hassle-free manufacturer support for worry-free usage."
+    ]
+  },
+  {
+    "id": "portronics-toad-101",
+    "name": "Portronics Toad 101",
+    "price": "89",
+    "url": "https://amzn.to/3W48OY0",
+    "image": "/mouse/portronics-toad-101.jpg",
+    "pros": [
+      "1200 DPI Sensor",
+      "Accurate and Reliable Tracking"
+    ],
+    "cons": [
+      "Mixed reviews on functionality and durability"
+    ],
+    "category": "Mouse",
+    "rating": 4.0,
+    "details": [
+      "🖱️ 1200 DPI High Precision – Enjoy smooth, responsive tracking ideal for office work, photo editing, and casual gaming.",
+      "🔌 USB Plug & Play – Simple USB-A connectivity ensures instant setup with desktops and laptops, no software required.",
+      "📏 1.25m Long Cable – Provides comfortable reach and flexibility, allowing you to work efficiently at your ideal distance.",
+      "🎯 Quick Optical Sensor – Designed for accurate, reliable tracking on most surfaces, whether on a desk or your lap.",
+      "💻 Work & Play Ready – Perfect for productivity tasks, casual gaming, or online sessions with friends.",
+      "🖐️ Durable Build – Crafted for longevity with a click life of up to 30 lakh clicks, ensuring reliable daily use."
+    ]
+  },
+  {
+    "id": "zebronics-transformer-m",
+    "name": "ZEBRONICS Transformer M",
+    "price": "299",
+    "url": "https://amzn.to/3W48OY0",
+    "image": "/mouse/zebronics-transformer-m.jpg",
+    "pros": [
+      "3200 DPI Sensor",
+      "6 Pre-Programmed Buttons"
+    ],
+    "cons": [
+      "Mixed reviews on durability"
+    ],
+    "category": "Mouse",
+    "rating": 4.2,
+    "details": [
+      "🎮 High-Precision 3200 DPI Sensor – Features a dedicated DPI switch to toggle between 1000/1600/2400/3200 DPI, ensuring accuracy and speed for every gaming style.",
+      "🌈 7-Color Breathing LED Lights – Elevate your gaming setup with dynamic lighting effects that create an immersive atmosphere.",
+      "🖐️ Ergonomic Design – Built for comfort during long gaming sessions, reducing hand fatigue with a natural grip design.",
+      "⚡ Six Responsive Buttons – Includes forward and backward buttons for quick navigation, plus a dedicated DPI switch for on-the-fly sensitivity adjustment.",
+      "🔌 Gold-Plated USB Connector – Premium build with enhanced durability for consistent and reliable performance.",
+      "🧵 Durable Braided Cable – Strong, long braided cable tested for longevity, providing tangle-free movement and extended lifespan.",
+      "🖥️ Plug & Play on All Surfaces – No additional software required; works seamlessly on multiple surfaces for hassle-free setup."
+    ]
+  },
+  {
+    "id": "dell-ms116-wired",
+    "name": "Dell MS116 Wired",
+    "price": "259",
+    "url": "https://amzn.to/46kbTt2",
+    "image": "/mouse/dell-ms116-wired.jpg",
+    "pros": [
+      "1000 DPI Sensor",
+      "Sleek and Modern Design"
+    ],
+    "cons": [
+      "Negative reviews on scrolling"
+    ],
+    "category": "Mouse",
+    "rating": 4.4,
+    "details": [
+      "🎯 High-Precision 1000 DPI Sensor – Enjoy smooth and accurate optical tracking for everyday tasks, boosting efficiency at home or in the office.",
+      "🖐️ Ergonomic Ambidextrous Design – Comfortable 2-button and scroll wheel layout, shaped to fit naturally in either hand for extended use.",
+      "🔗 USB Plug & Play – Simple wired USB connectivity ensures instant use without software installation or setup hassles.",
+      "💻 Wide Compatibility – Works seamlessly with almost any system that has a USB port, making it versatile for office or home setups.",
+      "⚡ Reliable Performance – Built for consistent day-to-day productivity, providing smooth navigation across documents, web pages, and projects.",
+      "✨ Contemporary Design – Sleek and modern aesthetic that blends effortlessly into any desktop environment."
+    ]
+  },
+  {
+    "id": "evofox-phantom-2",
+    "name": "EvoFox Phantom 2",
+    "price": "629",
+    "url": "https://amzn.to/4niKpKt",
+    "image": "/mouse/evofox-phantom-2.jpg",
+    "pros": [
+      "12800 DPI",
+      "8 Programmable Buttons",
+      "RGB Lights with Music sync Mode"
+    ],
+    "cons": [
+      "Mixed reviews on weight"
+    ],
+    "category": "Mouse",
+    "rating": 4.4,
+    "details": [
+      "🎯 Adjustable 200–12800 DPI – Wide DPI range for precision targeting or lightning-fast movements, ideal for every gaming style.",
+      "🌈 Customizable RGB Lighting – Dynamic RGB modes including music sync for immersive visual effects that match your gameplay.",
+      "🖥️ Advanced Windows Software – Full customization of buttons, DPI profiles, macros, and lighting with onboard memory to save your settings.",
+      "🕹️ 8 Programmable Buttons – Tailor your mouse controls for enhanced gameplay efficiency and faster response times.",
+      "⚡ High Performance 1000Hz Polling Rate – Ultra-responsive tracking with 7000 FPS, 60 IPS, and 20g acceleration for competitive gaming.",
+      "🖐️ Ergonomic & Durable Design – Comfortable grip with Huano switches rated for 10 million clicks, plus a strong 1.5m braided cable with EMI ring."
+    ]
+  },
+    {
       "id": "logitech-g304",
       "name": "Logitech G304 Lightspeed Wireless",
       "price": "2,595",
@@ -256,3 +780,4 @@
       ]
     }
 ]
+
