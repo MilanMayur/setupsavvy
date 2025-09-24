@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                             transition-colors duration-500">
                 <Navbar />
                 <main className="flex-1 px-4 py-6 transition-colors duration-500 
-                                bg-gradient-to-tr from-indigo-50 via-white to-purple-100 
+                                bg-gradient-to-tr from-indigo-400 via-white to-purple-400 
                                 dark:from-indigo-950 dark:via-gray-900 dark:to-purple-950 ">
                     {children}
                 </main>
