@@ -1,14 +1,576 @@
 [
     {
-        "id": "chair-1",
-        "name": "Ergonomic Office Chair",
-        "price": "₹12,499",
-        "image": "/products/chair1.jpg",
-        "url": "https://amzn.to/your-affiliate-link",
+        "id": "da-urban-airex-mid-back-chair",
+        "name": "Da URBAN Airex High-Back Chair",
+        "price": "3,859",
+        "url": "https://amzn.to/3VSXtu5",
+        "image": "/chairs/da-urban-airex-mid-back-chair.jpg",
+        "pros": [
+          "Comfortable",
+          "Breathable Mesh Back"
+        ],
+        "cons": [
+          "Negative reviews on support team"
+        ],
         "category": "Chairs",
-        "rating": 4.2,
-        "details": ["",""],
-        "pros": "",
-        "cons": ""
+        "rating":4.1,
+        "details": [
+            "🇮🇳 Made in India – Proudly designed and manufactured in India, supporting self-reliant craftsmanship.",
+            "🪑 Ergonomic Design – Mid-back chair with high-density breathable mesh and native sponge backrest, fitting the natural curve of the human body for healthy posture.",
+            "💺 Comfortable Seating – Thickened cushions provide enhanced comfort for long hours of sitting.",
+            "💪 Sturdy Nylon Frame & Base – Durable construction with strong nylon frame and dual-wheel nylon castors for smooth mobility.",
+            "↕️ Adjustable Height – Class 4 gaslift allows easy height adjustment between 35-38 inches.",
+            "🔄 360° Swivel & Tilt Lock – Revolving seat with tilt-tension knob for controlled rocking and tilt lock feature.",
+            "🖤 Fixed Lumbar Support – Built-in lumbar support for lower back comfort and reduced fatigue.",
+            "🖐️ Sculpted Armrests – Fixed arms provide all-day support for upper body and shoulders.",
+            "🧼 Easy Maintenance – Non-marking caster wheels and breathable mesh make cleaning and upkeep simple.",
+            "🛠️ DIY Assembly – Quick and easy assembly with included manual and support videos.",
+            "🛡️ Warranty – 1-year warranty against manufacturing defects (except fabric).",
+            "📏 Dimensions – 50.8D x 58.4W x 88.9H cm; Seat Width: 18 inches; Seat Length: 20 inches; Seat Height: 17-20 inches; Back Height: 19 inches; Weight: 12 kg; Max Weight Capacity: 120 kg.",
+            "💼 Versatile Use – Ideal for home, office, and study room settings."
+        ]
+    },
+    {
+        "id": "nilkamal-hanoi-mesh-mid-back-office-chair",
+        "name": "Nilkamal Hanoi Mesh Mid Back Office Chair",
+        "price": "3,790",
+        "url": "https://amzn.to/46SLBhM",
+        "image": "/chairs/nilkamal-hanoi-mesh-mid-back-office-chair.jpg",
+        "pros": [
+          "Comfortable",
+          "Proper Arm Resting Position",
+          "Breathable Mesh Back"
+        ],
+        "cons": [
+          "Mixed reviews on back support"
+        ],
+        "category": "Chairs",
+        "rating":3.7,
+        "details": [
+            "🪑 Ergonomic Mid-Back Design – Provides vital support for your back, ensuring comfortable seating during long work or study sessions.",
+            "💺 Cushioned Seat – Soft foam seat enhances overall sitting comfort.",
+            "🌬️ Mesh Back – Breathable mesh back promotes airflow, keeping you cool and comfortable.",
+            "💪 Sturdy Metal Frame – Durable construction provides long-lasting stability and reliability.",
+            "↕️ Adjustable Height – Customize the seat height to suit your preferred posture.",
+            "🔄 Push-Back Mechanism – Allows effortless tilting for relaxation and improved comfort.",
+            "🧼 Easy Care – Wipe clean with a damp cloth to maintain hygiene and appearance.",
+            "📏 Dimensions – 69D x 69W x 114H cm; Size: One Seat; Back style: Mesh; Seat material: Foam.",
+            "💼 Versatile Use – Suitable for home office, study, or general workspace use."
+        ]
+    },
+    {
+        "id": "cellbell-desire-c104-mesh-high-back-office-chair",
+        "name": "CELLBELL Desire C104 Mesh High Back Office Chair",
+        "price": "3,789",
+        "url": "https://amzn.to/4gFsoTT",
+        "image": "/chairs/cellbell-desire-c104-mesh-high-back-office-chair.jpg",
+        "pros": [
+          "Excellent Lumbar Support",
+          "Suitable For Long Hours"
+        ],
+        "cons": [
+          "Negative reviews on support team"
+        ],
+        "category": "Chairs",
+        "rating":4.2,
+        "details": [
+            "🪑 Ergonomic Comfort – Mid-back design with contoured breathable mesh back promotes correct posture and reduces fatigue during long hours of work or study.",
+            "💺 Thick Padded Seat – 2-inch foam cushion ensures comfort for extended sitting sessions.",
+            "💪 Strong Metal Base – Heavy-duty metal base provides stability and long-lasting durability.",
+            "🖐️ Ergonomic Armrests – Strong plastic armrests support elbows and arms during work or relaxation.",
+            "↕️ Adjustable Height – Pneumatic hydraulic system allows 5-inch seat height adjustment for different desk setups.",
+            "🔄 Smooth Swivel – 360° swivel enables effortless rotation and full workspace mobility.",
+            "🎡 Dual Wheel Casters – Smooth-rolling dual wheel casters provide stability and ease of movement across floors, supporting up to 105 kg weight.",
+            "⚖️ Weight Capacity – Supports users up to 105 kg.",
+            "📏 Dimensions – 50D x 60W x 106H cm; Seat width: 17 inches; Seat height: 36 to 41 inches; Chair weight: 12 kg.",
+            "💼 Suitable For – Work-from-home setups, office desks, computer work, and study rooms.",
+            "🛠️ DIY Assembly – Comes with instructions for quick and easy self-installation.",
+            "🛡️ Warranty – 3-year warranty against manufacturing defects with doorstep support."
+        ]
+    },
+    {
+        "id": "casa-copenhagen-mesh-high-back-office-chair",
+        "name": "Casa Copenhagen Mesh High Back Office Chair",
+        "price": "3,699",
+        "url": "https://amzn.to/4282wu1",
+        "image": "/chairs/casa-copenhagen-mesh-high-back-office-chair.jpg",
+        "pros": [
+          "Excellent Lumbar Support",
+          "Neck Support"
+        ],
+        "cons": [
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":4.6,
+        "details": [
+            "🪑 Ergonomic Comfort – High-back mesh chair with high-density sponge cushion provides lumbar support and long-lasting comfort for extended sitting sessions.",
+            "💺 Comfortable Seat & Armrests – Cushioned seat and ergonomically designed armrests ensure proper posture and reduce fatigue.",
+            "🌬️ Breathable Mesh Back – High-quality mesh back promotes airflow, keeping you cool and comfortable throughout the day.",
+            "💡 Adjustable Features – Rocking and height-adjustable functions with headrest allow customization for optimal comfort.",
+            "🔄 Smooth Swivel – 360° swivel enables effortless movement and flexibility in your workspace.",
+            "💪 Sturdy Construction – Durable frame and premium components ensure long-term use and stability.",
+            "🛠️ Easy Assembly – Comes with all hardware and necessary tools; estimated assembly time is around 15 minutes.",
+            "🏡 Stylish Design – Sleek, minimal profile blends into any office, home workspace, or activity room.",
+            "⚖️ Supports Prolonged Use – Designed to reduce back fatigue and muscle strain, ideal for long hours of work or study.",
+            "📏 Dimensions – Adjustable height and ergonomic sizing suitable for various user needs.",
+            "💼 Versatile Use – Perfect for office, home office, study rooms, or activity areas."
+        ]
+    },
+    {
+        "id": "cellbell-c83-mesh-mid-back-office-chair",
+        "name": "CELLBELL C83 Mesh Mid Back Office Chair",
+        "price": "3,689",
+        "url": "https://amzn.to/48y27oB",
+        "image": "/chairs/cellbell-c83-mesh-mid-back-office-chair.jpg",
+        "pros": [
+          "Comfortable",
+          "Easy to Assemble"
+        ],
+        "cons": [
+          "Mixed reviews on back support"
+        ],
+        "category": "Chairs",
+        "rating":4.2,
+        "details": [
+            "🪑 Ergonomic Comfort – Mid-back design with contoured breathable mesh back promotes correct posture and reduces fatigue during long hours of work or study.",
+            "💺 Thick Padded Seat – 2-inch foam cushion ensures comfort for extended sitting sessions.",
+            "💪 Strong Metal Base – Heavy-duty metal base provides stability and long-lasting durability.",
+            "🖐️ Ergonomic Armrests – Strong plastic armrests support elbows and arms during work or relaxation.",
+            "↕️ Adjustable Height – Pneumatic hydraulic system allows 5-inch seat height adjustment for different desk setups.",
+            "🔄 Smooth Swivel – 360° swivel enables effortless rotation and full workspace mobility.",
+            "🎡 Dual Wheel Casters – Smooth-rolling dual wheel casters provide stability and ease of movement across floors, supporting up to 105 kg weight.",
+            "⚖️ Weight Capacity – Supports users up to 105 kg.",
+            "📏 Dimensions – 50D x 60W x 106H cm; Seat width: 17 inches; Seat height: 36–41 inches; Chair weight: 12 kg.",
+            "💼 Suitable For – Work-from-home setups, office desks, computer work, and study rooms.",
+            "🛠️ DIY Assembly – Comes with instructions for quick and easy self-installation.",
+            "🛡️ Warranty – 3-year warranty against manufacturing defects with doorstep support."
+        ]
+    },
+    {
+        "id": "cellbell-c106-mesh-mid-back-office-chair",
+        "name": "CELLBELL C106 Mesh Mid Back Office Chair",
+        "price": "3,689",
+        "url": "https://amzn.to/47ZNH0q",
+        "image": "/chairs/cellbell-c106-mesh-mid-back-office-chair.jpg",
+        "pros": [
+          "Comfortable",
+          "Excellent Lumbar Support"
+        ],
+        "cons": [
+          "Mixed reviews on durability"
+        ],
+        "category": "Chairs",
+        "rating":4.1,
+        "details": [
+            "🪑 Ergonomic Sitting Position – Supports natural posture for long hours of work, reducing strain on back and shoulders.",
+            "🌬️ Breathable Mesh Back – High-quality ventilated mesh prevents heat and sweat build-up, keeping you cool during extended sitting sessions.",
+            "💺 Thick Padded Seat – 2-inch foam cushion provides comfort for long work or study hours.",
+            "💪 Strong Metal Base – Durable metal frame ensures stability and long-lasting strength.",
+            "⚖️ Adjustable Lumbar Support – Can be moved upward or downward for proper spinal alignment and extra comfort.",
+            "🖐️ Padded Armrests – Provide comfort for elbows and arms during typing or relaxation.",
+            "↕️ Height Adjustment – Pneumatic hydraulic system allows 3-inch seat height adjustment for different desk levels.",
+            "🔄 Reclining Function – Tilt mechanism with recline support for relaxation during breaks.",
+            "🔁 360° Swivel & Smooth Mobility – Easy movement across workspace with dual-wheel casters.",
+            "⚖️ Weight Capacity – Supports up to 105 kg user weight.",
+            "📏 Dimensions – 53D x 61W x 109H cm; Seat height adjustable within 3 inches; Chair weight: 14 kg.",
+            "💼 Suitable For – Work-from-home setups, office desks, computer work, and study environments.",
+            "🛠️ DIY Assembly – Easy self-assembly with included instructions.",
+            "🛡️ Warranty – 1 year manufacturer warranty against defects."
+        ]
+    },
+    {
+        "id": "da-urban-dysen-high-back-chair",
+        "name": "Da URBAN Dysen High-Back Chair",
+        "price": "3,599",
+        "url": "https://amzn.to/46shFre",
+        "image": "/chairs/da-urban-dysen-high-back-chair.jpg",
+        "pros": [
+          "Value for Money",
+          "Adjustable Headrest",
+          "Breathable Mesh Back"
+        ],
+        "cons": [
+          "Mixed reviews on back support",
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":3.8,
+        "details": [
+            "🪑 Ergonomic High-Back Design – Backrest follows the natural curve of the spine, ensuring healthy posture and reducing strain during long work sessions.",
+            "💺 Comfortable PU Foam Seat – Thick moulded PU cushion with breathable mesh fabric prevents heat build-up and ensures sweat-free seating.",
+            "🛏️ Adjustable Headrest – Provides neck and head support, keeping the whole body aligned and comfortable.",
+            "🌬️ Breathable Mesh Back – Promotes steady airflow, keeping you cool during extended hours of sitting.",
+            "↕️ Adjustable Height – Smooth Class 4 gas lift with seat height range of 17.5\" to 20.5\" for customized sitting comfort.",
+            "🔄 Tilt & Rocking Mechanism – Reclines up to 135° for relaxation; can be locked upright at 90°. Tilt-tension knob allows easy rocking adjustment.",
+            "💪 Strong Build Quality – Sturdy nylon frame, durable base, and dual nylon caster wheels provide stability and long-lasting use.",
+            "⚖️ Heavy Duty Capacity – Supports up to 130 kg weight, tested for durability and stability.",
+            "🔄 360° Swivel Function – Smooth rotation for multitasking and easy workspace mobility.",
+            "📏 Spacious Seat – Seat width: 19\" | Seat depth: 19\" | Cushion thickness: 3.9\" | Back height: 28\" | Overall dimensions: 63.3D x 60W x 119H cm.",
+            "🛠️ DIY Assembly – Comes with all tools, manual, and video support for quick self-installation.",
+            "🇮🇳 Made in India – Proudly manufactured in India, designed for both home and office use.",
+            "🛡️ Warranty – 1-year manufacturer warranty against defects (excluding fabric)."
+        ]
+    },
+    {
+        "id": "cellbell-desire-pro-mesh-mid-back-office-chair",
+        "name": "CELLBELL Desire Pro Mesh Mid Back Office Chair",
+        "price": "3,589",
+        "url": "https://amzn.to/4gEB8d7",
+        "image": "/chairs/cellbell-desire-pro-mesh-mid-back-office-chair.jpg",
+        "pros": [
+          "Comfortable",
+          "Excellent Lumbar Support"
+        ],
+        "cons": [
+          "Mixed reviews on back support"
+        ],
+        "category": "Chairs",
+        "rating":4.1,
+        "details": [
+            "🪑 Ergonomic Mid-Back Design – Built with optimal lumbar support to maintain healthy posture and reduce strain during long sitting hours.",
+            "🌬️ Breathable Mesh Backrest – Ensures excellent airflow, preventing heat and sweat build-up for all-day comfort.",
+            "💺 Comfortable Cushioned Seat – Thick, high-density foam seat provides superior comfort for extended work or study sessions.",
+            "💪 Durable Metal Base – Heavy-duty metal frame adds strength and stability for long-term use.",
+            "🛞 Twin Wheel Casters – Smooth dual-wheel casters allow effortless 360° mobility across different floor types.",
+            "↕️ Hydraulic Height Adjustment – Easy seat height control with gas lift for quick and smooth adjustments.",
+            "🔄 360° Swivel Function – Full mobility for multitasking, meetings, and comfortable workstation movement.",
+            "🖐️ Fixed Armrests – Long armrests provide extra coziness and proper shoulder support.",
+            "🎨 Stylish Backrest Design – Sleek, modern aesthetic blends seamlessly into home offices and study setups.",
+            "⚖️ Strong Build Quality – Supports up to 105 kg weight capacity, tested for stability and durability.",
+            "📏 Specifications – Item weight: 14 kg | Frame: Metal | Seat Material: Mesh + Foam | Style: Modern.",
+            "🛠️ DIY Assembly – Comes with all necessary tools and a step-by-step manual for easy self-installation.",
+            "🛡️ Warranty – Manufacturer warranty included (as per brand policy at time of purchase)."
+        ]
+    },
+    {
+        "id": "rose-sigma-office-chair",
+        "name": "ROSE® Sigma Office Chair",
+        "price": "3,512",
+        "url": "https://amzn.to/3IeIhnT",
+        "image": "/chairs/rose-sigma-office-chair.jpg",
+        "pros": [
+          "Breathable Mesh Back",
+          "Supports up to 100 kg Weight Capacity"
+        ],
+        "cons": [
+          "Mixed reviews on durability",
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":3.4,
+        "details": [
+            "💨 Ventilated Mesh Back – Breathable mesh design keeps you cool and reduces sweat buildup during long working hours.",
+            "🛋️ High-Density Cushioned Seat – Soft padded foam seat ensures lasting comfort and ergonomic support.",
+            "🔧 Adjustable Features – Seat height control, tilt tension adjustment, lumbar support, and seat lock for customized sitting posture.",
+            "🔄 360° Swivel & Smooth Mobility – Durable nylon base with caster wheels allows effortless movement and flexibility.",
+            "💪 Strong Build Quality – Reinforced frame and sturdy construction support up to 100 kg for reliable daily use.",
+            "🌿 BIFMA-Certified Materials – Environmentally friendly and tested for safety and durability.",
+            "🧰 Quick DIY Assembly – Includes all tools and instructions for easy self-installation.",
+            "🛡️ Warranty – Backed by a 3-Year Brand Warranty for peace of mind.",
+            "📏 Dimensions – 56D x 28W x 66H cm; Weight: 10 kg; Frame Material: Nylon; Seat Material: Fabric; Style: Modern."
+        ]
+    },
+    {
+        "id": "beaatho-florence-mesh-mid-back-office-chair",
+        "name": "beAAtho® Florence Mesh Mid Back Office Chair",
+        "price": "3,394",
+        "url": "https://amzn.to/46SBn0P",
+        "image": "/chairs/beaatho-florence-mesh-mid-back-office-chair.jpg",
+        "pros": [
+          "Breathable Mesh Back",
+          "Supports up to 130 kg Weight Capacity"
+        ],
+        "cons": [
+          "Mixed reviews on back support and height adjustment",
+          "Short armrest"
+        ],
+        "category": "Chairs",
+        "rating":4.2,
+        "details": [
+            "🇮🇳 Made in India – Proudly designed and manufactured in India, supporting self-reliant craftsmanship.",
+            "🪑 Ergonomic Comfort – Breathable mesh nylon back support with adjustable height, push-back tilt mechanism (with lock), and smooth 360° swivel for all-day comfort.",
+            "💪 Sturdy Metal Base – Provides unmatched stability and durability; heavy-duty castor wheels ensure effortless movement and long-lasting performance.",
+            "↕️ Hydraulic Height Adjustment – Easy seat height adjustment even while sitting, thanks to smooth hydraulic lift.",
+            "🌬️ Breathable Mesh Fabric – Keeps airflow steady, prevents sweating, and ensures cool comfort during long sitting sessions.",
+            "⚖️ Heavy-Duty Build – BIFMA-certified components with tested endurance; supports up to 130 kg weight capacity, ideal for users 5’2” to 6’0” in height.",
+            "🛠️ DIY Assembly – Comes with manual and QR-code video guide for quick self-installation.",
+            "📏 Dimensions – 49D x 60W x 100H cm; Seat height: 50 cm; Seat depth: 44 cm; Backrest width: 43 cm; Weight: 10 kg."
+        ]
+    },
+    {
+        "id": "da-urban-tulip-mid-back-chair",
+        "name": "Da URBAN Tulip Mid-Back Chair",
+        "price": "3,259",
+        "url": "https://amzn.to/4pI5TlC",
+        "image": "/chairs/da-urban-tulip-mid-back-chair.jpg",
+        "pros": [
+          "Excellent Lumbar Support",
+          "360-Degree Swivel"
+        ],
+        "cons": [
+          "Mixed reviews on cushion quality and hydraulic functionality"
+        ],
+        "category": "Chairs",
+        "rating":4.2,
+        "details": [
+            "🪑 Ergonomic Design – Mid-back breathable mesh backrest with thick cushions follows the natural curve of your spine for healthy posture and all-day comfort.",
+            "💺 Comfortable Seating – High-density Comfort Core cushions contour to your body shape with soft bonded upholstery for a stylish and luxurious feel.",
+            "🖤 Fixed Armrests – Sculpted arms provide upper body and shoulder support during long hours of work or study.",
+            "↕️ Adjustable Height & Tilt – Gas-lift Class 4 height adjustment; push-back tilt mode with tension knob allows slight recline (~135°) for relaxation.",
+            "🔄 360° Swivel & Smooth Mobility – Nylon dual-wheel castors on a sturdy nylon base for effortless movement and floor protection.",
+            "🛠️ Easy DIY Assembly – Quick self-assembly with included manual; customer support and product videos available for guidance.",
+            "💪 Durable Build – Nylon frame and base with high-quality foam fill; supports up to 120 kg weight capacity.",
+            "🧹 Easy Maintenance – Non-marking wheels and breathable mesh make cleaning simple; ideal for home, office, or study room.",
+            "📏 Seat Dimensions – Seat width 18\", seat length 20\", seat height 17\" to 20\", back height 21\", seat depth 50.8 cm.",
+            "🛡️ 12 month Warranty – 1-year warranty against manufacturing defects (excluding fabric)."
+        ]
+    },
+    {
+        "id": "godrej-interio-curv-chair",
+        "name": "GODREJ INTERIO Curv Chair",
+        "price": "4,999",
+        "url": "https://amzn.to/3KjTHHm",
+        "image": "/chairs/godrej-interio-curv-chair.jpg",
+        "pros": [
+          "Breathable Mesh Wide Backrest",
+          "360-Degree Swivel"
+        ],
+        "cons": [
+          "Mixed reviews on assembly",
+          "Short armrest"
+        ],
+        "category": "Chairs",
+        "rating":4.1,
+        "details": [
+            "🪑 Premium Ergonomic Design – Wide mesh backrest with high-quality knitted fabric promotes airflow and proper posture for long hours of work or study.",
+            "↕️ Height Adjustable & Tilt Mechanism – Easily adjust chair height; tilt with tension control and locking feature for personalized comfort and support.",
+            "💺 Durable Comfort – High-density foam seat cushioning with broad T-shaped fixed armrests ensures comfort and stability during extended use.",
+            "🔄 360° Swivel & Smooth Mobility – Sturdy 5-point PP base with twin-wheel castors allows effortless movement and full rotation.",
+            "🛠️ Easy DIY Assembly – Comes with detailed instruction manual and all necessary tools for quick self-installation.",
+            "💪 Heavy-Duty Construction – Glass-filled polypropylene frame and base for strength and long-lasting performance.",
+            "🎨 Sleek Professional Aesthetic – Modern design suitable for home office, WFH setup, or professional workspaces.",
+            "🛡️ Warranty – 1-Year Manufacturer Warranty included for peace of mind.",
+            "📏 Seat Dimensions – Seat back interior height 43.5 cm, seat depth 47 cm, seat length 50.8 cm.",
+            "🇮🇳 Material & Build – High-quality foam and polypropylene fill for durability and ergonomic support."
+        ]
+    },
+    {
+        "id": "beaatho-verona-mesh-high-back-office-chair",
+        "name": "beAAtho® Verona Mesh High Back Office Chair",
+        "price": "3,798",
+        "url": "https://amzn.to/4mvBfZE",
+        "image": "/chairs/beaatho-verona-mesh-high-back-office-chair.jpg",
+        "pros": [
+          "Excellent Lumbar Support",
+          "Suitable For Long Hours"
+        ],
+        "cons": [
+          "Mixed reviews on durability",
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":4.2,
+        "details": [
+            "🪑 High-Back Ergonomic Design – Provides full back support with an ergonomic nylon frame and breathable mesh to keep you cool and comfortable during long work hours.",
+            "↕️ Height Adjustable & Tilting Mechanism – Customize the chair height and recline with a smart tilt-lock feature; smooth 360° swivel for easy movement.",
+            "💪 Heavy-Duty Metal Base – Durable base supports up to 110 kg, ensuring stability and long-lasting performance.",
+            "✅ BIFMA-Certified Components – Premium quality certified accessories for reliability and durability.",
+            "🛠️ Easy DIY Assembly – Comes with assembly manual and optional QR code video guide; simple setup without extra tools.",
+            "🇮🇳 Made in India – Proudly manufactured in India, contributing to self-reliance.",
+            "🛡️ 3-Year Limited Warranty – Hassle-free service with door-step support for peace of mind.",
+            "💺 Comfortable Seat – Generously padded seat (44.5 cm depth, 17.5 inches length) with supportive backrest (27 inches interior height).",
+            "🎨 Stylish & Professional – Sleek high-back design suitable for home offices, study, or professional workspace."
+        ]
+    },
+    {
+        "id": "green-soul-atom-office-chair",
+        "name": "Green Soul Atom Office Chair",
+        "price": "3,179",
+        "url": "https://amzn.to/42L0wYK",
+        "image": "/chairs/green-soul-atom-office-chair.jpg",
+        "pros": [
+          "Thick Molded Foam Seat",
+          "Rocking & Tilt Mechanism"
+        ],
+        "cons": [
+          "Mixed reviews on tilt mechanism"
+        ],
+        "category": "Chairs",
+        "rating":3.9,
+        "details": [
+            "🌬️ Breathable Foam & PP Mesh Back – Ensures airflow and prevents heat or moisture build-up for a cool, comfortable seating experience.",
+            "🛋️ Thick Molded Foam Seat – Provides ergonomic support and comfort for extended work or study sessions.",
+            "🪑 Fixed Nylon Armrests – Supports proper posture and relaxes your arms, built on a heavy-duty metal base for stability.",
+            "↔️ Tilt & Rocking Mechanism – Reclines up to 135° with a lock at 90°; adjustable tilt-tension knob allows smooth rocking.",
+            "🔄 360° Swivel & Smooth Wheels – 50mm caster wheels for effortless mobility across different floor surfaces.",
+            "💪 Heavy-Duty Metal Base – Supports up to 90 kg and ensures durability for long-term use.",
+            "📏 Ergonomic Fit – Mid-back design suitable for users between 5ft and 5ft 10in; balanced for support and comfort.",
+            "🛠️ Quick & Easy DIY Assembly – Only 4 simple steps; all tools and hardware included with detailed instructions.",
+            "🎨 Stylish Black & Orange Finish – Modern design that fits home or office setups.",
+            "🛡️ 12-Month Warranty – Reliable after-sales support for peace of mind."
+        ]
+    },
+    {
+        "id": "green-soul-pebble-office-chair",
+        "name": "Green Soul Pebble Office Chair",
+        "price": "2,990",
+        "url": "https://amzn.to/4pBQqDt",
+        "image": "/chairs/green-soul-pebble-office-chair.jpg",
+        "pros": [
+          "Thick Molded Foam Seat"
+        ],
+        "cons": [
+          "Negative reviews on size",
+          "Mixed reviews on back support"
+        ],
+        "category": "Chairs",
+        "rating":4.1,
+        "details": [
+            "🌬️ Breathable Mesh Back – Promotes airflow and prevents heat or moisture build-up for cool, comfortable seating.",
+            "🛋️ Thick Molded Foam Seat – Fabric-covered cushion offers lasting comfort and support during long work or study sessions.",
+            "🪑 Fixed Fiber Armrests – Provides stable arm support for proper posture and reduced strain.",
+            "↔️ Knee-Tilt Motion – Reclines up to 135° with a lock at 90°; adjustable tilt-tension knob for smoother rocking.",
+            "🌟 Built-In Lumbar Support – Fixed support for the lower back encourages healthy posture.",
+            "🔄 Flexible Movement – 360° swivel with smooth-rolling 50mm wheels for effortless mobility.",
+            "💪 Heavy-Duty Metal Base – Durable Class-3 gas lift and strong frame tested for up to 90 kg load capacity.",
+            "📏 Ergonomic Fit – Height suitable for users between 5ft and 5ft 10in; Mid-back design balances support and mobility.",
+            "🛠️ Quick DIY Assembly – Only 4 simple steps; all tools and hardware included with easy instructions.",
+            "🛡️ 12-Month Warranty – Reliable after-sales support and assured product quality."
+        ]
+    },
+    {
+        "id": "rose-elite-office-chair",
+        "name": "ROSE® Elite Office Chair",
+        "price": "3,039",
+        "url": "https://amzn.to/3Vt2NnH",
+        "image": "/chairs/rose-elite-office-chair.jpg",
+        "pros": [
+          "Excellent Lumbar Support",
+          "Suitable For Long Hours"
+        ],
+        "cons": [
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":4.0,
+        "details": [
+            "💎 Sleek & Modern Design – Minimalist, stylish build ideal for study rooms, offices, and home workspaces.",
+            "💨 Breathable Mesh Back – Promotes airflow to keep you cool and comfortable during long sitting hours.",
+            "🛋️ Ergonomic Lumbar Support – Built-in back support maintains healthy posture and reduces lower back strain.",
+            "🖤 High-Density Foam Cushion – Soft yet firm seating adapts to body shape for all-day comfort.",
+            "🔄 Adjustable & Flexible – 360° swivel, smooth height adjustment, and tilt mechanism for customized seating.",
+            "💪 Durable & Stable Build – Heavy-duty metal frame with BIFMA-certified components and smooth caster wheels; supports up to 90 kg.",
+            "🧰 Easy DIY Assembly – Comes with tools and simple instructions for quick setup at home or office.",
+            "🌿 Certified Quality – Built using environmentally responsible materials and BIFMA-certified parts for safety and sustainability.",
+            "🛡️ 3-Year Brand Warranty – Long-lasting reliability backed by extended brand warranty."
+        ]
+    },
+    {
+        "id": "beaatho-verona-mesh-mid-back-office-chair",
+        "name": "beAAtho® Verona Mesh Mid Back Office Chair",
+        "price": "2,998",
+        "url": "https://amzn.to/3IzL8aZ",
+        "image": "/chairs/beaatho-verona-mesh-mid-back-office-chair.jpg",
+        "pros": [
+          "Excellent Lumbar Support",
+          "Suitable For Long Hours"
+        ],
+        "cons": [
+          "Mixed reviews on durability",
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":4.2,
+        "details": [
+            "🇮🇳 Made in India – Proudly manufactured in India, supporting self-reliant craftsmanship and local quality standards.",
+            "🪑 Ergonomic Adjustable Design – Features a breathable nylon mesh backrest, height adjustment, smart tilt mechanism with lock, and 360° swivel for all-day comfort.",
+            "🌬️ Breathable Mesh Support – Keeps you cool and sweat-free during long hours of work or study with optimal airflow.",
+            "⚖️ Strong & Durable Build – Equipped with BIFMA certified components and a heavy-duty metal base for stability and long life; supports up to 110 kg.",
+            "🔧 DIY Installation – Easy self-assembly with manual included; QR code for step-by-step assembly video guide provided.",
+            "📏 Spacious Seat Comfort – Foam cushioned seat with 50.8 cm depth for enhanced sitting comfort in work-from-home or office setups.",
+            "🚀 Smooth Mobility – Nylon casters and swivel design allow effortless movement across different surfaces."
+        ]
+    },
+    {
+        "id": "astride-ace-mid-back-office-chair",
+        "name": "ASTRIDE Ace Mid Back Office Chair",
+        "price": "2,899",
+        "url": "https://amzn.to/4nlV6fl",
+        "image": "/chairs/astride-ace-mid-back-office-chair.jpg",
+        "pros": [
+          "Bionic Curve Backrest",
+          "Rocking & Tilt Mechanism"
+        ],
+        "cons": [
+          "Mixed reviews on back support",
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":4.0,
+        "details": [
+            "🪑 Bionic Curve Backrest – Ergonomically designed to mimic the natural curve of the human spine, ensuring proper posture and long-term comfort.",
+            "💪 Solid & Durable Build – Heavy-duty polypropylene mesh back, Class-4 BIFMA certified gas lift, and 50mm castor wheels provide superior stability and strength.",
+            "⚖️ High Weight Capacity – Tested and certified to support up to 100 kg with seat and back durability tested for 1,00,000 cycles.",
+            "🔧 Easy DIY Installation – Simple setup in just 10 minutes with no extra tools required; installation guide included.",
+            "📏 Adjustable Dimensions – Seat height adjustable from 18 to 24 inches; overall chair dimensions: 54D x 58W x 110H cm; suitable for height range 5ft to 5ft 8in.",
+            "🔒 Tilt Lock Mechanism – Flexible tilt function with secure lock option to switch between relaxed and upright sitting positions.",
+            "🚀 Risk-Free Purchase – Built with commercial-grade BIFMA certified components for long-lasting reliability and stability.",
+            "⚖️ Lightweight Yet Sturdy – Weighs 15 kg for easy mobility while maintaining heavy-duty support for daily office or study use."
+        ]
+    },
+    {
+        "id": "green-soul-seoul-x-office-chair",
+        "name": "Green Soul Seoul X Office Chair",
+        "price": "2,890",
+        "url": "https://amzn.to/46BsFmn",
+        "image": "/chairs/green-soul-seoul-x-office-chair.jpg",
+        "pros": [
+          "Thick Molded Foam Seat",
+          "Rocking & Tilt Mechanism"
+        ],
+        "cons": [
+          "Mixed reviews on back support",
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":4.0,
+        "details": [
+            "💺 Premium Comfort – Thick molded foam seat and breathable fabric backrest prevent heat and moisture build-up, keeping you cool and supported during long hours.",
+            "🪑 Fixed Fiber Armrests – Ergonomically designed fiber-based armrests provide proper posture support and relaxation for your arms.",
+            "🔄 Rocking & Tilt Mechanism – Recline up to 135° with the rocking-tilt function and adjust tilt tension using the knob under the seat; lock at 90° for upright sitting.",
+            "⚙️ Sturdy Build – Heavy-duty metal base with smooth 50mm caster wheels ensures stability, durability, and effortless 360° swivel movement.",
+            "📏 Optimized Dimensions – Seat height: 59.5 cm, seat depth: 44 cm, seat length: 44 cm, backrest width: 43 cm; suitable for height range 5ft to 5ft 10in.",
+            "⚖️ Strong Weight Capacity – Supports up to 90 kg with BIFMA-certified components for safe and long-lasting use.",
+            "🛠️ Easy DIY Assembly – Comes with all hardware, tools, and an installation manual; simple setup in under 60 minutes.",
+            "✨ Sleek Mid-Back Design – Lightweight yet robust (12 kg), perfect for home office, study, or professional workspace setups."
+        ]
+    },
+    {
+        "id": "astride-airsense-upper-mid-back-office-chair",
+        "name": "ASTRIDE Airsense Upper-Mid Back Office Chair",
+        "price": "2,799",
+        "url": "https://amzn.to/3Kma0Dv",
+        "image": "/chairs/astride-airsense-upper-mid-back-office-chair.jpg",
+        "pros": [
+          "Mesh Backrest",
+          "Adjustable Seat Height",
+          "Padded Contoured Cushion"
+        ],
+        "cons": [
+          "Fixed armrest with no cushion"
+        ],
+        "category": "Chairs",
+        "rating":4.7,
+        "details": [
+            "🌬️ Ergonomic Mesh Back – Natural open mesh backrest enhances airflow and breathability, keeping you cool and comfortable during long work hours.",
+            "📏 Adjustable Seat Height – Pneumatic seat height adjustment ensures personalized posture support and reduces strain on your back.",
+            "🔄 Smooth Swivel & Mobility – 360° swivel base with heavy-duty metal construction and smooth-rolling casters for effortless movement across different surfaces.",
+            "💺 Padded Contoured Cushion – Thick, supportive, and ergonomically contoured seat cushion provides superior comfort for extended sitting.",
+            "🏗️ Durable Build – Sturdy design with robust materials to withstand daily office or study use, offering long-lasting reliability.",
+            "📐 Optimized Dimensions – Seat height: 19 in, seat depth: 50.8 cm, seat length: 19 in, backrest height: 23 in, backrest width: 47.5 cm.",
+            "⚖️ Lightweight Yet Sturdy – Weighs only 10 kg while supporting heavy-duty usage with a stable base.",
+            "✨ Modern & Professional Design – Sleek aesthetic makes it a perfect fit for office, study, or home workspace setups."
+        ]
     }
 ]
