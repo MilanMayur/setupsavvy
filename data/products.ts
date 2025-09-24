@@ -5,7 +5,7 @@ import webcams from "./webcams/webcams.json";
 import headsets from "./headsets/headsets.json";
 import keyboards from "./keyboards/keyboards.json";
 import mouse from "./mouse/mouse.json";
-//import chairs from "./chairs/chairs.json";
+import chairs from "./chairs/chairs.json";
 import tables from "./tables/tables.json";
 
 import curatedPicks from "./curated-picks.json"
@@ -29,7 +29,7 @@ export const categoryMap: Record<string, Product[]> = {
     headsets,
     keyboards,
     mouse,
-    //chairs,
+    chairs,
     tables,
 };
 
@@ -39,7 +39,7 @@ export const products: Product[] = [
     ...headsets,
     ...keyboards,
     ...mouse,
-    //...chairs,
+    ...chairs,
     ...tables,
 ];
 
