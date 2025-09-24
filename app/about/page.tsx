@@ -4,8 +4,7 @@ import { Lightbulb, Rocket, Users } from "lucide-react";
 
 export default function AboutPage() {
     return (
-        <div className="max-w-4xl mx-auto bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl px-6 py-12">
-            <div className="max-w-3xl mx-auto bg-white shadow-md rounded-2xl p-8">
+        <div className="max-w-3xl mt-10 mx-auto bg-white shadow-md rounded-2xl p-8">
             <h1 className="text-4xl text-gray-800 font-extrabold mb-6 text-center">
                 About <span className="text-blue-600">SetupSavvy</span>
             </h1>
@@ -56,7 +55,5 @@ export default function AboutPage() {
             {/* AdSense Ad Unit */}
             <AdUnit slot="1234567890" />
         </div>
-        </div>
     );
 }
-
