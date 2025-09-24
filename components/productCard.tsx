@@ -25,9 +25,12 @@ export default function ProductCard({id, name, price, image, rating}: ProductCar
             </div>
             <div className="p-4">
                 <h3 className="text-lg text-black font-semibold line-clamp-1">{name}</h3>
-                <p className="text-blue-600 font-medium">₹ {price}</p>
-                <p className="text-orange-600 font-semibold">☆ {rating}</p>
+                <div className="flex items-center justify-between mt-1">
+                    <p className="text-blue-600 font-semibold">₹ {price}</p>
+                    <p className="text-orange-600 font-semibold">☆ {rating}</p>
+                </div>
             </div>
         </Link>
     );
 }
+
