@@ -48,7 +48,7 @@ export default async function ProductDetail({ params }: Props) {
     }
 
     return (
-        <section className="max-w-3xl mx-auto p-6">
+        <section className="max-w-4xl mx-auto p-6">
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                 <Image
                     src={product.image}
@@ -60,12 +60,15 @@ export default async function ProductDetail({ params }: Props) {
                 />
                 <div className="p-6">
                     <h1 className="text-3xl text-black font-bold mb-4">{product.name}</h1>
-                    <p className="text-xl text-blue-600 mb-4">₹ {product.price}</p>
+                    <span className="flex justify-between items-center mb-4">
+                        <p className="text-2xl text-blue-600 font-semibold mb-4">₹ {product.price}</p>
+                        <p className="text-2xl text-orange-600 font-semibold mb-4">☆ {product.rating}</p>
+                    </span>
 
                     {/* Product Details */}
                     {product.details && (
                     <div className="mb-6">
-                        <h2 className="text-lg font-semibold text-gray-800 mb-2">Specifications</h2>
+                        <h2 className="text-2xl font-semibold text-gray-800 mb-2">Specifications</h2>
 
                         {/* Case 1: Object (key-value) */}
                         {typeof product.details === "object" && !Array.isArray(product.details) ? (
@@ -77,8 +80,8 @@ export default async function ProductDetail({ params }: Props) {
                                     index % 2 === 0 ? "bg-gray-50" : "bg-white"
                                 }`}
                             >
-                                <span className="font-medium text-gray-800">{key}</span>
-                                <span className="text-gray-600">{value}</span>
+                                <span className="text-lg font-semibold text-gray-800">{key}</span>
+                                <span className="text-lg text-gray-600">{value}</span>
                             </div>
                             ))}
                         </div>
@@ -90,8 +93,8 @@ export default async function ProductDetail({ params }: Props) {
                             const [title, desc] = item.split("–", 2);
                             return (
                                 <p key={idx} className="text-gray-700">
-                                    <span className="block font-medium text-gray-900">{title?.trim()}:</span>
-                                    <span className="block text-gray-600 pl-7">{desc?.trim()}</span>
+                                    <span className="block text-lg font-semibold text-gray-900">{title?.trim()}:</span>
+                                    <span className="block text-lg text-gray-600 pl-7">{desc?.trim()}</span>
                                 </p>
                             );
                         })}
@@ -113,11 +116,11 @@ export default async function ProductDetail({ params }: Props) {
                         {/* Pros */}
                         {product.pros && (
                             <div className="bg-green-50 border border-green-200 rounded-xl p-4">
-                                <h3 className="text-green-700 font-semibold mb-2">✅ Pros</h3>
-                                <ul className="list-disc list-inside space-y-1 text-gray-700">
+                                <h3 className="text-green-700 text-xl font-semibold mb-2">✅ Pros</h3>
+                                <ul className="list-disc list-outside pl-5 space-y-1 text-gray-700">
                                 {Array.isArray(product.pros)
                                     ? product.pros.map((pro: string, index: number) => (
-                                        <li key={index}>{pro}</li>
+                                        <li className="ml-2 text-lg" key={index}>{pro}</li>
                                     ))
                                     : <li>{product.pros}</li>
                                 }
@@ -128,11 +131,11 @@ export default async function ProductDetail({ params }: Props) {
                         {/* Cons */}
                         {product.cons && (
                             <div className="bg-red-50 border border-red-200 rounded-xl p-4">
-                                <h3 className="text-red-700 font-semibold mb-2">❌ Cons</h3>
-                                <ul className="list-disc list-inside space-y-1 text-gray-700">
+                                <h3 className="text-red-700 text-xl font-semibold mb-2">❌ Cons</h3>
+                                <ul className="list-disc list-outside pl-5 space-y-1 text-gray-700">
                                 {Array.isArray(product.cons)
                                     ? product.cons.map((con: string, index: number) => (
-                                        <li key={index}>{con}</li>
+                                        <li className="ml-2 text-lg" key={index}>{con}</li>
                                     ))
                                     : <li>{product.cons}</li>
                                 }
@@ -151,7 +154,7 @@ export default async function ProductDetail({ params }: Props) {
                             href={product.url ?? "www.amazon.in"}
                             target="_blank"
                             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg 
-                                font-medium hover:bg-blue-700 transition"
+                                font-semibold hover:bg-blue-700 transition"
                         >
                             Buy on Amazon
                         </Link>
@@ -164,7 +167,4 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
-
-
-
 
