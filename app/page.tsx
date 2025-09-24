@@ -117,9 +117,9 @@ export default function HomePage() {
             <AdUnit slot="1234567890" />
 
             {/* Why Choose Us Section */}
-            <section className="bg-gradient-to-r from-blue-200 to-indigo-400 
+            <section className="bg-gradient-to-tr from-indigo-100 to-purple-100 
                                 dark:bg-gradient-to-r dark:from-indigo-50 dark:to-blue-50 
-                                rounded-2xl py-10 px-4 mb-15 text-center shadow-inner">
+                                rounded-2xl py-10 px-4 mb-15 text-center shadow-lg">
                 <h2 className="text-3xl text-gray-900 font-bold mb-8">Why Shop With Us?</h2>
                 <div className="grid md:grid-cols-3 gap-4 max-w-5xl mx-auto">
                     <div className="p-6 bg-white shadow rounded-xl hover:shadow-lg transition">
@@ -162,7 +162,7 @@ export default function HomePage() {
             </section>
 
             {/* Latest Blog Posts */}
-            <section className="bg-gradient-to-r from-blue-200 to-indigo-400
+            <section className="bg-gradient-to-tr from-indigo-100 to-purple-100
                                 dark:bg-gradient-to-r dark:from-indigo-50 dark:to-blue-50 
                                 text-white rounded-2xl py-10 px-4 text-center shadow-lg">
                 <h2 className="text-3xl text-gray-900 font-bold mb-2">Latest from Our Blog</h2>
@@ -188,5 +188,3 @@ export default function HomePage() {
         </div>
     );
 }
-
-
