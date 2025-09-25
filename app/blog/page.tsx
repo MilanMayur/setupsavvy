@@ -75,8 +75,3 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
     );
 }
 
-
-
-
-
-
