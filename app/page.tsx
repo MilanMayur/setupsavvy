@@ -12,13 +12,25 @@ import AdUnit from "@/components/adUnit";
 export default function HomePage() {
     const [visibleCount, setVisibleCount] = useState(2);
 
-    const todayStr = new Date().toISOString().split("T")[0];
-    const validBlogs = blogData.filter((post) => post.date <= todayStr);
-    const sortedBlogs = validBlogs.sort(
-        (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-    );
+    const today = new Date();
 
-    const latestBlogs = sortedBlogs.slice(0, 3);
+    const availableBlogs = blogData
+    .filter(post => {
+        const blogDateParts = post.date.split("-"); // YYYY-MM-DD
+        // parse YYYY-MM-DD
+        const blogDate = new Date(Number(blogDateParts[0]), Number(blogDateParts[1]) - 1, Number(blogDateParts[2]));
+        return blogDate.getTime() <= today.getTime();
+    })
+    .sort((a, b) => {
+        // newest first
+        const bParts = b.date.split("-");
+        const aParts = a.date.split("-");
+        const bDate = new Date(Number(bParts[0]), Number(bParts[1]) - 1, Number(bParts[2]));
+        const aDate = new Date(Number(aParts[0]), Number(aParts[1]) - 1, Number(aParts[2]));
+        return bDate.getTime() - aDate.getTime();
+    });
+
+    const latestBlogs = availableBlogs.slice(0, 3);
 
     useEffect(() => {
         const updateVisibleCount = () => {
@@ -188,3 +200,4 @@ export default function HomePage() {
         </div>
     );
 }
+
