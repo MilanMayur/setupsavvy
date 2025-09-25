@@ -20,23 +20,22 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
     const params = await searchParams;
     const currentPage = Number(params.page) || 1;
 
-    const today = new Date();
+    const now = new Date();
+    const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
 
     const availableBlogs = blogs
-    .filter(post => {
-        const blogDateParts = post.date.split("-"); // YYYY-MM-DD
-        // parse YYYY-MM-DD
-        const blogDate = new Date(Number(blogDateParts[0]), Number(blogDateParts[1]) - 1, Number(blogDateParts[2]));
-        return blogDate.getTime() <= today.getTime();
-    })
-    .sort((a, b) => {
-        // newest first
-        const bParts = b.date.split("-");
-        const aParts = a.date.split("-");
-        const bDate = new Date(Number(bParts[0]), Number(bParts[1]) - 1, Number(bParts[2]));
-        const aDate = new Date(Number(aParts[0]), Number(aParts[1]) - 1, Number(aParts[2]));
-        return bDate.getTime() - aDate.getTime();
-    });
+        .filter(post => {
+            const [year, month, day] = post.date.split("-").map(Number);
+            const blogDate = new Date(year, month - 1, day); // normalized midnight
+            return blogDate.getTime() <= today.getTime();
+        })
+        .sort((a, b) => {
+            const [aYear, aMonth, aDay] = a.date.split("-").map(Number);
+            const [bYear, bMonth, bDay] = b.date.split("-").map(Number);
+            const aDate = new Date(aYear, aMonth - 1, aDay);
+            const bDate = new Date(bYear, bMonth - 1, bDay);
+            return bDate.getTime() - aDate.getTime(); // newest first
+        });
 
     // Pagination
     const startIndex = (currentPage - 1) * BLOGS_PER_PAGE;
@@ -74,4 +73,5 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
         </section>
     );
 }
+
 
