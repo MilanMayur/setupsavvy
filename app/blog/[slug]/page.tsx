@@ -91,7 +91,7 @@ export default async function BlogPost({ params }: BlogPageProps) {
                 </h2>
                 <ul className="list-disc pl-6">
                     {post.guide.points.map((point, idx) => (
-                    <li key={idx} className="mb-2">
+                    <li key={idx} className="mb-6">
                         <strong>{point.label}</strong> → 
                         <p>{point.detail}</p>
                     </li>
@@ -135,7 +135,7 @@ export default async function BlogPost({ params }: BlogPageProps) {
                     <h2 className="text-2xl font-semibold mb-4">Suggestions 💡</h2>
                     {post.suggestion.map((s, idx) => (
                         <div key={idx} 
-                            className="p-4 rounded-2xl border dark:border-gray-700 dark:bg-gray-900 
+                            className="p-4 bg-white rounded-2xl border dark:border-gray-700 dark:text-black 
                                         shadow-md mb-6">
                             <span> 
                                 <h3 className="text-xl font-bold mb-2">{s.category} : {s.title}</h3>
@@ -167,7 +167,7 @@ export default async function BlogPost({ params }: BlogPageProps) {
                 <h3 className="text-lg font-semibold dark:text-gray-200 mb-2">📖 Read Next:</h3>
                 <Link
                     href={`/blog/${post.next.link}`}
-                    className="text-blue-600 hover:text-blue-800 font-medium transition"
+                    className="text-blue-600 dark:text-white hover:text-blue-800 font-medium transition"
                 >
                     {post.next.title} →
                 </Link>
@@ -176,13 +176,3 @@ export default async function BlogPost({ params }: BlogPageProps) {
         </article>
     );
 }
-
-
-
-
-
-
-
-
-
-
