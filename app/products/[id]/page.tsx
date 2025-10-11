@@ -67,8 +67,8 @@ export default async function ProductDetail({ params }: Props) {
 
                     <p className="text-sm mb-2 italic bg-yellow-100 text-gray-700 border-l-4 
                                 border-yellow-500 pl-2">
-                        "Note: Prices are approximate and may vary across online and offline stores. 
-                        We recommend checking multiple retailers for the best deal."
+                        {"Note: Prices are approximate and may vary across online and offline stores."} 
+                        {"We recommend checking multiple retailers for the best deal."}
                     </p>
 
                     {/* Product Details */}
@@ -173,5 +173,6 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
+
 
 
