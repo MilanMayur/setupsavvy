@@ -23,14 +23,15 @@ export default function ProductCard({id, name, price, image, rating}: ProductCar
                     style={{ borderRadius: '0.5rem' }}
                 />
             </div>
-            <div className="p-4">
-                <h3 className="text-lg text-black font-semibold line-clamp-1">{name}</h3>
+            <div className="p-2">
+                <h3 className="text-sm text-black font-semibold line-clamp-3">{name}</h3>
                 <div className="flex items-center justify-between mt-1">
                     <p className="text-blue-600 font-semibold">₹ {price}</p>
-                    <p className="text-orange-600 font-semibold">☆ {rating}</p>
+                    {rating!==0 && 
+                        <p className="text-orange-600 font-semibold">☆ {rating}</p>
+                    }
                 </div>
             </div>
         </Link>
     );
 }
-
