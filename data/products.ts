@@ -7,6 +7,8 @@ import keyboards from "./keyboards/keyboards.json";
 import mouse from "./mouse/mouse.json";
 import chairs from "./chairs/chairs.json";
 import tables from "./tables/tables.json";
+import processors from "./processors/processors.json"
+import rams from "./rams/rams.json"
 
 import curatedPicks from "./curated-picks.json"
 
@@ -31,6 +33,8 @@ export const categoryMap: Record<string, Product[]> = {
     mouse,
     chairs,
     tables,
+    processors,
+    rams,
 };
 
 export const products: Product[] = [
@@ -41,6 +45,8 @@ export const products: Product[] = [
     ...mouse,
     ...chairs,
     ...tables,
+    ...processors,
+    ...rams,
 ];
 
 function normalizeDetails(details: any): Record<string, string> | string[] {
@@ -109,3 +115,4 @@ export function getFilteredProducts({ category = "All", sort = "", page = 1, pro
     const paginated = filtered.slice(startIndex, startIndex + productsPerPage);
     return { products: paginated, totalPages };
 }
+
