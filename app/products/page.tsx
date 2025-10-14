@@ -11,7 +11,8 @@ type SearchParamsType = {
     sort?: string;
 };
 
-const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Webcams", "Chairs", "Tables"];
+const categories = ["All", "Laptops", "Keyboards", "Mouse", "Headsets", "Webcams", 
+                    "Processors", "RAM", "Chairs", "Tables"];
 const productsPerPage = 20;
 
 export default async function ProductsPage({ searchParams }: { searchParams: Promise<SearchParamsType> }) {
@@ -81,8 +82,4 @@ export default async function ProductsPage({ searchParams }: { searchParams: Pro
         </section>
     );
 }
-
-
-
-
 
