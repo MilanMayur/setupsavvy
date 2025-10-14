@@ -62,9 +62,12 @@ export default async function ProductDetail({ params }: Props) {
                     <h1 className="text-3xl text-black font-bold mb-4">{product.name}</h1>
                     <span className="flex justify-between items-center mb-4">
                         <p className="text-2xl text-blue-600 font-semibold">₹ {product.price}</p>
-                        <p className="text-2xl text-orange-600 font-semibold">☆ {product.rating}</p>
+                        {product.rating!==0 && 
+                            <p className="text-2xl text-orange-600 font-semibold">☆ {product.rating}</p>
+                        }
                     </span>
 
+                    {/* Note */}
                     <p className="text-sm mb-2 italic bg-yellow-100 text-gray-700 border-l-4 
                                 border-yellow-500 pl-2">
                         {"Note: Prices are approximate and may vary across online and offline stores."} 
@@ -173,6 +176,4 @@ export default async function ProductDetail({ params }: Props) {
         </section>
     );
 }
-
-
 
