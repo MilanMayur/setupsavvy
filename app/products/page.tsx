@@ -38,7 +38,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Pro
             </div>
 
             {/* Products Grid */}
-            <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+            <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
                 {products.length > 0 ? (
                 products.map((p) => (
                     <ProductCard
