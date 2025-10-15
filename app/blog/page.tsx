@@ -13,8 +13,7 @@ type SearchParamsType = {
     page?: string;
 };
 
-
-const BLOGS_PER_PAGE = 15;
+const BLOGS_PER_PAGE = 12;
 
 export default async function BlogIndex({ searchParams }: { searchParams: Promise<SearchParamsType> }) {
     const params = await searchParams;
@@ -55,7 +54,7 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
             <AdUnit slot="1234567890" />
 
             {/* Blog Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
                 {paginatedBlogs.map((post) => (
                     <BlogPostCard key={post.slug} post={post} />
                 ))}
@@ -73,5 +72,4 @@ export default async function BlogIndex({ searchParams }: { searchParams: Promis
         </section>
     );
 }
-
 
