@@ -24,7 +24,7 @@ export default function ProductCard({id, name, price, image, rating}: ProductCar
                 />
             </div>
             <div className="p-2">
-                <h3 className="text-sm text-black font-semibold line-clamp-3">{name}</h3>
+                <h3 className="text-sm text-black font-semibold line-clamp-3 min-h-[4rem]">{name}</h3>
                 <div className="flex items-center justify-between mt-1">
                     <p className="text-blue-600 font-semibold">₹ {price}</p>
                     {rating!==0 && 
