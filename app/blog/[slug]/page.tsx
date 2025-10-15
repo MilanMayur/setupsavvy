@@ -67,11 +67,11 @@ export default async function BlogPost({ params }: BlogPageProps) {
             </p>
 
             {/* Blog description */}
-            <p className="text-lg mb-8">{post.description}</p>
+            <p className="text-lg mb-6">{post.description}</p>
 
             {/* Image only on Text Blog*/}
             {!post.note && (
-                <div className="relative w-full max-w-md mx-auto flex items-center justify-center"
+                <div className="relative w-full max-w-md mx-auto mb-6 flex items-center justify-center"
                     style={{ aspectRatio: '3 / 2' }}>
                     <Image
                         src={post.image}
@@ -82,6 +82,9 @@ export default async function BlogPost({ params }: BlogPageProps) {
                     />
                 </div>
             )}
+
+            {/* Blog intro */}
+            <p className="text-lg">{post.intro}</p>
 
             {/* Buying Guide */}
             {post.guide && (
@@ -94,6 +97,18 @@ export default async function BlogPost({ params }: BlogPageProps) {
                     <li key={idx} className="mb-6">
                         <strong>{point.label}</strong> → 
                         <p>{point.detail}</p>
+                        {"image" in point && point.image && (
+                            <div className="relative w-full max-w-md mx-auto flex items-center justify-center"
+                            style={{ aspectRatio: '3 / 2' }}>
+                            <Image
+                                src={point.image}
+                                alt={point.label}
+                                fill
+                                className="mt-2 text-gray-400 rounded-lg object-contain"
+                                style={{ borderRadius: '0.5rem' }}
+                            />
+                        </div>
+                        )}
                     </li>
                     ))}
                 </ul>
