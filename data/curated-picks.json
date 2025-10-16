@@ -1,5 +1,21 @@
 [
     {
+        "title": "best-10-processors-for-gaming-2025",
+        "category": "processors",
+        "ids": [
+            "intel-core-i5-14600kf",
+            "intel-core-i5-13600k",
+            "amd-ryzen-5-7600x",
+            "amd-ryzen-5-7600",
+            "intel-core-i5-13500",
+            "intel-core-i5-13400",
+            "amd-ryzen-5-5600x",
+            "amd-ryzen-5-9600x",
+            "intel-core-i7-11700k",
+            "amd-ryzen-5-7500f"
+        ]
+    },
+    {
         "title": "best-10-desks-for-wfh-gaming-study",
         "category": "tables",
         "ids": [
@@ -91,3 +107,4 @@
         ]
     }
 ]
+
