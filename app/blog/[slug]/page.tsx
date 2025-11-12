@@ -84,7 +84,14 @@ export default async function BlogPost({ params }: BlogPageProps) {
             )}
 
             {/* Blog intro */}
-            <p className="text-lg">{post.intro}</p>
+            {Array.isArray(post.intro)
+                ? post.intro.map((para, index) => (
+                    <p key={index} className="text-lg mb-4">
+                        {para}
+                    </p>
+                ))
+                : <p className="text-lg">{post.intro}</p>
+            }
 
             {/* Buying Guide */}
             {post.guide && (
@@ -93,24 +100,32 @@ export default async function BlogPost({ params }: BlogPageProps) {
                     {post.guide.title}
                 </h2>
                 <ul className="list-disc pl-6">
-                    {post.guide.points.map((point, idx) => (
-                    <li key={idx} className="mb-6">
-                        <strong>{point.label}</strong> → 
-                        <p>{point.detail}</p>
-                        {"image" in point && point.image && (
-                            <div className="relative w-full max-w-md mx-auto flex items-center justify-center"
-                            style={{ aspectRatio: '3 / 2' }}>
-                            <Image
-                                src={point.image}
-                                alt={point.label}
-                                fill
-                                className="mt-2 text-gray-400 rounded-lg object-contain"
-                                style={{ borderRadius: '0.5rem' }}
-                            />
-                        </div>
-                        )}
-                    </li>
-                    ))}
+                {post.guide.points.map((point, idx) => {
+                    const formattedDetail = point.detail.replace(
+                        /\*\*(.*?)\*\*/g,
+                        "<strong>$1</strong>"
+                    );
+
+                    return (
+                        <li key={idx} className="mb-6">
+                            <strong>{point.label}</strong> → 
+                            <p dangerouslySetInnerHTML={{ __html: formattedDetail }}/>
+                            {"image" in point && point.image && (
+                            <div className="relative w-full max-w-md mx-auto flex 
+                                items-center justify-center" style={{ aspectRatio: "3 / 2" }}
+                            >
+                                <Image
+                                    src={point.image}
+                                    alt={point.label}
+                                    fill
+                                    className="mt-2 text-gray-400 rounded-lg object-contain"
+                                    style={{ borderRadius: "0.5rem" }}
+                                />
+                            </div>
+                            )}
+                        </li>
+                    );
+                })}
                 </ul>
             </>
             )}
