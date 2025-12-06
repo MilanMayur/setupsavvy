@@ -21,10 +21,10 @@ export default function Navbar() {
                 </Link>
 
                 {/* Desktop Menu */}
-                <div className="hidden md:flex gap-6">
-                    <Link href="/" className="text-black hover:text-blue-600">Home</Link>
-                    <Link href="/products" className="text-black hover:text-blue-600">Products</Link>
-                    <Link href="/blog" className="text-black hover:text-blue-600">Guides</Link>
+                <div className="hidden md:flex gap-6 items-center">
+                    <Link href="/" className="text-black font-semibold hover:text-blue-600">Home</Link>
+                    <Link href="/products" className="text-black font-semibold hover:text-blue-600">Products</Link>
+                    <Link href="/blog" className="text-black font-semibold hover:text-blue-600">Guides</Link>
                 </div>
 
                 {/* Mobile Menu Button */}
