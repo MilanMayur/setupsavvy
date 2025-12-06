@@ -1,14 +1,16 @@
 //data/products.ts
-import featured from "./featured.json";
-import laptops from "./laptops/laptops.json";
-import webcams from "./webcams/webcams.json";
-import headsets from "./headsets/headsets.json";
-import keyboards from "./keyboards/keyboards.json";
-import mouse from "./mouse/mouse.json";
-import chairs from "./chairs/chairs.json";
-import tables from "./tables/tables.json";
-import processors from "./processors/processors.json"
-import rams from "./rams/rams.json"
+import featured from "./featured.json"
+import laptops from "./laptop/laptop.json"
+import webcams from "./webcam/webcam.json"
+import headphones from "./headphone/headphone.json"
+import keyboards from "./keyboard/keyboard.json"
+import mouse from "./mouse/mouse.json"
+import chairs from "./chair/chair.json"
+import tables from "./table/table.json"
+import processors from "./processor/processor.json"
+import rams from "./ram/ram.json"
+import ssds from "./ssd/ssd.json"
+import monitors from "./monitor/monitor.json"
 
 import curatedPicks from "./curated-picks.json"
 
@@ -26,30 +28,34 @@ export type Product = {
 };
 
 export const categoryMap: Record<string, Product[]> = {
-    laptops,
-    webcams,
-    headsets,
-    keyboards,
-    mouse,
-    chairs,
-    tables,
-    processors,
-    rams,
+    laptop: laptops,
+    webcam: webcams,
+    headphone: headphones,
+    keyboard: keyboards,
+    mouse: mouse,
+    chair: chairs,
+    table: tables,
+    processor: processors,
+    ram: rams,
+    ssd: ssds,
+    monitor: monitors
 };
 
 export const products: Product[] = [
     ...laptops,
     ...webcams,
-    ...headsets,
+    ...headphones,
     ...keyboards,
     ...mouse,
     ...chairs,
     ...tables,
     ...processors,
     ...rams,
+    ...ssds,
+    ...monitors,
 ];
 
-function normalizeDetails(details: any): Record<string, string> | string[] {
+function normalizeDetails(details: unknown): Record<string, string> | string[] {
     if (!details) return {};
   
     if (Array.isArray(details)) return details as string[];
@@ -115,4 +121,3 @@ export function getFilteredProducts({ category = "All", sort = "", page = 1, pro
     const paginated = filtered.slice(startIndex, startIndex + productsPerPage);
     return { products: paginated, totalPages };
 }
-
