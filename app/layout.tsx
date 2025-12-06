@@ -4,6 +4,7 @@ import { ReactNode } from "react";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import Script from "next/script";
+import { WebVitals } from "@/components/webVitals";
 
 export default function RootLayout({ children }: { children: ReactNode }) {
     return (
@@ -17,6 +18,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     {children}
                 </main>
                 <Footer />
+                
+                {/* Web Vitals Monitoring */}
+                <WebVitals />
 
                 {/* Google Analytics */}
                 <Script
