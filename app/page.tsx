@@ -53,6 +53,7 @@ export default function HomePage() {
 
     return (
         <div className="container mx-auto">
+
             {/* Hero Section */}
             <section className="text-center text-white py-20 rounded-2xl shadow-xl mb-16 relative
                                 bg-gradient-to-r from-blue-600 to-purple-700 overflow-hidden">
@@ -70,7 +71,7 @@ export default function HomePage() {
                     transition={{ duration: 0.8 }}
                     className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-90"
                 >
-                    Boost productivity and comfort with our curated selection of laptops, chairs, and accessories.
+                    Stay productive and comfortable with our curated laptops, chairs, and accessories, made easier to explore through intelligent AI search.
                 </motion.p>
                 <motion.div
                     whileHover={{ scale: 1.05 }}
@@ -200,4 +201,3 @@ export default function HomePage() {
         </div>
     );
 }
-
