@@ -1,0 +1,667 @@
+[
+  {
+    "id": "lenovo-loq-12th-gen-intel-core-i5-12450hx",
+    "name": "Lenovo LOQ 12Th Gen Intel Core I5-12450HX Gaming Laptop",
+    "price": "56,330",
+    "url": "https://amzn.to/3KIDwnf",
+    "image": "/laptop/lenovo-loq-12th-gen-intel-core-i5-12450hx.jpg",
+    "pros": [
+      "RTX 2050 4GB GPU supports ray tracing and DLSS for smoother visuals",
+      "144Hz 100% sRGB FHD IPS display with 300 nits brightness",
+      "Advanced dual-fan cooling system"
+    ],
+    "cons": [
+      "RTX 2050 is entry-level among RTX GPUs",
+      "12GB RAM (8+4) is slightly unconventional and limits dual-channel efficiency",
+      "No RGB keyboard or high-end aesthetic design"
+    ],
+    "category": "Laptop",
+    "rating": 3.7,
+    "details": {
+      "Processor": "12th Gen Intel Core i5-12450HX (8 cores: 4 Performance + 4 Efficiency, 12 threads, 12MB cache, up to 4.4GHz P-core boost)",
+      "Graphics": "NVIDIA GeForce RTX 2050 (4GB GDDR6, 65W Max TGP, Ray Tracing + DLSS support)",
+      "Display": "15.6-inch Full HD (1920×1080) IPS, 144Hz, 300 nits, 100% sRGB, Anti-glare",
+      "Memory": "12GB DDR5 4800MHz (8GB + 4GB, expandable up to 32GB)",
+      "Storage": "512GB PCIe Gen4 NVMe SSD (expandable up to 1TB)",
+      "Operating System": "Windows 11 Home 64-bit with MS Office Home & Student 2021 pre-installed",
+      "Software": "Lenovo AI Engine+, Lenovo Vantage, 3-month Xbox Game Pass Ultimate",
+      "Keyboard": "Full-size backlit keyboard (white lighting)",
+      "Cooling": "Dual 85mm 12V fans with high airflow vents for efficient heat dissipation",
+      "Audio": "HD stereo speakers with Nahimic Audio",
+      "Camera": "720p HD webcam with E-shutter for privacy",
+      "Connectivity": "Wi-Fi 6 (2x2 802.11ax), Bluetooth 5.2",
+      "Ports": "1× USB-C 3.2 Gen2 (DP 1.4), 2× USB-A 3.2 Gen1, 1× HDMI 2.1, 1× RJ-45, 1× Audio combo jack, 1× DC-in",
+      "Battery": "60Wh battery with Rapid Charge (up to 80% in 1 hour)",
+      "AI Engine+": "Lenovo LA1 AI Chip dynamically optimizes CPU, GPU, and fan speed via MUX Switch for best gaming performance",
+      "Cooling System": "Dual high-speed fans, large heat pipes, and rear exhaust vents maintain low temps under load",
+      "Build": "Durable ABS construction",
+      "Dimensions": "35.9 × 26.2 × 2.3 cm (approx)",
+      "Weight": "2.4 kg",
+      "Warranty": "1-year onsite domestic warranty from Lenovo"
+    }
+  },
+  {
+    "id": "hp-victus-13th-gen-intel-core-i5-13420h",
+    "name": "HP Victus 13th Gen Intel Core i5-13420H Gaming Laptop",
+    "price": "70,990",
+    "url": "https://amzn.to/4n3V9LV",
+    "image": "/laptop/hp-victus-13th-gen-intel-core-i5-13420h.jpg",
+    "pros": [
+      "NVIDIA GeForce RTX 4050 (6GB GDDR6) delivers strong 1080p gaming and AI-accelerated performance",
+      "144 Hz FHD IPS display with 9 ms response time"
+    ],
+    "cons": [
+      "Slightly heavy at 2.3 kg",
+      "Display brightness around 250 nits-average for outdoor use",
+      "Plastic chassis-less premium feel compared to metal designs"
+    ],
+    "category": "Laptop",
+    "rating": 3.7,
+    "details": {
+      "Processor": "13th Gen Intel Core i5-13420H (8 cores - 4 Performance + 4 Efficiency, 12 threads, 12 MB cache, up to 4.6 GHz boost)",
+      "Graphics": "NVIDIA GeForce RTX 4050 6 GB GDDR6 (140 W TGP approx, DLSS 3 support)",
+      "Display": "15.6-inch FHD (1920×1080) IPS, 144 Hz, 9 ms response, Anti-glare, 250 nits brightness",
+      "Memory": "16 GB DDR4-3200 MHz (2×8 GB, dual-channel, upgradeable to 32 GB)",
+      "Storage": "512 GB PCIe Gen4 NVMe M.2 SSD",
+      "Operating System": "Windows 11 Home (64-bit) + Microsoft Office Home & Student 2021",
+      "Keyboard": "Full-size backlit keyboard with numeric keypad (Mica Silver finish)",
+      "Cooling": "Enhanced thermal design with dual fan and wide airflow vents",
+      "Audio": "Dual speakers by B&O with HP Audio Boost",
+      "Camera": "HP Wide Vision 720p HD camera with temporal noise reduction and dual array digital microphones",
+      "Connectivity": "Wi-Fi 6 (2×2) + Bluetooth 5.3",
+      "Ports": "1× USB-C (5 Gbps, DP 1.4), 2× USB-A (5 Gbps), 1× HDMI 2.1, 1× RJ-45, 1× Headphone/Mic combo, AC Smart pin",
+      "Battery": "52.5 Wh 3-cell Li-ion polymer, 150 W Smart AC adapter (included)",
+      "Build": "Plastic chassis with Mica Silver finish, Victus branding",
+      "Weight": "2.3 kg",
+      "Dimensions": "35.79 × 25.5 × 2.35 cm (approx)",
+      "Warranty": "1 year domestic warranty from HP (on-site service)"
+    }
+  },
+  {
+    "id": "msi-thin-15-intel-13th-gen-core-i5-13420h",
+    "name": "MSI Thin 15 Intel 13th Gen Core i5-13420H Gaming Laptop",
+    "price": "54,990",
+    "url": "https://amzn.to/43h7g0P",
+    "image": "/laptop/msi-thin-15-intel-13th-gen-core-i5-13420h.jpg",
+    "pros": [
+      "144 Hz FHD display provides smooth visuals for gaming",
+      "RTX 3050 GPU suitable for modern e-sports and medium settings gaming",
+      "Lightweight at ~1.86 kg—portable for a gaming laptop"
+    ],
+    "cons": [
+      "Plastic construction—less premium feel compared to metal",
+      "Battery life likely average under gaming load"
+    ],
+    "category": "Laptop",
+    "rating": 4.0,
+    "details": {
+      "Processor": "Intel Core i5-13420H, 8 cores (4 P-cores + 4 E-cores), base 2.1GHz, boost up to 4.6GHz, 12MB L3 cache",
+      "Display": "15.6-inch FHD (1920×1080) IPS, 144 Hz, 45% NTSC",
+      "Graphics": "NVIDIA GeForce RTX 3050 4GB GDDR6",
+      "Memory": "16GB (2×8GB) DDR4 3200MHz",
+      "Storage": "512GB NVMe PCIe SSD",
+      "Operating System": "Windows 11 Home preinstalled",
+      "Software": "MSI Center preinstalled",
+      "Ports": "1× USB-C (USB 3.2 Gen1 / DP), 3× USB-A 3.2 Gen1, 1× HDMI 4K@30Hz, audio combo jack",
+      "Camera": "HD webcam, 720p 30fps",
+      "Keyboard": "Single-color (blue) backlit keyboard",
+      "Connectivity": "Wi-Fi + Bluetooth (v5.3)",
+      "Battery": "120W power adapter",
+      "Build": "Plastic / composite chassis, thin gaming laptop form factor",
+      "Cooling": "MSI Thin series cooling (fan-based), expected to be slim thermal solution",
+      "Audio": "Stereo speakers, typical for thin gaming laptop",
+      "Weight": "1.86 kg"
+    }
+  },
+  {
+    "id": "acer-nitro-v15-intel-core-i7-13th-gen-13620h",
+    "name": "Acer Nitro V15 Intel core i7-13th Gen 13620H Gaming Laptop",
+    "price": "94,990",
+    "url": "https://amzn.to/4obzfHi",
+    "image": "/laptop/acer-nitro-v15-intel-core-i7-13th-gen-13620h.jpg",
+    "pros": [
+      "165Hz IPS display offers smooth visuals for gaming",
+      "Powerful RTX 5050 8GB GPU suitable for mid to high-end gaming",
+      "Good thermal management with NitroSense support"
+    ],
+    "cons": [
+      "Plastic build may feel less premium",
+      "Average battery life for a gaming laptop"
+    ],
+    "category": "Laptop",
+    "rating": 0.0,
+    "details": {
+      "Processor": "Intel Core i7-13620H (10 cores, 16 threads, 2.4GHz base, up to 4.9GHz boost, 24MB cache)",
+      "Display": "15.6-inch Full HD (1920 x 1080) IPS, 165Hz refresh rate, Acer ComfyView LED-backlit, 16:9 aspect ratio",
+      "Graphics": "NVIDIA GeForce RTX 5050 Laptop GPU (8GB GDDR6)",
+      "Memory": "16GB DDR5 (1x16GB, upgradable up to 32GB, 5600 MT/s)",
+      "Storage": "512GB PCIe Gen4 NVMe SSD (upgradable up to 1TB)",
+      "Operating System": "Windows 11 Home",
+      "Software": "Acer NitroSense, Copilot Key integration, Acer Care Center",
+      "Ports": "3× USB 3.2 Gen 1 Type-A, 1× USB Type-C, HDMI, 3.5mm audio combo jack, power connector",
+      "Battery": "4-cell 57 Wh Li-ion battery",
+      "Camera": "720p HD webcam",
+      "Connectivity": "Wi-Fi 6 and Bluetooth 5.3",
+      "Keyboard": "Amber backlit keyboard with NitroSense and Copilot keys",
+      "Build": "Durable plastic chassis in Obsidian Black with angular design",
+      "Cooling": "Dual-fan cooling system with NitroSense thermal management",
+      "Audio": "Stereo speakers with DTS:X Ultra Audio",
+      "Weight": "2.11 kg"
+    }
+  },
+  {
+    "id": "lenovo-loq-amd-ryzen-7-7435hs",
+    "name": "Lenovo LOQ AMD Ryzen 7 7435HS Gaming Laptop",
+    "price": "83,990",
+    "url": "https://amzn.to/42B1VBo",
+    "image": "/laptop/lenovo-loq-amd-ryzen-7-7435hs.jpg",
+    "pros": [
+      "NVIDIA GeForce RTX 4050 (6GB) offers strong 1080p gaming with DLSS 3 support",
+      "Hyperchamber cooling ensures consistent thermal performance even under load"
+    ],
+    "cons": [
+      "512GB SSD may limit storage for large game libraries",
+      "Plastic build may feel less premium compared to metal chassis"
+    ],
+    "category": "Laptop",
+    "rating": 4.1,
+    "details": {
+      "Processor": "AMD Ryzen 7 7435HS (3.1GHz base, up to 4.5GHz boost, 8 cores, 16 threads, 16MB L3 cache)",
+      "Display": "15.6-inch FHD (1920 x 1080) IPS, 144Hz refresh rate, 300 nits brightness, 100% sRGB, anti-glare",
+      "Graphics": "NVIDIA GeForce RTX 4050 Laptop GPU (6GB GDDR6, 105W TGP, Boost Clock 2370MHz, G-SYNC)",
+      "Memory": "24GB DDR5-4800 (2x12GB, upgradeable up to 32GB)",
+      "Storage": "512GB PCIe 4.0 NVMe M.2 2242 SSD",
+      "Operating System": "Windows 11 Home",
+      "Software": "Microsoft Office Home 2024 + 3 Months Xbox Game Pass + Lenovo AI Engine+",
+      "Ports": "3× USB-A (USB 3.2 Gen 1), 1× USB-C (DisplayPort 1.4, USB PD 65W), HDMI 2.1, RJ-45 Ethernet, 3.5mm audio combo jack, power connector",
+      "Battery": "4-cell, 60 Wh Li-ion battery with Rapid Charge support",
+      "Camera": "720p HD webcam with E-shutter for privacy",
+      "Connectivity": "Wi-Fi 6 (802.11ax 2×2) and Bluetooth 5.2",
+      "Keyboard": "4-zone RGB backlit keyboard with full-size numeric keypad",
+      "Build": "Sturdy plastic chassis in Storm Grey finish with minimal bezels",
+      "Cooling": "Dual-fan Hyperchamber cooling system with copper heat pipes and rear exhausts",
+      "Audio": "Stereo speakers (2×2W) with Nahimic Audio optimization",
+      "Weight": "2.4 kg"
+    }
+  },
+  {
+    "id": "hp-victus-amd-ryzen-9-8945hs",
+    "name": "HP Victus, AMD Ryzen 9-8945HS Gaming Laptop",
+    "price": "98,990",
+    "url": "https://amzn.to/4owNx5N",
+    "image": "/laptop/hp-victus-amd-ryzen-9-8945hs.jpg",
+    "pros": [
+      "NVIDIA GeForce RTX 4060 (8GB) ensures high-end gaming and creative workloads",
+      "144Hz FHD IPS display with 300 nits brightness"
+    ],
+    "cons": [
+      "720p webcam offers mediocre image quality",
+      "Battery life is moderate during intensive gaming sessions"
+    ],
+    "category": "Laptop",
+    "rating": 3.8,
+    "details": {
+      "Processor": "AMD Ryzen 9 8945HS (up to 5.2 GHz, 8 cores, 16 threads, 16 MB L3 cache, integrated Ryzen AI engine)",
+      "Graphics": "NVIDIA GeForce RTX 4060 Laptop GPU (8 GB GDDR6 VRAM)",
+      "Display": "15.6-inch FHD (1920 x 1080) IPS, 144 Hz refresh rate, 300 nits brightness, micro-edge, anti-glare",
+      "Memory": "16 GB DDR5 RAM (Upgradeable)",
+      "Storage": "1 TB PCIe NVMe M.2 SSD",
+      "Operating System": "Windows 11 Home",
+      "Software": "Microsoft 365 Basic (1 year) + Office Home 2024 (lifetime validity)",
+      "Ports": "1× USB Type-C (DisplayPort 1.4, Power Delivery), 2× USB Type-A (5Gbps, one with Sleep and Charge), HDMI 2.1, RJ-45, AC Smart Pin, 3.5 mm combo audio jack",
+      "Battery": "4-cell, 70 Wh Li-ion polymer; supports fast charging (50% in 30 minutes)",
+      "Camera": "HP Wide Vision 720p HD camera with temporal noise reduction and dual-array microphones",
+      "Connectivity": "Wi-Fi 6 (2×2) and Bluetooth 5.3",
+      "Keyboard": "Full-size RGB backlit keyboard with numeric keypad",
+      "Build": "Sturdy design in Performance Blue color with sleek micro-edge bezels",
+      "Cooling": "HP enhanced thermal system with wide rear vents for better airflow",
+      "Audio": "Dual speakers tuned by B&O with HP Audio Boost and DTS:X Ultra",
+      "Weight": "2.29 kg"
+    }
+  },
+  {
+    "id": "asus-gaming-v16-(2025)-14th-gen-intel-core-5-210h",
+    "name": "ASUS Gaming V16 (2025) 14th Gen Intel Core 5 210H Gaming Laptop",
+    "price": "94,990",
+    "url": "https://amzn.to/3KFVwyI",
+    "image": "/laptop/asus-gaming-v16-(2025)-14th-gen-intel-core-5-210h.jpg",
+    "pros": [
+      "NVIDIA RTX 5050 (8GB) for reliable 1080p gaming",
+      "Lightweight and slim for a 16-inch gaming laptop"
+    ],
+    "cons": [
+      "512GB SSD may feel limited for heavy gamers",
+      "Battery life is average under gaming load"
+    ],
+    "category": "Laptop",
+    "rating": 0.0,
+    "details": {
+      "Processor": "Intel Core 5 210H (2.2 GHz base, up to 4.8 GHz boost, 8 cores, 12 threads, 12 MB cache)",
+      "Display": "16.0-inch FHD+ (1920 x 1200) IPS, 144 Hz refresh rate, anti-glare, 300 nits brightness",
+      "Graphics": "NVIDIA GeForce RTX 5050 (8 GB GDDR7)",
+      "Memory": "16 GB DDR5 RAM",
+      "Storage": "512 GB PCIe 4.0 NVMe SSD",
+      "Operating System": "Windows 11 Home",
+      "Software": "Microsoft 365 Basic (1 year) + Office Home 2024",
+      "Ports": "1× USB-C (DisplayPort / Power Delivery), 2× USB-A, HDMI 2.1, DC-in, 3.5 mm audio combo",
+      "Battery": "63 Wh 3-cell Li-ion",
+      "Camera": "1080p FHD webcam with privacy shutter",
+      "Connectivity": "Wi-Fi 6 (802.11ax) 2×2, Bluetooth 5.3",
+      "Keyboard": "Backlit chiclet keyboard with numeric keypad",
+      "build": "Durable chassis with minimal flex, designed for everyday gaming and productivity",
+      "cooling": "Dual-fan cooling system with anti-dust technology (ASUS thermal design)",
+      "audio": "Stereo speakers with AI noise-cancelling mic support",
+      "Weight": "1.95 kg"
+    }
+  },
+  {
+    "id": "lenovo-loq-13th-gen-intel-core-i7-13700hx",
+    "name": "Lenovo LOQ 13Th Gen Intel Core I7-13700HX Gaming Laptop",
+    "price": "1,12,490",
+    "url": "https://amzn.to/4o4ytvK",
+    "image": "/laptop/lenovo-loq-13th-gen-intel-core-i7-13700hx.jpg",
+    "pros": [
+      "NVIDIA RTX 5050-8GB",
+      "AI-Enhanced Features",
+      "Effective Cooling System"
+    ],
+    "cons": [
+      "Lower-quality webcam- 720p",
+      "Poor battery life"
+    ],
+    "category": "Laptop",
+    "rating": 3.5,
+    "details": {
+      "Processor": "Intel Core i7-13700HX (2.1 GHz base, up to 5.0 GHz boost, 10 cores, 16 threads, 30 MB cache)",
+      "Display": "15.6\" FHD (1920×1080) IPS, 144 Hz, Anti-glare, 300 nits brightness",
+      "Graphics": "NVIDIA GeForce RTX 5050 (8 GB GDDR7, up to 100 W TGP)",
+      "Memory": "16 GB DDR5-4800 (1×16 GB, dual-slot support up to 32 GB)",
+      "Storage": "1 TB PCIe 4.0 NVMe SSD",
+      "Operating System": "Windows 11 Home",
+      "Software": "Office Home 2024 + AI Engine+ suite",
+      "Cooling": "Hyperchamber design with dual fans & optimized heat pipes",
+      "AI Engine": "Lenovo AI Engine+ with scenario detection and MUX switch support",
+      "Camera": "5.0 MP webcam with electronic shutter",
+      "Audio": "Stereo speakers, 2W × 2, tuned with Nahimic",
+      "Ports": "3× USB-A (5 Gbps), 1× USB-C (10 Gbps, PD, DisplayPort 1.4), HDMI 2.1, Ethernet, 3.5 mm combo jack",
+      "Connectivity": "Wi-Fi 6 (2×2), Bluetooth 5.2",
+      "Durability": "Meets MIL-STD-810H military standards",
+      "Weight": "2.4 kg",
+      "Warranty": "1 year onsite + 1 year accidental damage protection"
+    }
+  },
+  {
+    "id": "asus-tuf-f16-14th-gen-intel-core-i7-14650hx",
+    "name": "ASUS TUF F16 14th Gen Intel Core i7 14650HX Gaming Laptop",
+    "price": "1,39,990",
+    "url": "https://amzn.to/43318Jv",
+    "image": "/laptop/asus-tuf-f16-14th-gen-intel-core-i7-14650hx.jpg",
+    "pros": [
+      "Excellent gaming performance- NVIDIA GeForce RTX 5050 (8GB)",
+      "Ample and Fast Memory and Storage"
+    ],
+    "cons": [
+      "Lower color accuracy",
+      "Shorter battery life",
+      "Plastic build"
+    ],
+    "category": "Laptop",
+    "rating": 4.4,
+    "details": {
+      "Processor": "Intel Core i7-14650HX (2.2GHz base, up to 5.2GHz boost, 30MB cache, 16 cores, 24 threads)",
+      "Display": "16-inch FHD+ (1920×1200) IPS, 165Hz refresh rate",
+      "Graphics": "NVIDIA GeForce RTX 5060 (8GB GDDR7, 115W GPU)",
+      "Memory": "16GB DDR5-5600 (expandable)",
+      "Storage": "1TB PCIe NVMe SSD",
+      "Operating System": "Windows 11 Home",
+      "Software": "Microsoft 365 Basic (1 year) + Office Home 2024",
+      "Ports": "1× RJ45, 1× Thunderbolt 4, 1× USB-C with DisplayPort/PD, 3× USB 3.2 Gen 2 Type-A, 1× HDMI 2.1, 1× 3.5mm combo audio jack",
+      "Cooling & Design": "MIL-STD durability, Arc Flow fans, enhanced cooling system for sustained gaming",
+      "Weight": "2.2 kg",
+      "Warranty": "1 year manufacturer warranty"
+    }
+  },
+  {
+    "id": "hp-victus-13th-gen-intel-core-i7-13620h",
+    "name": "HP Victus 13th Gen Intel Core i7-13620H Gaming Laptop",
+    "price": "1,02,990",
+    "url": "https://amzn.to/4nHrPvK",
+    "image": "/laptop/hp-victus-13th-gen-intel-core-i7-13620h.jpg",
+    "pros": [
+      "Excellent gaming performance- NVIDIA GeForce RTX 5050 (8GB)",
+      "Ample and Fast Memory and Storage"
+    ],
+    "cons": [
+      "Lower color accuracy",
+      "Shorter battery life",
+      "Plastic build"
+    ],
+    "category": "Laptop",
+    "rating": 3.5,
+    "details": {
+      "Processor": "Intel Core i7-13620H (up to 4.9 GHz boost, 10 cores, 16 threads, 24 MB cache)",
+      "Display": "15.6\" FHD (1920×1080) IPS, 144 Hz, anti-glare, 300 nits brightness",
+      "Graphics": "NVIDIA GeForce RTX 5050 (8 GB GDDR7)",
+      "Memory": "24 GB DDR5-5600 (1×24 GB, upgradeable)",
+      "Storage": "1 TB PCIe NVMe SSD",
+      "Operating System": "Windows 11 Home",
+      "Software": "MS Office Home 2024 + Microsoft 365 Basic (1 year) + PC Game Pass (3 months)",
+      "Ports & Connectivity": "USB Type-A 5 Gbps (HP Sleep & Charge) × 2, USB Type-C 5 Gbps (Power Delivery 3.1 + DisplayPort 1.4a), HDMI 2.1, RJ-45, Headphone/Mic combo, AC smart pin",
+      "Wireless": "Wi-Fi 6 (Realtek 2x2), Bluetooth 5.4",
+      "Camera": "HP Wide Vision 720p HD camera with noise reduction and dual-array microphones",
+      "Keyboard": "Full-size, 1-zone RGB backlit keyboard with numeric keypad",
+      "Audio": "DTS:X Ultra, Dual speakers, HP Audio Boost",
+      "Battery": "4-cell, 70 Wh Li-ion polymer, fast charge ~50% in 30 minutes",
+      "Weight": "2.29 kg"
+    }
+  },
+  {
+    "id": "dell-g15-5530-intel-core-i5-13th-gen-13450hx",
+    "name": "Dell G15-5530 Intel Core i5 13th Gen-13450HX Gaming Laptop",
+    "price": "80,490",
+    "url": "https://amzn.to/4h0vcvf",
+    "image": "/laptop/dell-g15-5530-intel-core-i5-13th-gen-13450hx.jpg",
+    "pros": [
+      "NVIDIA RTX 3050-6GB",
+      "Large and Fast Storage"
+    ],
+    "cons": [
+      "Low TGP",
+      "Mediocre battery life",
+      "Heavy and bulky"
+    ],
+    "category": "Laptop",
+    "rating": 4.0,
+    "details": {
+      "Processor": "Intel Core i5-13450HX (13th Gen, up to 4.6 GHz, 10 cores, 16 threads, 24 MB Cache)",
+      "Display": "15.6-inch FHD (1920x1080) Anti-Glare, 120Hz Refresh Rate",
+      "Memory": "16GB DDR5 RAM (expandable)",
+      "Storage": "1TB PCIe NVMe SSD",
+      "Graphics": "NVIDIA GeForce RTX 3050, 6GB GDDR6",
+      "Operating System": "Windows 11 Home",
+      "Software": "Microsoft Office Home 2021",
+      "Keyboard": "Backlit Keyboard with Numeric Keypad and G-Key",
+      "Ports": "1x USB-C with DisplayPort 1.4, 3x USB 3.2 Gen 1, 1x HDMI 2.1, 1x RJ-45 Ethernet",
+      "Connectivity": "Wi-Fi 6 AX201, Bluetooth 5.2",
+      "Audio": "Dual speakers with Nahimic 3D Audio",
+      "Camera": "720p HD Webcam",
+      "Battery": "56Wh 3-cell Lithium-ion, supports ExpressCharge",
+      "Cooling": "Dual-fan cooling with advanced thermal design",
+      "Weight": "2.65 kg",
+      "Warranty": "1 Year Onsite Warranty"
+    }
+  },
+  {
+    "id": "acer-nitro-v15-amd-ryzen-7-7445hs",
+    "name": "Acer NITRO V15, AMD Ryzen 7-7445HS Gaming Laptop",
+    "price": "80,990",
+    "url": "https://amzn.to/4oaHCD7",
+    "image": "/laptop/acer-nitro-v15-amd-ryzen-7-7445hs.jpg",
+    "pros": [
+      "NVIDIA RTX 4050-6GB",
+      "AI-Enhanced Performance",
+      "Effective Cooling System"
+    ],
+    "cons": [
+      "Low TGP",
+      "Mediocre battery life"
+    ],
+    "category": "Laptop",
+    "rating": 3.8,
+    "details": {
+      "Processor": "AMD Ryzen 7 7445HS (3.1GHz base clock, up to 4.5GHz boost, 16MB L3 cache, 8 cores, 16 threads)",
+      "Display": "15.6-inch Full HD (1920x1080) IPS Acer ComfyView LED-backlit TFT LCD, 16:9 aspect ratio, 165Hz refresh rate",
+      "Graphics": "NVIDIA GeForce RTX 4050 Laptop GPU (6GB GDDR6 dedicated VRAM)",
+      "Memory": "16GB DDR5-5600 MHz (1x16GB, upgradable up to 32GB - 2x16GB configuration)",
+      "Storage": "512GB PCIe Gen4 NVMe SSD (upgradable up to 1TB)",
+      "Operating System": "Windows 11 Home",
+      "Software": "No preinstalled software",
+      "Keyboard": "Acer backlit keyboard (99-/100-/103-key variant) with international language support and CapsLock/Microphone mute indicators",
+      "Camera": "T-Type HD 720p camera (1280 x 720 resolution)",
+      "Audio": "Harmon certified dual microphone and speakers for clear voice capture",
+      "Connectivity": "1x USB 3.2 Gen 1 (with Power-off Charging), 2x USB 3.2 Gen 1, 1x USB 4, Wi-Fi 6, Bluetooth 5.2",
+      "Weight": "2.1 kg"
+    }
+  },
+  {
+    "id": "lenovo-loq-2024-12th-gen-intel-core-i5-12450hx",
+    "name": "Lenovo LOQ 2024 12Th Gen Intel Core I5-12450HX Gaming Laptop",
+    "price": "68,490",
+    "url": "https://amzn.to/48QFZ94",
+    "image": "/laptop/lenovo-loq-2024-12th-gen-intel-core-i5-12450hx.jpg",
+    "pros": [
+      "NVIDIA RTX 3050-6GB",
+      "AI-Enhanced Performance",
+      "Effective Cooling System"
+    ],
+    "cons": [
+      "Limited VRAM 6GB",
+      "Older CPU generation",
+      "Inconsistent battery life"
+    ],
+    "category": "Laptop",
+    "rating": 3.5,
+    "details": {
+      "Processor": "12th Gen Intel Core i5-12450HX (2.4GHz base, up to 4.4GHz boost, 8 cores, 12 threads, 12MB Cache)",
+      "Display": "15.6-inch FHD (1920x1080) IPS display, 144Hz refresh rate, 100% sRGB, 300 nits brightness, Anti-glare",
+      "Graphics": "NVIDIA GeForce RTX 3050 (6GB GDDR6, Boost Clock 1732MHz, 95W TGP, G-SYNC support)",
+      "Memory": "16GB DDR5-4800 SO-DIMM (expandable up to 32GB)",
+      "Storage": "512GB PCIe 4.0 NVMe M.2 2242 SSD",
+      "Operating System": "Windows 11 Home",
+      "Software": "Office Home 2024 (Lifetime License) + 3 Months Xbox Game Pass",
+      "Cooling System": "Hyperchamber Thermal Design with Dual Outward-Spinning Fans, rear heat exhaust, sealed chamber allowing extra 10W boost in Extreme Mode, reduced skin temperature and noise",
+      "AI Optimization": "Lenovo AI Engine+ with LA1 AI Chip and MUX Switch featuring NVIDIA Advanced Optimus for dynamic GPU switching and performance boost",
+      "Connectivity": "Wi-Fi 6 (802.11ax, 2x2) and Bluetooth 5.2",
+      "Weight": "2.4 kg"
+    }
+  },
+  {
+    "id": "asus-tuf-a16-amd-ryzen-7-7445hs",
+    "name": "ASUS TUF A16 (2025) AMD Ryzen 7 7445HS Gaming Laptop",
+    "price": "86,990",
+    "url": "https://amzn.to/48T7ChP",
+    "image": "/laptop/asus-tuf-a16-amd-ryzen-7-7445hs.jpg",
+    "pros": [
+      "NVIDIA RTX 4050-6GB",
+      "Strong Gaming Performance",
+      "Effective Cooling System"
+    ],
+    "cons": [
+      "Limited VRAM 6GB",
+      "Smaller battery capacity"
+    ],
+    "category": "Laptop",
+    "rating": 4.2,
+    "details": {
+      "Processor": "AMD Ryzen 7 7445HS Processor (3.2GHz base, up to 4.7GHz boost, 22MB Cache, 6 cores, 12 threads)",
+      "Display": "16-inch FHD+ (1920 x 1200, WUXGA) 16:10 Anti-glare display, 144Hz refresh rate, 300 nits brightness",
+      "Operating System": "Windows 11 Home",
+      "Memory": "16GB DDR5 RAM",
+      "Storage": "1TB PCIe 4.0 NVMe M.2 SSD",
+      "Graphics": "NVIDIA GeForce RTX 4050 Laptop GPU (6GB GDDR6, 194 AI TOPs, 140W TGP – 2370MHz Boost + 50MHz OC, 115W + 25W Dynamic Boost)",
+      "Keyboard": "Backlit Chiclet Keyboard, 1-Zone RGB, with Copilot key",
+      "Software": "Microsoft 365 Basic (1 Year, 100GB Cloud Storage) + Office Home 2024 (Lifetime Validity)",
+      "Camera": "720p HD Camera",
+      "Audio": "High-fidelity audio with AI noise cancellation (TUF Gaming series standard)",
+      "Ports": "1 x RJ45 LAN, 1 x USB 4 Type-C (DisplayPort + Power Delivery, 40Gbps), 1 x USB 3.2 Gen 2 Type-C (DisplayPort + Power Delivery + G-SYNC, 10Gbps), 2 x USB 3.2 Gen 1 Type-A (5Gbps)",
+      "Battery": "56WHrs, 4-cell Li-ion (4S1P), fast charging (0-50% in 30 minutes)",
+      "Weight": "2.2 kg"
+    }
+  },
+  {
+    "id": "hp-victus-amd-ryzen-7-7445hs",
+    "name": "HP Victus AMD Ryzen 7 7445HS",
+    "price": "66,990",
+    "url": "https://amzn.to/4nFndpP",
+    "image": "/laptop/hp-victus-amd-ryzen-7-7445hs.jpg",
+    "pros": [
+      "NVIDIA RTX 3050-6GB",
+      "Sturdy Built Quality",
+      "Budget Gaming Option"
+    ],
+    "cons": [
+      "Low volume speaker",
+      "Mixed reviews regarding battery life"
+    ],
+    "category": "Laptop",
+    "rating": 3.8,
+    "details": {
+      "Processor": "AMD Ryzen 7 7445HS (up to 4.7 GHz max boost clock, 16 MB L3 cache, 6 cores, 12 threads)",
+      "Display": "15.6-inch (39.6 cm) FHD (1920 x 1080) IPS, 144Hz refresh rate, 300 nits brightness, 62.5% sRGB, anti-glare, micro-edge design",
+      "Operating System": "Windows 11 Home",
+      "Memory": "16GB DDR5-5600 MHz (1 x 16GB, upgradeable)",
+      "Storage": "512GB PCIe Gen4 NVMe M.2 SSD",
+      "Graphics": "NVIDIA GeForce RTX 3050 Laptop GPU (6GB GDDR6 dedicated)",
+      "Keyboard": "Full-size backlit performance blue keyboard with numeric keypad",
+      "Software": "Microsoft Office Home 2024 + 1 Year Microsoft 365 Basic + PC Game Pass 3 Months",
+      "Camera": "HP Wide Vision 720p HD camera with temporal noise reduction and dual array digital microphones",
+      "Audio": "DTS:X Ultra, Dual Speakers, HP Audio Boost",
+      "Ports": "1 x USB Type-C (USB Power Delivery 3.1, DisplayPort 1.4a, HP Sleep and Charge), 2 x USB Type-A (5Gbps), 1 x HDMI 2.1, 1 x RJ-45, 1 x Headphone/Microphone Combo Jack, 1 x AC Smart Pin",
+      "Battery": "3-cell 52.5 Wh Li-ion polymer, Fast Charge (50% in 45 minutes)",
+      "Weight": "2.29 kg"
+    }
+  },
+    {
+        "id": "asus-vivobook-16x",
+        "name": "ASUS Vivobook 16X",
+        "price": "56,900",
+        "url": "https://amzn.to/3JtHcJ2",
+        "image": "/laptop/asus-vivobook-16x.jpg",
+        "pros": [
+          "NVIDIA RTX 2050-4GB",
+          "Fast charging- 50% in 30 mins",
+          "Good performance for daily use"
+        ],
+        "cons": [
+          "Sound quality could have been better"
+        ],
+        "category": "Laptop",
+        "rating": 3.9,
+        "details": {
+          "Processor": "Intel Core i5-12500H Processor 2.5 GHz (18M Cache, up to 4.5 GHz, 4P+8E cores)",
+          "Display": "16.0-inch, FHD+ (1920 x 1200) 16:10 aspect ratio, 144Hz refresh rate, 300nits Brightness",
+          "Operating System": "Windows 11 Home",
+          "Memory": "DDR4 16GB RAM",
+          "Storage": "512GB M.2 NVMe PCIe 4.0 SSD",
+          "Graphics": "NVIDIA GeForce RTX 2050",
+          "Keyboard": "Backlit Chiclet Keyboard with Num-key",
+          "Software": "Microsoft 365 Basic with 100GB Cloud Storage for 1 Year + Office Home 2024 with lifetime validity"
+        }
+    },
+    {
+      "id": "hp-pavilion-15",
+      "name": "HP Pavilion 15",
+      "price": "59,990",
+      "url": "https://amzn.to/3VfiJJX",
+      "image": "/laptop/hp-pavilion-15.jpg",
+      "pros": [
+        "Intel Core i5 12th Gen",
+        "Bright FHD IPS display",
+        "Good build quality"
+      ],
+      "cons": [
+        "Speakers could be louder"
+      ],
+      "category": "Laptop",
+      "rating": 4.0,
+      "details": {
+        "Processor": "Intel Core i5-1240P (up to 4.4 GHz with Intel Turbo Boost, 12 MB L3 cache, 12 cores, 16 threads)",
+        "Display": "15.6-inch FHD (1920x1080), IPS, micro-edge, 250 nits, 141 ppi, 45% NTSC",
+        "Operating System": "Windows 11 Home 64 Single Language",
+        "Memory": "8 GB DDR4-3200 SDRAM (2 x 4 GB), upgradable to 16 GB (2 x 8 GB)",
+        "Storage": "512 GB PCIe NVMe M.2 SSD",
+        "Graphics": "Intel Iris Xe Graphics",
+        "Pre-installed Software": "Microsoft Office Home & Student 2021, McAfee LiveSafe (30 days trial)",
+        "Ports": "1x USB Type-C (10Gbps, PD, DisplayPort 1.4, HP Sleep and Charge), 2x USB Type-A (5Gbps), 1x HDMI 2.1, 1x Headphone/Mic combo, 1x AC Smart pin"
+      }
+    },
+    {
+      "id": "lenovo-ideapad-slim-5",
+      "name": "Lenovo IdeaPad Slim 5",
+      "price": "57,990",
+      "url": "https://amzn.to/45SK9uh",
+      "image": "/laptop/lenovo-ideapad-slim-5.jpg",
+      "pros": [
+        "Intel Core i5 12th Gen",
+        "Premium lightweight design",
+        "Excellent battery life"
+      ],
+      "cons": [
+        "Missing fingerprint sensor/facial recognition"
+      ],
+      "category": "Laptop",
+      "rating": 4.0,
+      "details": {
+        "Processor": "Intel Core i5-12450H, 2.0 GHz base, up to 4.4 GHz max, 8 Cores, 12 Threads, 12MB Cache",
+        "Display": "16-inch WUXGA (1920x1200) IPS, 300 nits, Anti-Glare, TUV Low Blue Light, Intelligent Super Resolution",
+        "Operating System": "Windows 11 Home (Lifetime Validity), MS Office Home & Student 2021, Xbox GamePass Ultimate 3 months",
+        "Memory": "16GB LPDDR5-4800 RAM, 512GB SSD (expandable up to 1TB)",
+        "Storage": "512 GB PCIe 4.0 SSD",
+        "Graphics": "Integrated Intel UHD Graphics",
+        "Design": "Thin (1.79 cm) & light (1.89 kg), Backlit Keyboard",
+        "Battery": "56.6Wh, up to 8 hours, Smart Power Adaptive Performance, Rapid Charge (15 min = 2 hrs)",
+        "Camera": "FHD 1080p with Privacy Shutter, Facial Recognition Login, Fixed Focus",
+        "Audio": "2x 2W HD Stereo Speakers, Dolby Audio, Front Facing",
+        "Ports": "2x USB-C 3.2 Gen 1 (Data, PD 3.0, DP 1.2), 2x USB-A 3.2 Gen 1 (1 Always On), 1x HDMI 1.4b, 1x Micro SD card reader, 1x Headphone/Mic combo"
+      }
+    },
+    {
+      "id": "asus-vivobook-16",
+      "name": "ASUS Vivobook 16",
+      "price": "53,990",
+      "url": "https://amzn.to/41WEUIu",
+      "image": "/laptop/asus-vivobook-16.jpg",
+      "pros": [
+        "16-inch large display",
+        "Intel Core i5 13th Gen",
+        "Military-grade laptop durability"
+      ],
+      "cons": [
+        "Mixed reviews regarding battery life"
+      ],
+      "category": "Laptop",
+      "rating": 4.0,
+      "details": {
+        "Processor": "Intel Core i5-13420H, 2.1 GHz base, up to 4.6 GHz max, 8 Cores, 12 Threads, 12MB Cache",
+        "Display": "16-inch WUXGA (1920x1200), 16:10 aspect ratio, 60Hz, 300 nits Brightness",
+        "Operating System": "Windows 11 Home, Office Home 2024 (lifetime), Microsoft 365 Basic 1 Year with 100GB Cloud",
+        "Memory": "16GB DDR4 RAM",
+        "Storage": "512GB M.2 NVMe PCIe 4.0 SSD",
+        "Graphics": "Integrated Intel UHD Graphics",
+        "Keyboard": "Backlit Chiclet Keyboard with Numeric Keypad",
+        "Design": "Slim & professional look, lightweight for its size",
+        "Camera": "HD Webcam",
+        "Audio": "Stereo speakers"
+      }
+    },
+    {
+      "id": "acer-aspire-lite",
+      "name": "Acer Aspire Lite",
+      "price": "48,990",
+      "url": "https://amzn.to/3JsetEt",
+      "image": "/laptop/acer-aspire-lite.jpg",
+      "pros": [
+        "Ryzen 7 7730U processor",
+        "Long battery life",
+        "Good thermals & keyboard"
+      ],
+      "cons": [
+        "Average sound quality"
+      ],
+      "category": "Laptop",
+      "rating": 3.9,
+      "details": {
+        "Processor": "AMD Ryzen 7 7730U, Octa-core, AMD Radeon Graphics",
+        "Display": "15.6-inch Full HD IPS TN, 1920x1080, 16:9 aspect ratio, Mercury-free",
+        "Operating System": "Windows 11 Home, MS Office",
+        "Memory": "16GB DDR4 RAM (dual-channel, 2x SODIMM, upgradable to 32GB)",
+        "Storage": "1TB PCIe Gen3 NVMe SSD (upgradable)",
+        "Graphics": "AMD Radeon Integrated Graphics",
+        "Keyboard": "100-104 key full-size keyboard with numeric keypad, international support",
+        "Ports": "2x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-A, 1x USB 3.2 Gen 2 Type-C, 1x DC-in jack",
+        "Design": "Ultra-slim, eco-friendly build",
+        "Camera": "HD Webcam",
+        "Audio": "Stereo speakers"
+      }
+    }
+]

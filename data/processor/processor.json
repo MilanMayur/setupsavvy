@@ -1,0 +1,1590 @@
+[
+    {
+        "id": "intel-core-i9-13900ks",
+        "name": "Intel Core i9-13900KS Desktop Processor",
+        "price": "55,889",
+        "url": "https://amzn.to/3WxZDiK",
+        "image": "/processor/intel-core-i9-13900ks.jpg",
+        "pros": [
+            "Flagship performance with up to 6.0 GHz max turbo frequency",
+            "24 cores (8 P-cores + 16 E-cores) and 32 threads for exceptional multitasking",
+            "Supports DDR5 and DDR4 memory for flexible performance setups",
+            "Unlocked for overclocking with excellent thermal headroom",
+            "PCIe 5.0 and 4.0 support ensures compatibility with next-gen GPUs and SSDs"
+        ],
+        "cons": [
+            "No integrated graphics (requires discrete GPU)",
+            "High power consumption and thermal output under load",
+            "Expensive compared to other 13th Gen options"
+        ],
+        "category": "Processor",
+        "rating": 4.3,
+        "details": {
+            "Generation": "13th Gen (Raptor Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "24 Cores (8P + 16E) / 32 Threads",
+            "Base Clock": "3.2 GHz (P-Cores) / 2.2 GHz (E-Cores)",
+            "Max Turbo Clock": "Up to 6.0 GHz",
+            "Cache": "36 MB Intel Smart Cache",
+            "TDP / Power": "150 W Base / Up to 253 W Turbo",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "None (Discrete GPU Required)",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Raptor Lake (Intel 7 Process)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 & 700 Series",
+            "Included Cooler": "None (Recommended liquid cooling)",
+            "Technologies": "Intel Thermal Velocity Boost, Turbo Boost Max 3.0, Intel Adaptive Boost",
+            "Geekbench Score": "Single-Core: ~2,390, Multi-Core: ~24,800",
+            "UserBenchmark Score": "Gaming: 121%, Desktop: 122%, Workstation: 117%"
+        }
+    },
+    {
+        "id": "intel-core-i5-11600kf",
+        "name": "Intel Core i5-11600KF Desktop Processor",
+        "price": "22,849",
+        "url": "https://amzn.to/46LrPVw",
+        "image": "/processor/intel-core-i5-11600kf.jpg",
+        "pros": [
+            "6 cores and 12 threads provide strong multitasking and gaming performance",
+            "Max boost clock up to 4.9 GHz for responsive single-threaded tasks",
+            "Unlocked for overclocking with Intel Turbo Boost Technology",
+            "Efficient 14nm architecture with good performance per watt",
+            "Compatible with Intel 400 & 500 series motherboards"
+        ],
+        "cons": [
+            "No integrated graphics (requires discrete GPU)",
+            "Higher power consumption under load",
+            "Limited future-proofing compared to newer generations"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Generation": "11th Gen (Rocket Lake)",
+            "Socket": "LGA1200",
+            "Core / Threads": "6 / 12 Threads",
+            "Base Clock": "3.9 GHz",
+            "Max Turbo Clock": "Up to 4.9 GHz",
+            "Cache": "12 MB Intel Smart Cache",
+            "TDP / Power": "125 W",
+            "Memory Support": "DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "None (Discrete GPU Required)",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Rocket Lake (14nm)",
+            "PCIe Version": "PCIe 4.0",
+            "Supported Chipsets": "Intel 400 & 500 Series",
+            "Included Cooler": "None",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost Technology 2.0",
+            "Geekbench Score": "Single-Core: ~1,720, Multi-Core: ~8,950",
+            "UserBenchmark Score": "Gaming: 81%, Desktop: 85%, Workstation: 78%"
+        }
+    },
+    {
+        "id": "intel-core-i5-12600k",
+        "name": "Intel Core i5-12600K Desktop Processor",
+        "price": "45,792",
+        "url": "https://amzn.to/4n1bGA3",
+        "image": "/processor/intel-core-i5-12600k.jpg",
+        "pros": [
+            "10 cores (6P + 4E) and 16 threads for strong multitasking and gaming performance",
+            "Max boost clock up to 4.9 GHz for responsive single-threaded performance",
+            "Unlocked for overclocking with Intel Turbo Boost Technology",
+            "DDR4 & DDR5 memory support",
+            "Supports PCIe 5.0 for next-generation GPU and SSDs"
+        ],
+        "cons": [
+            "No integrated graphics information provided (requires discrete GPU in some configurations)",
+            "Higher power consumption under load",
+            "Requires 600-series motherboard with potential BIOS update"
+        ],
+        "category": "Processor",
+        "rating": 0.0,
+        "details": {
+            "Generation": "12th Gen (Alder Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "10 (6P + 4E) / 16 Threads",
+            "Base Clock": "3.7 GHz (P-core), 2.8 GHz (E-core)",
+            "Max Turbo Clock": "Up to 4.9 GHz",
+            "Cache": "20 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~150 W (Max Turbo)",
+            "Memory Support": "DDR4 up to 3200 MT/s, DDR5 up to 4800 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 770",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Alder Lake (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 Series",
+            "Included Cooler": "None",
+            "Technologies": "Intel Turbo Boost, Intel Hyper-Threading, Hybrid Performance Architecture",
+            "Geekbench Score": "Single-Core: ~2,850, Multi-Core: ~16,700",
+            "UserBenchmark Score": "Gaming: 85%, Desktop: 88%, Workstation: 82%",
+            "Items Included": "Logitech G Pro X Gaming Wired Over Ear Headphones with Mic, Logitech G PRO X Superlight Wireless USB Gaming Mouse, Logitech G PRO Mechanical Gaming Keyboard"
+        }
+    },
+    {
+        "id": "intel-core-i7-13700",
+        "name": "Intel Core i7-13700 Desktop Processor",
+        "price": "34,589",
+        "url": "https://amzn.to/491o3Zr",
+        "image": "/processor/intel-core-i7-13700.jpg",
+        "pros": [
+            "16 cores (8 P + 8 E) and 24 threads for excellent multitasking",
+            "Max boost clock up to 5.2 GHz for strong single-core performance",
+            "Supports PCIe 5.0 & 4.0 for next-gen GPUs and SSDs",
+            "DDR4 & DDR5 memory support for versatile system builds",
+            "Unlocked for overclocking with Intel Turbo Boost Max Technology 3.0"
+        ],
+        "cons": [
+            "Discrete graphics required (no integrated GPU)",
+            "Higher power draw under load",
+            "Requires 600 or 700 series motherboard with potential BIOS update"
+        ],
+        "category": "Processor",
+        "rating": 4.5,
+        "details": {
+            "Generation": "13th Gen (Raptor Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "16 (8P + 8E) / 24 Threads",
+            "Base Clock": "2.1 GHz (E-cores) / 3.4 GHz (P-cores)",
+            "Max Turbo Clock": "Up to 5.2 GHz",
+            "Cache": "30 MB Intel Smart Cache",
+            "TDP / Power": "65 W (Base) / ~219 W (Max Turbo)",
+            "Memory Support": "DDR4 up to 3200 MT/s, DDR5 up to 5600 MT/s",
+            "Integrated Graphics": "None (Discrete GPU required)",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Raptor Lake (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 & 700 Series",
+            "Included Cooler": "None",
+            "Technologies": "Intel Turbo Boost Max 3.0, Hybrid Performance Architecture, Intel Optane Memory support",
+            "Geekbench Score": "Single-Core: ~3,150, Multi-Core: ~26,400",
+            "UserBenchmark Score": "Gaming: 92%, Desktop: 90%, Workstation: 88%"
+        }
+    },
+    {
+        "id": "intel-core-i9-13900kf",
+        "name": "Intel Core i9-13900KF Desktop Processor",
+        "price": "48,439",
+        "url": "https://amzn.to/475saRV",
+        "image": "/processor/intel-core-i9-13900kf.jpg",
+        "pros": [
+            "24 cores (8 P + 16 E) and 32 threads for extreme multitasking and gaming",
+            "Max boost clock up to 5.8 GHz for excellent single-core performance",
+            "Unlocked for overclocking with Intel Turbo Boost Max Technology 3.0",
+            "Supports PCIe 5.0 & 4.0 for next-gen GPUs and storage",
+            "DDR4 & DDR5 memory support for versatile system builds"
+        ],
+        "cons": [
+            "Discrete graphics required (no integrated GPU)",
+            "High power consumption under load",
+            "Requires 600 or 700 series motherboard with potential BIOS update"
+        ],
+        "category": "Processor",
+        "rating": 4.5,
+        "details": {
+            "Generation": "13th Gen (Raptor Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "24 (8P + 16E) / 32 Threads",
+            "Base Clock": "3.0 GHz (E-cores) / 3.4 GHz (P-cores)",
+            "Max Turbo Clock": "Up to 5.8 GHz",
+            "Cache": "36 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~253 W (Max Turbo)",
+            "Memory Support": "DDR4 up to 3200 MT/s, DDR5 up to 5600 MT/s",
+            "Integrated Graphics": "None (Discrete GPU required)",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Raptor Lake (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 & 700 Series",
+            "Included Cooler": "None",
+            "Technologies": "Intel Turbo Boost Max 3.0, Hybrid Performance Architecture, Intel Optane Memory support",
+            "Geekbench Score": "Single-Core: ~3,280, Multi-Core: ~33,200",
+            "UserBenchmark Score": "Gaming: 97%, Desktop: 94%, Workstation: 92%"
+        }
+    },
+    {
+        "id": "intel-core-i7-13700f",
+        "name": "Intel Core i7-13700F Desktop Processor",
+        "price": "29,689",
+        "url": "https://amzn.to/46XwSSZ",
+        "image": "/processor/intel-core-i7-13700f.jpg",
+        "pros": [
+            "16 cores (8 P + 8 E) and 24 threads for strong multitasking and gaming performance",
+            "High boost clock up to 5.2 GHz for responsive single-core workloads",
+            "Supports PCIe 5.0 & 4.0 for next-gen graphics and storage",
+            "Turbo Boost Max Technology 3.0 optimizes heavy workloads",
+            "Includes Intel Laminar RH1 Cooler"
+        ],
+        "cons": [
+            "Discrete graphics required (no integrated GPU)",
+            "High power consumption under full load",
+            "Requires 600 or 700 series motherboard (BIOS update may be needed)"
+        ],
+        "category": "Processor",
+        "rating": 4.5,
+        "details": {
+            "Generation": "13th Gen (Raptor Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "16 (8P + 8E) / 24 Threads",
+            "Base Clock": "2.1 GHz (E-cores) / 3.4 GHz (P-cores)",
+            "Max Turbo Clock": "Up to 5.2 GHz",
+            "Cache": "30 MB Intel Smart Cache",
+            "TDP / Power": "65 W (Base) / ~219 W (Max Turbo)",
+            "Memory Support": "DDR4 up to 3200 MT/s, DDR5 up to 5600 MT/s",
+            "Integrated Graphics": "None (Discrete GPU required)",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Raptor Lake (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 & 700 Series",
+            "Included Cooler": "Intel Laminar RH1 Cooler",
+            "Technologies": "Intel Turbo Boost Max 3.0, Intel Optane Memory support, Hybrid Performance Architecture",
+            "Geekbench Score": "Single-Core: ~2,980, Multi-Core: ~21,400",
+            "UserBenchmark Score": "Gaming: 94%, Desktop: 92%, Workstation: 89%"
+        }
+    },
+    {
+        "id": "intel-celeron-g5905",
+        "name": "Intel Celeron G5905 Desktop Processor",
+        "price": "3,699",
+        "url": "https://amzn.to/478qfff",
+        "image": "/processor/intel-celeron-g5905.jpg",
+        "pros": [
+            "Affordable entry-level CPU for basic computing tasks",
+            "Single-core performance adequate for web browsing, office work, and media playback",
+            "LGA1200 socket compatibility with 400 & 500 series motherboards",
+            "Low power consumption (58W TDP)",
+            "Includes Intel UHD Graphics 610 for basic display output"
+        ],
+        "cons": [
+            "Only 2 cores / 2 threads, not suitable for multitasking or gaming",
+            "No overclocking support",
+            "Limited cache (4 MB) and older architecture (Comet Lake) for performance-intensive workloads"
+        ],
+        "category": "Processor",
+        "rating": 4.5,
+        "details": {
+            "Generation": "10th Gen (Comet Lake)",
+            "Socket": "LGA1200",
+            "Core / Threads": "2 / 2",
+            "Base Clock": "3.5 GHz",
+            "Max Turbo Clock": "N/A",
+            "Cache": "4 MB Intel Smart Cache",
+            "TDP / Power": "58 W",
+            "Memory Support": "DDR4 up to 2666 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 610",
+            "Overclocking": "No (Locked)",
+            "Architecture": "Comet Lake",
+            "PCIe Version": "PCIe 3.0",
+            "Supported Chipsets": "Intel 400 & 500 Series",
+            "Included Cooler": "Yes",
+            "Technologies": "Intel Hyper-Threading not supported, Intel Virtualization Technology",
+            "Geekbench Score": "Single-Core: ~1,120, Multi-Core: ~2,200",
+            "UserBenchmark Score": "Gaming: 35%, Desktop: 45%, Workstation: 30%"
+        }
+    },
+    {
+        "id": "intel-core-i5-13500",
+        "name": "Intel Core i5-13500 Desktop Processor",
+        "price": "24,219",
+        "url": "https://amzn.to/4mZLOo4",
+        "image": "/processor/intel-core-i5-13500.jpg",
+        "pros": [
+            "13th Gen 14-core (6P + 8E) / 20 threads CPU for multitasking and gaming",
+            "High single-core boost up to 4.8 GHz for responsive performance",
+            "Supports DDR5 and DDR4 memory platforms",
+            "Integrated Intel UHD Graphics 770 included",
+            "PCIe 5.0 support for next-gen graphics and storage"
+        ],
+        "cons": [
+            "No included cooler for heavy workloads (check retail package)",
+            "Power consumption higher under full load",
+            "E-cores offer lower single-thread performance compared to P-cores"
+        ],
+        "category": "Processor",
+        "rating": 4.6,
+        "details": {
+            "Generation": "13th Gen (Raptor Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "14 (6P + 8E) / 20 Threads",
+            "Base Clock": "2.5 GHz (P-core), 1.8 GHz (E-core)",
+            "Max Turbo Clock": "Up to 4.8 GHz",
+            "Cache": "24 MB Intel Smart Cache",
+            "TDP / Power": "65 W (Base) / ~154 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 770",
+            "Overclocking": "No (Locked)",
+            "Architecture": "Raptor Lake (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series (BIOS update may be required)",
+            "Included Cooler": "Check retail package",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost 2.0, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~2,850, Multi-Core: ~17,800",
+            "UserBenchmark Score": "Gaming: 88%, Desktop: 92%, Workstation: 85%"
+        }
+    },
+    {
+        "id": "intel-core-i5-13600k",
+        "name": "Intel Core i5-13600K Desktop Processor",
+        "price": "25,800",
+        "url": "https://amzn.to/3KKAnmW",
+        "image": "/processor/intel-core-i5-13600k.jpg",
+        "pros": [
+            "14 cores (6P + 8E) / 20 threads for high-performance multitasking",
+            "Unlocked for overclocking and advanced tuning",
+            "High single-core boost up to 5.1 GHz for gaming and productivity",
+            "Supports DDR5 and DDR4 memory platforms",
+            "PCIe 5.0 support for next-gen graphics and storage"
+        ],
+        "cons": [
+            "No included cooler for heavy loads, requires aftermarket cooling",
+            "High power draw under turbo boost",
+            "E-cores provide less performance for single-thread tasks compared to P-cores"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Generation": "13th Gen (Raptor Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "14 (6P + 8E) / 20 Threads",
+            "Base Clock": "3.5 GHz (P-core), 2.6 GHz (E-core)",
+            "Max Turbo Clock": "Up to 5.1 GHz",
+            "Cache": "24 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~181 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 770",
+            "Overclocking": "Yes, unlocked",
+            "Architecture": "Raptor Lake (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series (BIOS update may be required)",
+            "Included Cooler": "No",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost 2.0, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~2,950, Multi-Core: ~18,500",
+            "UserBenchmark Score": "Gaming: 92%, Desktop: 95%, Workstation: 88%"
+        }
+    },
+    {
+        "id": "intel-core-i9-14900kf",
+        "name": "Intel Core i9-14900KF Desktop Processor",
+        "price": "53,999",
+        "url": "https://amzn.to/48VxqKg",
+        "image": "/processor/intel-core-i9-14900kf.jpg",
+        "pros": [
+            "24 cores (8P + 16E) / 32 threads for extreme multitasking and gaming",
+            "Unlocked for overclocking and advanced tuning",
+            "High single-core boost up to 6.0 GHz for top-tier performance",
+            "Supports DDR5 and DDR4 memory platforms"
+        ],
+        "cons": [
+            "No integrated graphics, discrete GPU required",
+            "High power consumption under load, requires strong cooling",
+            "Premium pricing for enthusiast segment"
+        ],
+        "category": "Processor",
+        "rating": 4.3,
+        "details": {
+            "Generation": "14th Gen (Raptor Lake Refresh)",
+            "Socket": "LGA1700",
+            "Core / Threads": "24 (8P + 16E) / 32 Threads",
+            "Base Clock": "3.2 GHz",
+            "Max Turbo Clock": "Up to 6.0 GHz",
+            "Cache": "36 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~250 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "None (Discrete GPU required)",
+            "Overclocking": "Yes, unlocked",
+            "Architecture": "Raptor Lake Refresh (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series (BIOS update may be required)",
+            "Included Cooler": "No",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost Max 3.0, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~3,650, Multi-Core: ~28,500",
+            "UserBenchmark Score": "Gaming: 95%, Desktop: 96%, Workstation: 92%"
+        }
+    },
+    {
+        "id": "intel-core-i7-14700kf",
+        "name": "Intel Core i7-14700KF Desktop Processor",
+        "price": "42,999",
+        "url": "https://amzn.to/47cfDw6",
+        "image": "/processor/intel-core-i7-14700kf.jpg",
+        "pros": [
+            "20 cores (8P + 12E) / 28 threads for heavy multitasking and gaming",
+            "Unlocked for overclocking and advanced tuning",
+            "High single-core boost up to 5.6 GHz for demanding games",
+            "Supports DDR5 and DDR4 memory platforms",
+            "Optimized for next-gen gaming and productivity workloads"
+        ],
+        "cons": [
+            "Requires discrete graphics (no integrated GPU)",
+            "High TDP under load requires strong cooling",
+            "Premium pricing for enthusiast segment"
+        ],
+        "category": "Processor",
+        "rating": 4.3,
+        "details": {
+            "Generation": "14th Gen (Raptor Lake Refresh)",
+            "Socket": "LGA1700",
+            "Core / Threads": "20 (8P + 12E) / 28 Threads",
+            "Base Clock": "3.4 GHz",
+            "Max Turbo Clock": "Up to 5.6 GHz",
+            "Cache": "36 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~220 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "None (Discrete GPU required)",
+            "Overclocking": "Yes, unlocked",
+            "Architecture": "Raptor Lake Refresh (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series (BIOS update may be required)",
+            "Included Cooler": "No",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost Max 3.0, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~3,350, Multi-Core: ~22,500",
+            "UserBenchmark Score": "Gaming: 92%, Desktop: 94%, Workstation: 88%"
+        }
+    },
+    {
+        "id": "intel-core-i5-14600kf",
+        "name": "Intel Core i5-14600KF Desktop Processor",
+        "price": "27,999",
+        "url": "https://amzn.to/3KJYZw9",
+        "image": "/processor/intel-core-i5-14600kf.jpg",
+        "pros": [
+            "14 cores (6P + 8E) / 20 threads for strong multitasking and gaming performance",
+            "Unlocked for overclocking and advanced tuning",
+            "High single-core boost up to 5.3 GHz for demanding games",
+            "Supports DDR5 and DDR4 memory platforms",
+            "Efficient power usage for a mid-range performance CPU"
+        ],
+        "cons": [
+            "Requires discrete graphics (no integrated GPU)",
+            "Higher core count may need robust cooling under heavy loads",
+            "Premium pricing for mid-range segment"
+        ],
+        "category": "Processor",
+        "rating": 4.3,
+        "details": {
+            "Generation": "14th Gen (Raptor Lake Refresh)",
+            "Socket": "LGA1700",
+            "Core / Threads": "14 (6P + 8E) / 20 Threads",
+            "Base Clock": "3.5 GHz",
+            "Max Turbo Clock": "Up to 5.3 GHz",
+            "Cache": "24 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~181 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "None (Discrete GPU required)",
+            "Overclocking": "Yes, unlocked",
+            "Architecture": "Raptor Lake Refresh (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series (BIOS update may be required)",
+            "Included Cooler": "No",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost Max 3.0, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~3,200, Multi-Core: ~18,500",
+            "UserBenchmark Score": "Gaming: 88%, Desktop: 90%, Workstation: 82%"
+        }
+    },
+    {
+        "id": "intel-core-i7-14700k",
+        "name": "Intel Core i7-14700K Desktop Processor",
+        "price": "42,400",
+        "url": "https://amzn.to/3L5FgqI",
+        "image": "/processor/intel-core-i7-14700k.jpg",
+        "pros": [
+            "20 cores (8P + 12E) / 28 threads for excellent multitasking and gaming",
+            "Unlocked for overclocking and advanced tuning",
+            "Integrated Intel UHD Graphics for basic display and light gaming",
+            "High single-core boost for gaming and productivity",
+            "Supports latest DDR5 and DDR4 memory standards"
+        ],
+        "cons": [
+            "High power consumption compared to lower-tier CPUs",
+            "Requires a robust cooling solution for sustained performance",
+            "Premium price for mainstream gaming build"
+        ],
+        "category": "Processor",
+        "rating": 4.3,
+        "details": {
+            "Generation": "14th Gen (Raptor Lake Refresh)",
+            "Socket": "LGA1700",
+            "Core / Threads": "20 (8P + 12E) / 28 Threads",
+            "Base Clock": "3.4 GHz",
+            "Max Turbo Clock": "Up to 5.7 GHz",
+            "Cache": "36 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~253 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 770",
+            "Overclocking": "Yes, unlocked",
+            "Architecture": "Raptor Lake Refresh (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series",
+            "Included Cooler": "No",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost Max 3.0, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~3,300, Multi-Core: ~25,000",
+            "UserBenchmark Score": "Gaming: 92%, Desktop: 94%, Workstation: 88%"
+        }
+    },
+    {
+        "id": "intel-core-i7-11700k",
+        "name": "Intel Core i7-11700K Desktop Processor",
+        "price": "29,679",
+        "url": "https://amzn.to/3KJDYBM",
+        "image": "/processor/intel-core-i7-11700k.jpg",
+        "pros": [
+            "8 cores / 16 threads with Hyper-Threading for smooth multitasking and gaming",
+            "Up to 5.0 GHz boost clock for strong single-threaded performance",
+            "Integrated Intel UHD 750 Graphics with 4K support",
+            "Supports up to 128GB DDR4 memory",
+            "Unlocked for overclocking and advanced tuning"
+        ],
+        "cons": [
+            "High power draw (125W TDP) requires strong cooling",
+            "Older 14nm architecture compared to newer Intel generations",
+            "Premium pricing for mainstream gaming CPUs"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Generation": "11th Gen (Rocket Lake)",
+            "Socket": "LGA1200",
+            "Core / Threads": "8 / 16 Threads",
+            "Base Clock": "3.6 GHz",
+            "Max Turbo Clock": "Up to 5.0 GHz",
+            "Cache": "16 MB Intel Smart Cache",
+            "TDP / Power": "125 W",
+            "Memory Support": "DDR4 up to 3200 MT/s, Dual Channel",
+            "Integrated Graphics": "Intel UHD Graphics 750",
+            "Overclocking": "Yes, unlocked",
+            "Architecture": "Rocket Lake, 14nm",
+            "PCIe Version": "PCIe 4.0",
+            "Supported Chipsets": "Intel 400 Series & Select 500 Series (LGA1200)",
+            "Included Cooler": "No (aftermarket required)",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost 3.0, Intel Quick Sync Video, Intel Virtualization Technology",
+            "Geekbench Score": "Single-Core: ~1,950, Multi-Core: ~13,800",
+            "UserBenchmark Score": "Gaming: 88%, Desktop: 90%, Workstation: 82%"
+        }
+    },
+    {
+        "id": "intel-core-i9-14900k",
+        "name": "Intel Core i9-14900K Desktop Processor",
+        "price": "48,829",
+        "url": "https://amzn.to/4pXAwDA",
+        "image": "/processor/intel-core-i9-14900k.jpg",
+        "pros": [
+            "High-performance 24-core (8 P + 16 E cores) design for gaming and content creation",
+            "Up to 6.0 GHz boost clock for exceptional single-threaded performance",
+            "Integrated Intel UHD Graphics for basic display without a discrete GPU",
+            "Unlocked for overclocking and advanced tuning",
+            "Supports DDR5 memory and PCIe 5.0 for next-gen platforms"
+        ],
+        "cons": [
+            "High TDP, requires strong cooling solution",
+            "Premium pricing",
+            "Some workloads may not fully utilize all E-cores"
+        ],
+        "category": "Processor",
+        "rating": 4.3,
+        "details": {
+            "Generation": "14th Gen (Raptor Lake Refresh / i9)",
+            "Socket": "LGA1700",
+            "Core / Threads": "24 (8P + 16E) / 32 Threads",
+            "Base Clock": "3.2 GHz",
+            "Max Turbo Clock": "Up to 6.0 GHz",
+            "Cache": "36 MB Intel Smart Cache",
+            "TDP / Power": "125 W Base (estimated), higher under boost",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 770",
+            "Overclocking": "Yes, unlocked",
+            "Architecture": "Raptor Lake Refresh (Intel 14th Gen)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series (LGA1700)",
+            "Included Cooler": "No (aftermarket required)",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost Max 3.0, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~3,500, Multi-Core: ~36,500",
+            "UserBenchmark Score": "Gaming: 96%, Desktop: 94%, Workstation: 90%"
+        }
+    },
+    {
+        "id": "intel-core-ultra-7-265k",
+        "name": "Intel Core Ultra 7 Processor 265K Desktop Processor",
+        "price": "38,699",
+        "url": "https://amzn.to/3KI3CH7",
+        "image": "/processor/intel-core-ultra-7-265k.jpg",
+        "pros": [
+            "High boost clock up to 5.5 GHz for excellent single-threaded performance",
+            "Large 30 MB cache improves data access and processing speed",
+            "Supports modern LGA1700 socket and platforms",
+            "Strong performance for gaming, content creation, and multitasking",
+            "Efficient power management and improved thermal performance compared to previous generations"
+        ],
+        "cons": [
+            "High-end pricing may not suit budget builds",
+            "No stock cooler included — requires aftermarket cooling",
+            "DDR5 and PCIe 5.0 support depends on motherboard selection"
+        ],
+        "category": "Processor",
+        "rating": 4.6,
+        "details": {
+            "Generation": "Ultra 7 Series (Intel 14th Gen / Raptor Lake Refresh Ultra)",
+            "Socket": "LGA1700",
+            "Core / Threads": "8 Cores / 16 Threads (Exact P/E core split not specified)",
+            "Base Clock": "3.9 GHz (estimated typical base)",
+            "Max Turbo Clock": "Up to 5.5 GHz",
+            "Cache": "30 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base, estimated)",
+            "Memory Support": "DDR5 up to 5600 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics (Exact model may vary)",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Raptor Lake Refresh Ultra (Intel 14th Gen)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series (LGA1700)",
+            "Included Cooler": "No (aftermarket required)",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~3,150, Multi-Core: ~18,500",
+            "UserBenchmark Score": "Gaming: 95%, Desktop: 92%, Workstation: 88%"
+        }
+    },
+    {
+        "id": "intel-core-i9-11900k",
+        "name": "Intel Core i9-11900K Desktop Processor",
+        "price": "33,539",
+        "url": "https://amzn.to/42zaigS",
+        "image": "/processor/intel-core-i9-11900k.jpg",
+        "pros": [
+            "Excellent single-core performance for gaming and productivity",
+            "Unlocked for overclocking with robust thermal headroom",
+            "Integrated Intel UHD Graphics 750 supports up to 3 displays",
+            "Supports PCIe 4.0 and DDR4 memory for modern platforms",
+            "Strong IPC performance with Intel Turbo Boost Max Technology 3.0"
+        ],
+        "cons": [
+            "High power consumption (125W base, higher under load)",
+            "Runs hot — requires a strong cooling solution",
+            "LGA1200 platform lacks DDR5 and PCIe 5.0 support",
+            "Not ideal for users needing more than 8 cores for heavy multitasking"
+        ],
+        "category": "Processor",
+        "rating": 4.6,
+        "details": {
+            "Generation": "11th Gen (Rocket Lake)",
+            "Socket": "LGA1200",
+            "Core / Threads": "8 Cores / 16 Threads",
+            "Base Clock": "3.5 GHz",
+            "Max Turbo Clock": "Up to 5.3 GHz",
+            "Cache": "16 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~250 W (Max Turbo)",
+            "Memory Support": "DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 750",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Rocket Lake (14nm)",
+            "PCIe Version": "PCIe 4.0",
+            "Supported Chipsets": "Intel 400 (select) and 500 Series",
+            "Included Cooler": "No (aftermarket cooling required)",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost Max 3.0, Thermal Velocity Boost, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~1,850, Multi-Core: ~10,200",
+            "UserBenchmark Score": "Gaming: 93%, Desktop: 92%, Workstation: 88%"
+        }
+    },
+    {
+        "id": "intel-core-i3-14100",
+        "name": "Intel Core i3-14100 14th Gen Desktop Processor",
+        "price": "15,990",
+        "url": "https://amzn.to/4oecXER",
+        "image": "/processor/intel-core-i3-14100.jpg",
+        "pros": [
+            "Strong single-core performance ideal for gaming and everyday tasks",
+            "Supports both DDR4 and DDR5 memory",
+            "Comes with Intel Laminar RM1 cooler",
+            "Excellent power efficiency and thermals",
+            "Integrated Intel UHD Graphics 730 for basic display and light gaming"
+        ],
+        "cons": [
+            "Limited to 4 cores, less suited for heavy multitasking or workstation workloads",
+            "Not unlocked for overclocking",
+            "Requires BIOS update on some 600-series motherboards"
+        ],
+        "category": "Processor",
+        "rating": 4.8,
+        "details": {
+            "Generation": "14th Gen (Raptor Lake Refresh)",
+            "Socket": "LGA1700",
+            "Core / Threads": "4 (4P + 0E) / 8 Threads",
+            "Base Clock": "3.5 GHz",
+            "Max Turbo Clock": "Up to 4.7 GHz",
+            "Cache": "12 MB Intel Smart Cache",
+            "TDP / Power": "60 W (Base) / ~89 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 4800 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 730",
+            "Overclocking": "No (Locked)",
+            "Architecture": "Raptor Lake Refresh (Intel 7)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series (BIOS update may be required)",
+            "Included Cooler": "Intel Laminar RM1 Cooler",
+            "Technologies": "Intel Hyper-Threading, Intel Turbo Boost 2.0, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~2,580, Multi-Core: ~9,250",
+            "UserBenchmark Score": "Gaming: 84%, Desktop: 90%, Workstation: 80%"
+        }
+    },
+    {
+        "id": "intel-core-i7-12700k",
+        "name": "Intel Core i7-12700K 12th Gen Desktop Processor",
+        "price": "27,789",
+        "url": "https://amzn.to/3J6nWkK",
+        "image": "/processor/intel-core-i7-12700k.jpg",
+        "pros": [
+            "Powerful hybrid architecture with 12 cores (8 Performance + 4 Efficiency)",
+            "Excellent gaming and productivity performance",
+            "Unlocked multiplier allows overclocking for enthusiasts",
+            "Supports both DDR4 and DDR5 memory",
+            "Integrated Intel UHD Graphics 770 for basic graphical tasks"
+        ],
+        "cons": [
+            "No cooler included in the box",
+            "Higher power consumption under load (125W base, 190W turbo)",
+            "Requires newer LGA1700 motherboard"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Generation": "12th Gen (Alder Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "12 (8P + 4E) / 20 Threads",
+            "Base Clock": "3.6 GHz",
+            "Max Turbo Clock": "Up to 5.0 GHz",
+            "Cache": "25 MB Intel Smart Cache",
+            "TDP / Power": "125 W (Base) / ~190 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 4800 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 770",
+            "Overclocking": "Yes (Unlocked)",
+            "Architecture": "Intel 7 Hybrid (Alder Lake)",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series",
+            "Included Cooler": "No",
+            "Technologies": "Intel Turbo Boost Max 3.0, Intel Thread Director, Intel Hyper-Threading, Intel Deep Learning Boost, Intel Quick Sync Video",
+            "Geekbench Score": "Single-Core: ~1,970, Multi-Core: ~14,800",
+            "UserBenchmark Score": "Gaming: 95%, Desktop: 97%, Workstation: 94%"
+        }
+    },
+    {
+        "id": "intel-core-i5-13400",
+        "name": "Intel Core i5-13400 13th Gen Desktop Processor",
+        "price": "20,499",
+        "url": "https://amzn.to/4oe9y95",
+        "image": "/processor/intel-core-i5-13400.jpg",
+        "pros": [
+            "10 cores (6 Performance + 4 Efficiency) for strong multitasking performance",
+            "Excellent balance of gaming and productivity capabilities",
+            "High boost clock up to 4.6 GHz ensures smooth single-threaded performance",
+            "Compatible with both DDR4 and DDR5 memory",
+            "Includes Intel UHD 730 integrated graphics"
+        ],
+        "cons": [
+            "Locked multiplier — not suitable for overclocking",
+            "Requires LGA 1700 motherboard (12th/13th Gen compatible)",
+            "Stock cooler adequate but not ideal for sustained heavy loads"
+        ],
+        "category": "Processor",
+        "rating": 4.5,
+        "details": {
+            "Generation": "13th Gen (Raptor Lake)",
+            "Socket": "LGA1700",
+            "Core / Threads": "10 (6P + 4E) / 16 Threads",
+            "Base Clock": "2.5 GHz",
+            "Max Turbo Clock": "Up to 4.6 GHz",
+            "Cache": "20 MB Intel Smart Cache",
+            "TDP / Power": "65 W (Base) / 148 W (Max Turbo)",
+            "Memory Support": "DDR5 up to 4800 MT/s, DDR4 up to 3200 MT/s",
+            "Integrated Graphics": "Intel UHD Graphics 730",
+            "Overclocking": "No (Locked)",
+            "Architecture": "Raptor Lake Hybrid Architecture",
+            "PCIe Version": "PCIe 5.0 & 4.0",
+            "Supported Chipsets": "Intel 600 and 700 Series",
+            "Included Cooler": "Yes (Intel Laminar RM1)",
+            "Technologies": "Intel Turbo Boost Technology 2.0, Intel Thread Director, Intel Hyper-Threading, Intel Deep Learning Boost",
+            "Geekbench Score": "Single-Core: ~1,950, Multi-Core: ~10,800",
+            "UserBenchmark Score": "Gaming: 89%, Desktop: 95%, Workstation: 88%"
+        }
+    },
+    {
+        "id": "intel-core-i5-9600k",
+        "name": "Intel Core i5-9600K 9th Gen Desktop Processor",
+        "price": "12,399",
+        "url": "https://amzn.to/4q7s0Sw",
+        "image": "/processor/intel-core-i5-9600k.jpg",
+        "pros": [
+            "6 cores deliver strong gaming performance",
+            "Unlocked for overclocking enthusiasts",
+            "Boost clock up to 4.6 GHz provides excellent single-threaded speed",
+            "Integrated Intel UHD Graphics 630 for basic display output",
+            "Good value for mid-range gaming builds"
+        ],
+        "cons": [
+            "No included cooler – requires aftermarket cooling solution",
+            "Limited to Intel 300 Series motherboards",
+            "Lacks Hyper-Threading (only 6 threads)",
+            "Older architecture (9th Gen) with DDR4 support only"
+        ],
+        "category": "Processor",
+        "rating": 4.6,
+        "details": {
+            "Generation": "9th Gen",
+            "Socket": "LGA1151",
+            "Core / Threads": "6 / 6",
+            "Base Clock": "3.7 GHz",
+            "Max Turbo Clock": "Up to 4.6 GHz",
+            "Cache": "9 MB Intel Smart Cache",
+            "TDP / Power": "95 W",
+            "Memory Support": "DDR4 up to 2666 MHz",
+            "Integrated Graphics": "Intel UHD Graphics 630",
+            "Overclocking": "Unlocked",
+            "Architecture": "Coffee Lake Refresh",
+            "PCIe Version": "PCIe 3.0",
+            "Supported Chipsets": "Intel 300 Series",
+            "Included Cooler": "No",
+            "Technologies": "Intel Turbo Boost 2.0, Intel Quick Sync Video, Intel Optane Memory Support",
+            "Geekbench Score": "Single-Core: ~1,170, Multi-Core: ~4,800"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-5600t",
+        "name": "AMD Ryzen 5 5600T Desktop Processor",
+        "price": "10,999",
+        "url": "https://amzn.to/3ITLmKi",
+        "image": "/processor/amd-ryzen-5-5600t.jpg",
+        "pros": [
+            "6 cores / 12 threads - excellent for multitasking and mid-range gaming",
+            "Boost clock up to 4.5 GHz for strong single-threaded performance",
+            "Built on efficient Zen 3 architecture",
+            "32 MB L3 cache improves responsiveness",
+            "Supports DDR4 memory and PCIe Gen 4 connectivity",
+            "Unlocked for overclocking with AMD Ryzen Master"
+        ],
+        "cons": [
+            "Lower TDP version (35W) - may have slightly lower sustained performance under heavy load",
+            "No integrated graphics - requires a discrete GPU",
+            "Limited to AM4 socket compatibility"
+        ],
+        "category": "Processor",
+        "rating": 4.6,
+        "details": {
+            "Socket": "AM4",
+            "Core / Threads": "6 / 12",
+            "Base Clock": "3.5 GHz",
+            "Max Boost Clock": "Up to 4.5 GHz",
+            "L3 Cache": "32 MB",
+            "Architecture": "Zen 3",
+            "TDP / Power": "35 W",
+            "Memory Support": "DDR4 up to 3200 MT/s",
+            "PCIe Version": "PCIe Gen 4",
+            "Unlocked / Overclocking": "Yes - AMD Ryzen Master",
+            "Release Date": "2021",
+            "Platform Compatibility": "Works with chipsets X570, X470, X370, B550, B450, B350, A520",
+            "Integrated Graphics": "No",
+            "Included Cooler": "Wraith Stealth",
+            "Geekbench Score": "Single-Core: ~1,625, Multi-Core: ~8,450"
+        }
+    },
+    {
+        "id": "amd-ryzen-9-7950x3d",
+        "name": "AMD Ryzen 9 7950X3D Desktop Processor",
+        "price": "56,480",
+        "url": "https://amzn.to/48XdnLo",
+        "image": "/processor/amd-ryzen-9-7950x3d.jpg",
+        "pros": [
+            "16 cores / 32 threads - excellent for gaming, content creation, and heavy multitasking",
+            "2nd Gen 3D V-Cache boosts gaming and single-threaded performance",
+            "High boost clock up to 5.7 GHz for exceptional responsiveness",
+            "Supports DDR5 memory and PCIe Gen 5 for future-ready systems",
+            "Unlocked for overclocking with Precision Boost Overdrive and Curve Optimizer"
+        ],
+        "cons": [
+            "High TDP (120W) - requires good cooling solution",
+            "Expensive - premium flagship processor",
+            "Integrated graphics are basic and not suitable for gaming without a discrete GPU"
+        ],
+        "category": "Processor",
+        "rating": 4.6,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "16 / 32",
+            "Base Clock": "4.2 GHz",
+            "Max Boost Clock": "Up to 5.7 GHz",
+            "L3 Cache": "144 MB",
+            "Architecture": "Zen 4, 5nm, 3D V-Cache",
+            "TDP / Power": "120 W",
+            "Memory Support": "DDR5 up to 5200 MT/s",
+            "PCIe Version": "PCIe Gen 5",
+            "Unlocked / Overclocking": "Yes - Precision Boost Overdrive, Curve Optimizer",
+            "Release Date": "2025",
+            "Platform Compatibility": "Works with chipsets based on 600 Series, Socket AM5",
+            "Integrated Graphics": "Yes – basic on-chip graphics",
+            "Included Cooler": "Not specified",
+            "Geekbench Score": "Single-Core: ~4,100, Multi-Core: ~31,000"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-7500f",
+        "name": "AMD Ryzen 5 7500F Desktop Processor",
+        "price": "17,022",
+        "url": "https://amzn.to/3KPRa82",
+        "image": "/processor/amd-ryzen-5-7500f.jpg",
+        "pros": [
+            "6 cores / 12 threads - excellent for gaming and multitasking",
+            "High boost clock up to 5 GHz for strong single-thread performance",
+            "Built on Zen 4 5nm architecture for efficiency and performance",
+            "Unlocked and supports overclocking with Precision Boost Overdrive and Curve Optimizer",
+            "Supports DDR5 memory via AMD EXPO for faster memory speeds"
+        ],
+        "cons": [
+            "No integrated graphics - requires a discrete GPU",
+            "TDP of 65W may require adequate cooling for sustained heavy loads"
+        ],
+        "category": "Processor",
+        "rating": 5.0,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "6 / 12",
+            "Base Clock": "3.7 GHz",
+            "Max Boost Clock": "Up to 5 GHz",
+            "L3 Cache": "32 MB",
+            "L2 Cache": "6 MB",
+            "L1 Cache": "384 KB",
+            "Architecture": "Zen 4, 5nm",
+            "TDP / Power": "65 W",
+            "Memory Support": "DDR5 up to 5200 MT/s",
+            "PCIe Version": "PCIe Gen 5",
+            "Unlocked / Overclocking": "Yes - supports Precision Boost Overdrive, Curve Optimizer, AMD EXPO",
+            "Release Date": "2025",
+            "Platform Compatibility": "Works with chipsets A620, B650, B650E, X670, X670E",
+            "Integrated Graphics": "None – requires discrete GPU",
+            "Included Cooler": "Not specified",
+            "Geekbench Score": "Single-Core: ~3,500, Multi-Core: ~17,500"
+        }
+    },    
+    {
+        "id": "amd-ryzen-7-9700x",
+        "name": "AMD Ryzen 7 9700X Desktop Processor",
+        "price": "32,949",
+        "url": "https://amzn.to/4odER3R",
+        "image": "/processor/amd-ryzen-7-9700x.jpg",
+        "pros": [
+            "8 cores / 16 threads - excellent for gaming and content creation",
+            "Boost clock up to 5.5 GHz for high single-thread performance",
+            "Built on Zen 5 architecture for improved efficiency and speed",
+            "Supports DDR5 memory up to 5600 MHz",
+            "Integrated Radeon Graphics for basic display and multimedia"
+        ],
+        "cons": [
+            "No included high-end cooler may require aftermarket cooling for heavy loads",
+            "TDP of 65W may still need good airflow for sustained performance"
+        ],
+        "category": "Processor",
+        "rating": 4.8,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "8 / 16",
+            "Base Clock": "3.8 GHz",
+            "Max Boost Clock": "Up to 5.5 GHz",
+            "L3 Cache": "32 MB",
+            "Architecture": "Zen 5, 4nm",
+            "TDP / Power": "65 W",
+            "Memory Support": "DDR5 up to 5600 MT/s",
+            "PCIe Version": "PCIe Gen 5",
+            "Unlocked / Overclocking": "Yes - supports Precision Boost Overdrive and Curve Optimizer",
+            "Release Date": "2025",
+            "Platform Compatibility": "Works with chipsets A620, B650, B650E, X670, X670E, X870, X870E",
+            "Integrated Graphics": "Radeon Graphics",
+            "Included Cooler": "Not specified",
+            "Geekbench Score": "Single-Core: ~3,600, Multi-Core: ~20,500"
+        }
+    },
+    {
+        "id": "amd-athlon-3000g",
+        "name": "AMD Athlon 3000G Desktop Processor",
+        "price": "4,399",
+        "url": "https://amzn.to/4h8LSR9",
+        "image": "/processor/amd-athlon-3000g.jpg",
+        "pros": [
+            "Dual-core, 4 threads suitable for basic computing tasks",
+            "Unlocked for overclocking on AM4 platform",
+            "Integrated Radeon Vega 3 Graphics for light gaming and multimedia",
+            "Low TDP of 35W ensures efficient power consumption",
+            "Supports DDR4 memory up to 2667MHz"
+        ],
+        "cons": [
+            "Limited cores and threads, not suitable for heavy multitasking or gaming",
+            "Performance lower compared to modern Ryzen processor",
+            "Base clock of 3.5 GHz may limit demanding workloads"
+        ],
+        "category": "Processor",
+        "rating": 4.2,
+        "details": {
+            "Socket": "AM4",
+            "Core / Threads": "2 / 4",
+            "Base Clock": "3.5 GHz",
+            "Max Boost Clock": "Not specified",
+            "L3 Cache": "5 MB",
+            "Architecture": "Zen, 14nm",
+            "TDP / Power": "35 W",
+            "Memory Support": "DDR4 up to 2667 MHz, Dual Channel",
+            "PCIe Version": "PCIe Gen 3",
+            "Unlocked / Overclocking": "Yes",
+            "Release Date": "2019",
+            "Platform Compatibility": "AM4 motherboards",
+            "Integrated Graphics": "Radeon Vega 3 Graphics, 3 GPU cores, 1100 MHz base frequency",
+            "Included Cooler": "Included",
+            "Geekbench Score": "Single-Core: ~1,200, Multi-Core: ~2,500"
+        }
+    },
+    {
+        "id": "amd-ryzen-7-7800x3d",
+        "name": "AMD Ryzen 7 7800X3D Desktop Processor",
+        "price": "38,649",
+        "url": "https://amzn.to/3KJg0Xm",
+        "image": "/processor/amd-ryzen-7-7800x3d.jpg",
+        "pros": [
+            "8 cores / 16 threads suitable for high-end gaming and content creation",
+            "104 MB L3 3D V-Cache boosts gaming performance significantly",
+            "Max boost clock up to 5.6 GHz for exceptional single-thread performance",
+            "Zen 4 architecture with 5nm process ensures efficiency and speed",
+            "Supports DDR5 5200MHz memory and PCIe Gen 5 for future-ready builds"
+        ],
+        "cons": [
+            "TDP 120W; requires strong cooling solution",
+            "Premium pricing due to 3D V-Cache technology",
+            "No included heatsink/fan; requires separate cooler"
+        ],
+        "category": "Processor",
+        "rating": 4.8,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "8 / 16",
+            "Base Clock": "4.2 GHz",
+            "Max Boost Clock": "Up to 5.6 GHz",
+            "L3 Cache": "104 MB (3D V-Cache)",
+            "Architecture": "Zen 4, 5nm",
+            "TDP / Power": "120 W",
+            "Memory Support": "DDR5 up to 5200 MT/s, 2 Channels",
+            "PCIe Version": "PCIe Gen 5 support",
+            "Unlocked / Overclocking": "Yes - supports AMD EXPO and Precision Boost Overdrive",
+            "Release Date": "2023",
+            "Platform Compatibility": "Works with 600 Series Chipsets (A620, B650, B650E, X670, X670E, X870, X870E)",
+            "Integrated Graphics": "Yes - On-chip graphics",
+            "Included Cooler": "Not included; recommended to use compatible cooler",
+            "Geekbench Score": "Single-Core: ~2,250, Multi-Core: ~16,500"
+        }
+    },
+    {
+        "id": "amd-ryzen-7-7700x",
+        "name": "AMD Ryzen 7 7700X Desktop Processor",
+        "price": "31,989",
+        "url": "https://amzn.to/48w6RLH",
+        "image": "/processor/amd-ryzen-7-7700x.jpg",
+        "pros": [
+            "8 cores / 16 threads suitable for gaming and content creation",
+            "Boost clock up to 5.4 GHz ensures high single-thread performance",
+            "40 MB L3 cache improves responsiveness and reduces latency",
+            "Zen 4 architecture with 5nm process for high efficiency",
+            "Supports DDR5 5200MHz memory and PCIe Gen 5 for future-proof builds"
+        ],
+        "cons": [
+            "No integrated graphics, requires discrete GPU",
+            "TDP 105W; requires good cooling solution",
+            "Premium pricing compared to previous generation AM4 CPUs"
+        ],
+        "category": "Processor",
+        "rating": 4.8,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "8 / 16",
+            "Base Clock": "4.5 GHz",
+            "Max Boost Clock": "Up to 5.4 GHz",
+            "L3 Cache": "40 MB",
+            "Architecture": "Zen 4, 5nm",
+            "TDP / Power": "105 W",
+            "Memory Support": "DDR5 up to 5200 MT/s, 2 Channels",
+            "PCIe Version": "PCIe Gen 5.0 support",
+            "Unlocked / Overclocking": "Yes - supports AMD EXPO and Precision Boost Overdrive",
+            "Release Date": "2023",
+            "Platform Compatibility": "Works with 600 Series Chipsets (A620, B650, B650E, X670, X670E, X870, X870E)",
+            "Integrated Graphics": "No",
+            "Included Cooler": "Not included; recommended to use compatible cooler",
+            "Geekbench Score": "Single-Core: ~2,100, Multi-Core: ~15,500"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-5600xt",
+        "name": "AMD Ryzen 5 5600XT Desktop Processor",
+        "price": "13,143",
+        "url": "https://amzn.to/42AaKv8",
+        "image": "/processor/amd-ryzen-5-5600xt.jpg",
+        "pros": [
+            "6 cores / 12 threads ideal for gaming and multitasking",
+            "Boost clock up to 4.7 GHz for smooth performance in demanding applications",
+            "32 MB L3 cache reduces latency and improves responsiveness",
+            "Zen 3 architecture with 7nm process ensures high efficiency and performance",
+            "Unlocked for overclocking with AMD Ryzen Master utility"
+        ],
+        "cons": [
+            "No integrated graphics, requires discrete GPU",
+            "TDP around 65W; adequate cooling required for overclocking",
+            "Older chipset support (AM4) may not be future-proof"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Socket": "AM4",
+            "Core / Threads": "6 / 12",
+            "Base Clock": "3.7 GHz",
+            "Max Boost Clock": "Up to 4.7 GHz",
+            "L3 Cache": "32 MB",
+            "Architecture": "Zen 3, 7nm",
+            "TDP / Power": "65 W",
+            "Memory Support": "DDR4 up to 3200 MT/s, 2 Channels",
+            "PCIe Version": "PCIe 4.0 support",
+            "Unlocked / Overclocking": "Yes - supports AMD Ryzen Master utility",
+            "Release Date": "2021",
+            "Platform Compatibility": "X570, X470, X370, B550, B450, B350, A520 chipsets",
+            "Integrated Graphics": "No",
+            "Included Cooler": "Not included; recommended to use compatible cooler",
+            "Geekbench Score": "Single-Core: ~1,750, Multi-Core: ~9,600"
+        }
+    },
+    {
+        "id": "amd-ryzen-9-7900x",
+        "name": "AMD Ryzen 9 7900X Desktop Processor",
+        "price": "36,859",
+        "url": "https://amzn.to/46Y0IFy",
+        "image": "/processor/amd-ryzen-9-7900x.jpg",
+        "pros": [
+            "12 cores / 24 threads ideal for gaming, content creation, and multitasking",
+            "Boost clock up to 5.6 GHz for exceptional single-core performance",
+            "Supports DDR5 5200 MHz and PCIe Gen 5 for next-gen performance",
+            "Zen 4 architecture provides efficiency and high IPC gains",
+            "AMD EXPO technology enables easy memory overclocking"
+        ],
+        "cons": [
+            "High TDP (170 W) requires robust cooling solution",
+            "Premium pricing for mainstream enthusiasts",
+            "No integrated graphics; requires discrete GPU for display"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "12 / 24",
+            "Base Clock": "4.7 GHz",
+            "Max Boost Clock": "Up to 5.6 GHz",
+            "L3 Cache": "76 MB",
+            "Architecture": "Zen 4, 5nm",
+            "TDP / Power": "170 W",
+            "Memory Support": "DDR5 up to 5200 MHz, 2 Channels",
+            "PCIe Version": "PCIe Gen 5.0",
+            "Unlocked / Overclocking": "Yes - Precision Boost Overdrive and Curve Optimizer supported",
+            "Release Date": "2023",
+            "Platform Compatibility": "600 Series Chipset motherboards (B650, B650E, X670, X670E)",
+            "Integrated Graphics": "No",
+            "Included Cooler": "Not included; high-performance cooler recommended",
+            "Geekbench Score": "Single-Core: ~3,650, Multi-Core: ~27,400"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-7600",
+        "name": "AMD Ryzen 5 7600 Desktop Processor",
+        "price": "19,309",
+        "url": "https://amzn.to/3W34NmR",
+        "image": "/processor/amd-ryzen-5-7600.jpg",
+        "pros": [
+            "6 cores / 12 threads suitable for gaming and productivity",
+            "Boost clock up to 5.1 GHz for strong single-core performance",
+            "Supports DDR5 5200 MHz and PCIe Gen 4",
+            "On-chip graphics allows basic display without a dedicated GPU",
+            "Efficient 65W TDP with included Wraith Stealth cooler"
+        ],
+        "cons": [
+            "No dedicated GPU for high-end gaming",
+            "Limited PCIe Gen 4 lanes compared to high-end CPUs",
+            "Mid-range performance for multi-threaded workloads compared to Ryzen 7/9"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "6 / 12",
+            "Base Clock": "3.8 GHz",
+            "Max Boost Clock": "Up to 5.1 GHz",
+            "L3 Cache": "38 MB",
+            "Architecture": "Zen 4",
+            "TDP / Power": "65 W",
+            "Memory Support": "DDR5 up to 5200 MHz, 2 Channels",
+            "PCIe Version": "PCIe Gen 4",
+            "Unlocked / Overclocking": "Yes - Precision Boost Overdrive supported",
+            "Release Date": "2023",
+            "Platform Compatibility": "600 Series Chipset motherboards (B650, B650E, X670, X670E)",
+            "Integrated Graphics": "Yes - AMD Radeon 760M",
+            "Included Cooler": "Wraith Stealth",
+            "Geekbench Score": "Single-Core: ~2,450, Multi-Core: ~12,100"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-5600",
+        "name": "AMD Ryzen 5 5600 Desktop Processor",
+        "price": "10,399",
+        "url": "https://amzn.to/470YHbB",
+        "image": "/processor/amd-ryzen-5-5600.jpg",
+        "pros": [
+            "6 cores / 12 threads suitable for gaming and productivity",
+            "Boost clock up to 4.4 GHz for solid single-core performance",
+            "Supports DDR4 3200 MHz and PCIe Gen 4",
+            "Efficient 65W TDP with included Wraith Stealth cooler",
+            "Reliable for mid-range gaming and content creation workloads"
+        ],
+        "cons": [
+            "No integrated graphics",
+            "Performance limited compared to 3D V-Cache Ryzen variants"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Socket": "AM4",
+            "Core / Threads": "6 / 12",
+            "Base Clock": "3.5 GHz",
+            "Max Boost Clock": "Up to 4.4 GHz",
+            "L3 Cache": "35 MB",
+            "Architecture": "Zen 3",
+            "TDP / Power": "65 W",
+            "Memory Support": "DDR4 up to 3200 MHz, 2 Channels",
+            "PCIe Version": "PCIe Gen 4",
+            "Unlocked / Overclocking": "Yes - Precision Boost Overdrive supported",
+            "Release Date": "2021",
+            "Platform Compatibility": "500 Series Chipset motherboards (B550, X570)",
+            "Integrated Graphics": "None - Requires dedicated GPU",
+            "Included Cooler": "Wraith Stealth",
+            "Geekbench Score": "Single-Core: ~1,650, Multi-Core: ~7,900"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-9600x",
+        "name": "AMD Ryzen 5 9600X Desktop Processor",
+        "price": "22,669",
+        "url": "https://amzn.to/3WzNPN0",
+        "image": "/processor/amd-ryzen-5-9600x.jpg",
+        "pros": [
+            "6 cores / 12 threads suitable for gaming and content creation",
+            "Boost clock up to 5.4 GHz for high single-threaded performance",
+            "Supports DDR5 up to 5600 MT/s and PCIe 5.0",
+            "Integrated RDNA 2 Radeon graphics for display without a dedicated GPU",
+            "Unlocked for overclocking with PBO and Curve Optimizer support",
+            "Efficient 65W TDP for lower cooling requirements"
+        ],
+        "cons": [
+            "Integrated graphics not suitable for high-end gaming",
+            "No included heatsink fan",
+            "Premium pricing for a 6-core CPU"
+        ],
+        "category": "Processor",
+        "rating": 4.8,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "6 / 12",
+            "Base Clock": "3.9 GHz",
+            "Max Boost Clock": "Up to 5.4 GHz",
+            "L3 Cache": "32 MB",
+            "Architecture": "Zen 5",
+            "TDP / Power": "65 W",
+            "Memory Support": "DDR5 up to 5600 MT/s",
+            "PCIe Version": "PCIe 5.0",
+            "Unlocked / Overclocking": "Yes - Precision Boost Overdrive & Curve Optimizer",
+            "Release Date": "2025",
+            "Platform Compatibility": "Works with chipsets A620, B650, B650E, X670, X670E, X870, X870E",
+            "Integrated Graphics": "RDNA 2, supports up to 4 displays",
+            "Geekbench Score": "Single-Core: ~2,300, Multi-Core: ~13,100"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-7600x",
+        "name": "AMD Ryzen 5 7600X Desktop Processor",
+        "price": "20,499",
+        "url": "https://amzn.to/3J8JJbF",
+        "image": "/processor/amd-ryzen-5-7600x.jpg",
+        "pros": [
+            "6 cores / 12 threads suitable for gaming and productivity",
+            "High boost clock up to 5.3 GHz for single-threaded performance",
+            "Supports DDR5 5200MHz memory and PCIe 5.0",
+            "Integrated RDNA 2 graphics for basic display output",
+            "Unlocked for overclocking"
+        ],
+        "cons": [
+            "Integrated graphics not suitable for gaming",
+            "No included heatsink fan (sold separately)",
+            "Premium pricing for 6-core CPU"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+            "Socket": "AM5",
+            "Core / Threads": "6 / 12",
+            "Base Clock": "4.7 GHz",
+            "Max Boost Clock": "Up to 5.3 GHz",
+            "L3 Cache": "38 MB",
+            "Architecture": "Zen 4",
+            "TDP / Power": "65 W",
+            "Memory Support": "DDR5 up to 5200 MT/s",
+            "PCIe Version": "PCIe 5.0",
+            "Unlocked / Overclocking": "Yes",
+            "Release Date": "January 2023",
+            "Platform Compatibility": "Works with 600 Series AM5 motherboards",
+            "Integrated Graphics": "RDNA 2, 2 CUs, 400 MHz base, 2.2 GHz boost, supports up to 4 displays",
+            "Geekbench Score": "Single-Core: ~2,200, Multi-Core: ~12,500"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-3400g",
+        "name": "AMD Ryzen 5 3400G Desktop Processor",
+        "price": "6,299",
+        "url": "https://amzn.to/47jtMbL",
+        "image": "/processor/amd-ryzen-5-3400g.jpg",
+        "pros": [
+          "4 cores / 8 threads - suitable for light gaming and productivity",
+          "Integrated Radeon RX Vega 11 Graphics eliminates need for a discrete GPU",
+          "Boost clock up to 4.2 GHz for decent single-threaded performance",
+          "Energy-efficient 65W TDP",
+          "Compatible with AMD 300, 400, 500 series motherboards"
+        ],
+        "cons": [
+          "Limited performance compared to modern 5000-series CPUs",
+          "Best suited for light gaming or general-purpose tasks",
+          "DDR4 memory support only up to 2933 MHz"
+        ],
+        "category": "Processor",
+        "rating": 4.4,
+        "details": {
+          "Socket": "AM4",
+          "Core / Threads": "4 / 8",
+          "Base Clock": "3.7 GHz",
+          "Max Boost Clock": "Up to 4.2 GHz",
+          "L3 Cache": "6 MB",
+          "Architecture": "Zen+ (Picasso)",
+          "TDP / Power": "65 W",
+          "Memory Support": "DDR4 up to 2933 MT/s, Dual Channel",
+          "PCIe Version": "PCIe 3.0",
+          "Release Date": "2019",
+          "Platform Compatibility": "AMD 300, 400, 500 series chipset motherboards",
+          "Included Cooler": "Wraith Spire",
+          "Geekbench Score": "Single-Core: ~1,220, Multi-Core: ~5,780",
+          "UserBenchmark Score": "Effective Speed: 65%, Value: 70%"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-5600x",
+        "name": "AMD Ryzen 5 5600X Desktop Processor",
+        "price": "11,369",
+        "url": "https://amzn.to/4q6Z0ue",
+        "image": "/processor/amd-ryzen-5-5600x.jpg",
+        "pros": [
+          "6 cores / 12 threads - great for gaming and productivity workloads",
+          "High boost clock up to 4.6 GHz for strong single-threaded performance",
+          "Energy-efficient 65W TDP",
+          "Supports PCIe 4.0 for next-gen GPUs and NVMe SSDs",
+          "Affordable mid-range CPU with excellent value for performance"
+        ],
+        "cons": [
+          "Requires a discrete graphics card",
+          "Limited to DDR4 memory support (up to 3200MHz)",
+          "No integrated GPU limits out-of-box display capability"
+        ],
+        "category": "Processor",
+        "rating": 4.6,
+        "details": {
+          "Socket": "AM4",
+          "Core / Threads": "6 / 12",
+          "Base Clock": "3.7 GHz",
+          "Max Boost Clock": "Up to 4.6 GHz",
+          "L3 Cache": "35 MB",
+          "Architecture": "Zen 3, Vermeer",
+          "TDP / Power": "65 W",
+          "Memory Support": "DDR4 up to 3200 MT/s, Dual Channel",
+          "PCIe Version": "PCIe 4.0",
+          "Release Date": "2020",
+          "Platform Compatibility": "Compatible with AMD 500 Series chipset motherboards, AM4 socket",
+          "Included Cooler": "Wraith Stealth",
+          "Geekbench Score": "Single-Core: ~1,730, Multi-Core: ~9,950",
+          "UserBenchmark Score": "Effective Speed: 95%, Value: 90%"
+        }
+    },
+    {
+        "id": "amd-ryzen-3-3200g",
+        "name": "AMD Ryzen 3 3200G Desktop Processor with Radeon Vega 8 Graphics",
+        "price": "5,449",
+        "url": "https://amzn.to/4h2WIrM",
+        "image": "/processor/amd-ryzen-3-3200g.jpg",
+        "pros": [
+          "4 cores / 4 threads - good for entry-level multitasking",
+          "Integrated Radeon Vega 8 Graphics for light gaming and multimedia",
+          "Up to 4 GHz boost clock ensures responsive performance",
+          "Energy-efficient 65W TDP",
+          "Affordable budget-friendly processor with AM4 compatibility"
+        ],
+        "cons": [
+          "Limited multi-threading performance compared to newer Ryzen models",
+          "Integrated GPU suitable only for light gaming, not high-end titles",
+          "No PCIe 4.0 support"
+        ],
+        "category": "Processor",
+        "rating": 4.5,
+        "details": {
+          "Socket": "AM4",
+          "Core / Threads": "4 / 4",
+          "Base Clock": "3.6 GHz",
+          "Max Boost Clock": "Up to 4 GHz",
+          "L3 Cache": "6 MB",
+          "Architecture": "Zen+",
+          "TDP / Power": "65 W",
+          "Memory Support": "DDR4 up to 2933 MT/s, Dual Channel",
+          "PCIe Version": "PCIe 3.0",
+          "Release Date": "2019",
+          "Platform Compatibility": "Compatible with AMD 300/400 Series motherboards",
+          "Integrated Graphics": "Radeon Vega 8",
+          "Geekbench 6 Score": "Single-Core: ~1,400, Multi-Core: ~4,900",
+          "UserBenchmark Score": "Effective Speed: 80%, Value: 78%"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-5500",
+        "name": "AMD Ryzen 5 5500 Desktop Processor",
+        "price": "7,028",
+        "url": "https://amzn.to/42wrXWs",
+        "image": "/processor/amd-ryzen-5-5500.jpg",
+        "pros": [
+          "6 cores / 12 threads - good for multitasking and light workloads",
+          "Up to 4.2 GHz boost clock for responsive performance",
+          "Energy-efficient design with moderate TDP",
+          "Affordable price for budget builds",
+          "AM4 socket compatibility with 500 Series chipset"
+        ],
+        "cons": [
+          "Lower boost clock compared to Ryzen 5 5600GT and newer models",
+          "Not ideal for high-end gaming or intensive content creation",
+          "Limited overclocking headroom"
+        ],
+        "category": "Processor",
+        "rating": 4.4,
+        "details": {
+          "Socket": "AM4",
+          "Core / Threads": "6 / 12",
+          "Base Clock": "3.6 GHz",
+          "Max Boost Clock": "Up to 4.2 GHz",
+          "L3 Cache": "19 MB",
+          "Architecture": "Zen 3",
+          "TDP / Power": "65 W",
+          "Memory Support": "DDR4 up to 3200 MT/s",
+          "PCIe Version": "PCIe 4.0",
+          "Release Date": "2021",
+          "Platform Compatibility": "Compatible with AM4 500 Series motherboards",
+          "Geekbench 6 Score": "Single-Core: ~1,980, Multi-Core: ~8,720",
+          "UserBenchmark Score": "Effective Speed: 98%, Value: 72%"
+        }
+    },
+    {
+        "id": "amd-ryzen-5-5600gt",
+        "name": "AMD Ryzen 5 5600GT Desktop Processor",
+        "price": "12,499",
+        "url": "https://amzn.to/48X99Dw",
+        "image": "/processor/amd-ryzen-5-5600gt.jpg",
+        "pros": [
+          "6 cores / 12 threads - efficient multitasking and light gaming",
+          "Up to 4.6 GHz boost clock for responsive performance",
+          "Integrated Radeon Graphics suitable for basic display tasks",
+          "65W TDP - energy-efficient with included Wraith Stealth cooler",
+          "AM4 socket compatibility with a wide range of motherboards"
+        ],
+        "cons": [
+          "Lower performance compared to higher-end Ryzen 5 models",
+          "Limited overclocking potential",
+          "Not ideal for demanding gaming or content creation tasks"
+        ],
+        "category": "Processor",
+        "rating": 4.6,
+        "details": {
+          "Socket": "AM4",
+          "Core / Threads": "6 / 12",
+          "Base Clock": "3.6 GHz",
+          "Max Boost Clock": "Up to 4.6 GHz",
+          "L3 Cache": "19 MB",
+          "Architecture": "Zen 3",
+          "TDP / Power": "65 W",
+          "Memory Support": "DDR4 up to 5600 MT/s",
+          "PCIe Version": "PCIe 4.0",
+          "Integrated Graphics": "AMD Radeon Graphics",
+          "Release Date": "2025",
+          "Platform Compatibility": "Compatible with AM4 motherboards",
+          "Geekbench 6 Score": "Single-Core: ~2,123, Multi-Core: ~9,291",
+          "UserBenchmark Score": "Effective Speed: 105%, Value: 68%"
+        }
+    },
+    {
+        "id": "amd-ryzen-7-9800x3d",
+        "name": "AMD Ryzen 7 9800X3D Desktop Processor",
+        "price": "₹46,799",
+        "url": "https://amzn.to/4nLM8Ir",
+        "image": "/processor/amd-ryzen-7-9800x3d.jpg",
+        "pros": [
+          "8 cores / 16 threads-balanced for gaming and multitasking",
+          "2nd-gen 3D V-Cache boosts gaming frame rates significantly",
+          "High base and boost clocks (4.7 GHz base, up to 5.2 GHz boost) (Tom’s Hardware)",
+          "Unlocked-supports overclocking and customization",
+          "Supports DDR5 and PCIe 5.0 for future-proof performance"
+        ],
+        "cons": [
+          "TDP ~120 W-requires good cooling solution (Tom’s Hardware)",
+          "Integrated graphics are basic-won’t replace a discrete GPU for gaming",
+          "In productivity tasks, gains over non-X3D variants can be modest"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+          "Cores / Threads": "8 / 16",
+          "Base Clock": "4.7 GHz",
+          "Max Boost Clock": "5.2 GHz (with 3D V-Cache)",
+          "L3 Cache": "96 MB (via 3D V-Cache)",
+          "Architecture": "Zen 5 X3D",
+          "Socket": "AM5",
+          "TDP": "120 W typical",
+          "Memory Support": "DDR5 up to 5600 MT/s (EXPO support)",
+          "PCIe Version": "PCIe 5.0 support",
+          "Overclocking / Features": "Unlocked; supports Precision Boost Overdrive, Curve Optimizer",
+          "Geekbench 6 Score": "Single-Core: ~3,305, Multi-Core: ~18,221"
+        }
+    },
+    {
+        "id": "amd-ryzen-9-9950x3d",
+        "name": "AMD Ryzen 9 9950X3D Desktop Processor",
+        "price": "72,499",
+        "url": "https://amzn.to/48kFHqW",
+        "image": "/processor/amd-ryzen-9-9950x3d.jpg",
+        "pros": [
+          "16 cores / 32 threads - excellent for gaming and content creation workloads",
+          "2nd Gen 3D V-Cache boosts gaming performance with large cache",
+          "Boost clock up to 5.7 GHz for high single-thread responsiveness",
+          "Unlocked and supports overclocking and advanced tuning (PBO, Curve Optimizer)",
+          "Supports DDR5 and PCIe 5.0 for future-ready platform compatibility"
+        ],
+        "cons": [
+          "High power draw (TDP ~ 170 W) => requires strong cooling",
+          "Expensive - premium flagship level pricing",
+          "Benefit of extra cache may be less in heavily multi-threaded workloads compared to non-X3D parts"
+        ],
+        "category": "Processor",
+        "rating": 4.7,
+        "details": {
+          "Socket": "AM5",
+          "Core / Threads": "16 / 32",
+          "Base Clock": "4.3 GHz",
+          "Max Boost Clock": "Up to 5.7 GHz",
+          "L3 Cache": "128 MB (plus 16 MB L2) with 3D V-Cache",  
+          "Architecture": "Zen 5, Granite Ridge",    
+          "TDP / Power": "170 W (default)",  
+          "Memory Support": "DDR5 up to 5600 MT/s",  
+          "PCIe Version": "PCIe 5.0 support",  
+          "Unlocked / Overclocking": "Yes - supports Precision Boost Overdrive and Curve Optimizer",  
+          "Release Date": "March 2025",  
+          "Platform Compatibility": "Works with chipsets A620, B650, B650E, X670, X670E, X870, X870E, B840, B850",
+          "Geekbench 6 Score": "Single-Core: ~3,398, Multi-Core: ~22,083" 
+        }
+    }
+]
