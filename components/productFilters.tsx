@@ -1,7 +1,7 @@
 //components/productFilters.tsx
 "use client";
 import { useState, useRef, useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 
 type ProductFiltersProps = {
     category: string;
@@ -15,6 +15,10 @@ export default function ProductFilters({ category, sort, categories }: ProductFi
     const categoryRef = useRef<HTMLDivElement>(null);
     const sortRef = useRef<HTMLDivElement>(null);
     const router = useRouter();
+    const searchParams = useSearchParams();
+    
+    // Check if there's an active search query
+    const searchQuery = searchParams.get("q");
 
     // Close dropdown on clicking outside
     useEffect(() => {
@@ -33,14 +37,30 @@ export default function ProductFilters({ category, sort, categories }: ProductFi
     function selectCategory(c: string) {
         setCategoryOpen(false);
         if (c !== category) {
-            router.push(`/products?category=${c}&sort=${sort}&page=1`);
+            const ids = searchParams.get("ids");
+            const q = searchParams.get("q");
+            const parts = [] as string[];
+            if (c && c !== "All") parts.push(`category=${encodeURIComponent(c)}`);
+            if (sort) parts.push(`sort=${encodeURIComponent(sort)}`);
+            parts.push(`page=1`);
+            if (ids) parts.push(`ids=${encodeURIComponent(ids)}`);
+            if (q) parts.push(`q=${encodeURIComponent(q)}`);
+            router.push(`/products?${parts.join("&")}`);
         }
     }
 
     function selectSort(s: string) {
         setSortOpen(false);
         if (s !== sort) {
-            router.push(`/products?category=${category}&sort=${s}&page=1`);
+            const ids = searchParams.get("ids");
+            const q = searchParams.get("q");
+            const parts = [] as string[];
+            if (category && category !== "All") parts.push(`category=${encodeURIComponent(category)}`);
+            if (s) parts.push(`sort=${encodeURIComponent(s)}`);
+            parts.push(`page=1`);
+            if (ids) parts.push(`ids=${encodeURIComponent(ids)}`);
+            if (q) parts.push(`q=${encodeURIComponent(q)}`);
+            router.push(`/products?${parts.join("&")}`);
         }
     }
 
@@ -131,7 +151,7 @@ export default function ProductFilters({ category, sort, categories }: ProductFi
             </div>
 
             {/* Clear All button */}
-            {(category !== "All" || sort) && (
+            {(category !== "All" || sort || searchQuery) && (
             <button
                 onClick={clearFilters}
                 className="ml-2 text-sm text-blue-600 dark:text-gray-100 cursor-pointer hover:underline"
@@ -142,3 +162,4 @@ export default function ProductFilters({ category, sort, categories }: ProductFi
         </div>
     );
 }
+ 
