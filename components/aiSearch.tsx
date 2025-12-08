@@ -17,10 +17,9 @@ export default function AISearch({ className = "", placeholder = "Search..." }: 
     const router = useRouter();
     const searchParams = useSearchParams();
 
-    // Sync search input with URL search params whenever they change
     useEffect(() => {
         const queryParam = searchParams.get('q');
-        setQ(queryParam || ''); // Set to query param or empty string
+        setQ(queryParam || ''); 
     }, [searchParams]);
 
 
@@ -35,10 +34,8 @@ export default function AISearch({ className = "", placeholder = "Search..." }: 
             const params = new URLSearchParams();
             params.set("q", q.trim());
             
-            // Show loading for a fixed duration then clear
             setTimeout(() => setLoading(false), 1000);
             
-            // Navigate to results
             router.push(`/products?${params.toString()}`);
             
         } catch (err: unknown) {
