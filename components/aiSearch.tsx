@@ -1,3 +1,4 @@
+//components/aiSearch.tsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -54,7 +55,7 @@ export default function AISearch({ className = "", placeholder = "Search..." }: 
                     value={q}
                     onChange={(e) => setQ(e.target.value)}
                     placeholder={placeholder}
-                    className="bg-white border rounded-l-lg px-3 py-2 w-full max-w-xl placeholder-gray-500"
+                    className="bg-white border rounded-l-lg px-3 py-2 w-full max-w-xl placeholder-gray-500 text-gray-700"
                 />
                 <button
                     type="submit"
