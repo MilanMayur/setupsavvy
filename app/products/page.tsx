@@ -14,8 +14,21 @@ type SearchParamsType = {
     sort?: string;
 };
 
-const categories = ["All", "Laptop", "Monitor", "Keyboard", "Mouse", "Headphone", "Webcam", 
-                    "Processor", "RAM", "SSD", "Chair", "Table"];
+const categories = [
+    "All", 
+    "Laptop", 
+    "Monitor", 
+    "Keyboard", 
+    "Mouse", 
+    "Headphone", 
+    "Webcam", 
+    "Mic",
+    "Cabinet",
+    "Internal Components", 
+    "Chair", 
+    "Table"
+];
+
 const productsPerPage = 24;
 
 export default async function ProductsPage({ searchParams }: { searchParams: Promise<SearchParamsType & { ids?: string; q?: string; noResults?: string }> }) {
@@ -36,11 +49,18 @@ export default async function ProductsPage({ searchParams }: { searchParams: Pro
     let totalPages = 1;
     let noResults = false;
 
+    let displayQuery = queryText;
+    
     if (queryText && !idsParam) {
         // Use shared server-side search helper when `q` is provided.
         const res = await runSearch(String(queryText));
         const ids = (res?.ids || []) as string[];
         const matched = ids.map((id) => productsById[id]).filter(Boolean);
+        
+        // Use corrected query for display if available
+        if (res?.query && typeof res.query === 'string') {
+            displayQuery = res.query;
+        }
 
         // sorting for search results (default: by name)
         function cleanPrice(price: string | number | undefined) {
@@ -119,7 +139,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Pro
     return (
         <section className="container mx-auto">
             <h1 className="text-3xl font-bold mb-6 text-center">
-                {(queryText || idsParam) ? `Search results${queryText ? ` for "${queryText}"` : ""}` : "Our Top Picks"}
+                {(queryText || idsParam) ? `Search results${displayQuery ? ` for "${displayQuery}"` : ""}` : "Our Top Picks"}
             </h1>
 
             {/* AI Search placed below the 'Our Top Picks' heading */}
