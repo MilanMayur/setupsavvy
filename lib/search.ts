@@ -47,6 +47,9 @@ const SYNONYMS: Record<string, string[]> = {
   'chair': ['seat', 'seating'],
   'table': ['desk', 'workstation'],
   'cabinet': ['case', 'tower', 'chassis'],
+  'mousepad': ['mouse pad', 'mouse mat', 'gaming mat'],
+  'hdd': ['hard drive', 'hard disk', 'storage drive'],
+  'ups': ['power backup', 'battery backup', 'uninterruptible power'],
 };
 
 // Calculate Levenshtein distance for typo detection
@@ -103,7 +106,12 @@ function correctTypos(query: string): string {
       'mice': 'mouse',
       'mics': 'mic',
       'microphones': 'microphone',
-      'microphone': 'mic'
+      'microphone': 'mic',
+      'mousepads': 'mousepad',
+      'mouse pads': 'mouse pad',
+      'hdds': 'hdd',
+      'hard drives': 'hard drive',
+      'upses': 'ups'
     };
     
     // Apply plural normalization first
@@ -125,6 +133,7 @@ function correctTypos(query: string): string {
       'cooler', 'cooling', 'power', 'supply', 'motherboard',
       'graphics', 'card', 'stand', 'mount', 'table', 'desk', 'chair',
       'ssd', 'ram', 'gpu', 'psu', 'rgb', 'ddr4', 'ddr5', 'nvme',
+      'mousepad', 'hdd', 'ups', 'backup',
       'touchscreen', 'backlit', 'noise', 'cancelling', 'tkl',
       'tenkeyless', 'hotswap', 'switch', 'adjustable', 'microphone',
       'nvidia', 'rtx', 'gtx', 'quiet', 'performance', 'components',
@@ -297,7 +306,11 @@ function parseQueryWithLocalAI(query: string): SearchCriteria | null {
     'CoolingFan': /\b(cooling[\s-]?fan|case[\s-]?fan|chassis[\s-]?fan|exhaust[\s-]?fan|intake[\s-]?fan)\b/,
     'PSU': /\b(psu|power[\s-]?supply|smps|power[\s-]?supply[\s-]?unit)\b/,
     'MonitorStand': /\b(monitor[\s-]?stand|monitor[\s-]?arm|monitor[\s-]?mount|vesa[\s-]?mount|desk[\s-]?mount)\b/,
-    'Motherboard': /\b(motherboard|motherboards|mobo|mainboard|main[\s-]?board)\b/
+    'Motherboard': /\b(motherboard|motherboards|mobo|mainboard|main[\s-]?board)\b/,
+    'Mouse Pad': /\b(mouse[\s-]?pad|mousepad|mouse[\s-]?mat|gaming[\s-]?mat)\b/,
+    'HDD': /\b(hdd|hard[\s-]?drive|hard[\s-]?disk|storage[\s-]?drive)\b/,
+    'UPS': /\b(ups|uninterruptible[\s-]?power|power[\s-]?backup|battery[\s-]?backup)\b/,
+    'Mic': /\b(mic|microphone)(?!\s*(headphone|headset|with))\b/
   }
 
   // Feature patterns
@@ -764,13 +777,21 @@ function filterProducts(criteria: SearchCriteria): Product[] {
       'gpu': 'GPU',
       'cabinet': 'Cabinet',
       'case': 'Cabinet',
-      'cpufan': 'CPUFan',
-      'coolingfan': 'CoolingFan',
+      'cpufan': 'CPU Cooler',
+      'cpu cooler': 'CPU Cooler',
+      'coolingfan': 'Cooling Fan',
+      'cooling fan': 'Cooling Fan',
       'psu': 'PSU',
-      'monitorstand': 'MonitorStand',
+      'monitorstand': 'Monitor Stand',
+      'monitor stand': 'Monitor Stand',
       'motherboard': 'Motherboard',
       'mic': 'Mic',
       'microphone': 'Mic',
+      'mousepad': 'Mouse Pad',
+      'mouse pad': 'Mouse Pad',
+      'hdd': 'HDD',
+      'hard drive': 'HDD',
+      'ups': 'UPS',
     
       // Uppercase variants for AI service compatibility
       'Laptop': 'Laptop',
@@ -789,10 +810,13 @@ function filterProducts(criteria: SearchCriteria): Product[] {
       'GPU': 'GPU',
       'Cabinet': 'Cabinet',
       'Case': 'Cabinet',
-      'CPUFan': 'CPUFan',
-      'CoolingFan': 'CoolingFan',
+      'CPUFan': 'CPU Cooler',
+      'CPU Cooler': 'CPU Cooler',
+      'CoolingFan': 'Cooling Fan',
+      'Cooling Fan': 'Cooling Fan',
       'PSU': 'PSU',
-      'MonitorStand': 'MonitorStand',
+      'MonitorStand': 'Monitor Stand',
+      'Monitor Stand': 'Monitor Stand',
       'Motherboard': 'Motherboard',
       'Mic': 'Mic'
     };
