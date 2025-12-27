@@ -1,5 +1,33 @@
 [
     {
+        "id": "furlay-plank-office-desk",
+        "name": "FURLAY Plank Office Desk and Study Table",
+        "price": "3,488",
+        "url": "https://amzn.to/49vduxB",
+        "image": "/table/furlay-plank-office-desk.jpg",
+        "pros": [
+          "Sturdy metal frame with engineered wood top",
+          "Spacious design with shelves suitable for study and WFH",
+          "Easy to assemble"
+        ],
+        "cons": [
+          "Suitable for only one monitor setup"
+        ],
+        "category": "Table",
+        "rating": 4.4,
+        "details": [
+          "📏 Product Dimensions – Depth: 60 cm, Width: 100 cm, Height: 75 cm.",
+          "⚖️ Item Weight – 10 kg, lightweight yet sturdy for daily use.",
+          "🪵 Top Material – Century engineered wood with clean white finish.",
+          "🦾 Base Material – Strong metal legs with powder-coated finish for durability.",
+          "📐 Shape & Design – Rectangular writing desk, ideal for study or office work.",
+          "🛠️ Mounting Type – Floor-mounted with stable leg base design.",
+          "🎨 Colour & Finish – White color with powder-coated metal frame and acacia wood-style furniture finish.",
+          "🛡️ Warranty – 1-year manufacturer warranty.",
+          "💼 User Experience – Customers praise its sturdy build, simple assembly, and suitability for students and professionals."
+        ]
+      },
+    {
         "id": "tekavo-computer-table",
         "name": "TEKAVO Computer Table with Keyboard Tray",
         "price": "9,549",
@@ -246,3 +274,4 @@
         ]
     }   
 ]
+
