@@ -36,13 +36,15 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                     `}
                 </Script>
 
-                {/* Google AdSense */}
-                <Script
-                    id="adsbygoogle-init"
-                    strategy="afterInteractive"
-                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1041356533581191"
-                    crossOrigin="anonymous"
-                />
+                {/* Google AdSense runs only in production. */}
+                {process.env.NODE_ENV === "production" && (
+                    <Script
+                        id="adsbygoogle-init"
+                        strategy="afterInteractive"
+                        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1041356533581191"
+                        crossOrigin="anonymous"
+                    />
+                )}
             </body>
         </html>
     );
